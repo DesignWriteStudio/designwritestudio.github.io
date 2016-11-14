@@ -1,0 +1,27 @@
+created: 20161011190923131
+modified: 20161011230950465
+tags: ViewsFromTheField [[Information Architecture]] [[Multi: platform, modality, media]] [[User Documents]] [[Digital Text/Images]]
+title: CA Technologies: Agile Technical Content
+
+Mobile devices, cloud technology, and the Internet of Things are quickly reshaping business concepts and forcing the adoption of [[agile development practices|https://en.wikipedia.org/wiki/Agile_software_development]] in order to stay competitive. For example, when a CEO of a major bank enthusiastically talks about how easy it is for customers to conduct all sorts of transactions from their smartphones, he or she could also say they are not the CEO of a bank, but rather a software company in the banking industry.
+
+The webinar, [["CA Technologies: Agile Technical Content"|https://www.youtube.com/watch?v=ZIoOQX4gF54]], discusses how the technical writing team at CA Technologies re-invented its authoring process in order to create and deliver on-demand, cloud-based content to its users. Their model is based on their own DevOps team, which is a combined effort between the Development and Operations teams. They call their revised authoring model DocOps.
+
+[img[DocOps.jpg]]
+
+The DocOps platform is 100% cloud-based. The main goal for DocOps is collaboration among the various teams that comprise DocOps.
+
+With DocOps, technical writers at CA Technologies can:
+
+* Develop content in an agile environment, allowing them to keep pace with the development teams.
+* Publish continuous updates; the end-user documentation is a "living, breathing" online entity.
+* Interact with the end-users; the content is wiki-based, which the users can comment on and rate; this feedback leads to updates that are quickly delivered, improving the user experience.
+
+By consolidating content, the DocOps writers reduced their overall word count by 25%, and decreased non-value added content by another 10 to 25%, factors that greatly improve translation time and cost.
+
+The DocOps story is told in the first 40 minutes of the webinar. In the rest of the hour, representatives of the other tool vendors talk about their involvement in DocOps. A Q&A session wraps up the webinar.
+
+I recommend watching at least the DocOps portion of the webinar to gain a better understanding of this innovative way of producing cloud-based content.
+
+ 
+ 

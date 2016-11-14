@@ -1,0 +1,166 @@
+created: 20131218201042019
+creator: Stephan Hradek
+modified: 20161028145744601
+modifier: Danielo Rodriguez
+module-type: widget
+tags: editableTable
+title: $:/plugins/skeeve/newtiddler.js
+type: application/javascript
+
+/*\
+title: $:/plugins/skeeve/newtiddler.js
+type: application/javascript
+module-type: widget
+
+newtiddler widget
+
+```
+<$newtiddler title="name" skeleton="name">Buttontext</$newtiddler>
+Modified by Danielo Rodríguez to add the hability of reseting temporary tiddlers.
+```
+
+The skeleton tiddler may contain variables which are replaced during creation
+
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+
+var Widget = require("$:/core/modules/widgets/widget.js").widget;
+
+var NewtiddlerWidget = function(parseTreeNode,options) {
+	this.initialise(parseTreeNode,options);
+};
+
+/*
+Inherit from the base widget class
+*/
+NewtiddlerWidget.prototype = new Widget();
+
+/*
+Render this widget into the DOM
+*/
+NewtiddlerWidget.prototype.render = function(parent,nextSibling) {
+	var self = this;
+	// Remember parent
+	this.parentDomNode = parent;
+	// Compute attributes and execute state
+	this.computeAttributes();
+	this.execute();
+	// Create element
+	var domNode = this.document.createElement("button");
+	// Assign classes
+	domNode.className = this.newtiddlerClass;
+	// Assign styles
+	if(this.style) {
+		domNode.setAttribute("style",this.style);
+	}
+	// Add a click event handler
+	$tw.utils.addEventListeners(domNode,[
+		{name: "click", handlerObject: this, handlerMethod: "handleClickEvent"}
+	]);
+	// Insert element
+	parent.insertBefore(domNode,nextSibling);
+	this.renderChildren(domNode,null);
+	this.domNodes.push(domNode);
+};
+
+NewtiddlerWidget.prototype.handleClickEvent = function(event) {
+	var skeleton = this.wiki.getTiddlerAsJson(this.newtiddlerSkeleton);
+	var skeletonClone = JSON.parse(this.substituteVariableReferences(skeleton));
+	var basetitle = this.newtiddlerTitle;
+	var title = basetitle;
+	for(var t=1; this.wiki.tiddlerExists(title); t++) {
+		title = basetitle + " " + t;
+	}
+	skeletonClone.title = title;
+	for(var modificationField in this.wiki.getModificationFields()) {
+		delete skeletonClone[modificationField];
+	}
+	var created = this.wiki.getCreationFields();
+	for(var creationField in created) {
+		skeletonClone[modificationField] = created[creationField];
+	}
+	
+	this.wiki.addTiddler(new $tw.Tiddler({"tags":this.newTiddlerTags},skeletonClone));
+	
+	
+	
+	/*-------DANIELO EDIT-----*/
+	this.clearNonStandardFields(this.clearTiddler);
+	/*-----END DANIELO EDIT---*/
+	switch(this.newtiddlerEdit) {
+	case "show":
+	case "yes":
+		var bounds = this.domNodes[0].getBoundingClientRect();
+		this.dispatchEvent({
+			type: "tw-navigate",
+			navigateTo: title,
+			navigateFromTitle: this.getVariable("currentTiddler"),
+			navigateFromNode: this,
+			navigateFromClientRect: { top: bounds.top, left: bounds.left, width: bounds.width, right: bounds.right, bottom: bounds.bottom, height: bounds.height
+			}
+		});
+		if(this.newtiddlerEdit === "yes") {
+			this.dispatchEvent({type: "tw-edit-tiddler", tiddlerTitle: title});
+		}
+		break;
+	case "no":
+		break;
+	case "inline":
+		// not implemented yet
+		break;
+	}
+};
+/*-------DANIELO EDIT-----*/
+ NewtiddlerWidget.prototype.clearNonStandardFields =function(title) {
+	var standardFieldNames = "title tags modified modifier created creator".split(" "),
+		tiddler = this.wiki.getTiddler(title);
+	if(tiddler) {
+		var clearFields = {};
+		for(var fieldName in tiddler.fields) {
+			if(standardFieldNames.indexOf(fieldName) === -1) {
+				clearFields[fieldName] = "";
+			}
+		}
+		this.wiki.addTiddler(new $tw.Tiddler(tiddler,clearFields));
+	}
+};
+/*-----END DANIELO EDIT---*/
+/*
+Compute the internal state of the widget
+*/
+NewtiddlerWidget.prototype.execute = function() {
+	// Get attributes
+	this.newtiddlerTitle = this.getAttribute("title");
+	this.newTiddlerTags=this.getAttribute("tags");
+	this.newtiddlerSkeleton = this.getAttribute("skeleton");
+	this.newtiddlerEdit = this.getAttribute("edit", "yes");
+	this.newtiddlerClass = this.getAttribute("class","");
+	this.newtiddlerStyle = this.getAttribute("style");
+	this.clearTiddler=this.getAttribute("clear");
+	if(this.newtiddlerClass != "") {
+		this.newtiddlerClass = " " + this.newtiddlerClass;
+	}
+	this.newtiddlerClass = "tw-newtiddler-button" + this.newtiddlerClass;
+	// Make child widgets
+	this.makeChildWidgets();
+};
+
+/*
+Selectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering
+*/
+NewtiddlerWidget.prototype.refresh = function(changedTiddlers) {
+	var changedAttributes = this.computeAttributes();
+	if(changedAttributes.title || changedAttributes.skeleton || changedAttributes.class || changedAttributes.style) {
+		this.refreshSelf();
+		return true;
+	}
+	return this.refreshChildren(changedTiddlers);
+};
+
+exports.newtiddler = NewtiddlerWidget;
+
+})();

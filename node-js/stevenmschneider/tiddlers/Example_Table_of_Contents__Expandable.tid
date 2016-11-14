@@ -1,0 +1,13 @@
+caption: Expandable
+created: 20150221201816000
+creator: stevesunypoly
+modified: 20161028145749374
+modifier: stevesunypoly
+order: 2
+tags: table-of-contents-example
+title: Example Table of Contents: Expandable
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+<<toc-expandable "Courses">>
+</div>

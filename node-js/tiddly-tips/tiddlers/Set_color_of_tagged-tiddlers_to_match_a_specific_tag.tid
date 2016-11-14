@@ -1,0 +1,27 @@
+color: 
+created: 20160826193233409
+modified: 20161110192453814
+tags: WikiTools
+title: Set color of tagged-tiddlers to match a specific tag
+type: text/vnd.tiddlywiki
+
+<!--get list of dimensions-->
+Top-level Tags: <$select tiddler='$:/generated-list-selected-dimension'>
+<$list filter='[tag[CourseOutline]]'>
+<option value=<<currentTiddler>>><$view field='title'/></option>
+</$list>
+</$select>
+
+<!-- get the color of a tag for a tiddler -->
+<$list filter="[title{$:/generated-list-selected-dimension}]">
+<!--<<currentTiddler>> is {{!!color}}<br>-->
+<$macrocall $name="tag" tag={{$:/generated-list-selected-dimension}}/><br>
+<$set name="color" value={{!!color}}>
+<!--get all the tiddlers tagged-->
+<$list filter="[tag{!!title}]">
+<!--<<currentTiddler>> is {{!!color}}<br>-->
+<$macrocall $name="tag" tag=<<currentTiddler>>/>
+<$button>change the color
+<$action-setfield color=<<color>> /> </$button><br>
+</$list>
+

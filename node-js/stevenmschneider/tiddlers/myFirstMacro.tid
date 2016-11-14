@@ -1,0 +1,13 @@
+created: 20150630180328204
+creator: stevesunypoly
+modified: 20161028145752075
+modifier: stevesunypoly
+tags: $:/tags/Macro
+title: myFirstMacro
+type: text/vnd.tiddlywiki
+
+\define _mysimplesamplemacro(param1 param2)
+This is the parameter: $param1$ $param2$!
+\end
+
+<$macrocall $name="_mysimplesamplemacro" param1={{!!title}} param2={{!!tags}}/>

@@ -1,0 +1,21 @@
+author: JeremyRuston
+core-version: >=5.0.0
+created: 20161028145744517
+dependents: $:/themes/tiddlywiki/snowwhite
+description: Hides the ability to edit tiddlers
+modified: 20161028145744517
+name: ReadOnly
+plugin-type: theme
+title: $:/themes/tiddlywiki/readonly
+type: application/json
+version: 5.1.9
+
+{
+    "tiddlers": {
+        "$:/themes/tiddlywiki/readonly/styles.tid": {
+            "title": "$:/themes/tiddlywiki/readonly/styles.tid",
+            "tags": "[[$:/tags/Stylesheet]]",
+            "text": "\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\nsvg.tc-image-new-button, svg.tc-image-options-button, svg.tc-image-save-button, svg.tc-image-edit-button, svg.tc-image-delete-button, svg.tc-image-cancel-button, svg.tc-image-done-button {\n\tdisplay: none;\t\n}\n"
+        }
+    }
+}

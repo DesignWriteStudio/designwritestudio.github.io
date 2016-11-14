@@ -1,0 +1,12 @@
+created: 20161028145754638
+image: IMG_7463.jpg
+modified: 20161028145754638
+noun: Goats
+number: Three
+phrase: InTheBarn
+tags: goatNarrative4
+title: ThreeSleepigInTheBarn
+type: text/vnd.tiddlywiki
+verb: Sleepig
+
+noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

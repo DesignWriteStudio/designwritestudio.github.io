@@ -1,0 +1,49 @@
+created: 20140211195846193
+creator: Stephan Hradek
+modified: 20161028145743943
+modifier: Danielo Rodriguez
+module-type: filteroperator
+tags: editableTable
+title: $:/core/modules/filters/split.js
+type: application/javascript
+
+/*\
+title: $:/core/modules/filters/split.js
+type: application/javascript
+module-type: filteroperator
+
+Filter operator for splitting each current list element
+into several new elements.
+
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+
+/*
+Export our filter function
+*/
+exports.split = function(source,operator,options) {
+//console.log(source,operator,options);
+	var results = [],
+		fieldname = (operator.suffix || operator.operator || "title").toLowerCase();
+	source(function(tiddler,title) {
+		if(tiddler) {
+			var splitted,
+				text = tiddler.getFieldString(fieldname);
+			if(operator.regexp) {
+				splitted = text.split(operator.regexp);
+			} else {
+				splitted = text.split(operator.operand);
+			}
+			if(splitted) {
+				$tw.utils.pushTop(results,splitted);
+			}
+		}
+	});
+	return results;
+};
+
+})();

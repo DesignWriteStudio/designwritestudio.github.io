@@ -1,0 +1,30 @@
+created: 20150927021231712
+creator: stevesunypoly
+modified: 20161028145749271
+modifier: stevesunypoly
+tags: Thoughts
+title: digital objects for serial-tiddlywikification
+type: text/vnd.tiddlywiki
+
+For the Serial-content TiddlyWikification, imagine a set of objects formed by two InflectionPoints -- where inflection points that can be used as bends in the narrativeThe , from larger blocks of content (say, podcast episodes) into smaller chunks of content -- discussions about an issue, person, etc. The objects consist of the material (audio, in this case) that can be heard between two inflection points -- a start time and an end time. 
+
+The object formed by these two points would have fields created on a number of dimensions:
+
+Name/value pairs, with the name the tag, and the value a short descriptive sentence about what happens in the clip to the name / object: (hand-tagged things that would be tagged)
+
+* HaeMinLee : Failed to show up for work at LensCrafters OwensMillsStore at [[Time:199901131800]]
+* BoyfriendDon: Received a phone call from LensCrafters OwensMillsStore at [[Time199901131900]] asking if he knew where HaeMinLee was.
+
+So from any one of these 
+These name/value pairs would be further accessed by grouping tags, such as:
+* People
+* Places
+* Groups of people / offices / institutions / communities / etc.
+* Events
+* Days / Times
+* Material Source
+* Theme
+* In
+
+Every 
+ or larger block of content

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-js ve-not-available">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta charset="UTF-8">
+<title>Darwin Information Typing Architecture - Wikipedia, the free encyclopedia</title>
+
+
+
+
+<meta name="ResourceLoaderDynamicStyles" content="">
+
+<meta name="generator" content="MediaWiki 1.28.0-wmf.16">
+<meta name="referrer" content="origin-when-cross-origin">
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit">
+<link rel="edit" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit">
+<link rel="apple-touch-icon" href="https://en.wikipedia.org/static/apple-touch/wikipedia.png">
+<link rel="shortcut icon" href="wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://en.wikipedia.org/w/api.php?action=rsd">
+<link rel="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">
+<link rel="dns-prefetch" href="https://login.wikimedia.org/">
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/">
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Darwin_Information_Typing_Architecture rootpage-Darwin_Information_Typing_Architecture skin-vector action-view feature-page-action-bar-v2">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><div id="centralNotice"></div><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Darwin Information Typing Architecture</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><p>The <b>Darwin Information Typing Architecture</b> (<b>DITA</b>) is an <a href="https://en.wikipedia.org/wiki/XML" title="XML">XML</a> <a href="https://en.wikipedia.org/wiki/Data_model" title="Data model">data model</a> for authoring and publishing. It is an open standard<sup id="cite_ref-dita1.2_1-0" class="reference"><a href="#cite_note-dita1.2-1">[1]</a></sup> that is defined and maintained by the <a href="https://en.wikipedia.org/wiki/OASIS_(organization)" title="OASIS (organization)">OASIS</a> DITA Technical Committee.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></p>
+<p>The name derives from the following components:</p>
+<ul>
+<li>Darwin: it uses the principles of specialization and <a href="https://en.wikipedia.org/wiki/Inheritance_(computer_science)" class="mw-redirect" title="Inheritance (computer science)">inheritance</a>, which is in some ways analogous to the naturalist <a href="https://en.wikipedia.org/wiki/Charles_Darwin" title="Charles Darwin">Charles Darwin</a>'s concept of evolutionary adaptation,</li>
+<li>Information typing, which means each topic has a defined primary objective (procedure, glossary entry, troubleshooting information) and structure,</li>
+<li>Architecture: DITA is an extensible set of structures.<sup id="cite_ref-ibm_dita_faq_3-0" class="reference"><a href="#cite_note-ibm_dita_faq-3">[3]</a></sup></li>
+</ul>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+<span class="toctoggle">&nbsp;[<a href="#" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Features_and_limitations"><span class="tocnumber">1</span> <span class="toctext">Features and limitations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Content_reuse"><span class="tocnumber">1.1</span> <span class="toctext">Content reuse</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Information_typing"><span class="tocnumber">1.2</span> <span class="toctext">Information typing</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Maps"><span class="tocnumber">1.3</span> <span class="toctext">Maps</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Metadata"><span class="tocnumber">1.4</span> <span class="toctext">Metadata</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Specialization"><span class="tocnumber">1.5</span> <span class="toctext">Specialization</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Topic_orientation"><span class="tocnumber">1.6</span> <span class="toctext">Topic orientation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Creating_content_in_DITA"><span class="tocnumber">2</span> <span class="toctext">Creating content in DITA</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Publishing_content_written_in_DITA"><span class="tocnumber">3</span> <span class="toctext">Publishing content written in DITA</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Localization"><span class="tocnumber">3.1</span> <span class="toctext">Localization</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#History"><span class="tocnumber">4</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Code_samples"><span class="tocnumber">5</span> <span class="toctext">Code samples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Ditamap_file_.28table_of_contents.29_sample"><span class="tocnumber">5.1</span> <span class="toctext">Ditamap file (table of contents) sample</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Hello_World_.28topic_DTD.29"><span class="tocnumber">5.2</span> <span class="toctext">Hello World (topic DTD)</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#.ditaval_file_sample_.28for_conditionalizing_text.29"><span class="tocnumber">5.3</span> <span class="toctext">.ditaval file sample (for conditionalizing text)</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#See_also"><span class="tocnumber">5.4</span> <span class="toctext">See also</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Features_and_limitations">Features and limitations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=1" title="Edit section: Features and limitations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Content_reuse">Content reuse</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=2" title="Edit section: Content reuse">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="https://en.wikipedia.org/wiki/Topic_(disambiguation)#Topic_.2F_Topics" class="mw-redirect mw-disambig" title="Topic (disambiguation)">Topics</a> can be reused across multiple publications. Fragments of content within topics can be reused through the use of content references (<i>conref</i> or <i>conkeyref</i>), a <a href="https://en.wikipedia.org/wiki/Transclusion" title="Transclusion">transclusion</a> mechanism.<sup id="cite_ref-ibm_intro_4-0" class="reference"><a href="#cite_note-ibm_intro-4">[4]</a></sup></p>
+<h3><span class="mw-headline" id="Information_typing">Information typing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=3" title="Edit section: Information typing">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>DITA includes four specialized topic types: <i>Task</i>, <i>Concept</i>, <i>Reference,</i> and <i>Glossary Entry</i>. Each of these three topic types is a specialization of a generic <i>Topic</i> type, which contains a title element, a prolog element for metadata, and a body element. The body element contains paragraph, table, and list elements, similar to <a href="https://en.wikipedia.org/wiki/HTML" title="HTML">HTML</a>.</p>
+<ul>
+<li>A <i>(General) Task</i> topic is intended for a procedure that describes how to accomplish a task. A Task topic lists a series of steps that users follow to produce an intended outcome. The steps are contained in a taskbody element, which is a specialization of the generic body element. The steps element is a specialization of an ordered list element.</li>
+<li><i>Concept</i> information is more objective, containing definitions, rules, and guidelines.</li>
+<li>A <i>Reference</i> topic is for topics that describe command syntax, programming instructions, and other reference material, and usually contains detailed, factual material.</li>
+</ul>
+<h3><span class="mw-headline" id="Maps">Maps</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=4" title="Edit section: Maps">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>A DITA map is a container for topics used to transform a collection of content into a publication. It gives the topics' sequence and structure. A map can include relationship tables (reltables) that define hyperlinks between topics.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup> Maps can be nested. Maps can reference topics or other maps, and can contain a variety of content types and metadata.</p>
+<h3><span class="mw-headline" id="Metadata">Metadata</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=5" title="Edit section: Metadata">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>DITA includes extensive <a href="https://en.wikipedia.org/wiki/Metadata" title="Metadata">metadata</a> elements and attributes, both at topic level and within elements.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> <a href="https://en.wikipedia.org/wiki/Conditional_text" title="Conditional text">Conditional text</a> allows filtering or styling content based on attributes for audience, platform, product, and other properties. The conditional processing profile (<tt>.ditaval</tt> file) is used to identify which values are to be used for conditional processing.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></p>
+<h3><span class="mw-headline" id="Specialization">Specialization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=6" title="Edit section: Specialization">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>DITA allows adding new elements and attributes through specialization of base DITA elements and attributes. Through specialization, DITA can accommodate new topic types, element types, and attributes as needed for specific industries or companies. Specializations of DITA for specific industries, such as the <a href="https://en.wikipedia.org/wiki/Semiconductor" title="Semiconductor">semiconductor</a> industry, are standardized through <a href="https://en.wikipedia.org/wiki/OASIS_(organization)" title="OASIS (organization)">OASIS</a> technical committees or subcommittees. Many organizations using DITA also develop their own specializations.</p>
+<p>The extensibility of DITA permits organizations to specialize DITA by defining specific information structures and still use standard tools to work with them. The ability to define company-specific information architectures enables companies to use DITA to enrich content with metadata that is meaningful to them, and to enforce company-specific rules on document structure.<sup id="cite_ref-ibm_intro_4-1" class="reference"><a href="#cite_note-ibm_intro-4">[4]</a></sup></p>
+<h3><span class="mw-headline" id="Topic_orientation">Topic orientation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=7" title="Edit section: Topic orientation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div role="note" class="hatnote">Main article: <a href="https://en.wikipedia.org/wiki/Topic-based_authoring" title="Topic-based authoring">Topic-based authoring</a></div>
+<p>DITA content is created as topics, each an individual XML file. Typically, each topic covers a specific subject with a singular intent, for example, a conceptual topic that provides an overview, or a procedural topic that explains how to accomplish a task.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup> Content should be structured to resemble the file structure in which it is contained.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup></p>
+<h2><span class="mw-headline" id="Creating_content_in_DITA">Creating content in DITA</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=8" title="Edit section: Creating content in DITA">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>DITA map and topic documents are <a href="https://en.wikipedia.org/wiki/XML" title="XML">XML</a> files. As with <a href="https://en.wikipedia.org/wiki/HTML" title="HTML">HTML</a>, any images, video files, or other files that must appear in the output are inserted via reference. Any <a href="https://en.wikipedia.org/wiki/XML_editor" title="XML editor">XML editor</a> or even <a href="https://en.wikipedia.org/wiki/Text_editor" title="Text editor">text editor</a> can be used to write DITA content, depending on the level of support required while authoring. Aids to authoring featured in specialized editors includes <a href="https://en.wikipedia.org/wiki/WYSIWYG" title="WYSIWYG">WYSIWYG</a> preview rendering, <a href="https://en.wikipedia.org/wiki/XML_validation" title="XML validation">validation</a>, and integration with a DITA processor, like <a href="https://en.wikipedia.org/wiki/DITA-OT" class="mw-redirect" title="DITA-OT">DITA-OT</a> or <a rel="nofollow" class="external text" href="http://www.xmlmind.com/ditac/">ditac</a>.</p>
+<h2><span class="mw-headline" id="Publishing_content_written_in_DITA">Publishing content written in DITA</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=9" title="Edit section: Publishing content written in DITA">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>DITA is designed as an end-to-end architecture. In addition to indicating what elements, attributes, and rules are part of the DITA language, the DITA specification includes rules for publishing DITA content in HTML, online Help, print, and other formats.</p>
+<p>For example, the DITA specification indicates that if the <i>conref</i> attribute of element <i>A</i> contains a path to element <i>B</i>, the contents of element <i>B</i> will display in the location of element <i>A</i>. DITA-compliant publishing solutions, known as DITA processors, must handle the <i>conref</i> attribute according to the specified behaviour. Rules also exist for processing other rich features such as <a href="https://en.wikipedia.org/wiki/Conditional_text" title="Conditional text">conditional text</a>, index markers, and topic-to-topic links. Applications that transform DITA content into other formats, and meet the DITA specification's requirements for interpreting DITA markup, are known as <i>DITA processors</i>.</p>
+<h3><span class="mw-headline" id="Localization">Localization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=10" title="Edit section: Localization">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>DITA provides support for <a href="https://en.wikipedia.org/wiki/Translation" title="Translation">translation</a> via the localization-atts attribute group. Element attributes can be set to indicate whether the content of the element should be translated. The language of the element content can be specified, as can the <a href="https://en.wikipedia.org/wiki/Left_to_right#Directionality" class="mw-redirect" title="Left to right">writing direction</a>, the index filtering and some terms that are injected when publishing to the final format.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup> A DITA project can be converted to an <a href="https://en.wikipedia.org/wiki/XLIFF" title="XLIFF">XLIFF</a> file and back into its original maps and topics, using the DITA-XLIFF Roundtrip Tool for DITA-OT<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> and <a href="https://en.wikipedia.org/wiki/Computer-assisted_translation" title="Computer-assisted translation">computer-assisted translation</a> (CAT) tools, like <a href="https://en.wikipedia.org/wiki/Swordfish_Translation_Editor" title="Swordfish Translation Editor">Swordfish Translation Editor</a> or <a rel="nofollow" class="external text" href="http://www.maxprograms.com/products/fluenta.html">Fluenta DITA Translation Manager</a>, a tool designed to implement the translation workflow suggested by the article <i><a rel="nofollow" class="external text" href="https://www.oasis-open.org/committees/download.php/48340/DITA12XLIFFArticle.pdf">Using XLIFF to Translate DITA Projects</a></i>published by the DITA Adoption TC at OASIS.</p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=11" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The DITA standard is now maintained by OASIS. The latest (current) version is 1.3, approved December 2015.</p>
+<ul>
+<li>March 2001 Introduction by <a href="https://en.wikipedia.org/wiki/IBM" title="IBM">IBM</a> of the core <a href="https://en.wikipedia.org/wiki/Document_Type_Definition" class="mw-redirect" title="Document Type Definition">DTD</a> and <a href="https://en.wikipedia.org/wiki/XML_Schema_(W3C)" title="XML Schema (W3C)">XML Schema</a></li>
+<li>May 2002 Domain specialization added to topic specialization</li>
+<li>April 2004 OASIS Technical Committee for DITA formed</li>
+<li>February 2005 SourceForge begins DITA Open Toolkit support</li>
+<li>June 2005 DITA v1.0 approved as an OASIS standard</li>
+<li>August 2005 DITA Open Toolkit v1.1 is released</li>
+<li>March 2006 OASIS launches DITA.XML.org</li>
+<li>August 2007 DITA V1.1 is approved by OASIS, including Bookmap specialization</li>
+<li>December 2010 DITA V1.2 is approved by OASIS, includes:
+<ul>
+<li>Indirect linking with keys</li>
+<li>New content reuse features</li>
+<li>Enhanced glossary support, including acronyms</li>
+<li>New industry specializations (Training, Machinery)</li>
+<li>New support for controlled values / taxonomies (Subject Scheme specialization)</li>
+</ul>
+</li>
+<li>17 December 2015, DITA V1.3 is approved by OASIS, includes:
+<ul>
+<li>New troubleshooting topic type</li>
+<li>Ability to use scoped keys</li>
+<li>Includes the MathML and equation domains.</li>
+<li>Add Relax NG XML syntax as the normative grammar for DITA.</li>
+</ul>
+</li>
+</ul>
+<h2><span class="mw-headline" id="Code_samples">Code samples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=12" title="Edit section: Code samples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Ditamap_file_.28table_of_contents.29_sample">Ditamap file (table of contents) sample</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=13" title="Edit section: Ditamap file (table of contents) sample">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="cp">&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"&gt;</span>
+<span class="nt">&lt;map</span> <span class="na">id=</span><span class="s">"map"</span> <span class="na">xml:lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;topicref</span> <span class="na">format=</span><span class="s">"dita"</span> <span class="na">href=</span><span class="s">"sample.dita"</span> <span class="na">navtitle=</span><span class="s">"Sample"</span> <span class="na">type=</span><span class="s">"topic"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/map&gt;</span>
+</pre></div>
+<h3><span class="mw-headline" id="Hello_World_.28topic_DTD.29">Hello World (topic DTD)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=14" title="Edit section: Hello World (topic DTD)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="cp">&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"&gt;</span>
+<span class="nt">&lt;topic</span> <span class="na">xml:lang=</span><span class="s">"en"</span> <span class="na">id=</span><span class="s">"sample"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Sample<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">audience=</span><span class="s">"foo"</span><span class="nt">&gt;</span>Hello World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/topic&gt;</span>
+</pre></div>
+<h3><span class="mw-headline" id=".ditaval_file_sample_.28for_conditionalizing_text.29">.ditaval file sample (for conditionalizing text)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=15" title="Edit section: .ditaval file sample (for conditionalizing text)">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="nt">&lt;val&gt;</span>
+  <span class="nt">&lt;prop</span> <span class="na">att=</span><span class="s">"audience"</span> <span class="na">val=</span><span class="s">"foo"</span> <span class="na">action=</span><span class="s">"include"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;prop</span> <span class="na">att=</span><span class="s">"audience"</span> <span class="na">val=</span><span class="s">"bar"</span> <span class="na">action=</span><span class="s">"exclude"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/val&gt;</span>
+</pre></div>
+<p>Example of conditionalized text:</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span> 
+<span class="nt">&lt;p</span> <span class="na">audience=</span><span class="s">"foo"</span><span class="nt">&gt;</span>
+This is an information useful for the foo audience! 
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">audience=</span><span class="s">"bar"</span><span class="nt">&gt;</span>
+This is an information useful for the bar audience. 
+<span class="nt">&lt;/p&gt;</span>
+</pre></div>
+<h3><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=16" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Comparison_of_document_markup_languages" title="Comparison of document markup languages">Comparison of document markup languages</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_document_markup_languages" title="List of document markup languages">List of document markup languages</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=17" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-dita1.2-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-dita1.2_1-0"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://docs.oasis-open.org/dita/v1.2/os/spec/DITA1.2-spec.html">"Darwin Information Typing Architecture (DITA) Version 1.2"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">10 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Darwin+Information+Typing+Architecture+%28DITA%29+Version+1.2&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdocs.oasis-open.org%2Fdita%2Fv1.2%2Fos%2Fspec%2FDITA1.2-spec.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita">"OASIS Darwin Information Typing Architecture (DITA) TC"</a>. OASIS<span class="reference-accessdate">. Retrieved <span class="nowrap">5 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=OASIS+Darwin+Information+Typing+Architecture+%28DITA%29+TC&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.oasis-open.org%2Fcommittees%2Ftc_home.php%3Fwg_abbrev%3Ddita&amp;rft.pub=OASIS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-ibm_dita_faq-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-ibm_dita_faq_3-0"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.ibm.com/developerworks/xml/library/x-dita3/index.html#N210">"Frequently Asked Questions about the Darwin Information Typing Architecture"</a>. IBM Corporation<span class="reference-accessdate">. Retrieved <span class="nowrap">10 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Frequently+Asked+Questions+about+the+Darwin+Information+Typing+Architecture&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Fxml%2Flibrary%2Fx-dita3%2Findex.html%23N210&amp;rft.pub=IBM+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-ibm_intro-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-ibm_intro_4-0"><span class="cite-accessibility-label">Jump up to: </span><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ibm_intro_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.ibm.com/developerworks/xml/library/x-dita1/">"Introduction to the Darwin Information Typing Architecture"</a>. IBM Corporation<span class="reference-accessdate">. Retrieved <span class="nowrap">10 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Introduction+to+the+Darwin+Information+Typing+Architecture&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ibm.com%2Fdeveloperworks%2Fxml%2Flibrary%2Fx-dita1%2F&amp;rft.pub=IBM+Corporation&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://docs.oasis-open.org/dita/v1.1/CS01/langspec/langref/reltable.html">"reltable"</a>. OASIS<span class="reference-accessdate">. Retrieved <span class="nowrap">22 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=reltable&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdocs.oasis-open.org%2Fdita%2Fv1.1%2FCS01%2Flangspec%2Flangref%2Freltable.html&amp;rft.pub=OASIS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/metadata_elements.html#metadata_elements">"Metadata elements"</a>. OASIS<span class="reference-accessdate">. Retrieved <span class="nowrap">22 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Metadata+elements&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdocs.oasis-open.org%2Fdita%2Fv1.2%2Fos%2Fspec%2Fcommon%2Fmetadata_elements.html%23metadata_elements&amp;rft.pub=OASIS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/about-ditaval.html#ditaval">"ditaval"</a>. OASIS<span class="reference-accessdate">. Retrieved <span class="nowrap">22 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=ditaval&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdocs.oasis-open.org%2Fdita%2Fv1.2%2Fos%2Fspec%2Fcommon%2Fabout-ditaval.html%23ditaval&amp;rft.pub=OASIS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Priestly, Michael; Swope, Amber. <a rel="nofollow" class="external text" href="http://na.justsystems.com/files/Whitepaper-DITA_MM.pdf">"The DITA Maturity Model Whitepaper"</a> <span style="font-size: 85%;">(PDF)</span>. IBM Corp and JustSystems<span class="reference-accessdate">. Retrieved <span class="nowrap">22 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.au=Priestly%2C+Michael&amp;rft.au=Swope%2C+Amber&amp;rft.btitle=The+DITA+Maturity+Model+Whitepaper&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fna.justsystems.com%2Ffiles%2FWhitepaper-DITA_MM.pdf&amp;rft.pub=IBM+Corp+and+JustSystems&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.scriptorium.com/whitepapers/dita_assessment/dita_assessment4.html">"Implementing DITA versus implementing custom XML architecture"</a>. Scriptorium Publishing Services, Inc. 2008<span class="reference-accessdate">. Retrieved <span class="nowrap">2009-07-29</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Implementing+DITA+versus+implementing+custom+XML+architecture&amp;rft.date=2008&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.scriptorium.com%2Fwhitepapers%2Fdita_assessment%2Fdita_assessment4.html&amp;rft.pub=Scriptorium+Publishing+Services%2C+Inc&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://rockley.com/2007/10/16/structure-dita-and-content-other-than-technical-documentation/">"Structure, DITA, and content other than technical documentation …"</a>. The Rockley Group. October 16, 2007<span class="reference-accessdate">. Retrieved <span class="nowrap">2009-07-29</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Structure%2C+DITA%2C+and+content+other+than+technical+documentation+%A6&amp;rft.date=2007-10-16&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Frockley.com%2F2007%2F10%2F16%2Fstructure-dita-and-content-other-than-technical-documentation%2F&amp;rft.pub=The+Rockley+Group&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://writepoint.com/blog/?p=1011">"Survey on DITA Challenges"</a>. WritePoint Ltd. January 18, 2010<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-01-21</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=Survey+on+DITA+Challenges&amp;rft.date=2010-01-18&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwritepoint.com%2Fblog%2F%3Fp%3D1011&amp;rft.pub=WritePoint+Ltd.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://docs.oasis-open.org/dita/v1.2/os/spec/common/localization-atts.html">"localization-atts attribute group"</a>. OASIS<span class="reference-accessdate">. Retrieved <span class="nowrap">15 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.btitle=localization-atts+attribute+group&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fdocs.oasis-open.org%2Fdita%2Fv1.2%2Fos%2Fspec%2Fcommon%2Flocalization-atts.html&amp;rft.pub=OASIS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web">Schnabel, Bryan. <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/ditaxliff/files/">"DITA-XLIFF Roundtrip for OT"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">15 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ADarwin+Information+Typing+Architecture&amp;rft.aufirst=Bryan&amp;rft.aulast=Schnabel&amp;rft.btitle=DITA-XLIFF+Roundtrip+for+OT&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fditaxliff%2Ffiles%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display: none;">&nbsp;</span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.oasis-open.org/committees/download.php/48340/DITA12XLIFFArticle.pdf">DITA 1.2 Feature Article: Using XLIFF to Translate DITA Projects</a></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit&amp;section=18" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html">DITA 1.3 specifications</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.oasis-open.org/">OASIS Consortium official site</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.dita-ot.org/">DITA Open Toolkit official site</a></li>
+<li><a rel="nofollow" class="external text" href="http://dita.xml.org/">DITA.XML.org forum</a></li>
+<li><a rel="nofollow" class="external text" href="https://github.com/gnostyx/dita-demo-content-collection">DITA demonstration set to download on GitHub</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.learningdita.com/">Learning DITA - set of tutorials to learn DITA on your own</a></li>
+</ul>
+<div role="navigation" class="navbox" aria-labelledby="Standards_of_OASIS" style="padding: 3px;">
+<table id="collapsibleTable0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing: 0px; background: transparent none repeat scroll 0% 0%; color: inherit;">
+<tbody><tr>
+<th scope="col" class="navbox-title" colspan="2"><span class="collapseButton">[<a href="#" id="collapseButton0">hide</a>]</span>
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:OASIS_Standards" title="Template:OASIS Standards"><abbr title="View this template" style="background: transparent none repeat scroll 0% 0%; border: medium none;">v</abbr></a></li>
+<li class="nv-talk"><a href="https://en.wikipedia.org/w/index.php?title=Template_talk:OASIS_Standards&amp;action=edit&amp;redlink=1" class="new" title="Template talk:OASIS Standards (page does not exist)"><abbr title="Discuss this template" style="background: transparent none repeat scroll 0% 0%; border: medium none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:OASIS_Standards&amp;action=edit"><abbr title="Edit this template" style="background: transparent none repeat scroll 0% 0%; border: medium none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Standards_of_OASIS" style="font-size: 114%;">Standards of <a href="https://en.wikipedia.org/wiki/OASIS_(organization)" title="OASIS (organization)">OASIS</a></div>
+</th>
+</tr>
+<tr style="height: 2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd hlist" style="width: 100%; padding: 0px;">
+<div style="padding: 0em 0.25em;">
+<ul>
+<li><a href="https://en.wikipedia.org/w/index.php?title=Business_Centric-Methodology&amp;action=edit&amp;redlink=1" class="new" title="Business Centric-Methodology (page does not exist)">BCM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Content_Assembly_Mechanism" title="Content Assembly Mechanism">CAM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Common_Alerting_Protocol" title="Common Alerting Protocol">CAP</a></li>
+<li><a href="https://en.wikipedia.org/w/index.php?title=Customer_Information_Quality&amp;action=edit&amp;redlink=1" class="new" title="Customer Information Quality (page does not exist)">CIQ</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_Signature_Services" title="Digital Signature Services">DSS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DocBook" title="DocBook">DocBook</a></li>
+<li><strong class="selflink">DITA</strong></li>
+<li><a href="https://en.wikipedia.org/wiki/Directory_Services_Markup_Language" title="Directory Services Markup Language">DSML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/EbXML" title="EbXML">ebXML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/EDXL" title="EDXL">EDXL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Election_Markup_Language" title="Election Markup Language">EML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Key_Management_Interoperability_Protocol" title="Key Management Interoperability Protocol">KMIP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenDocument" title="OpenDocument">OpenDocument</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language" title="Security Assertion Markup Language">SAML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Solution_Deployment_Descriptor" title="Solution Deployment Descriptor">SDD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SOAP-over-UDP" title="SOAP-over-UDP">SOAP-over-UDP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Service_Provisioning_Markup_Language" title="Service Provisioning Markup Language">SPML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OASIS_TOSCA" title="OASIS TOSCA">TOSCA</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Universal_Business_Language" title="Universal Business Language">UBL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Universal_Description_Discovery_and_Integration" class="mw-redirect" title="Universal Description Discovery and Integration">UDDI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Web_Services_Distributed_Management" title="Web Services Distributed Management">WSDM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Extensible_Resource_Identifier" title="Extensible Resource Identifier">XRI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/XDI" title="XDI">XDI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Business_Process_Execution_Language" title="Business Process Execution Language">WS-BPEL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Web_Services_Resource_Framework" title="Web Services Resource Framework">WSRF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WS-Security" title="WS-Security">WSS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/XACML" title="XACML">XACML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1223187-0!*!0!!en!*!* and timestamp 20160809151721 and revision id 733701874
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;oldid=733701874">https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;oldid=733701874</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Document-centric_XML-based_standards" title="Category:Document-centric XML-based standards">Document-centric XML-based standards</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Markup_languages" title="Category:Markup languages">Markup languages</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Technical_communication" title="Category:Technical communication">Technical communication</a></li><li><a href="https://en.wikipedia.org/wiki/Category:XML" title="Category:XML">XML</a></li><li><a href="https://en.wikipedia.org/wiki/Category:XML-based_standards" title="Category:XML-based standards">XML-based standards</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [⌃⌥n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [⌃⌥y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Darwin+Information+Typing+Architecture" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Darwin+Information+Typing+Architecture" title="You're encouraged to log in; however, it's not mandatory. [⌃⌥o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" title="View the content page [⌃⌥c]" accesskey="c">Article</a></span></li>
+															<li id="ca-talk"><span><a href="https://en.wikipedia.org/wiki/Talk:Darwin_Information_Typing_Architecture" title="Discussion about the content page [⌃⌥t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 tabindex="0" id="p-variants-label">
+							<span>Variants</span><a tabindex="-1" href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">Read</a></span></li>
+															<li id="ca-edit"><span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=edit" title="Edit this page [⌃⌥e]" accesskey="e">Edit</a></span></li>
+															<li style="display: block;" id="ca-history" class="collapsible"><span><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=history" title="Past revisions of this page [⌃⌥h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div style="" id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 style="" tabindex="0" id="p-cactions-label"><span>More</span><a tabindex="-1" href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="https://en.wikipedia.org/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input autocomplete="off" tabindex="1" name="search" placeholder="Search" title="Search Wikipedia [⌃⌥f]" accesskey="f" id="searchInput" type="search"><input value="Special:Search" name="title" type="hidden"><input name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" type="submit">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="https://en.wikipedia.org/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="https://en.wikipedia.org/wiki/Main_Page" title="Visit the main page [⌃⌥z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="https://en.wikipedia.org/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="https://en.wikipedia.org/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="https://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="https://en.wikipedia.org/wiki/Special:Random" title="Load a random article [⌃⌥x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="https://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="https://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="https://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [⌃⌥r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/Darwin_Information_Typing_Architecture" title="List of all English Wikipedia pages containing links to this page [⌃⌥j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Darwin_Information_Typing_Architecture" title="Recent changes in pages linked from this page [⌃⌥k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [⌃⌥u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="https://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [⌃⌥q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;oldid=733701874" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q1166919" title="Link to connected data repository item [⌃⌥g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Darwin_Information_Typing_Architecture&amp;id=733701874" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="https://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Darwin+Information+Typing+Architecture">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="https://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Darwin+Information+Typing+Architecture&amp;returnto=Darwin+Information+Typing+Architecture&amp;oldid=733701874&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="https://en.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;printable=yes" title="Printable version of this page [⌃⌥p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"><span aria-haspopup="true" role="button" tabindex="0" title="Language settings" class="uls-settings-trigger"></span>
+			<h3 id="p-lang-label">Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" title="Darwin Information Typing Architecture – German" hreflang="de" lang="de">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/DITA" title="DITA – Spanish" hreflang="es" lang="es">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" title="Darwin Information Typing Architecture – French" hreflang="fr" lang="fr">Français</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" title="Darwin Information Typing Architecture – Dutch" hreflang="nl" lang="nl">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" title="Darwin Information Typing Architecture – Japanese" hreflang="ja" lang="ja">日本語</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/DITA" title="DITA – Russian" hreflang="ru" lang="ru">Русский</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" title="Darwin Information Typing Architecture – Finnish" hreflang="fi" lang="fi">Suomi</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/DITA" title="DITA – Ukrainian" hreflang="uk" lang="uk">Українська</a></li>					</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q1166919#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 9 August 2016, at 15:17.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/" style="display: none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="https://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="https://wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="https://en.m.wikipedia.org/w/index.php?title=Darwin_Information_Typing_Architecture&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" alt="Wikimedia Foundation" width="88" height="31"></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>						</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+	
+
+<div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body>
+</html>

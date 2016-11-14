@@ -1,0 +1,12 @@
+created: 20160926201336984
+modified: 20161027134608039
+tags: $:/tags/Stylesheet
+title: Curriculum Action Stylesheet
+type: text/vnd.tiddlywiki
+
+div.tc-tagged-CurriculumAction {
+    background-color: darkseagreen;
+}
+div.tc-tagged-CurriculumActionForm {
+    background-color: darkseagreen;
+}

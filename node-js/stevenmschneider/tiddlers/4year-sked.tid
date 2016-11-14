@@ -1,0 +1,23 @@
+created: 20150708150352857
+creator: stevesunypoly
+modified: 20161028145748060
+modifier: stevesunypoly
+title: 4year-sked
+type: text/csv
+
+,Fall,Spring,Summer,Fall,Spring,Summer,Fall,Spring,Summer,Fall,Spring,Summer
+,2015,2016,2016,2016,2017,2017,2017,2018,2018,2018,2019,2019
+[[COM 106]],√,,,√,,,√,,,√,,
+[[COM 216]],√,,,,√,,,√,,,√,
+[[COM 475]],,,√,,,√,,,√,,,√
+[[COM Projects]],,,√,,,√,,,√,,,√
+[[POS 110]],,√,,√,,,,√,,,√,
+[[POS Bioethics]],,,,,,,√,,,√,,
+[[POS Technology Policy]],,√,,,√,,,,,,,
+[[IDT 507]],√,,,,√,,,,,√,,
+[[IDT Knowledge]],,√,,,,,√,,,,√,
+[[IDT 575]],,,√,,,√,,,√,,,√
+[[IDT 599]],,,√,,,√,,,√,,,√
+[[IDT Projects]],,,√,,,√,,,√,,,√
+,,,,,,,,,,,,
+Count,3,3,5,3,3,5,3,3,5,3,3,5

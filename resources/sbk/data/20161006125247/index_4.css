@@ -1,0 +1,99 @@
+/* ::::: http://www.questionpoint.org/crs/qwidgetV4/themes/css/default.css?ts=1475772651386 ::::: */
+
+body { font-size: 14px; }
+input:invalid { box-shadow: none; }
+#qpchatwidget { font-family: Helvetica,Arial,Sans; font-size: 1em; border-style: solid; border-width: 1px; width: 188px; height: 273px; position: relative; }
+.qp_institution_name_bar { height: 26px; width: 100%; text-align: center; }
+.qp_icons_bar { height: 30px; }
+.qp_librarian_typing_message { font-size: 0.786em; background-color: white; color: rgb(67, 67, 67); padding-top: 4px; padding-bottom: 4px; padding-left: 5px; font-style: italic; height: 10px; }
+.qp_chat_transcript { background-color: white; height: 133px; overflow-y: auto; }
+.qp_question_input_area { height: 65px; width: 100%; background-color: rgb(231, 231, 231); }
+.qp_question_input_container { margin-left: 5px; margin-top: 5px; border-style: solid; border-width: 1px; height: 52px; width: 178px; position: absolute; }
+.qp_question_input_box { float: left; height: 52px; width: 153px; overflow: hidden; background-color: white; }
+.qp_send_button { float: right; height: 52px; width: 25px; border: medium none; cursor: pointer; }
+.qp_send_button_image { width: 14px; height: 20px; margin: 0px auto; }
+.qp_question { float: left; width: 100%; height: 100%; padding: 2px; margin: 0px; font-family: Helvetica,Arial,Sans; font-size: 1em; border: medium none; overflow: auto; resize: none; box-sizing: border-box; }
+.qp_question_default { text-align: center; font-size: 1em; }
+.qp_offline_initial_send_button { margin-left: 25%; margin-right: 25%; margin-top: 5px; padding-top: 5px; padding-bottom: 5px; text-align: center; cursor: pointer; width: 50%; font-size: 1em; font-weight: bold; }
+.qp_email_icon { float: left; width: 33%; height: 30px; cursor: pointer; border: medium none; padding-top: 2px; }
+.qp_email_icon_image { width: 32px; height: 19px; margin: 0px auto; }
+.qp_help_icon { float: left; width: 33%; height: 30px; cursor: pointer; border: medium none; padding-top: 2px; }
+.qp_help_icon_title_bar { float: right; margin-right: 1px; width: 16%; height: 24px; cursor: pointer; border: medium none; }
+.qp_widget_help_image { width: 19px; height: 19px; margin: 0px auto; }
+.qp_widget_help_image_title_bar { width: 19px; height: 19px; margin: 0px auto; }
+.qp_end_chat_icon { float: right; width: 33%; height: 30px; cursor: pointer; border: medium none; padding-top: 2px; }
+.qp_end_chat_icon_image { width: 19px; height: 19px; margin: 0px auto; }
+.qp_title { font-size: 1em; font-weight: bold; padding-top: 5px; padding-left: 5px; position: absolute; }
+.qp_screen_reader { position: absolute; left: -999em; width: 1em; overflow: hidden; }
+.qp_initial_main { width: 100%; height: 216px; }
+.qp_email_address { width: 100%; height: 45px; font-size: 1em; }
+.qp_initial_question { width: 100%; height: 125px; font-size: 1em; }
+.qp_initial_send_button { cursor: pointer; font-weight: bold; font-size: 1em; margin-left: 25%; margin-right: 25%; margin-top: 3px; width: 50%; height: 28px; text-align: center; }
+.qp_email_address_text_default { font-family: Helvetica,Arial,Sans; }
+.qp_email_address_text { margin-left: 5px; margin-top: 10px; height: 35px; width: 180px; font-family: Helvetica,Arial,Sans; font-size: 1em; resize: none; box-sizing: border-box; }
+.qp_initial_question_text_default { font-family: Helvetica,Arial,Sans; }
+.qp_initial_question_text { margin-left: 5px; margin-top: 10px; width: 180px; height: 110px; font-family: Helvetica,Arial,Sans; font-size: 1em; overflow: auto; resize: none; box-sizing: border-box; }
+.qp_popout_icon { display: block; float: right; margin-right: 3px; height: 26px; border: medium none; cursor: pointer; }
+.qp_popout_icon_image { width: 16px; height: 18px; background-image: url('popout_retina.png'); }
+.qp_qwidget_popped_out_overlay { text-align: center; background-color: rgb(204, 204, 204); height: 100%; }
+.qp_pop_out_overlay_header { padding-top: 50%; margin-bottom: 10px; font-size: 1em; font-weight: bold; color: black; }
+.qp_pop_out_overlay_msg { color: black; }
+.qp_end_session_overlay { height: 100%; }
+.qp_end_session_overlay_content { height: 50px; width: 100%; text-align: center; padding-top: 5px; font-size: 0.857em; font-weight: bold; }
+.qp_end_session_email_transcripts { margin-left: 10px; margin-top: 20px; padding-top: 5px; padding-bottom: 5px; width: 170px; text-align: center; font-size: 1em; font-weight: bold; cursor: pointer; }
+.qp_end_session_email_transcripts_sent { margin-left: 3%; margin-top: 20px; text-align: center; }
+.qp_end_session_email_transcripts_sent_image { width: 55px; height: 25px; margin-left: 35%; background-position: center center; background-repeat: no-repeat; }
+.qp_end_session_email_transcripts_sent_text { display: none; }
+.qp_end_session_survey { margin-left: 20px; margin-top: 15px; padding-top: 5px; padding-bottom: 5px; width: 150px; text-align: center; font-size: 1em; font-weight: bold; cursor: pointer; }
+.qp_end_session_ok_button { width: 40%; margin-left: 30%; margin-right: 30%; margin-top: 15px; padding-top: 5px; padding-bottom: 5px; text-align: center; font-size: 1em; font-weight: bold; cursor: pointer; }
+.qp_offline_overlay { height: 100%; }
+.qp_offline_overlay_msg { text-align: center; padding-top: 5px; font-size: 0.857em; font-weight: bold; height: 60px; }
+.qp_offline_email_address { width: 100%; height: 30px; }
+.qp_offline_email_address_text_default { font-family: Helvetica,Arial,Sans; color: rgb(169, 169, 169); }
+.qp_offline_email_address_text { margin-left: 5px; margin-top: 5px; height: 25px; width: 180px; font-family: Helvetica,Arial,Sans; resize: none; font-size: 1em; box-sizing: border-box; }
+.qp_offline_initial_question_text_default { font-family: Helvetica,Arial,Sans; color: rgb(169, 169, 169); }
+.qp_offline_initial_question_text { margin-left: 5px; margin-top: 5px; width: 180px; height: 68px; font-family: Helvetica,Arial,Sans; overflow: auto; resize: none; font-size: 1em; box-sizing: border-box; }
+.qp_offline_question_sent_msg { text-align: center; padding-top: 5px; font-size: 0.857em; font-weight: bold; }
+.qp_nudge_message_text_default { text-align: center; font-size: 0.857em; font-weight: bold; font-family: Helvetica,Arial,Sans; }
+.qp_nudge_message { height: 34px; width: 96%; overflow-y: auto; position: absolute; top: 56px; opacity: 1; padding-left: 3px; padding-right: 3px; }
+.qp_email_form { height: 247px; text-align: center; }
+#qp_email_form div { padding: 5px 0px; }
+.qp_email_form_elem_label { font-family: Lucida Grande,Lucida Sans,Arial,sans-serif; font-size: 1em; }
+.qp_email_form_elem_input { background: rgb(255, 255, 255) none repeat scroll 0% 0%; font-size: 1em; width: 80%; color: rgb(0, 0, 0); padding-left: 2px; padding-right: 2px; }
+.qp_email_form_use_anonymous_label { font-family: Lucida Grande,Lucida Sans,Arial,sans-serif; font-size: 1em; }
+.qp_email_form_btn { cursor: pointer; font-weight: bold; outline: medium none; margin-left: 2px; margin-right: 2px; padding-top: 2px; padding-bottom: 2px; }
+/* ::::: http://www.questionpoint.org/crs/qwidgetV4/themes/css/gray.css?ts=1475772651389 ::::: */
+
+#qpchatwidget { border-color: rgb(153, 153, 153); }
+.qp_institution_name_bar { background-color: rgb(153, 153, 153); }
+.qp_title { color: white; }
+.qp_icons_bar { border-bottom: 1px solid rgb(153, 153, 153); background-color: rgb(204, 204, 204); }
+.qp_help_icon { border-right: 1px solid rgb(153, 153, 153); background-color: rgb(204, 204, 204); }
+.qp_email_icon { background-color: rgb(204, 204, 204); }
+.qp_email_icon_image { background-image: url('add_email_retina_gray.png'); }
+.qp_end_chat_icon_image { background-image: url('closex_dark_retina_gray.png'); }
+.qp_end_chat_icon { border-left: 1px solid rgb(153, 153, 153); background-color: rgb(204, 204, 204); }
+.qp_question_input_area { background-color: rgb(204, 204, 204); }
+.qp_popout_icon { background-color: rgb(153, 153, 153); }
+.qp_send_button { background-color: rgb(204, 204, 204); }
+.qp_help_icon_title_bar { background-color: rgb(153, 153, 153); }
+.qp_widget_help_image { background-image: url('chat_help_retina_gray.png'); }
+.qp_widget_help_image_title_bar { background-image: url('chat_help_retina_gray.png'); }
+.qp_offline_overlay { background-color: rgb(204, 204, 204); }
+.qp_offline_initial_send_button { color: white; border: 1px solid rgb(153, 153, 153); background-image: -moz-linear-gradient(center top , rgb(204, 204, 204), rgb(90, 90, 90)); }
+.qp_question_input_container { border-color: rgb(153, 153, 153); }
+.qp_send_button_image { background-image: url('triangle_right_retina_gray.png'); }
+.qp_email_form { background-color: rgb(204, 204, 204); }
+.qp_email_form_btn { color: white; border: 1px solid rgb(153, 153, 153); background-image: -moz-linear-gradient(center top , rgb(204, 204, 204), rgb(90, 90, 90)); }
+.qp_end_session_overlay { background-color: rgb(204, 204, 204); }
+.qp_end_session_email_transcripts { color: white; border: 1px solid rgb(153, 153, 153); background-image: -moz-linear-gradient(center top , rgb(204, 204, 204), rgb(90, 90, 90)); }
+.qp_end_session_survey { color: white; border: 1px solid rgb(153, 153, 153); background-image: -moz-linear-gradient(center top , rgb(204, 204, 204), rgb(90, 90, 90)); }
+.qp_end_session_ok_button { color: white; border: 1px solid rgb(153, 153, 153); background-image: -moz-linear-gradient(center top , rgb(204, 204, 204), rgb(90, 90, 90)); }
+.qp_initial_send_button { color: white; border: 1px solid rgb(153, 153, 153); background-image: -moz-linear-gradient(center top , rgb(204, 204, 204), rgb(90, 90, 90)); }
+.qp_end_session_email_transcripts_sent_image { background-image: url('email_sent_retina_gray.png'); }
+.qp_offline_overlay_msg { color: black; }
+.qp_offline_question_sent_msg { color: black; }
+.qp_nudge_message_text_default { color: black; }
+.qp_nudge_message { background-color: rgb(204, 204, 204); border: 1px solid rgb(153, 153, 153); }
+.qp_initial_main { background-color: rgb(204, 204, 204); }
+.qp_end_session_overlay_content { color: rgb(0, 0, 0); border-bottom: 0.1em inset rgb(90, 90, 90); }

@@ -1,0 +1,25 @@
+created: 20161024194710212
+modified: 20161024200523307
+tags: ViewsFromTheField [[Programmer Contributions]] [[Information Architecture]] [[User Documents]]
+title: More on API Docs
+
+Earlier, I wrote about [[using Swagger to make API documentation interactive|Using Swagger to Make API Documentation Interactive]]. That may have been an example of putting the cart before the horse. 
+
+Anne Gentle, author of the [[Just Write Click|https://justwriteclick.com/]] blog, wrote an article called [[How to get started writing API docs|https://justwriteclick.com/2014/12/30/how-to-get-started-writing-api-docs/]]. What I like about this article is it talks about API documentation in very simple terms without diving into code. She writes this article using a "Couch to 5K" analogy (being an avid runner, this analogy caught my attention).
+
+Here are her tips on getting started writing documentation for [[REST APIs|http://www.restapitutorial.com/lessons/whatisrest.html]]:
+
+* Start with a simple tool first (for example, Notepad or any other text editor)
+
+* Make a list of all the calls. 
+
+* For each call, make a list of the requirements (for example, requests or responses).
+
+* List any optional parameters for the calls; identify any headers that can be sent or received.
+
+* Once the calls are defined, identify the users and the tasks they will complete using these calls.
+
+Gentle's article is short, but if REST APIs is something you will be exploring, she recommends the book, //A Practical Approach to API Design: From Principles to Practice//, by D Keith Casey Jr. and James Higginbotham.
+
+Tom Johnson, author of the [[I'd Rather Be Writing|http://idratherbewriting.com/]] blog, is another good resource for further information on API documentation.
+

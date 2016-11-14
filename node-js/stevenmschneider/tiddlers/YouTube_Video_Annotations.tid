@@ -1,0 +1,118 @@
+auto_play: 0
+created: 20141227191757025
+creator: stevesunypoly
+embed_end: 00:02:37
+embed_start: 00:02:31
+modified: 20161028145755426
+modifier: stevesunypoly
+selected_video: Obamacare
+tags: Dashboard
+title: YouTube Video Annotations
+type: text/vnd.tiddlywiki
+
+\define youtubeEmbed(videoName, start, end)
+<$macrocall $name="youtube-embed" video={{$:/.rich/data/videos##$videoName$}} start="$start$" end="$end$"/>
+\end
+
+\define thisMakeSelectVideoOption()
+<option value=<<videoID>>><$view field='title'/></option>
+\end
+
+\define thisExternalMakeURL()
+https://www.youtube.com/watch?v=$(youtubeID)$&t=$(hours)$h$(minutes)$m$(seconds)$s
+\end
+
+\define thisMakeEmbedURL()
+http://www.youtube.com/embed/$(youtubeID)$?rel=0&start=$(startTime)$&end=$(endTime)$&autoplay=$(autoPlay)$
+\end
+
+\define thisMakeTiddlerName()
+$(youtubeID)$ - $(hours)$:$(minutes)$:$(seconds)$
+\end
+
+\define thisMakeSegmentName()
+$(selectedVideo)$ - $(startTime)$ to $(endTime)$
+\end
+
+\define getProperTags() [[$(properTag)$]] [[$(selectedVideo)$]]
+
+\define thisMakeSegmentURL()
+http://www.youtube.com/embed/$(youtubeID)$?rel=0&start=$(startTime)$&end=$(endTime)$
+\end
+
+\define thisMakeVideoIframe()
+<$set name=videoID value={{$:/.rich/data/videos##$(selectedVideo)$}}>
+<$macrocall $name="youtube-embed" video=<<videoID>> start=$(startTime)$ end=$(endTime)$/>
+</$set>
+\end
+
+\define thisMakeText()
+{{!!segment_description}}
+
+$(thisVideoIframe)$
+
+$(thisLongDescription)$
+\end
+
+\define thisMakeEmbedIframe()
+<<thisEmbideIframe>>
+\end
+
+\define thisEmbideIframe()
+<$macrocall $name='youtube-embed' video=$(youtubeID)$ start={{!!embed_start}} end={{!!embed_end}}/>
+\end
+
+\define getYouTubeId()
+{{$:/.rich/data/videos##$(selectedVideo)$}}
+\end
+
+Notes about the state of development:
+
+I still want to add the option to just copy a youtube URL into the add video place and use regular expressions to pull out the video id. You would still have to give it a name. I will get around to that at some point.
+
+Also, the `Add Video Segment` and `Add Video Timestamp` tiddlers don't work outside of their use in this tiddler. You can change this. The problem is that there are a few places in the two tiddlers that have `{{!!selected_video}}`, which in the tabs here references the `selected_video` field of the `YouTube Video Annotations` tiddler, not the individual tiddlers. If you change it to `{{YouTube Video Annotations!!selected_video}}` than they should work. I am leaving it the way it is because this way changing the name of `YouTube Video Annotations` won't break anything.
+
+Instructions:
+
+You can select a video using the drop down menu, if you want to add a new video click on the `New Video` button and in the dialog that appears enter the youtube video id and a name for the video and click `add` to add the video and then `done` to get back to the video selection. Video names ''can't'' have any colons (`:`) in the titles or it will break.
+
+If you enter a start and end time then click `Set Video Time` it will set the embedded video to play the segment between the start and end time. `Reset Video Time` resets this.
+
+By entering a start time, an end time, short and long descriptions and any tags you wish then clicking `Add Video Segment` the segment will be saved. If you click on a segment name in the list at the bottom than the video will be set to play that segment (no autoplay though, I am working on it.)
+
+<$set name=selectedVideo value={{!!selected_video}}>
+<$set name=youtubeID value=<<getYouTubeId>>>
+<$set name=startTime value={{!!embed_start}}>
+<$set name=endTime value={{!!embed_end}}>
+
+<!-- Display the embedded video, with the appropriate start and end times set -->
+
+<$macrocall $name=youtubeEmbed videoName={{!!selected_video}} start={{!!embed_start}} end={{!!embed_end}}/>
+
+<!-- Select or Add video things -->
+
+<$reveal type='nomatch' state='$:/state/videotimestampreveal' text='show'>
+Select Video: <$select field='selected_video'>
+<$list filter='[[$:/.rich/data/videos]indexes[]]'>
+<<thisMakeSelectVideoOption>>
+</$list>
+</$select>
+<$button set='$:/state/videotimestampreveal' setTo='show'>New Video</$button>
+</$reveal>
+<$reveal type='match' state='$:/state/videotimestampreveal' text='show'>
+~YouTube ID:<$edit-text tiddler='$:/temp/videotimestamp' field='youtubeid' placeholder='YouTube ID'/><br>
+Video Name:<$edit-text tiddler='$:/temp/videotimestamp' field='vidname' placeholder='Video Name'/><br>
+<$button>Add Video
+<$action-setfield $tiddler='$:/.rich/data/videos' $index={{$:/temp/videotimestamp!!vidname}} $value={{$:/temp/videotimestamp!!youtubeid}}/>
+<$action-setfield $tiddler='$:/temp/videotimestamp' vidname='' youtubeid=''/>
+</$button>
+<$button set='$:/state/videotimestampreveal' setTo='noshow'>Done</$button>
+</$reveal>
+
+
+<<tabs "[[Add Video Segment]] [[Add Video Timestamp]]">>
+
+</$set>
+</$set>
+</$set>
+</$set>

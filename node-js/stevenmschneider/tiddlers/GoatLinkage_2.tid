@@ -1,0 +1,42 @@
+created: 20150701183618406
+creator: stevesunypoly
+modified: 20161028145750279
+modifier: stevesunypoly
+source: http://tw5magick.tiddlyspot.com/
+tags: steveMod
+title: GoatLinkage 2
+type: text/vnd.tiddlywiki
+
+<html>
+<table border=4>
+<tr>
+<td>Change number from...{{!!number}}</td>
+<td>Change verb from...{{!!verb}}</td>
+<td>Change phrase from...{{!!phrase}}</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='$:/generated-list-demo-state'>
+<$list filter="[!number{!!number}]+[verb{!!verb}]+[phrase{!!phrase}]">
+<option><$view field='title'/></option>
+</$list>
+</$select>
+</td>
+<td>
+<$select tiddler='$:/generated-list-demo-state'>
+<$list filter="[!verb{!!verb}]+[number{!!number}]+[phrase{!!phrase}]">
+<option><$view field='title'/></option>
+</$list>
+</$select>
+</td>
+<td>
+<$select tiddler='$:/generated-list-demo-state'>
+<$list filter="[!phrase{!!phrase}]+[number{!!number}]+[verb{!!verb}]">
+<option><$view field='title'/></option>
+</$list>
+</$select>
+</td>
+</tr>
+</table>
+</html>
+[[GoatLinkage]]

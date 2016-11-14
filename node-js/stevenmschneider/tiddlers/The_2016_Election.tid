@@ -1,0 +1,20 @@
+created: 20151118161131826
+creator: stevesunypoly
+modified: 20161028145754306
+modifier: stevesunypoly
+tags: [[IDT Thesis/Project Ideas: A running list]]
+title: The 2016 Election
+type: text/vnd.tiddlywiki
+
+* Folks interested in politics will find any number of topics related to the 2016 campaign. Designing a study that explores one or more of the following could be interesting:
+** the app environment that emerges around the election
+** digital platforms (twitter, facebook, etc),
+**  actors engaging in digital practices  (candidates, citizens, supporters, groups, etc.)
+** digital response to events (elections, debates, terrorist attacks, etc)
+
+* Ways of approaching this kind of data include
+** App Design & Development - prototype, review or document (for competitive analysis) apps targeting citizens
+** Cyberethnography ([[Wikipedia|https://en.wikipedia.org/wiki/Cyber-ethnography]]) of the digital electoral landscape.
+** Content analysis ([[Wikipedia|https://en.wikipedia.org/wiki/Content_analysis]]) 
+*** of digital platforms like facebook, twitter, using [[If This, Then That]] DIY programming tools to report activities of political actors to google spreadsheets.
+*** of digital media like web sites created by political actors (candidates, parties, citizens, etc.)

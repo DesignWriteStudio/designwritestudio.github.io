@@ -1,0 +1,9 @@
+created: 20150701001643987
+creator: stevesunypoly
+modified: 20161028145752262
+modifier: stevesunypoly
+tags: 
+title: New Tiddler 2
+type: text/vnd.tiddlywiki
+
+A good example of a constructor is <<.olink title>>. The `cool` `$list is stuff that is not worked on` output of `[title[A]title[B]]` is just <<.tid B>>. But the <<.olink field>> operator is a modifier, so `[title[A]field:title[B]` outputs nothing at all.

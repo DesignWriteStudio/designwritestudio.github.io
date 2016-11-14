@@ -1,0 +1,17 @@
+created: 20151222194617925
+creator: stevesunypoly
+modified: 20161028145749083
+modifier: stevesunypoly
+tags: 
+title: ConvertExcelFunction
+type: text/vnd.tiddlywiki
+
+<html>
+	<p align="center">
+		<textarea id="xclToTw" rows="10" cols="60"></textarea><br />
+		<button onclick="(function(){var ta=document.getElementById('xclToTw'); displayMessage('original: ' + ta.value); ta.value=ta.value.replace(/^|$|\t/gm, '|');})();" > Translate</button>
+	</p>
+</html>
+
+{{{source: http://oldwiki.tiddlywiki.org/wiki/How_To/Converting_Excel_Spreadsheets_to_TiddlyWiki_Tables}}}
+Wait, this works!

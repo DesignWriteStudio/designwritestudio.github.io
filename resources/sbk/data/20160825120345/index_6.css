@@ -1,0 +1,8 @@
+body { visibility: hidden; }
+.follow-button { font-family: arial,sans-serif; background: rgb(75, 128, 246) -moz-linear-gradient(center top , rgb(104, 171, 232), rgb(75, 128, 246)) repeat scroll 0% 0%; border: 1px solid rgb(75, 128, 246); color: rgb(255, 255, 255); font-size: 13px; padding: 2px 7px; display: inline-block; min-width: 54px; text-align: center; font-weight: bold; border-radius: 2px; transition: all 0.218s ease 0s; -moz-user-select: none; cursor: default; }
+.follow-button:hover { border: 1px solid rgb(71, 123, 247); background-image: -moz-linear-gradient(center top , rgb(100, 165, 234), rgb(71, 123, 247)); }
+.member-title { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: bold; height: 14px; }
+.member-grid { display: inline-block; }
+.member-thumbnail { float: left; }
+.member-thumbnail img { border: 0px none; height: 32px; margin: 6px 6px 0px 0px; width: 32px; }
+.member-prev, .member-next { font-size: 11px; font-weight: normal; }

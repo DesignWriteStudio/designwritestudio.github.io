@@ -1,0 +1,32 @@
+created: 20161109212057279
+modified: 20161109214933150
+tags: ViewsFromTheField
+title: Keeping Your Skillset Sharp
+
+Tom Johnson, author of the blog, [[I'd Rather Be Writing|http://idratherbewriting.com/]], recently about the important need for [[continuing education in the ever-changing world of technology|http://idratherbewriting.com/2016/11/06/how-to-avoid-extinction-in-your-technical-writing-career/]].
+
+In it, Tom focuses on how to prevent keeping one's career in technical writing from becoming obsolete, but his message applies to anyone interested in pursuing a career in technology. He references two short reads from [[Tech Crunch|https://techcrunch.com/]]:
+
+* [[Your experience is probably worth a lot less than you think|https://techcrunch.com/2016/10/22/your-experience-is-probably-worth-a-lot-less-than-you-think/amp/]], by Jon Evans
+* [[In a knowledge economy corporate learning is necessary to survive|https://techcrunch.com/2016/10/30/in-a-knowledge-economy-corporate-learning-is-necessary-to-survive/]], by Karl Mehta
+
+Both articles talk about the importance of keeping up with the latest trends and developments in one's field while also branching out to learn about technologies in other fields.
+
+Like Tom, I have been a technical writer for nearly 20 years. And like Tom, as he points out in his post about this topic, about a decade ago, I, too, was creating .chm-based help files and just getting my feet wet with structured authoring. Fast-forward to today, the company where I now work is moving full-speed ahead on a cloud-based, Software as a Solution (~SaaS) offering for our flagship product. This means the days of using Adobe Framemaker as a single-source tool to produce PDFs and .chm help may be over. We need to adopt a ~DevOps/~DocOps approach in which our content can be quickly authored and translated, incorporated into the build process, and easily updated as needed. That is not possible with our current authoring process or tools.
+
+In his post, Tom lists three resources for keeping one's skillset sharp: 
+
+* Udacity's Nanodegrees
+* Coding for Writers
+* Safari Books Online
+
+In addition to my graduate work in the IDT program at SUNY Polytechnic, I have been researching designing for mobile and cloud-based deployment of content. These are ways that I am trying to stay relevant in a constantly evolving environment. I also partake in free webinars offered by software houses such as Acrolinx, or by the Society for Technical Communication (STC), the professional organization I belong to.
+
+The point of this? Simple. Don't think your learning stops with your current studies. If anything, your current studies should help stimulate other areas of interest worth pursuing and learning about. Don't be afraid to branch out and use an elective or two  now, or at the graduate level, to learn something that might be radically new to you. That information and those skills could come in handy sooner than you think.
+
+The following quote from Mehta's article says it best:
+
+<<<
+//The education that the workforce received was designed in the previous industrial age: front-loaded for first 20 years, and expected to apply to their jobs for the next 40 to 50 years. Today, we are in the knowledge economy, and there is new knowledge we are required to learn and apply daily. How can we future-proof our workforces to help them prepare for the rapid pace of business transformation?//
+<<<
+

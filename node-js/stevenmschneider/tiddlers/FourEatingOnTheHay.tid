@@ -1,0 +1,12 @@
+created: 20161028145749593
+image: IMG_7501.jpg
+modified: 20161028145749593
+noun: Goats
+number: Four
+phrase: OnTheHay
+tags: goatNarrative6
+title: FourEatingOnTheHay
+type: text/vnd.tiddlywiki
+verb: Eating
+
+<<ximg IMG_7501.jpg width:150>> <br>showing {{!!image}} and noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

@@ -1,0 +1,158 @@
+created: 20160910202649350
+modified: 20161012003631080
+tags: ViewsFromTheField Print Screencast [[Process Documents]] [[User Documents]] [[Information Architecture]] [[Social: user-generated, user-inspired, user-evaluated]] Static [[Static Documentation]] Dynamic [[Dynamic Documentation]]
+title: What is the Primary Goal of Documentation?
+type: application/x-tiddler
+
+! Introduction
+
+As I read [[The 8 Types of Technical Documentation and Why Each is Important|http://www.rhyous.com/2011/07/21/the-different-types-of-technical-documentation-for-software-and-why-each-is-important/]], the following sentence stood out from the rest of the article: 
+
+<<<
+//...the primary goal of documentation...is to enable the reader to succeed. //
+<<<
+
+As a technical writer with almost 20 years of experience, I couldn't agree more!
+
+The logical follow-up question to the above sentence is:
+
+<<<
+//How do technical writers ensure the ~~documentation~~ <span style="color: red;">user assistance</span> enables the ~~reader~~ <span style="color: red;">user</span> to succeed?//
+<<<
+
+TechComm Central by Adobe published an article on the [[top 10 trends influencing the field of Technical Communication|http://blogs.adobe.com/techcomm/2012/04/a-review-of-top-10-trends-driving-the-technical-communication-industry.html]]. The TechComm Central article is an overview of the trends discussed in more detail in [[a white paper published by the Branham Group|http://www.adobe.com/content/dam/Adobe/en/products/technicalcommunicationsuite/pdf/top-10-trends-shaping-tomorrow-tci-whitepaper-jan2012.pdf]]. Both the article and the white paper prompted me to revise the sentence above. These trends show that today's users rely on more than static text for user assistance.
+
+Although the article and white paper are a bit dated (April 2012), many of these trends continue to guide today's technical writers to provide quality assistance that enables users to succeed. Let's take a look at some of them.
+
+! Review of Trends
+!! Adoption of Structured Documents
+
+According to the Branham Group's white paper, structured documents are:
+
+<<<
+//...documents [that] use some method of embedded coding or markup to provide structural meaning according to an agreed upon organizational structure or schema. Structured document practices act as the foundation for many benefits including content reuse, single sourcing, and more. (p.2) //
+<<<
+
+In his article, [["What is Structured Writing?"|http://techwhirl.com/what-is-structured-writing/]], Mark Baker provides the following definition:
+
+<<<
+//Structured writing is the act of creating content that obeys one or more explicitly recorded constraints...unstructured writing does not tell you what its structure is- what constraints it obeys. This does not mean it lacks structure...it simply means that its structure is not made explicit. //
+<<<
+
+Structured writing using a model like [[DITA (Darwin Information Typing Architecture)|https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture]] and a tool like Adobe Structured FrameMaker offers plenty of benefits for the technical writer. In addition to the benefits that the Branham Group's white paper lists, structured writing enforces consistency. There is always a consistent flow to information. With models like DITA, content can also be classified by its purpose:
+
+* ''Concept:'' Content that explains or defines something
+* ''Task:'' Content that explains how to do something step-by-step
+* ''Reference:'' Content that provides additional information, such as an appendix or a look-up table
+
+With the adoption of structured documents usually comes the adoption of a writing style that focuses on the use of active voice, simple sentence structure, short paragraphs, and sometimes a controlled vocabulary. This enforcement of consistency and order helps the technical writer deliver content more efficiently and possibly faster. Consistently constructed content also helps mitigate translation time and costs.
+
+These benefits to the technical writer are great, but how do structured documents benefit the user? 
+
+Think of it this way, if the information types (concept, task, reference) are intermixed without any structure, trying to find what you want becomes very difficult. You become frustrated and you may give up. As Barneck points out [[in his article|http://www.rhyous.com/2011/07/21/the-different-types-of-technical-documentation-for-software-and-why-each-is-important/, this is a result of information overload, which is a problem with the content, not the user:
+
+<<<
+//...there is so much documentation in one white paper that someone who wants to do something simple is unsure that it is simple. They don’t know which features they must setup and which are unnecessary or should remain as defaults… when a user asks for an example they are often rudely told to “Read the Manual” or RTM. However, the manual is usually hundreds of pages and they probably need to read one page of the manual but just don’t know where to start.// 
+<<<
+
+Structured documents benefit the user because they present information in a consistent manner and the information is broken up into logical, related chunks. A novice user who is new to the product may need to first read the concept topic about a specific feature in order to understand what it is and does, whereas a more experienced user may go straight to the  task topics to use the feature, or to a related reference topic to either customize a feature or possibly troubleshoot it.
+
+!! Providing for Mobile Delivery
+
+From tablets to smartphones to wearable technology, mobile devices are everywhere, and the number of users of mobile devices continues to grow.
+
+Content must be streamed to these devices quickly and efficiently. Users should be able to receive the content they need in a format that is flexible and adaptable to the device they are using.
+
+How can a technical writer achieve this? Content should be structured in a way that breaks it into specific topics, and these topics are then delivered on-demand.
+ The framework in which the content is delivered must be flexible and responsive:
+
+<<<
+//Responsive Web Design focuses on the delivery of HTML through a single implementation that adapts to the size (and orientation) of the viewing device. This technique delivers flexible layouts and images to cater to the individual specifications of the varied mobile devices compared to the more rigid layouts of electronic versions of print documents.// (Gravelle, [[Top 10 Trends Driving the Technical Communication Industry|http://www.adobe.com/content/dam/Adobe/en/products/technicalcommunicationsuite/pdf/top-10-trends-shaping-tomorrow-tci-whitepaper-jan2012.pdf]])
+<<<
+
+Many of today's industry-standard authoring tools, including Adobe FrameMaker, and MadCap Flare and Blaze, support structured and topic-based authoring while generating outputs that support responsive HTML.
+
+!! Increased Demand for Topic Based, Context Specific Help
+
+As more users use the Internet to find information, they want only the content they need; they do not want to be burdened by having to search or scroll through pages of a PDF manual to find how to do something.
+
+Topic-based authoring is a methodology that a technical writer can use to organize content into small, concise chunks, or topics. These topics can be consumed as standalone topics, or be incorporated into a PDF or print manual.
+
+Like structured authoring, topic-based authoring breaks content into concept, task, and reference topics. Topic-based authoring is simply a path toward a structured authoring environment that uses a model like DITA - you do not need to go all the way to a DITA model in order to utilize topic-based authoring.
+
+In his book, [[//Every Page is Page One//|http://everypageispageone.com/the-book/]], Mark Baker describes it best why a topic-based approach is best for today's web searches:
+
+<<<
+//Readers look for information the way wild animals forage for food — seeking good-enough information that takes the least effort to find and digest. The Web make information foraging easier, and therefore people spend less time struggling with difficult content. They prefer short information snacks...Books are organized from the top down with tables of contents. But tables of contents don’t scale. Faceted navigation can help, but only if the facets make sense to the reader. We have reached the limits of what top-down navigation can do...A web is organized bottom up. Every page is page one, and every page is a hub linked to other pages by a web of subject affinities...Organizing content from the bottom up allows us to express more complex relationships that are more true to the irregular nature of the real world. //
+<<<
+
+Adopting a topic-based approach to authoring content helps to ensure that users will find what they want when they need it.
+
+Context-specific help is slightly different. It is a method that delivers topic-based content to the user. When you click a help button or icon in a software application, web app, or site, you receive help specific to the operation, feature, or function where the help indicator was located. The content displayed in either a help bubble or independent window is focused only on the task you needed assistance with. That is context-specific help.
+
+Hoffman made an interesting point about personas and scenarios with regard to context-specific help [[in his review|http://blogs.adobe.com/techcomm/2012/04/a-review-of-top-10-trends-driving-the-technical-communication-industry.html]]:
+
+<<<
+//...authors must visualize multiple personas and situations while authoring various components of the source documentation.// 
+<<<
+
+A ''persona'', a concept borrowed from the user-centered design and marketing fields, is a fictional, yet realistic, character who represents the typical user of a product, service, or technology (Wkipedia, [["Persona (user experience)"|https://en.wikipedia.org/wiki/Persona_(user_experience)]]). Typically, multiple personas are created when a product is in its early design stages. These personas are then placed in scenarios.
+
+''Scenarios'' show how the personas live their lives and interact, for better or worse, with technology in general (not necessarily the product being developed) (Wikipedia, [["Scenario (computing)"|<a href="https://en.wikipedia.org/wiki/Scenario_(computing)]]).
+
+The use of personas and scenarios help a product development team theorize how a user may interact with their product; the goal is to then develop a product that delivers a satisfactory user experience to its intended users.
+
+Personas and scenarios can help a technical writer envision how content may be accessed, searched, and used. This work can help the technical writer select the appropriate authoring tool, writing methodologies, and output format that gives the user the best chance of success with the content and the product.
+
+A great book that discusses personas, scenarios, and user experience in greater detail is Alan Cooper's [[//The Inmates are Running the Asylum//|https://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672326140]] - a great read for writers as well as developers. 
+
+!! Movement to Multimedia Communication
+
+How often do you use YouTube, or another social media site, to watch a video in order to learn how to do something rather than wade through the PDF manual or online help?
+
+I admit, I do it all the time, from performing simple repairs on my lawnmower or car, to learning a technique or song on my guitar, to learning how to use a tool in Adobe Illustrator. If the video is done well, the knowledge transfer is fairly quick and straightforward.
+
+As Gravelle states in the [[Branham Group whitepaper|http://www.adobe.com/content/dam/Adobe/en/products/technicalcommunicationsuite/pdf/top-10-trends-shaping-tomorrow-tci-whitepaper-jan2012.pdf]], there are two main reasons why multimedia is influencing Technical Communication: youth and learning styles.
+
+With the proliferation of high-speed Internet, mobile devices, and social media, it is no surprise that younger users prefer to learn from multimedia sources, such as video and audio as well as text. As more younger users consume electronic media, the demand for it increases. This demand could not only influence a product's success, but could also influence its design.
+
+Learning styles also play an important role in determine the method for delivering information that best suits the target audience's needs. This applies to users young and old.
+
+I strongly suggest visiting the [[VARK website|http://vark-learn.com/]] to learn about adult learning styles (''V''isual, ''A''rual, ''R''ead/Write, and ''K''inesthetic), and how some users benefit more from videos, whereas others may prefer to learn via podcasts, and others succeed more with hands-on activities like tutorials. Take <a href="http://vark-learn.com/the-vark-questionnaire/">the questionnaire</a> to learn what your own learning styles are. 
+
+With today's authoring tools, it is much easier to incorporate short videos or podcasts to supplement text-based content than ever before. Partnering with the marketing or training teams can make acquiring and creating such deliverables even easier.
+
+!! Social Interaction, a Springboard for Direct Customer and User Input
+
+How many of you have consulted a forum in order to search for information? I have many times. Frequently Asked Questions pages and interactive forums are ways that allow users to interact more closely with a product, service, or technology. Sometimes, these types of resources become the authority on said product, service, or technology.
+
+I like what Gravelle says in the [[Branham Group whitepaper|http://www.adobe.com/content/dam/Adobe/en/products/technicalcommunicationsuite/pdf/top-10-trends-shaping-tomorrow-tci-whitepaper-jan2012.pdf]]:
+
+<<<
+//No longer are customers passively consuming content assembled by technical communicators. The advent or rating systems, commenting, and discussion forums, whether provided through official channels or not, allows them to actively participate, optimize their use of, or solve issues around their purchases. In short, the official company website is no longer the default source of content...//
+<<<
+
+I think such social interaction is a good development for Technical Communication. It helps bring feedback from the user back to the writer faster. Typically, techncial writers need to rely on feedback delivered from sources such as technical support calls, trade show discussions, comments given to product managers from customers, training classes, and so on. Unfortunately, too much time has passed from release of content to procurement of feedback, and many times, the quality of the feedback is sporadic.
+
+The ability for users to comment on a forum or use a rating system with a comment field provides near-immediate feedback to the writer. The writer does not need to parse information from a third-party provided in an e-mail or hallway conversation. Social interaction provides a way to make documentation more usable and dynamic for the user.
+
+! Conclusion
+
+My article here is just my take on some of the major trends that have influenced Technical Communication in the past four years. These trends have essentially migrated technical content out of printed manuals or PDFs to web-based delivery methods, while also focusing on making the content easier to use and search. 
+
+With today's emerging technologies as Augmented Reality, the Internet of Things, and Gesture Recognition, to name a few, these trends will continue to serve Technical Communication well in preparing content for products that utilize the technologies of the near-future.
+
+! Sources
+
+Baker, Mark. [["What is Structured Writing?"|http://techwhirl.com/what-is-structured-writing/]] TECHwhirl. Posted August 29, 2016.
+
+Barneck, Jared. [["The 8 Types of Technical Documentation and Why Each is Important."|http://www.rhyous.com/2011/07/21/the-different-types-of-technical-documentation-for-software-and-why-each-is-important/]] Personal blog. Posted July 21, 2011.
+
+Gravelle, Christian. [[Top 10 Trends Driving the Technical Communication Industry|http://www.adobe.com/content/dam/Adobe/en/products/technicalcommunicationsuite/pdf/top-10-trends-shaping-tomorrow-tci-whitepaper-jan2012.pdf]]. White paper. Branham Group Inc. Published January 2012.
+
+Hoffmann, Maxwell. [["A Review of Top 10 Trends Driving the Technical Communication Industry|http://blogs.adobe.com/techcomm/2012/04/a-review-of-top-10-trends-driving-the-technical-communication-industry.html]]. TechComm Central by Adobe. Posted April 20, 2012.
+
+[["Persona (user experience)"</a>"Persona (user experience)"|https://en.wikipedia.org/wiki/Persona_(user_experience)]]. The Free Encyclopedia. Wikimedia Foundation, Inc. April 14, 2016.
+
+[["Scenario (computing)"|https://en.wikipedia.org/wiki/Scenario_(computing)]]. The Free Encyclopedia. Wikimedia Foundation, Inc. July 7, 2016.
+

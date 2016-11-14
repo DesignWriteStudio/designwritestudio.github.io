@@ -1,0 +1,17 @@
+created: 20150629182015097
+creator: stevesunypoly
+modified: 20161028145748519
+modifier: stevesunypoly
+tags: 
+title: autosubmit javascript
+type: text/vnd.tiddlywiki
+
+http://www.htmlgoodies.com/beyond/javascript/article.php/3902606
+
+<form><select name='myfield' onchange='this.form.submit()'>
+  <option selected>Milk</option>
+  <option>Coffee</option>
+  <option>Tea</option>
+</select>
+<noscript><input type="submit" value="Submit"></noscript>
+</form>

@@ -1,0 +1,43 @@
+created: 20150708134650035
+creator: stevesunypoly
+modified: 20161028145754546
+modifier: stevesunypoly
+tags: 
+title: tiddly living
+type: text/vnd.tiddlywiki
+
+''What's really good about TW5'' As I get deeper into TW5, I am more and more impressed . TW5 brings five aspects of hypertextuality -- <<list-links "[tag[Hypertextual Techniques]]">> into sharp relief, and provides opportunities to explore these dimensions as an information designer with even more clarity -- though a bit more code -- than TWC ([[TiddlyWiki Classic|TWC]]). 
+
+''Additional code, like the old sunyit plugins'' It could be that TW5 (for my purposes) needs more macros or plugIns -- such as TagglyTagging -- and a deeper exploration of included macros: <<list-links "[tag[Macros]]">>.
+
+''Tiddlywiki Edition'' Or, move towards creating a [[Tiddlywiki Edition]] -- basically, recoding / reinterpreting and recoding [[SUNYIT tslearning-us.tiddlyspace.com|http://sunyit-tslearning-ui.tiddlyspace.com/]] for TW5. Major barriers: {{Things for teaching - missing in TW5  - present in tiddlyspace||slider}}
+
+''Printing and serving'' From a design perspective, the opportunity to both print and to serve is important. I like the idea of distributing a wiki as a web page, and using it as a blog (basically, like this page), which also provides links to all projects, classes, etc. Important to get that going.
+
+''Static Content'' But it seems like the trick is to have multiple wikis, and it also seems that sharing tiddlers across wikis requires some level of import / export or saving as html / tiddlers. Which could be auto-scripted, probably.
+
+''Next Steps'' Print basic TW5 as  SUNYPoly Web site:
+
+* Projects
+** TWIG
+** Ubiquitous Hypertextuality
+** WebArchivist
+** Non-Sequential Object-Oriented Narratives
+*** Karen
+*** Bob
+*** Susan Lepre
+* Classes
+** [[IDT575COM475]] Designing Interactive Texts
+** [[IDT507]] Information Technology
+** [[COM106]] Intro to Digital Living
+** [[COM216]] Digital Media & Info Society
+** [[IDT585]] Emerging Technologies
+** [[IDT555]] Legal & Ethical
+** [[POS110]] American Politics
+** [[POS252]] Life & Death
+** [[IDT535]] Projects
+** [[IDT599]] Thesis/Project
+** [[POSXXX]] Technology Policy
+** [[IDTXXX]] Knowledge Management
+* Class Teaching Schedule
+<$transclude tiddler="4year-sked"\>

@@ -1,0 +1,33 @@
+created: 20150630211509458
+creator: stevesunypoly
+modified: 20161028145746219
+modifier: stevesunypoly
+noun: g
+number: 1
+phrase: pans
+title: 1 g play pans - old
+type: text/vnd.tiddlywiki
+verb: play
+
+!!using a filter stored as a field filter in [[$:/core/Filters/Matching]], processed through template [[$:/core/ui/MatchingTemplate]], based on [[$:/core/ui/TagTemplate]]
+<$list filter={{$:/core/Filters/Matching!!filter}} template="$:/core/ui/MatchingTemplate"/>
+
+
+
+
+
+
+
+
+!!these are the nine tiddlers to which this one should link, 
+!!! all derived based on values of fields, using filters! (one of the five key chars of hypertext in addition to  linking transclusion tagging  sorting...
+<$list filter='[!number{!!number}]+[verb{!!verb}]+[phrase{!!phrase}]'/>
+
+<hr>
+
+<$list filter="[!verb{!!verb}] +[number{!!number}]+[phrase{!!phrase}]" />
+
+<hr>
+
+<$list filter="[!phrase{!!phrase}] +[number{!!number}]+[verb{!!verb}]" />
+

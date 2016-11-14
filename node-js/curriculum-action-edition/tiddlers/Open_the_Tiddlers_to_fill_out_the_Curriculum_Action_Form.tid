@@ -1,0 +1,12 @@
+created: 20161027145927358
+modified: 20161027151031535
+tags: 
+title: Open the Tiddlers to fill out the Curriculum Action Form
+type: text/vnd.tiddlywiki
+
+<$button>
+<$list filter="[tag[CurriculumAction]!sort[curricform]]">
+<$action-navigate $to=<<currentTiddler>>/>
+</$list>
+Open Curriculum Action Components
+</$button>

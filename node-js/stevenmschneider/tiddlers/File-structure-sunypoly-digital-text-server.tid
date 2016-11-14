@@ -1,0 +1,35 @@
+created: 20151007160357716
+creator: stevesunypoly
+modified: 20161028145749778
+modifier: stevesunypoly
+tags: 
+title: File-structure-sunypoly-digital-text-server
+type: text/vnd.tiddlywiki
+
+Based on projects
+
+Current projects (so three main subdirectories)
+
+* serial-tiddlywiki
+* designing-interactive-texts
+* sandbox
+
+each project needs identical subfolders:
+
+* images
+* tidbox
+* tw
+* dox
+* static
+
+tidbox, images and dox should be writeable by members of the group (which we need to create)
+
+* /tidbox will be used to drop in tiddlers that are to be added to a project tw
+* /images will be used to drop in and reference images so that wikis in /tw can call by reference using [img[../images/whatever.jpg]], and perhaps build something so that we can reference external images the way we should  as described at http://tiddlywiki.com/#ExternalImages 
+* /dox will be similar to images but contain mp3 files, documents etc that are externalized using _cannonical_URI fields...
+* /static will be used to store static html
+* /tw will house all tiddlywiki.html files
+
+
+
+

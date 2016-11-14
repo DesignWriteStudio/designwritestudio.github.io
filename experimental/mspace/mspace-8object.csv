@@ -1,0 +1,18 @@
+title,tags,text,object,kind,color,feelings,imgtiddler,originalImage
+AppleFruitRedLike,Object Fruit Red Like,[img width='100'[RedApple.jpg]],Apple,Fruit,Red,Like,RedApple.jpg,https://upload.wikimedia.org/wikipedia/commons/2/24/Redapple.jpg
+PhilliesTeamRedLike,Object Team Red Like,[img width='100'[RedPhillies.png]],Phillies,Team,Red,Like,RedPhillies.png,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Philadelphia_Phillies_Insignia.svg/2000px-Philadelphia_Phillies_Insignia.svg.png
+GrapesFruitGreenLike,Object Fruit Green Like,[img width='100'[GreenGrapes.JPG]],Grapes,Fruit,Green,Like,GreenGrapes.JPG,https://upload.wikimedia.org/wikipedia/commons/7/7a/Grapes_in_a_bowl.JPG
+EaglesTeamGreenLike,Object Team Green Like,[img width='100'[GreenEagles.jpg]],Eagles,Team,Green,Like,GreenEagles.jpg,https://upload.wikimedia.org/wikipedia/commons/0/0f/DeSean_Jackson_at_Jacksonville_at_Philadelphia_2009-08-29.jpg
+StrawberryFruitRedDislike,Object Fruit Red Dislike,[img width='100'[RedStrawberry.jpg]],Strawberry,Fruit,Red,Dislike,RedStrawberry.jpg,https://upload.wikimedia.org/wikipedia/commons/f/fe/A_big_pappy_strawberry.jpg
+SoxTeamRedDislike,Object Team Red Dislike,[img width='100'[RedSox.jpg]],Sox,Team,Red,Dislike,RedSox.jpg,https://c1.staticflickr.com/1/712/23827489785_5c962cd3e6_b.jpg
+KiwiFruitGreenDislike,Object Fruit Green Dislike,[img width='100'[GreenKiwi.jpg]],Kiwi,Fruit,Green,Dislike,GreenKiwi.jpg,https://upload.wikimedia.org/wikipedia/commons/5/59/Kiwi1.1.jpg
+CelticsTeamGreenDislike,Object Team Green Dislike,[img width='100'[GreenCeltics.png]],Celtics,Team,Green,Dislike,GreenCeltics.png,https://upload.wikimedia.org/wikipedia/commons/9/92/Celtics_cap.png
+Kind,Dimension, ,,,,,,
+Color,Dimension, ,,,,,,
+Feelings,Dimension, ,,,,,,
+Fruit,Kind SubD, ,,,,,,
+Team,Kind SubD, ,,,,,,
+Red,Color SubD, ,,,,,,
+Green,Color SubD, ,,,,,,
+Like,Feelings SubD, ,,,,,,
+Dislike,Feelings SubD, ,,,,,,

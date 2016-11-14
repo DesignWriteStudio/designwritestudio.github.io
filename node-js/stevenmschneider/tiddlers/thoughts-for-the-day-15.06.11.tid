@@ -1,0 +1,19 @@
+created: 20150611175149460
+creator: stevesunypoly
+modified: 20161028145754479
+modifier: stevesunypoly
+tags: Thoughts
+title: thoughts-for-the-day-15.06.11
+type: text/vnd.tiddlywiki
+
+Things to work on in tiddlywiki today:
+
+* Thinking of TW5 as a blog; a tweet as a post. Probably need some concept of a page template for that. I think, modify [[thoughts]] to start...which i did by changing the structure of its name. 
+
+* Importing {{FlickrObject||slider}}'s as DropboxObject's  created with [[IFRecipe]]'s
+** (Turns out, I wanted to use the slider macro, which allowed me to find http://tw5magick.tiddlyspot.com/, which is exactly what I needed! I found both the slider macro, and how to create / reference macros in TW5). I don't really like the way this slider macro behaves, but at least I know how to start with it)
+* Figuring out what the PaulLeeHTMLDropboxObject is all about
+
+* Test the concept of reading and responding to TW5 hypertextually by exporting .tid files to their dropbox directory
+** <$list filter="[sitnetid[krausek]]"/>
+** <$list filter="[sitnetid[baertsa]]"/>

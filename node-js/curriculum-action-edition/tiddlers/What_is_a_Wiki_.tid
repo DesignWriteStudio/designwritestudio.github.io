@@ -1,0 +1,13 @@
+created: 20160809155339764
+creator: stevesunypoly
+modified: 20161027143629572
+modifier: stevesunypoly
+tags: [[Welcome to TiddlyWiki]]
+title: What is a Wiki?
+type: text/vnd.tiddlywiki
+
+A wiki is an interactive text, with various features such as links and tags, that facilitate navigation within it. Wikipedia is a wiki; it's "text" consists of all the articles available under its umbrella.
+
+[[TiddlyWiki|http://tiddlywiki.com]] is "an open-source single page application wiki in the form of a single HTML file that includes CSS, JavaScript, and the content. It is designed to be easy to customize and re-shape depending on application. It facilitates re-use of content by dividing it into small pieces called Tiddlers" ([[Wikipedia|https://en.wikipedia.org/wiki/TiddlyWiki]]).
+
+Tiddlywikis, as HTML files, can be shared as documents like other document files such as Word files or PDFs, by attaching to an email or sharing as a link in [[DropBox |GenerateDropboxSharedURL]] or another cloud system.

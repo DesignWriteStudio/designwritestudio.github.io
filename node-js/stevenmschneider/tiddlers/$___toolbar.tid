@@ -1,0 +1,24 @@
+created: 20150924171219530
+creator: stevesunypoly
+modified: 20161028145743800
+modifier: stevesunypoly
+title: $:/_toolbar
+type: text/vnd.tiddlywiki
+
+<div class="tc-page-controls tc-toolbar">
+{{$:/core/ui/Buttons/home}}
+{{$:/core/ui/Buttons/full-screen}}
+{{$:/_sidebar-button}}
+{{$:/_list-all-button}}
+{{$:/_list-recent-button}}
+{{$:/_list-tags-button}}
+{{$:/core/ui/Buttons/new-tiddler}}
+{{$:/_new-template-tiddler-button}}
+{{$:/core/ui/Buttons/new-journal}}
+{{$:/core/ui/Buttons/control-panel}}
+{{$:/core/ui/Buttons/save-wiki}}
+{{$:/core/ui/Buttons/close-all}}
+{{$:/_search-button}}
+{{$:/_toggle-view-button}}
+{{$:/_help-button}}
+</div>

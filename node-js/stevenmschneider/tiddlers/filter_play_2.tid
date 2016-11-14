@@ -1,0 +1,23 @@
+created: 20150701132150975
+creator: stevesunypoly
+modified: 20161028145749752
+modifier: stevesunypoly
+tags: 
+title: filter play 2
+type: text/vnd.tiddlywiki
+
+!! using [[$:/core/macros/timeline1]]
+
+<$macrocall $name="timeline1" format={{$:/language/RecentChanges/DateFormat1}}/>
+
+
+!! using [[$:/core/Filters/Matching]] and [[$:/core/ui/MoreSideBar/Missing]] as base and $:/core/ui/MatchingTemplate
+
+<$list filter={{$:/core/Filters/Matching!!filter}} template="$:/core/ui/MatchingTemplate"/>
+
+
+
+
+
+
+

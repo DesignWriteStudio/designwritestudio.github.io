@@ -1,0 +1,9 @@
+div, ul, li { margin: 0px; padding: 0px; }
+.abgc { height: 15px; position: absolute; right: 0px; top: 0px; text-rendering: geometricprecision; width: 15px; z-index: 9020; }
+.abgb { height: 15px; width: 15px; }
+.abgc svg { display: block; }
+.abgs { display: none; height: 100%; }
+.abgl { text-decoration: none; }
+.abgi { fill-opacity: 1; fill: rgb(0, 174, 205); stroke: none; }
+.abgbg { fill-opacity: 1; fill: rgb(205, 204, 204); stroke: none; }
+.abgtxt { fill: black; font-family: "Arial"; font-size: 100px; overflow: visible; stroke: none; }

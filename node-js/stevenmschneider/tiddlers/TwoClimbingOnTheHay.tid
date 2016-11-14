@@ -1,0 +1,12 @@
+created: 20161028145755047
+image: IMG_7489.jpg
+modified: 20161028145755047
+noun: Goats
+number: Two
+phrase: OnTheHay
+tags: goatNarrative6
+title: TwoClimbingOnTheHay
+type: text/vnd.tiddlywiki
+verb: Climbing
+
+<<ximg IMG_7489.jpg width:150>> <br>showing {{!!image}} and noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

@@ -1,0 +1,17 @@
+created: 20160810201528608
+creator: stevesunypoly
+modified: 20161028145750325
+modifier: stevesunypoly
+tags: Thoughts
+title: Getting back to github
+type: text/vnd.tiddlywiki
+
+Today, I moved two tiddlywiki files into github repositories, set up TiddlyDesktop to edit both of them, and commited to a new way of serving TW files.
+
+My main github username is [[stevesunypoly|https://github.com/stevesunypoly]]. I've set up this wiki (my "home page") as index.html in the master branch. And now, it seems, that https://stevesunypoly.github.io returns this file.
+
+I created a new organization called [[designwritestudio|https://github.com/designwritestudio]], and moved the old designwrite.html file to be the "home page" (Index.html) at https://designwritestudio.github.io/.
+
+And that seems to work.
+
+I also purchased the domain designwritestudio.com, and have for now parked it.

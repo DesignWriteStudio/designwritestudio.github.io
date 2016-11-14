@@ -1,0 +1,12 @@
+created: 20150605155726675
+creator: stevesuny
+modified: 20161028145752742
+modifier: stevesuny
+tags: 
+title: PresidentsTable
+type: text/vnd.tiddlywiki
+
+|USPresidents|PoliticalParty|HomeState|PriorPosition|
+|BarackObama|PartyDemocratic|StateIL|PositionSenator|
+|GeorgeWBush|PartyRepublican|StateTX|PositionGovernor|
+|BillClinton|PartyDemocratic|StateAK|PositionGovernor|

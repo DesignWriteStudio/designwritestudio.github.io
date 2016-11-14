@@ -1,0 +1,9 @@
+#container { width: 728px; height: 90px; display: none; background-color: rgb(255, 255, 255); }
+#container, #container div { position: absolute; overflow: hidden; cursor: pointer; }
+div img { position: absolute; }
+#border_mc { background-image: url('border.png'); width: 728px; height: 90px; }
+#gear_1_mc { left: 489px; top: 61px; }
+#gear_2_mc { left: 471px; top: 57px; }
+#gear_3_mc { left: 478px; top: 27px; }
+#gear_4_mc { left: 504px; top: 15px; }
+#gear_5_mc { left: 502px; top: 6px; }

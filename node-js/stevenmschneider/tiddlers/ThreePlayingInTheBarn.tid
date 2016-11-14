@@ -1,0 +1,12 @@
+created: 20161028145754683
+image: IMG_7459.jpg
+modified: 20161028145754683
+noun: Goats
+number: Three
+phrase: InTheBarn
+tags: goatNarrative6
+title: ThreePlayingInTheBarn
+type: text/vnd.tiddlywiki
+verb: Playing
+
+<<ximg IMG_7459.jpg width:150>> <br>showing {{!!image}} and noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

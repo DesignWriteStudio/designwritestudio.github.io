@@ -1,0 +1,23 @@
+created: 20151007141125160
+creator: stevesunypoly
+modified: 20161028145754895
+modifier: stevesunypoly
+tags: Thoughts
+title: Tiddlywiki tools to investigate
+type: text/vnd.tiddlywiki
+
+From time to time, I'll come across tools that are worth looking at to integrate into our TW framework.
+
+Here are ones I played with today:
+
+http://bjtools.tiddlyspot.com/
+
+Among them on this site:
+
+ClickAction - allows a click to initiate more than one action (in this case, open multiple tiddlers sharing a tag)
+
+Calendar - Creates a clickable calendar for diary and other purposes
+
+http://publicsidebar.tiddlyspot.com/
+
+introduces the idea of a public sidebar, configurable based on url serving the tiddlywiki.

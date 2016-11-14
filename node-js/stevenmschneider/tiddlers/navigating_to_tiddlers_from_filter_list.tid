@@ -1,0 +1,17 @@
+created: 20150701174900878
+creator: stevesunypoly
+modified: 20161028145752033
+modifier: stevesunypoly
+tags: 
+title: navigating to tiddlers from filter list
+type: text/vnd.tiddlywiki
+
+\define openTiddlers(tf)
+<$button>
+<$list filter="[tag[goatNarrative]]"/>
+<$action-navigate $to=<<currentOption>>/>
+</$list>
+Open tiddlers
+</$button>
+\end
+<<openTiddlers>>

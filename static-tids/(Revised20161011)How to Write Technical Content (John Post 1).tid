@@ -1,0 +1,91 @@
+created: 20160904125501898
+modified: 20160907172608980
+tags: ViewsFromTheField Dynamic Static [[User Documents]] Print [[Process Documents]]
+title: How to Write Technical Content (John Post 1)
+type: application/x-tiddler
+
+! Introduction
+
+Before I talk about current trends or techniques in Technical Communication, I first want to share some tips on writing clearly and concisely. The ability to write in this manner is vital for those who must provide content in today's age of instantaneous information. Easier said than done? Perhaps, but it's not as hard as you might think. Here are some tips to use.
+
+!! Tip 1: Use Active Voice vs. Passive Voice
+
+!!! Passive Voice
+
+Before I discuss ''active voice'', let's first look at ''passive voice''. Passive voice focuses on the object in the sentence. For example:
+
+//The award was won by the writers.//
+
+In the sentence above, //the award// is the object and //the writers// is the subject. The verb, //was won//, is in the middle.
+
+Grammatically, this sentence is fine. So, why is it bad for technical writing? Passive voice inverts ''subject-verb-object'' order to ''object-verb-subject'', which can take longer for someone to understand. A simple sentence like this may not take long, but if it discussed something very technical, it could stop the reader dead in their tracks!
+
+!!! Active Voice
+
+Active voice focuses on the subject, and it follows ''subject-verb-object'' order. For example:
+
+//The writers won the award.//
+
+Who is the subject, "the doer," of the above sentence? Right! The //writers//. And where is it located in the sentence? Right again! At the __beginning of the sentence__. 
+
+This sentence is also grammatically correct, but it is better for technical writing because it is shorter and to-the-point. A simple verb (//won//) is also used over a verb phrase (//was won//). The reader can quickly read and understand the sentence, and move on.
+
+Here's a more technical example written in passive voice:
+
+//First the fuel is filtered by a fuel skid. Next, the fuel is transferred by a pump to a holding tank. Finally the fuel will be loaded into a tanker truck.//
+
+This example is grammatically correct, but there is a lot going on that could hinder the reader from understanding it. English may not be the reader's native language, or the reader might be on a tight schedule to complete a job.
+
+Here's the example written in active voice:
+
+//First, a fuel skid filters the fuel. Next, a pump transfers the fuel to a holding tank. Finally, the fuel is loaded into a tanker truck.//
+
+In each sentence, the subject comes first, followed by a simple, active verb, followed by the object of the sentence. Can you identify each piece (subject, verb, object)? The third sentence still uses a verb phrase (//is loaded//), but by re-ordering the subject and object, the third sentence is more clear. 
+
+The word count from original to rewrite isn't much less, but fewer words were used. 
+
+Can this example be simplified even more? Yes! How? Turn it into a procedure:
+
+# A fuel skid filters the fuel.
+# A pump then transfers the fuel to a holding tank.
+# The fuel is loaded into a tanker truck.
+
+Again, the word count isn't much less. However, a procedure helps the reader see the order in which tasks must be completed. When writing procedures, each step should consist of only one action.
+
+!! Tip 2: Write Short Sentences, Paragraphs, and Sections
+
+When it comes to technical writing, shorter is better. The more concise the content is, the easier it is for the reader to understand. 
+
+Here are some guidelines:
+
+* Keep sentences to about 25 words
+* Only discuss one or two ideas per sentence
+* Keep paragraphs to three to five related sentences
+* Keep sections to three to five related paragraphs before a section heading
+
+If your product requires localization, short content helps reduce translation costs. Translation estimates are done by the word. Some languages cost more per word than others. Therefore, it pays to keep your content brief, but __never__ sacrifice accuracy and completeness for brevity! 
+
+!! Tip 3: Use Headings
+
+Headings break text into chunks, or sections. The reader can quickly skim the content and get an overall sense of meaning. This helps the reader process information when the content is read in-depth.
+
+Go back to the top of this article and look only at the headings I used. Do they provide a general sense of what this article is about?
+
+!! Tip 4: Get Feedback
+
+When a draft is ready, have a subject matter expert (SME) review the content to ensure that it is complete and accurate. If you belong to a group of writers, ask another writer to read it for clarity, brevity, and any other style guidelines your group may employ (for example, the guidelines covered in this article). Hand the content to a quality testing group and let them try your content out with the product. Doing this helps validate what was created and what you documented.
+
+! Conclusion
+
+The goal of technical writing is to ensure the user has an overall positive experience with the product. If the customer isn't sure what to do and they consult the product's documentation, the user must be able to quickly find and understand the information they need.
+
+The writing tips provided in this article are a starting point. There are more tips to share, but learn these ones first, apply them, and you will find your content, whether of a technical, business, or academic nature, is clearly written and easily understood.
+
+And, if you're so inclined, re-read this article to see how many of these tips I used. 
+
+! Sources
+
+Burton, Sharon. "Good Writing Guidelines." from //Undiscovered Country: The Master Writer//. STC online certificate course provided October - November 2009. [[Society for Technical Communication|https://www.stc.org/education/online-certificate-courses]]
+
+Carter, Nick. [[Technical Writing Basics: Using the Active Voice|https://freelance-writing-articles.knoji.com/technical-writing-basics-using-the-active-voice]]. knoji.com. Retrieved September 4, 2016.
+

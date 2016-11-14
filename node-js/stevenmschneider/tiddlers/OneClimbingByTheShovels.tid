@@ -1,0 +1,12 @@
+created: 20161028145752326
+image: IMG_7482.jpg
+modified: 20161028145752326
+noun: Goats
+number: One
+phrase: ByTheShovels
+tags: goatNarrative6
+title: OneClimbingByTheShovels
+type: text/vnd.tiddlywiki
+verb: Climbing
+
+<<ximg IMG_7482.jpg width:150>> <br>showing {{!!image}} and noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

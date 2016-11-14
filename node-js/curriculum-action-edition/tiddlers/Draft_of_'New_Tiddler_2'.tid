@@ -1,0 +1,13 @@
+created: 20161004171025850
+draft.of: New Tiddler 2
+draft.title: New Tiddler 2
+modified: 20161027134608012
+tags: 
+title: Draft of 'New Tiddler 2'
+type: text/vnd.tiddlywiki
+
+<<tag "Suggested texts">>
+<$button>
+<$action-deletetiddler $filter="[tag[Suggested texts]]"/>
+Delete tiddlers tagged "Suggested texts"
+</$button>

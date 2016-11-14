@@ -1,0 +1,79 @@
+created: 20140408083315479
+creator: Danielo
+filter-tag: persona
+modified: 20161028145749421
+modifier: Danielo Rodriguez
+sort-field: title
+table-fields: user,grupo,role
+table-headers: Name,User,Grupo,Role
+tags: customization editableTable
+title: Editable-Table
+type: text/vnd.tiddlywiki
+
+\define fieldsFilter() [title[$(fields-source)$]split:table-fields[,]] 
+
+\define rowFilter() [!has[draft.of]tag[$(filter-tag)$]sort[$(sortField)$]]
+
+\define editbutton()
+<span title="edit details"><$button set="$:/temp/editPersona" setTo={{!!title}} class="tc-btn-invisible">{{$:/core/images/edit-button}}</$button></span>
+\end
+
+\define delbutton()
+<span title="delete entry" class="buttons"><$button message="tm-delete-tiddler" param={{!!title}} class="tc-btn-invisible">{{$:/core/images/delete-button}}</$button></span>
+\end
+
+\define editModeButtons()
+<$reveal state="$:/temp/editPersona" type="match" text={{!!title}} ><<delbutton>> <<okButton>></$reveal> 
+\end
+
+\define viewModeButtons()
+<$reveal state="$:/temp/editPersona" type="nomatch" text={{!!title}} ><<editbutton>></$reveal> 
+\end
+
+\define okButton()
+<span title="OK" class="buttons"><$button message="tm-save-tiddler" param={{!!title}} class="tc-btn-invisible" set="$:/temp/editPersona" setTo="" >{{$:/core/images/done-button}}</$button></span>
+\end
+
+\define editCell()
+<$reveal state="$:/temp/editPersona" type="match" text={{!!title}} > <$edit-text field=<<currentField>>/> </$reveal>
+\end
+
+\define viewCell()
+<$reveal state="$:/temp/editPersona" type="nomatch" text={{!!title}}><span><$view field=<<currentField>>/></span></$reveal>
+\end
+
+
+\define displayRows()
+<$list filter=<<rowFilter>> >
+<tr><td><span>{{!!title}}</span></td>
+<$list filter=<<fieldsFilter>> variable="currentField"><td><<viewCell>><<editCell>></td></$list><td><<editModeButtons>><<viewModeButtons>> </td></tr></$list>
+\end
+
+\define TableHeaders()
+<$list filter="[is[current]split:table-headers[,]]" variable="currentField"><th><$button class="tc-btn-invisible" set="sort-field" setTo=<<currentField>> ><<currentField>></$button></th></$list>
+\end
+
+
+\define add-entry-Row()
+<tr class="editable"><td><$edit-text tiddler="$:/temp/table" default="" placeholder="Name" tag="input" /></td><$list filter=<<fieldsFilter>> variable="currentField"><td><$edit-text tiddler="$:/temp/table" field=<<currentField>> placeholder=<<currentField>>/></td></$list><td><span> <$newtiddler title={{$:/temp/table}} clear="$:/temp/table" tags={{!!filter-tag}} skeleton="$:/temp/table" edit="no" class="tc-btn-invisible">{{$:/core/images/new-button}}</$newtiddler></span></td></tr>
+\end
+
+<$set name="fields-source" value={{!!title}}>
+<$set name="filter-tag" value={{!!filter-tag}}>
+<$set name="sortField" value={{!!sort-field}}>
+
+@@.reactive-table
+<table>
+<thead><tr>
+<<TableHeaders>><th>Edit</th>
+</tr>
+</thead>
+<tbody>
+<<add-entry-Row>>
+<<displayRows>>
+</tbody>
+</table>
+@@
+
+</$set>
+</$set></$set>

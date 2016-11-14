@@ -1,0 +1,51 @@
+created: 20150701174410510
+creator: stevesunypoly
+modified: 20161028145750295
+modifier: stevesunypoly
+source: http://tw5magick.tiddlyspot.com/
+tags: steveMod
+title: GoatLinkage 1
+type: text/vnd.tiddlywiki
+
+[[GoatLinkage 1]]
+<html>
+<table border=1>
+<tr>
+<td>Change number from...{{!!number}}</td>
+<td>Change verb from...{{!!verb}}</td>
+<td>Change phrase from...{{!!phrase}}</td>
+</tr>
+<tr>
+<td>
+<$select tiddler='$:/generated-list-demo-state'>
+<$list filter="[!number{!!number}]+[verb{!!verb}]+[phrase{!!phrase}]">
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<$tiddler tiddler={{$:/generated-list-demo-state}}>
+<$transclude mode='block'/>
+</$tiddler>
+</td>
+<td>
+<$select tiddler='$:/generated-list-demo-state'>
+<$list filter="[!verb{!!verb}]+[number{!!number}]+[phrase{!!phrase}]">
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<$tiddler tiddler={{$:/generated-list-demo-state}}>
+<$transclude mode='block'/>
+</$tiddler>
+</td>
+<td>
+<$select tiddler='$:/generated-list-demo-state'>
+<$list filter="[!phrase{!!phrase}]+[number{!!number}]+[verb{!!verb}]">
+<option><$view field='title'/></option>
+</$list>
+</$select>
+<$tiddler tiddler={{$:/generated-list-demo-state}}>
+<$transclude mode='block'/>
+</$tiddler>
+</td>
+</tr>
+</table>
+</html>

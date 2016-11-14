@@ -1,0 +1,8 @@
+created: 20150611170924501
+creator: stevesunypoly
+modified: 20161028145749703
+modifier: stevesunypoly
+title: FlickrObject
+type: text/vnd.tiddlywiki
+
+So a {{!!title}} is something that was created by Flickr and passed through an IfRecipe to create a DropboxObject.

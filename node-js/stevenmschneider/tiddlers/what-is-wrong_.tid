@@ -1,0 +1,28 @@
+created: 20150609205739270
+creator: stevesuny
+modified: 20161028145755335
+modifier: stevesuny
+tags: 
+title: what-is-wrong?
+type: text/vnd.tiddlywiki
+
+just starting to learn TW5, and it is pretty amazing.
+
+But, I must be doing something wrong. [[Name Of A Tiddler]] works, and becomes a link. but [title[Name Of A Tiddler]] does not, and thus, I can't make any more filters!
+
+Why is that?
+
+https://www.dropbox.com/s/wy45tq1wcrf6cyz/Screenshot%202015-06-09%2018.47.36.png?dl=0
+
+Thanks to respondents to the [[Google group thread|https://groups.google.com/forum/#!topic/tiddlywiki/u9hmarzqba8]]:
+
+Hi Steve,
+
+As Felix says, the latter only makes sense as part of a filter expression, like so - <$list filter="[title[Name Of A Tiddler]]"/>
+
+Adding this will give you a 'list of one' which looks just like a single, inline link.
+
+Regards,
+Richard
+
+Or, [[title|Name Of A Tiddler]]

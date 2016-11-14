@@ -1,0 +1,11 @@
+created: 20150701133648608
+creator: stevesunypoly
+description: {{$:/language/Filters/Orphans}}
+filter: [!verb{!!verb}] +[number{!!number}]+[phrase{!!phrase}]
+modified: 20161028145743956
+modifier: stevesunypoly
+tags: $:/tags/Filter steveMod
+title: $:/core/Filters/Matching
+type: text/vnd.tiddlywiki
+
+<$list filter="[!verb{!!verb}] +[number{!!number}]+[phrase{!!phrase}]" />

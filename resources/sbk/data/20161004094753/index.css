@@ -1,0 +1,87 @@
+/* ::::: http://psycnet.apa.org/css/dialog.css ::::: */
+
+/* ::::: http://psycnet.apa.org/css/dialog_login.css ::::: */
+
+/* ::::: http://psycnet.apa.org/css/record_display.css ::::: */
+
+#MyContent { font-size: 13px; font-weight: bold; padding: 0px; margin: 0px; width: auto; float: right; }
+#MyContent li { display: inline; padding-right: 1em; }
+#rdTitle { display: block; width: 225px; height: 23px; float: left; font-size: 11pt; color: rgb(100, 192, 255); }
+#rdInformationBar { clear: both; display: block; float: left; border-top: 1px solid silver; border-bottom: 1px solid silver; padding: 5px 0px 3px; margin: 0px 0px 10px; width: 100%; }
+#rdRecord { display: block; float: left; width: 570px; }
+#rdRecord h3, #rdReferencesLabel, #rdRecordWithRefs h3 { font-family: Tahoma,Arial,Helvetica,sans-serif; font-weight: bold; font-size: 8pt; letter-spacing: 1.5pt; font-variant: small-caps; margin: 0px 0px 0px 5px; padding: 3px; display: block; float: left; background: transparent url('rd-bg-caption.gif') repeat scroll 0% 0%; clear: both; }
+.rdRecordSection { width: 100%; clear: both; display: block; float: left; margin-bottom: 10px; border: 1px solid rgb(184, 206, 203); font-size: 8pt; padding: 1em; }
+#rdDatabase { display: block; float: right; margin-right: 35px; padding: 0px 0px 1em 1em; text-align: center; }
+#rdCitationDetails dt::after { content: ":"; }
+#rdTools { display: block; float: right; width: 175px; background: rgb(185, 210, 206) none repeat scroll 0% 0%; height: 100%; }
+#rdTools h3 { font-weight: bold; background: rgb(100, 192, 255) none repeat scroll 0% 0%; padding: 3px 0px; margin: 0px; text-align: center; font-size: 8pt; clear: both; }
+#rdtlLinkList { background: white none repeat scroll 0% 0%; margin: 5px; padding: 5px; list-style: outside none none; display: block; font-size: 8pt; line-height: 2em; }
+#rdtlFulltext { list-style: outside none none; padding: 0px 0px 0px 20px; margin: 0px; }
+.rdReferenceData ul, ol { padding: 0px; margin: 0px; }
+#rdMainCitationZone { display: block; float: left; background: transparent url('rd-fauxcol-tools.gif') repeat-y scroll right center; margin-bottom: 20px; width: 100%; }
+.rdPurchasePDF a { display: block; width: 9em; padding: 0px; }
+.rdPDF a, .rdTOCPDF a, .rdPurchasePDF a { background: transparent url('icon-file-pdf.gif') no-repeat scroll right 50%; }
+.rdAbstractsList, .rdImpactStatementsList { margin: 0.5em 0px 0px; list-style: outside none none; }
+.rdAbstract { margin: 0px 0px 1em; padding: 0px; }
+/* ::::: http://psycnet.apa.org/css/psyctest_record_display.css ::::: */
+
+.rtRecordSection dt::after { content: ":"; }
+/* ::::: http://psycnet.apa.org/css/citation_management_options.css ::::: */
+
+#srActionTasks { float: left; margin-top: -30px; position: relative; margin-left: 10px; }
+#srActionTasks li { display: block; float: left; font-size: 10.5px; color: blue; font-weight: bold; padding: 0px; list-style: outside none none; height: 28px; background: whitesmoke none repeat scroll 0% 0%; }
+#srActionTasks a { text-decoration: none; display: block; padding: 4px 0px 6px 21px; }
+#sratSave a { background: transparent url('bg-cmo-left-save.gif') no-repeat scroll left top; }
+#sratPrint a { background: transparent url('bg-cmo-left-print.gif') no-repeat scroll left top; }
+#sratEmail a { background: transparent url('bg-cmo-left-email.gif') no-repeat scroll left top; }
+#sratExport a { background: transparent url('bg-cmo-left-export.gif') no-repeat scroll left top; }
+#sratAddToMyList a, #sratDeleteFromMyList a { background: transparent url('bg-cmo-left-mylist.gif') no-repeat scroll left top; }
+#srMyListTotal { float: right; margin: 7px 0px 0px; padding: 0px; cursor: pointer; text-decoration: underline; color: blue; font-size: 8pt; height: 22px; text-indent: 6px; font-weight: bold; }
+.divActionTasks { float: left; margin: 0px; position: relative; opacity: 1; }
+/* ::::: http://psycnet.apa.org/css/psycnet3.css ::::: */
+
+html { height: auto; }
+body { margin: 0px; padding: 0px; text-align: center; border: 0px none; font-family: Arial,Helvetica,sans-serif; font-size: small; }
+a { color: blue; outline: medium none; }
+a:active { outline: medium none; }
+#PsycNETLogo { background: transparent url('psycnet-anchor.gif') no-repeat scroll 0px 0px; width: 200px; height: 50px; text-indent: -99999px; }
+#PsycNETLogo a { display: block; width: 200px; height: 50px; }
+#EntityLogo { width: 250px; height: 50px; }
+form { padding: 0px; margin: 0px; }
+#ContentZone { margin: 0px auto; min-width: 780px; width: 780px; height: 100%; padding: 0px; text-align: left; position: relative; }
+#BrandingBar { display: block; float: none; clear: both; }
+#BrandingBar img, fieldset { border: medium none; padding: 0px; margin: 0px; }
+#BrandingBar h1, h2 { margin: 0px; padding: 0px; display: inline; float: left; }
+.FormZone select, input { font-size: 8pt; }
+#Login { margin: 5px 0px 0px; padding: 0px; font-size: 8pt; }
+#HelpBar { font-family: Arial,Helvetica,sans-serif; font-size: 8pt; padding: 0px; margin: 0px; text-align: right; height: 26px; float: right; }
+#HelpBar li { display: block; padding: 0px 0px 0px 7px; height: 26px; float: left; line-height: 26px; }
+#HelpBar li a { height: 26px; }
+#hBarShoppingCart { display: block; height: 26px; background: transparent url('cart-black.gif') no-repeat scroll left center; }
+#hBarShoppingCart a { padding: 0px 0px 0px 25px; font-weight: bold; color: black; text-decoration: none; }
+#pnavSearch { left: 0px; width: 199px; }
+#pnavBrowse { left: 199px; width: 177px; }
+#pnavSubjects { left: 376px; width: 190px; }
+#pnavMyPsycNET { left: 566px; width: 214px; }
+#socialMediaFollows { display: block; float: right; margin: 0px; padding: 5px 0px 0px 10px; }
+#Utilities { display: block; text-align: right; float: right; height: 25px; position: relative; clear: both; }
+#Login, #LoginWithCPABranding { display: block; text-align: right; float: right; position: relative; font-size: 8pt; clear: right; }
+#PrimaryNavigation, #PrimaryNavigationScan { width: 776px; margin: 0px; position: relative; clear: both; border-top: medium solid lightgrey; border-bottom: medium solid lightgrey; height: 19px; padding: 2px; border-color: lightgrey; background: transparent -moz-linear-gradient(center top , rgb(4, 109, 209), rgb(3, 77, 175), rgb(4, 109, 209)) repeat scroll 0% 0%; }
+#PrimaryNavigation {  }
+#PrimaryNavigation li, #PrimaryNavigationScan li { margin: 0px; padding: 0px; list-style: outside none none; position: absolute; top: 0px; }
+#PrimaryNavigation li, #PrimaryNavigation a, #PrimaryNavigationScan li, #PrimaryNavigationScan a { display: block; text-decoration: none; color: white; text-align: center; font-weight: bold; padding-top: 2px; height: 19px; }
+#PrimaryNavigation li.active a, #PrimaryNavigation li:hover a { color: rgb(255, 255, 255); text-shadow: 0px 1px 3px rgb(0, 0, 0), 1px 1px 2px rgb(0, 0, 0); }
+#PrimaryNavigationShadow { clear: both; color: rgb(0, 51, 153); display: block; padding: 0px 0px 5px 10px; margin: 0px; height: 20px; background: transparent url('topnav-shadow.gif') repeat-x scroll 0% 0%; font-family: Tahoma,Arial,Helvetica,sans-serif; font-size: 8pt; font-weight: normal; }
+UL#PrimaryNavigation LI.active, UL#PrimaryNavigation LI:hover { color: rgb(255, 255, 255) ! important; padding-top: 2px; height: 21px ! important; background: transparent -moz-linear-gradient(center top , rgb(102, 215, 255), rgb(102, 193, 255)) repeat scroll 0% 0%; }
+#SkipNavigation { position: absolute; left: -999999px; }
+.StretchContainer { clear: both; visibility: hidden; }
+.clearfloat::after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+#footer { padding-top: 1em; font-size: 8pt; clear: both; }
+#alertLinkContainer { text-align: right; font-size: 7pt; margin-right: 3px; }
+#downloadAppLinkInactive { clear: both; }
+/* ::::: http://my.apa.org//apa/css/overlay.css ::::: */
+
+h2 { line-height: 125%; }
+#d__fFH { position: absolute; top: -5000px; left: -5000px; }
+#d__fF { font-family: serif; font-size: 200px; visibility: hidden; }
+#qucubayuvdqt { display: none ! important; }

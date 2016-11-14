@@ -1,0 +1,12 @@
+created: 20161028145752301
+image: IMG_7480.jpg
+modified: 20161028145752301
+noun: Goats
+number: One
+phrase: NearTheTractor
+tags: goatNarrative6
+title: OneClimbingNearTheTractor
+type: text/vnd.tiddlywiki
+verb: Climbing
+
+<<ximg IMG_7480.jpg width:150>> <br>showing {{!!image}} and noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

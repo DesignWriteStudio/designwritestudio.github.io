@@ -1,0 +1,6 @@
+created: 20161028145748047
+modified: 20161028145748047
+title: 9XeLNTkS
+type: text/plain
+
+{"text":"Wikipedia says:\n\n<<<http://en.wikipedia.org/wiki/Bookmarklet\nA bookmarklet is a bookmark stored in a web browser that contains ~JavaScript commands to extend the browser's functionality. For instance, a bookmarklet might allow the user to select text on a page, click the bookmarklet, and be presented with a search engine results page for the search term selected.\n<<<\n\nThe bookmarklets in this wiki are presented <<bookmarklet script:\"alert('I am a bookmarklet');void(0);')\" text:\"like this\">>. You simply need to drag tem to your bookmarklist to be able to use them.","created":"20131127120311357","creator":"Stephan Hradek","modified":"20140111081453194","modifier":"Stephan Hradek","title":"bookmarklet"}

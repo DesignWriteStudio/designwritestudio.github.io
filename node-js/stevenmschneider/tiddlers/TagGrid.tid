@@ -1,0 +1,25 @@
+created: 20161028145903809
+modified: 20161028162042280
+tags: Thoughts
+title: TagGrid
+type: text/vnd.tiddlywiki
+
+My tag grid story is wonderful. I wanted to create tables showing relationships among tiddlers, based on two tags. For example, if I had four tiddlers, with the following tags:
+
+Blue Honda Civic:: Blue, Honda, Civic
+Red Honda Fit:: Red, Honda, Fit
+Blue Subaru Forester: Blue, Subaru, Forester
+Red Subaru Outback: Red, Subaru, Outback
+
+I'd want to be able to create this table:
+
+||Red|Blue|h
+|''Honda''|Red Honda Fit|Blue Honda Civic|
+|''Subaru''|Red Subaru Outback|Blue Subaru Forester|
+
+So, I posted in the [[TiddlyWiki Google Group|https://groups.google.com/forum/#!searchin/tiddlywiki/taggrid%7Csort:relevance/tiddlywiki/lAFxqKsmmOU/ab8QeDBMAwAJ]], and Jed Carty created the [[TagGrid macro|http://ooktech.com/jed/ExampleWikis/TagGrid/]], which works beautifully:
+
+https://stevesunypoly.updog.co/designwrite/testing/tagGrid-testing.html
+
+
+

@@ -1,0 +1,11 @@
+created: 20150615150551917
+creator: stevesunypoly
+modified: 20161028145754200
+modifier: stevesunypoly
+tags: [[TiddlyWiki Dev]]
+title: syntax for importing multiple tiddlers created in a spreadsheet
+type: text/vnd.tiddlywiki
+
+Syntax for Importing multiple tiddlers as a json file -- easy enough to do in google sheets, or with a script.
+
+https://groups.google.com/forum/#!topic/tiddlywiki/PQ-GWjqAVOk

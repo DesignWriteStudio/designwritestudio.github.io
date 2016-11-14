@@ -1,0 +1,20 @@
+created: 20150610020546584
+creator: stevesuny
+modified: 20161028145749765
+modifier: stevesunypoly
+phrase: sleeping
+tags: 
+title: filter play
+type: text/vnd.tiddlywiki
+
+<$list filter="[phrase[on the tractor]]"/>
+<$list filter="[tag[goatNarrative]!activity[{{!!phrase}}]]"/>
+
+{{!!phrase}}
+
+
+
+<$list filter="[tags[]sort[title]]" variable="theTag">
+
+The tag is: <$text text=<<theTag>>/>
+

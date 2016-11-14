@@ -1,0 +1,125 @@
+created: 20150305233637205
+modified: 20161028145755311
+radio_test: HelloThere
+select_field: 2
+select_test: Second Option
+test: yep
+title: Widgets Invoking Actions
+type: text/vnd.tiddlywiki
+
+Notes: 
+
+*For the checkbox-invoke-actions widget you need to use reveal widgets to trigger different actions for checking or unchecking, otherwise the same actions are triggered each time. 
+
+!Checkbox widget:
+
+Code:
+
+```
+<$checkboxInvokeActions tag='woo'>Something
+<$reveal type='nomatch' state='!!test' text=yep>
+<$action-setfield test='yep'/>
+</$reveal>
+<$reveal type='match' state='!!test' text=yep>
+<$action-setfield test='nope'/>
+</$reveal>
+</$checkboxInvokeActions>
+
+{{!!test}}
+```
+
+Result:
+
+<$checkboxInvokeActions tag='woo'>Something
+<$reveal type='nomatch' state='!!test' text=yep>
+<$action-setfield test='yep'/>
+</$reveal>
+<$reveal type='match' state='!!test' text=yep>
+<$action-setfield test='nope'/>
+</$reveal>
+</$checkboxInvokeActions>
+
+{{!!test}}
+
+!Link Widget:
+
+Code:
+
+```
+<$linkInvokeActions to=HelloThere>Hello!
+<$action-sendmessage $message='tm-modal' $param=About/>
+</$linkInvokeActions>
+```
+
+Result:
+
+<$linkInvokeActions to=HelloThere>Hello!
+<$action-sendmessage $message='tm-modal' $param=About/>
+</$linkInvokeActions>
+
+!Radio
+
+The currentOption variable is the value the radio button uses so you can have changes depend on the one you switch it to. This may not be needed.
+
+Code:
+
+```
+<$radioInvokeActions field='radio_test' value='First'>First
+<$action-navigate $to=<<currentOption>>/>
+</$radioInvokeActions>
+
+<$radioInvokeActions field='radio_test' value='Second'>Second
+<$action-navigate $to=<<currentOption>>/>
+</$radioInvokeActions>
+
+<$radioInvokeActions field='radio_test' value='Third'>Third
+<$action-sendmessage $message='tm-modal' $param=HelloThere/>
+</$radioInvokeActions>
+
+{{!!radio_test}}
+```
+
+Result:
+
+<$radioInvokeActions field='radio_test' value='HelloThere'><<setValue>>HelloThere
+<$action-navigate $to=<<currentOption>>/>
+</$radioInvokeActions>
+
+<$radioInvokeActions field='radio_test' value='New Tiddler'>New Tiddler<$action-navigate $to=<<currentOption>>/>
+</$radioInvokeActions>
+
+<$radioInvokeActions field='radio_test' value='Third'>Third
+<$action-sendmessage $message='tm-modal' $param=HelloThere/>
+</$radioInvokeActions>
+
+{{!!radio_test}}
+
+!Select
+
+Code:
+
+```
+<$selectInvokeActions field='select_test'>
+<option><$action-setfield $tiddler='Widgets Invoking Actions' select_field=1/>First Option</option>
+<option>Second Option<$action-setfield $tiddler='Widgets Invoking Actions' select_field=2/></option>
+<option value=bob>Third Option<$action-setfield $tiddler='Widgets Invoking Actions' select_field=3/></option>
+<option>Fourth Option<$action-setfield $tiddler='Widgets Invoking Actions' select_field={{!!select_test}}/></option>
+</$selectInvokeActions>
+
+{{!!select_test}}
+
+{{!!select_field}}
+```
+
+Result:
+
+<$selectInvokeActions field='select_test'>
+<option><$action-setfield $tiddler='Widgets Invoking Actions' select_field=1/>First Option</option>
+<option>Second Option<$action-setfield $tiddler='Widgets Invoking Actions' select_field=2/></option>
+<option value=bob>Third Option<$action-setfield $tiddler='Widgets Invoking Actions' select_field=3/></option>
+<option>Fourth Option<$action-setfield $tiddler='Widgets Invoking Actions' select_field={{!!select_test}}/></option>
+</$selectInvokeActions>
+
+{{!!select_test}}
+
+{{!!select_field}}

@@ -1,0 +1,12 @@
+created: 20161028145754648
+image: IMG_7466.jpg
+modified: 20161028145754648
+noun: Goats
+number: Three
+phrase: ByTheShovels
+tags: goatNarrative4
+title: ThreeSleepigByTheShovels
+type: text/vnd.tiddlywiki
+verb: Sleepig
+
+noun: {{!!noun}} number: {{!!number}} verb: {{!!verb}} phrase: {{!!phrase}}<br>

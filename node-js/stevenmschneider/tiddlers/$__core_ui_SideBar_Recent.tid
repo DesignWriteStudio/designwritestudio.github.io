@@ -1,0 +1,10 @@
+caption: {{$:/language/SideBar/Recent/Caption}}
+created: 20150716202227318
+creator: stevesunypoly
+modified: 20161028145745577
+modifier: stevesunypoly
+tags: $:/tags/MoreSideBar steveMod
+title: $:/core/ui/SideBar/Recent
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>

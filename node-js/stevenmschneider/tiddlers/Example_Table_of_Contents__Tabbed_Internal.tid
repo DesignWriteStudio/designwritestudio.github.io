@@ -1,0 +1,25 @@
+caption: Tabbed Internal
+created: 20150221203607000
+modified: 20161028145749833
+order: 5
+tags: table-of-contents-example
+title: Example Table of Contents: Tabbed Internal
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="TableOfContents"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>
+
+```
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="TableOfContents"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>
+```

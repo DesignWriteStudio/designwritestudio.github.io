@@ -1,0 +1,37 @@
+created: 20160921192713207
+modified: 20161012001046486
+tags: ViewsFromTheField [[User Documents]] [[Multi: platform, modality, media]] Dynamic [[Dynamic Documentation]]
+title: Designing for Mobile
+type: application/x-tiddler
+
+With the plethora of mobile devices and wearable technology available today, a an important trend in Technical Communication and software development is designing for mobile.
+
+Originally, I was going to share an article specifically on writing for mobile, but I found [[an article by Geoff Hart|http://techwhirl.com/optimizing-the-mobile-web-browsing-experience-through-responsive-design/]] that focuses on this topic as a multi-discipline endeavor.
+
+Here are some highlights from the article, It's a bit long, but it's a worthwhile read.
+
+<<<
+//As in any information design exercise, the key is to identify the most important factors for each audience… and prioritize that factor in your design.//
+<<<
+
+Audience analysis is critical. How can you design (or write) something without knowing who you are designing (or writing) for? What do they need from your deliverable? What are their criteria for a successful and pleasant user experience?
+
+<<<
+//A second part of your analysis involves determining and accounting for the different devices your audience uses to access your Web site.//
+<<<
+
+When I first learned HTML, one piece of advice given was to test the code on different browsers because each browser behaved differently. This advice applies today to mobile devices. How does your deliverable, whether a software app or user documentation, interact on a laptop, tablet, or smartphone (Android, iPhone, and Windows)? You need to test and revise as needed to ensure your deliverable provides a good user experience.
+
+<<<
+//...responsive design...emphasizes the designer’s duty to respond to the needs of the users, a point that too many designers forget.//
+<<<
+This is a good one! Not only must the writer and developer embrace responsive design from a physical design perspective (does the app work on screens of different sizes/resolutions? Does the documentation/help scale accordingly?), but from a philosophical perspective (am I developing the type of app or document I want or that my user wants?).
+
+Hart also the following disciplines and how they are critical to successful mobile design:
+
+* Information Design
+* Graphics Design
+* Technological Solutions
+* Human-centered Solutions
+
+The Information Design and Technology (IDT) graduate program at SUNY Polytechnic touches on all of these disciplines. 

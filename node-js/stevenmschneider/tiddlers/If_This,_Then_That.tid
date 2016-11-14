@@ -1,0 +1,13 @@
+created: 20160808145009229
+creator: stevesunypoly
+modified: 20161028145751497
+modifier: stevesunypoly
+title: If This, Then That
+type: text/vnd.tiddlywiki
+
+[[ifttt.com|http://ifttt.com]]
+
+>Recipes on IFTTT are the easy way to automate your world
+>Connect the apps and devices you love with “if this, then that” statements
+
+For example,// if someone tweets, save the contents and all the metadata for me in a google spreadsheet.//

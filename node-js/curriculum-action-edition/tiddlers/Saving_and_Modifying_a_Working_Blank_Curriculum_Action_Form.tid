@@ -1,0 +1,22 @@
+created: 20161027135713729
+modified: 20161027145502755
+tags: HelloThere
+title: Saving and Modifying a Working Blank Curriculum Action Form
+type: text/vnd.tiddlywiki
+
+# Firefox
+# TiddlyFox
+# Open a blank curriculum action
+# Save page as
+## Expect to see TiddlyFox ask to save. Say Yes
+# Test the ability to save
+## Click [[Sponsor's Name]]
+### Edit
+### Type name, replacing "{{Sponsor's Name!!text}}" with your own.
+### Save
+### Close
+### Reopen
+## Your name should be listed in the subtitle, replacing //Your Name Here//
+# Click on the little light arrows to the left of each of the sections, edit/ copy/ paste your text.
+# Click Home to see the form filled out
+# Export form to HTML

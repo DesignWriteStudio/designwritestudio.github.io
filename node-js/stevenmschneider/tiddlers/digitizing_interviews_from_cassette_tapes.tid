@@ -1,0 +1,23 @@
+created: 20150612171940179
+creator: stevesunypoly
+modified: 20161028145749196
+modifier: stevesunypoly
+tags: Thoughts
+title: digitizing interviews from cassette tapes
+type: text/vnd.tiddlywiki
+
+# connect iMic to tape player and to laptop
+# take picture of tape
+* Side A: RawFlickr1ID
+* Side B: RawFlickr2ID
+# put the tape in a tape player, on side A
+# Open QuickTimePlayer
+* File / New Audio Recording
+# Begin playback and recording
+* Click Record in QuickTimePlayer
+* Push Play on tape player
+# If recording only:
+** Wait 45 minutes? Watch for visual cues that sound is going in
+# If annotating:
+** Don't interrupt, but take notes based on elapsed times
+

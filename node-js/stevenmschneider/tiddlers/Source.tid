@@ -1,0 +1,8 @@
+created: 20150624202036934
+creator: stevesunypoly
+modified: 20161028145753877
+modifier: stevesunypoly
+title: Source
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Source]sort[title]]"/>

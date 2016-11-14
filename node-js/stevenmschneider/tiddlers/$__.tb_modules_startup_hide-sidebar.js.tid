@@ -1,0 +1,36 @@
+created: 20151007164106544
+creator: Tobias Beer
+modified: 20161028145743915
+module-type: startup
+tags: 
+title: $:/.tb/modules/startup/hide-sidebar.js
+type: application/javascript
+
+/*\
+$:/.tb/modules/startup/hide-sidebar.js
+type: application/javascript
+module-type: startup
+
+Hides the sidebar on startup when the config tiddler [[$:/config/hide-sidebar-on-startup]] contains "yes"
+
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+"use strict";
+
+// Export name and synchronous status
+exports.name = "hide-sidebar-on-startup";
+exports.platforms = ["browser"];
+exports.after = ["startup"];
+exports.synchronous = true;
+
+exports.startup = function() {
+	var conf = $tw.wiki.getTiddler("$:/config/HideSidebarOnStartup"),
+		value = (conf ? conf.getFieldString("text") : "").toLowerCase(),
+		state = value == "yes" ? "no" : "yes";
+	$tw.wiki.setText("$:/state/sidebar", "text", undefined, state);
+};
+
+})();

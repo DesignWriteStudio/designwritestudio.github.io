@@ -1,0 +1,18 @@
+created: 20150611174216595
+creator: stevesunypoly
+modified: 20161028145753612
+modifier: stevesunypoly
+source: http://tw5magick.tiddlyspot.com/
+tags: template
+title: slider
+type: text/vnd.tiddlywiki
+
+\define slider(label)
+<$button popup="$:/state/$label$" class="btn-invisible tw-slider">
+<$reveal type="match" text="" default="" state="$:/state/$label$">&#x229E;</$reveal><$reveal type="nomatch" text="" default="" state="$:/state/$label$">&#x229F;</$reveal> {{$label$||unwikified}}</$button>
+<$reveal type="nomatch" text="" default="" state="$:/state/$label$" animate="yes">
+<$transclude/>
+</$reveal>
+\end
+
+<$macrocall $name="slider" label={{!!title}}/>

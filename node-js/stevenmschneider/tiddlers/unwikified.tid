@@ -1,0 +1,10 @@
+created: 20150611174316081
+creator: stevesunypoly
+modified: 20161028145755134
+modifier: stevesunypoly
+source: http://tw5magick.tiddlyspot.com/
+tags: template
+title: unwikified
+type: text/vnd.tiddlywiki
+
+<$view field="title"/>

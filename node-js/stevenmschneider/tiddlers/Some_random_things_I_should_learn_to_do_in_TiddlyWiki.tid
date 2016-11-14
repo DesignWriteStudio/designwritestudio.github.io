@@ -1,0 +1,16 @@
+created: 20151124165401896
+creator: stevesunypoly
+modified: 20161028145753534
+modifier: stevesunypoly
+tags: Thoughts
+title: Some random things I should learn to do in TiddlyWiki
+type: text/vnd.tiddlywiki
+
+!! Someting like IF for Tiddlywiki
+https://github.com/inmysocks/TW5-TriggerActions
+
+
+!! Tracking a stream in tiddlywiki, using iframe
+Using iframe, this should be straightforward. In this case, NYDaily News stories tagged with "new-york-corruption".
+
+<iframe src="http://www.nydailynews.com/tags/new-york-corruption" width="100%" height="60px">

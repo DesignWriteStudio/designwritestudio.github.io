@@ -1,0 +1,189 @@
+[
+ {
+   "title": "AppleFruitRedLike",
+   "tags": "Object Fruit Red Like",
+   "text": "[img width='100'[RedApple.jpg]]",
+   "object": "Apple",
+   "kind": "Fruit",
+   "color": "Red",
+   "feelings": "Like",
+   "imgtiddler": "RedApple.jpg",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Redapple.jpg"
+ },
+ {
+   "title": "PhilliesTeamRedLike",
+   "tags": "Object Team Red Like",
+   "text": "[img width='100'[RedPhillies.png]]",
+   "object": "Phillies",
+   "kind": "Team",
+   "color": "Red",
+   "feelings": "Like",
+   "imgtiddler": "RedPhillies.png",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Philadelphia_Phillies_Insignia.svg/2000px-Philadelphia_Phillies_Insignia.svg.png"
+ },
+ {
+   "title": "GrapesFruitGreenLike",
+   "tags": "Object Fruit Green Like",
+   "text": "[img width='100'[GreenGrapes.JPG]]",
+   "object": "Grapes",
+   "kind": "Fruit",
+   "color": "Green",
+   "feelings": "Like",
+   "imgtiddler": "GreenGrapes.JPG",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Grapes_in_a_bowl.JPG"
+ },
+ {
+   "title": "EaglesTeamGreenLike",
+   "tags": "Object Team Green Like",
+   "text": "[img width='100'[GreenEagles.jpg]]",
+   "object": "Eagles",
+   "kind": "Team",
+   "color": "Green",
+   "feelings": "Like",
+   "imgtiddler": "GreenEagles.jpg",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/0f/DeSean_Jackson_at_Jacksonville_at_Philadelphia_2009-08-29.jpg"
+ },
+ {
+   "title": "StrawberryFruitRedDislike",
+   "tags": "Object Fruit Red Dislike",
+   "text": "[img width='100'[RedStrawberry.jpg]]",
+   "object": "Strawberry",
+   "kind": "Fruit",
+   "color": "Red",
+   "feelings": "Dislike",
+   "imgtiddler": "RedStrawberry.jpg",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/A_big_pappy_strawberry.jpg"
+ },
+ {
+   "title": "SoxTeamRedDislike",
+   "tags": "Object Team Red Dislike",
+   "text": "[img width='100'[RedSox.jpg]]",
+   "object": "Sox",
+   "kind": "Team",
+   "color": "Red",
+   "feelings": "Dislike",
+   "imgtiddler": "RedSox.jpg",
+   "originalImage": "https://c1.staticflickr.com/1/712/23827489785_5c962cd3e6_b.jpg"
+ },
+ {
+   "title": "KiwiFruitGreenDislike",
+   "tags": "Object Fruit Green Dislike",
+   "text": "[img width='100'[GreenKiwi.jpg]]",
+   "object": "Kiwi",
+   "kind": "Fruit",
+   "color": "Green",
+   "feelings": "Dislike",
+   "imgtiddler": "GreenKiwi.jpg",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kiwi1.1.jpg"
+ },
+ {
+   "title": "CelticsTeamGreenDislike",
+   "tags": "Object Team Green Dislike",
+   "text": "[img width='100'[GreenCeltics.png]]",
+   "object": "Celtics",
+   "kind": "Team",
+   "color": "Green",
+   "feelings": "Dislike",
+   "imgtiddler": "GreenCeltics.png",
+   "originalImage": "https://upload.wikimedia.org/wikipedia/commons/9/92/Celtics_cap.png"
+ },
+ {
+   "title": "Kind",
+   "tags": "Dimension",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Color",
+   "tags": "Dimension",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Feelings",
+   "tags": "Dimension",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Fruit",
+   "tags": "Kind SubD",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Team",
+   "tags": "Kind SubD",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Red",
+   "tags": "Color SubD",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Green",
+   "tags": "Color SubD",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Like",
+   "tags": "Feelings SubD",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ },
+ {
+   "title": "Dislike",
+   "tags": "Feelings SubD",
+   "text": " ",
+   "object": "",
+   "kind": "",
+   "color": "",
+   "feelings": "",
+   "imgtiddler": "",
+   "originalImage": ""
+ }
+]

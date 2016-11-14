@@ -1,0 +1,13 @@
+created: 20150606024724536
+creator: stevesuny
+homestate: TX
+modified: 20161028145749845
+modifier: stevesuny
+politicalparty: Republican
+priorposition: Governor
+tags: Presidents PartyRepublican StateTX PositionGovernor
+title: GeorgeWBush
+type: text/vnd.tiddlywiki
+
+{{!!title}} is from {{!!homestate}}, is a member of the {{!!politicalparty}} Party, and was a {{!!priorposition}}.
+

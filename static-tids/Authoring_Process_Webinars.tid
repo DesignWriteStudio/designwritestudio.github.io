@@ -1,0 +1,20 @@
+created: 20161010163001131
+modified: 20161011232905860
+tags: ViewsFromTheField
+title: Authoring Process Webinars
+
+! Introduction
+
+I recently watched two webinars on authoring processes. These webinars shared some things in common, such as promoting collaborative writing (the writer works with other writers, or other team members, and together they produce the content) in order to save time and money on their respective projects.
+
+They were also different from each other: one process was initially used for internal-facing process documentation intended for software engineers, whereas the other was a platform for developing and delivering end-user content in a cloud-based environment.
+
+Below is a summary of the webinars with links to both of them. Each webinar is about an hour long. I recommend watching at least the portions that discuss the authoring processes to get a feel for how today's technical writers try to develop quality content while facing tight deadlines and budgets, or the challenges of delivering dynamic, easy-to-update content to a cloud-based audience.
+
+! Google EngEDU: DocBuildIt
+
+{{Google EngEDU: DocBuildIt}}
+
+! CA Technologies: Agile Technical Content
+
+{{CA Technologies: Agile Technical Content}}

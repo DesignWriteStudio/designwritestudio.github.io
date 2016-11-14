@@ -1,0 +1,13 @@
+created: 20150707133144647
+creator: stevesunypoly
+modified: 20161028145751994
+modifier: stevesunypoly
+tags: 
+title: learning to transclude
+type: text/vnd.tiddlywiki
+
+so, I should be able to just type 
+
+{{reflective practice||slider}}
+
+and see it show up but i think I"d like to modify slider, and call is sliderbox, and reveal the text in a table.

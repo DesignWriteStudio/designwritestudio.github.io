@@ -1,0 +1,21 @@
+created: 20150702135120700
+creator: stevesunypoly
+modified: 20161028145754225
+modifier: stevesunypoly
+tags: GoatLinkage
+title: things-to-do-to-improve-GoatLinkage
+type: text/vnd.tiddlywiki
+
+It is clear to me that the code to be applied to all tiddlers in the set will be stored in a template file. 
+
+for goatNarrative we are using template GoatLinkage (until I rename it :).
+
+Here is what we are needing for both all templates as well as this template:
+
+* all templates
+** css styling for entire template
+** create better default system for documentation, like ``<<dox everything i put in here is written to the current tiddler field dox, and commented out of the current tiddler as viewed>>``
+* specific to this project:
+** can we use javascript to create a series of three pulldowns, with the values of each option set through code based on our attributes (using a series of filters?). 
+** use js autosubmit so that when a button value is selected it autosubmits and changes the field value as displayed on the tiddler (see [[Widgets Invoking Actions]]) -- might have to be radio buttons, which would be kinda sucky but ok if necessary)
+** generate a link to the tiddler as the "go" button. so, two clicks.

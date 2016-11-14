@@ -1,0 +1,33 @@
+.HYPE_element {  }
+.HYPE_scene { color: rgb(0, 0, 0); font-size: 16px; font-family: Helvetica,Arial,sans-serif; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; text-align: left; text-transform: none; text-indent: 0px; text-shadow: none; line-height: normal; letter-spacing: normal; white-space: normal; word-spacing: normal; vertical-align: baseline; border: medium none; background-color: transparent; background-image: none; backface-visibility: hidden; }
+.HYPE_scene div, .HYPE_scene span, .HYPE_scene applet, .HYPE_scene object, .HYPE_scene iframe, .HYPE_scene h1, .HYPE_scene h2, .HYPE_scene h3, .HYPE_scene h4, .HYPE_scene h5, .HYPE_scene h6, .HYPE_scene p, .HYPE_scene blockquote, .HYPE_scene pre, .HYPE_scene a, .HYPE_scene abbr, .HYPE_scene acronym, .HYPE_scene address, .HYPE_scene big, .HYPE_scene cite, .HYPE_scene code, .HYPE_scene del, .HYPE_scene dfn, .HYPE_scene em, .HYPE_scene img, .HYPE_scene ins, .HYPE_scene kbd, .HYPE_scene q, .HYPE_scene s, .HYPE_scene samp, .HYPE_scene small, .HYPE_scene strike, .HYPE_scene strong, .HYPE_scene sub, .HYPE_scene sup, .HYPE_scene tt, .HYPE_scene var, .HYPE_scene b, .HYPE_scene u, .HYPE_scene i, .HYPE_scene center, .HYPE_scene dl, .HYPE_scene dt, .HYPE_scene dd, .HYPE_scene ol, .HYPE_scene ul, .HYPE_scene li, .HYPE_scene fieldset, .HYPE_scene form, .HYPE_scene label, .HYPE_scene legend, .HYPE_scene table, .HYPE_scene caption, .HYPE_scene tbody, .HYPE_scene tfoot, .HYPE_scene thead, .HYPE_scene tr, .HYPE_scene th, .HYPE_scene td, .HYPE_scene article, .HYPE_scene aside, .HYPE_scene canvas, .HYPE_scene details, .HYPE_scene embed, .HYPE_scene figure, .HYPE_scene figcaption, .HYPE_scene footer, .HYPE_scene header, .HYPE_scene hgroup, .HYPE_scene menu, .HYPE_scene nav, .HYPE_scene output, .HYPE_scene ruby, .HYPE_scene section, .HYPE_scene summary, .HYPE_scene time, .HYPE_scene mark, .HYPE_scene audio, .HYPE_scene video { color: inherit; font-size: inherit; font-family: inherit; font-weight: inherit; font-style: inherit; font-variant: inherit; text-decoration: inherit; text-align: inherit; text-transform: inherit; text-indent: inherit; text-shadow: inherit; line-height: inherit; letter-spacing: inherit; white-space: inherit; word-spacing: inherit; vertical-align: inherit; border: medium none; background-color: transparent; background-image: none; padding: 0px; box-sizing: content-box; }
+.HYPE_scene div, .HYPE_scene layer { display: block; }
+.HYPE_scene q::before { content: open-quote; }
+.HYPE_scene q::after { content: close-quote; }
+* { padding: 0px; margin: 0px; background: transparent none repeat scroll 0% 0%; border: medium none; font-size: 0px; }
+.HYPE_scene { background: transparent none repeat scroll 0% 0% ! important; }
+.HYPE_element { cursor: default ! important; }
+.cursor_pointer { cursor: pointer ! important; }
+#BAP-holder span { bottom: 0px ! important; right: 0px ! important; left: auto ! important; top: 30px ! important; }
+.bap-trigger { margin-top: 0px ! important; top: 0px ! important; }
+.bap-notice { top: 25px ! important; height: 100px ! important; overflow: scroll ! important; }
+.bap-div { height: 100px ! important; overflow: scroll ! important; }
+.bap-blue, .bap-close, .bap-div, .bap-gradient, .bap-gray, .bap-img-container, .bap-notice, .bap-link-div { overflow: visible ! important; }
+.bap-blue, .bap-close, .bap-div, .bap-gradient, .bap-gray, .bap-img-container, .bap-notice, .bap-link-div { color: rgb(0, 0, 0); white-space: normal; word-wrap: normal; vertical-align: middle ! important; margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-family: Arial ! important; font-size: 100%; border-collapse: collapse; border-spacing: 0px; line-height: 13px; list-style: outside none none; letter-spacing: 0px ! important; text-align: left; overflow: visible ! important; }
+.bap-notice { background-color: rgb(255, 255, 255); padding: 2px; font-size: 16px; line-height: 13px; z-index: 9991; top: -100px; left: -100px; }
+.bap-close { width: 20px; color: rgb(112, 112, 112); font-size: 10px; font-weight: bold; margin-left: -22px; position: relative; top: 1px; left: 100%; cursor: pointer; }
+.bap-div { border: 1px solid rgb(171, 171, 171); }
+.bap-div p { float: none; padding: 0px; }
+.bap-gray, .bap-gray:visited { color: rgb(68, 68, 68); }
+.bap-link-div { height: 14px; color: rgb(43, 47, 152); border-top: 1px solid rgb(171, 171, 171); padding: 3px 10px 4px; text-decoration: none; font-size: 0.67em ! important; font-weight: bold; }
+.bap-link-div a, .bap-link-div span { text-decoration: none; font-size: inherit; font-weight: bold; }
+#BAP-holder img { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; max-width: 100%; box-shadow: 0px 0px ! important; background: transparent none repeat scroll 0% 0% ! important; }
+#BAP-holder { position: static ! important; }
+#BAP-holder .bap-trigger { z-index: 9990; }
+.bap-trigger { cursor: pointer; display: block; font-family: Arial; font-size: 8pt; white-space: nowrap; }
+.bap-trigger img { width: auto; height: auto; }
+.bap5 .bap-gray, .bap-gray:visited { font-size: 95%; }
+.bap5 .bap-link-div { background-color: rgb(220, 220, 220); font-size: 0.8em; padding: 3px 3px 4px 6px; }
+.bap5 { font-size: 12px; width: 190px; }
+.bap5 p { font-size: 0.8em; margin: 3px 6px 0px 5px; padding-bottom: 3px; line-height: 13px; }
+.bap5 .bap-close { left: 185px ! important; }
