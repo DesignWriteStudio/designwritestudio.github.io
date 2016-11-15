@@ -127,9 +127,13 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/macros/ximg/path</li>
+
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/Excise/--13489312/new-title</li>
 
 <li>$:/state/showeditpreview</li>
 
@@ -149,7 +153,11 @@ Error message and password prompt
 
 <li>githubPath</li>
 
+<li>globalImageMacro</li>
+
 <li>HelloThere</li>
+
+<li>New Tiddler</li>
 
 </ul>
 </p>
@@ -7819,22 +7827,29 @@ Error message and password prompt
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20161115200511582" modified="20161115201652942" tags="" title="$:/macros/ximg/path">
+<pre>.\images\
+</pre>
+</div>
 <div created="20160822134255388" modified="20161115190216328" title="$:/SiteSubtitle">
 <pre>https://designwritestudio.github.io/experimental/scrapbook-interface/scrabook-tiddlywiki.html</pre>
 </div>
 <div created="20160822134238803" modified="20160822134243353" title="$:/SiteTitle">
 <pre>sbk-tiddlywiki interface</pre>
 </div>
-<div created="20160822134419727" modified="20160822134419727" title="$:/state/showeditpreview">
+<div created="20161115200104931" modified="20161115200116531" title="$:/state/Excise/--13489312/new-title">
+<pre>sbkLocation</pre>
+</div>
+<div created="20160822134419727" modified="20161115200822943" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20160822150406290" modified="20161115190134668" title="$:/state/sidebar">
+<div created="20160822150406290" modified="20161115190514555" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20160822134316377" modified="20160822150319235" title="$:/state/tab/sidebar--1835078512">
+<div created="20160822134316377" modified="20161115190551232" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="$:/ControlPanel HelloThere" title="$:/StoryList">
+<div list="[[New Tiddler]] $:/macros/ximg/path globalImageMacro" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -7966,14 +7981,43 @@ Error message and password prompt
 <div created="20160822134639951" modified="20160822134702442" tags="" title="githubPath">
 <pre>https://designwritestudio.github.io/</pre>
 </div>
-<div created="20160822134328423" modified="20160822150329563" title="HelloThere">
-<pre>This is a link to a scrapbooked page.
+<div created="20161115200120587" modified="20161115201430450" tags="$:tags/Macro" title="globalImageMacro">
+<pre>\define imageAtPath(i, t, p, c, w)
+[img width=&quot;$w$&quot; class=&quot;$c$&quot; [$t$|$p$$i$]]
+\end
+
+\define ximg(image, tooltip:&quot;image&quot;, path:&quot;$:/macros/ximg/path&quot;, class, width)
+&lt;$macrocall $name=&quot;imageAtPath&quot; p={{$path$}} i=&quot;$image$&quot; t=&quot;$tooltip$&quot; c=&quot;ximg $class$&quot; w=&quot;$width$&quot;/&gt;
+\end</pre>
+</div>
+<div created="20160822134328423" modified="20161115194418974" title="HelloThere">
+<pre>This wiki outlines a process to reference scrapbooked pages in a tiddlywiki:
+
+!! Requirements:
+* [[Firefox Scrapbook Extension|https://addons.mozilla.org/en-US/firefox/addon/scrapbook/]]
+!! Setup
+* Establish default Scrapbook directory as part of a folder that is served on the web -- GitHubRepository, UpDogDropbox, or elsewhere
+* 
+!! Process
+* Scrapbook page as u 
+* /Users/steve/Documents/work/steve-tiddlywiki-github/designwritestudio.github.io/sbk
+
+
+[[Process]]This is a link to a scrapbooked page.
 
 The page itself is at 
 
 {{githubPath}}sbk/data/20160822093711/index.html
 
-&lt;a href=&quot;../sbk/data/20160822093711/index.html&quot; target=&quot;new&quot;&gt;Link&lt;/a&gt;</pre>
+&lt;a href=&quot;../sbk/data/20160822093711/index.html&quot; target=&quot;new&quot;&gt;Link&lt;/a&gt;
+
+
+* &lt;a href=&quot;https://designwritestudio.github.io/resources/sbk/data/20161006124524/index.html&quot; target=&quot;new&quot;&gt;Link&lt;/a&gt;
+
+</pre>
+</div>
+<div created="20161115200711134" modified="20161115201631309" tags="" title="New Tiddler">
+<pre>&lt;&lt;ximg &quot;tiger.jpeg&gt;&gt;</pre>
 </div>
 
 </div>
