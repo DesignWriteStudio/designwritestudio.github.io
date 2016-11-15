@@ -44,7 +44,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>sbk-tiddlywiki interface — https://designwritestudio.github.io/experimental/scrapbook-interface/scrabook-tiddlywiki.html</title>
+<title>sbk-tiddlywiki interface — https://designwritestudio.github.io/experimental/scrapbook-interface/scrapbook-tiddlywiki.html</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -7845,8 +7845,8 @@ Error message and password prompt
 <pre>https://designwritestudio.github.io/experimental/scrapbook-interface/images/
 </pre>
 </div>
-<div created="20160822134255388" modified="20161115190216328" title="$:/SiteSubtitle">
-<pre>https://designwritestudio.github.io/experimental/scrapbook-interface/scrabook-tiddlywiki.html</pre>
+<div created="20160822134255388" modified="20161115213339990" title="$:/SiteSubtitle">
+<pre>https://designwritestudio.github.io/experimental/scrapbook-interface/scrapbook-tiddlywiki.html</pre>
 </div>
 <div created="20160822134238803" modified="20160822134243353" title="$:/SiteTitle">
 <pre>sbk-tiddlywiki interface</pre>
@@ -7869,7 +7869,7 @@ Error message and password prompt
 <div created="20160822134316377" modified="20161115190551232" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="[[sbk macro]] [[sbk-hardcode-path macro]]" title="$:/StoryList">
+<div list="HelloThere" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20161115204956395" modified="20161115204956395" title="$:/temp/advancedsearch">
@@ -8016,7 +8016,7 @@ Error message and password prompt
 &lt;$macrocall $name=&quot;imageAtPath&quot; p={{$path$}} i=&quot;$image$&quot; t=&quot;$tooltip$&quot; c=&quot;ximg $class$&quot; w=&quot;$width$&quot;/&gt;
 \end</pre>
 </div>
-<div created="20160822134328423" modified="20161115204722461" title="HelloThere">
+<div created="20160822134328423" modified="20161115213635626" title="HelloThere">
 <pre>This wiki outlines a process to reference scrapbooked pages in a tiddlywiki:
 
 !! Requirements:
@@ -8025,22 +8025,13 @@ Error message and password prompt
 * Establish default Scrapbook directory as part of a folder that is served on the web -- GitHubRepository, UpDogDropbox, or elsewhere
 * 
 !! Process
-* Scrapbook page as u 
-* /Users/steve/Documents/work/steve-tiddlywiki-github/designwritestudio.github.io/sbk
+* Scrapbook page as usual
+* Invoke sbk macro
 
-
-[[Process]]This is a link to a scrapbooked page.
-
-The page itself is at 
-
-{{githubPath}}sbk/data/20160822093711/index.html
-
-&lt;a href=&quot;../sbk/data/20160822093711/index.html&quot; target=&quot;new&quot;&gt;Link&lt;/a&gt;
-
-
-* &lt;a href=&quot;https://designwritestudio.github.io/resources/sbk/data/20161006124524/index.html&quot; target=&quot;new&quot;&gt;Link&lt;/a&gt;
-
-</pre>
+!! Examples:
+* [[sbk-hardcode-path macro]]
+* [[sbk macro]]
+* [[Testing ximage]]</pre>
 </div>
 <div created="20161115205818019" modified="20161115212808719" tags="$:tags/Macro" title="sbk macro">
 <pre>\define sbk(linktext,timestamp)
