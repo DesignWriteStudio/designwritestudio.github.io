@@ -1,0 +1,14 @@
+caption: editiondescription
+created: 20150111145738451
+modified: 20150203184528000
+op-input: a [[selection|Title Selection]] of edition names
+op-output: the description string of each edition in the input
+op-parameter: none
+op-purpose: select the descriptions of the input editions
+tags: [[Filter Operators]] [[Special Operators]]
+title: editiondescription Operator
+type: text/vnd.tiddlywiki
+
+Each input title is processed in turn, ignoring any that is not the name of a ~TiddlyWiki edition.
+
+<<.node-only-operator>>

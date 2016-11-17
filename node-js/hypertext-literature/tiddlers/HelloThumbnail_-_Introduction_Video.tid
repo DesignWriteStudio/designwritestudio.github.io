@@ -1,0 +1,9 @@
+background-color: #fff
+caption: Introduction to ~TiddlyWiki
+color: red
+icon: {{$:/core/images/video}}
+image: Introduction Video Thumbnail.jpg
+link: Introduction Video
+tags: HelloThumbnail
+title: HelloThumbnail - Introduction Video
+

@@ -1,0 +1,9 @@
+caption: Four
+created: 20150221211420000
+modified: 20150221211613000
+order: 4
+tags: sampletab
+title: SampleTabFour
+tooltip: This tab specifies both a caption and a tooltip
+
+This is the fourth of our sample tabs.

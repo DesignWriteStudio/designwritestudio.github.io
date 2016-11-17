@@ -1,0 +1,14 @@
+caption: fields
+created: 20140924115616653
+modified: 20150203184828000
+op-input: a [[selection of titles|Title Selection]]
+op-output: all the field names contained in the input tiddlers
+op-parameter: none
+op-purpose: select all field names of the input titles
+tags: [[Filter Operators]] [[Field Operators]]
+title: fields Operator
+type: text/vnd.tiddlywiki
+
+Each input title is processed in turn. Its list of field names is retrieved (in no particular order) and then [[dominantly appended|Dominant Append]] to the operator's output.
+
+<<.operator-examples "fields">>

@@ -1,0 +1,12 @@
+caption: tv-wikilink-tooltip
+created: 20150228115540000
+modified: 20150228130451000
+tags: Variables [[Core Variables]] [[Configuration Variables]]
+title: tv-wikilink-tooltip Variable
+type: text/vnd.tiddlywiki
+
+The <<.def tv-wikilink-tooltip>> [[variable|Variables]] specifies the default value for the <<.attr tooltip>> attribute of the <<.wlink LinkWidget>> widget.
+
+It is often defined as a [[macro|Macros]], and its value parsed as inline WikiText.
+
+<<.variable-examples "tv-wikilink-tooltip">>

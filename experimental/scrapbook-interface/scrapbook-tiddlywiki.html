@@ -159,17 +159,19 @@ Error message and password prompt
 
 <li>a sbk link to a page</li>
 
+<li>Draft of 'HelloThere'</li>
+
 <li>githubPath</li>
 
 <li>globalImageMacro</li>
 
 <li>HelloThere</li>
 
-<li>sbk macro</li>
-
 <li>sbk-repo</li>
 
 <li>sbkpath</li>
+
+<li>scrapbook macro</li>
 
 <li>Testing ximage</li>
 
@@ -7869,7 +7871,7 @@ Error message and password prompt
 <div created="20160822134316377" modified="20161116164502717" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="HelloThere [[sbk macro]]" title="$:/StoryList">
+<div list="[[scrapbook macro]] [[Draft of 'HelloThere']]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20161115204956395" modified="20161115204956395" title="$:/temp/advancedsearch">
@@ -8004,6 +8006,35 @@ Error message and password prompt
 <div created="20160822150221512" modified="20160822150447534" tags="" title="a sbk link to a page">
 <pre>&lt;a href=&quot;../sbk/data/20160822093711/index.html&quot; target=&quot;new&quot;&gt;&lt;img src=&quot;..//images/20160822093711.png&quot;&gt;&lt;/a&gt;</pre>
 </div>
+<div created="20160822134328423" draft.of="HelloThere" draft.title="HelloThere" modified="20161117145006614" title="Draft of 'HelloThere'">
+<pre>This wiki outlines a process to reference scrapbooked pages stored in a web-accessible archive in a tiddlywiki, by passing the timestamp and text of the link via the ``&lt;&lt;sbk&gt;&gt;`` macro
+
+!! Requirements:
+* [[Firefox Scrapbook Extension|https://addons.mozilla.org/en-US/firefox/addon/scrapbook/]]
+!! Setup
+# In Scrapbook
+## Create Scrapbook directory as folder that is served on the web -- GitHubRepository, UpDogDropbox, or elsewhere. 
+## Example: {{sbk-repo}}
+# In wiki
+## Set [[sbk-repo]] text field to fully qualified directory of sbk-repo (include final slash)
+
+
+!! Process
+# Scrapbook page as usual
+# Get timestamp (from URL, or from properties)
+# Invoke sbk macro
+```
+&lt;&lt;sbk linktext timestamp&gt;&gt;
+&lt;&lt;sbk &quot;Still building the memex&quot; 20161006124512&gt;&gt;
+```
+!! Example
+&lt;&lt;sbk &quot;Still building the memex&quot; 20161006124512&gt;&gt;
+
+!! Future extensions
+# Capture source URL from scrapbook.rdf file and include link to current page on Web as well as archived page, plus add additional metadata (date archived, for example)
+# Associate screengrap of archived page as an image link by saving screengrap in timestamp.jpg in appropriate folder, and include image option in [[sbk macro]], and generate sbk-image link rather than text-based link
+</pre>
+</div>
 <div created="20160822134639951" modified="20160822134702442" tags="" title="githubPath">
 <pre>https://designwritestudio.github.io/</pre>
 </div>
@@ -8041,18 +8072,29 @@ Error message and password prompt
 &lt;&lt;sbk &quot;Still building the memex&quot; 20161006124512&gt;&gt;
 </pre>
 </div>
-<div created="20161116164638968" modified="20161116172216415" tags="$:/tags/Macro" title="sbk macro">
-<pre>\define sbk(linktext,timestamp)
-&lt;$set name=&quot;path&quot; value=&quot;https://designwritestudio.github.io/resources/sbk/data/$timestamp$/index.html&quot;&gt;
-&lt;a href=&lt;&lt;path&gt;&gt; target=&quot;_blank&quot;&gt;$linktext$&lt;/a&gt;
-&lt;/$set&gt;
-\end</pre>
-</div>
 <div created="20161116163245105" modified="20161116163347030" tags="" title="sbk-repo">
 <pre>https://designwritestudio.github.io/resources/sbk/data/</pre>
 </div>
 <div created="20161115204527916" modified="20161115204527917" tags="" title="sbkpath">
 <pre>https://designwritestudio.github.io/resources/sbk/data/</pre>
+</div>
+<div created="20161117144133639" modified="20161117144531459" tags="$:/tags/Macro" title="scrapbook macro">
+<pre>\define fullpath() $(base)$$(timestamp)$/index.html
+
+\define sbk(linktext,timestamp,path)
+&lt;$set name=&quot;base&quot; value={{sbk-repo}}&gt;
+&lt;$set name=timestamp value=&quot;&quot;&quot;$timestamp$&quot;&quot;&quot;&gt;
+&lt;$set name=&quot;path&quot; value=&lt;&lt;fullpath&gt;&gt;&gt;
+
+&lt;a href=&lt;&lt;path&gt;&gt; target=&quot;_blank&quot;&gt;$linktext$&lt;/a&gt;
+&lt;/$set&gt;
+&lt;/$set&gt;
+&lt;/$set&gt;
+
+\end
+
+&lt;$macrocall $name=&quot;sbk&quot; timestamp=&quot;20161006124512&quot; linktext=&quot;test sbk marcro&quot; 
+/&gt;</pre>
 </div>
 <div created="20161115200711134" modified="20161115205517652" tags="" title="Testing ximage">
 <pre>!! ximg macro

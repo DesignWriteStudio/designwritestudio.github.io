@@ -1,0 +1,14 @@
+caption: has
+created: 20140410103123179
+modified: 20150203191843000
+op-input: a [[selection of titles|Title Selection]]
+op-neg-output: those input tiddlers in which field <<.place F>> does <<.em not>> exist or has an empty value
+op-output: those input tiddlers in which field <<.place F>> has a non-empty value
+op-parameter: the name of a [[field|TiddlerFields]]
+op-parameter-name: F
+op-purpose: filter the input by field existence
+tags: [[Filter Operators]] [[Common Operators]] [[Field Operators]] [[Negatable Operators]]
+title: has Operator
+type: text/vnd.tiddlywiki
+
+<<.operator-examples "has">>

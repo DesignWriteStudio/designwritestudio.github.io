@@ -1,0 +1,15 @@
+caption: removeprefix
+created: 20140410103123179
+modified: 20150203190709000
+op-input: a [[selection of titles|Title Selection]]
+op-output: those input titles that start with <<.place S>>, but with those characters discarded
+op-parameter: a string of characters
+op-parameter-name: S
+op-purpose: filter the input titles by how they start, deleting that prefix
+tags: [[Filter Operators]] [[String Operators]]
+title: removeprefix Operator
+type: text/vnd.tiddlywiki
+
+<<.s-matching-is-case-sensitive>>
+
+<<.operator-examples "removeprefix">>

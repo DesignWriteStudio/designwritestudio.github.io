@@ -1,0 +1,12 @@
+created: 20130830084100000
+modified: 20130830084300000
+tags: Definitions
+title: TiddlyWeb
+
+TiddlyWeb is a server application that puts [[Tiddlers]] on the web:
+
+http://tiddlyweb.com/
+
+TiddlyWeb can be used to host TiddlyWiki and TiddlyWiki5 wikis, making the individual tiddlers available over a flexible HTTP API.
+
+TiddlyWeb was originally sponsored by [[Osmosoft]] at [[BT]] (along with TiddlySpace).

@@ -1,0 +1,11 @@
+caption: Selective
+created: 20150221201907000
+modified: 20150221203950000
+order: 4
+tags: table-of-contents-example
+title: Example Table of Contents: Selectively Expandable
+
+<$macrocall $name=".example" n="1"
+eg="""<div class="tc-table-of-contents">
+<<toc-selective-expandable "Contents">>
+</div>"""/>

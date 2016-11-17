@@ -1,0 +1,11 @@
+created: 20161018180936156
+modified: 20161018183634348
+tags: [[JabRef to TW]]
+title: Capture & Import
+
+# Capture bunch-o-references in JabRef Dbase via JabFox
+# Save JabRef Dbase
+# Open .bib file and edit out last line in .bib file
+# Drag edited .bib file onto TiddlyWiki file
+# Resave Dbase in JabRef (note complaints and accept changes?)
+# Import tiddlers

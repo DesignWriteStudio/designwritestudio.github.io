@@ -1,0 +1,9 @@
+created: 20161018182300701
+modified: 20161018183454683
+tags: [[JabRef to TW]]
+title: Concept
+
+* Use ~TiddlyWiki to handle references created using ~BibTex tools.
+* Use ~JabFox, via ~JabRef, to save references in bibtex format
+* Import .bib file into TW, with one tiddler per reference
+* Write macros to facilitate references and bibliographies

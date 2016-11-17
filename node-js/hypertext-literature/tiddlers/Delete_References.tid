@@ -1,0 +1,10 @@
+created: 20161017190118440
+modified: 20161018182708564
+tags: [[JabRef to TW]]
+title: Delete References
+
+There are <$count filter="[!field:bibtex-author[]]"/> bibliographic references.<br>
+<$button>
+<$action-deletetiddler $filter="[!field:bibtex-author[]]"/>
+Delete tiddlers with field:bibtex-author"
+</$button>

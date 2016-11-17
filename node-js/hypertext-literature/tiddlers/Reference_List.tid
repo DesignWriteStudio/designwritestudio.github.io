@@ -1,0 +1,9 @@
+created: 20161018175553133
+modified: 20161018180306893
+tags: 
+title: Reference List
+
+<$list filter="[!field:bibtex-author[]sort[bibtex-title]last[10]]">
+<$link to={{!!title}}>{{!!bibtex-title}}</$link><br><br>
+</$list>
+
