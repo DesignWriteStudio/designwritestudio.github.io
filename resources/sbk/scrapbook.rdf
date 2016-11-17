@@ -471,6 +471,14 @@
                    NS1:comment=""
                    NS1:source="https://www.jstor.org/stable/25655419?seq=1#page_scan_tab_contents"
                    NS1:icon="resource://scrapbook/data/20161004100227/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161117123549"
+                   NS1:id="20161117123549"
+                   NS1:type=""
+                   NS1:title="The New York Times - Breaking News, World News &amp; Multimedia"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://www.nytimes.com/"
+                   NS1:icon="resource://scrapbook/data/20161117123549/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124504"
                    NS1:id="20161006124504"
                    NS1:type=""
@@ -773,6 +781,7 @@
                    NS1:source="about:blank" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
     <RDF:li RDF:resource="urn:scrapbook:item20161116101636"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161117123549"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161012130155"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161026133252"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161006124425"/>

@@ -1,0 +1,63 @@
+@font-face {
+	font-family: "Proxima N W01 Reg";
+	src: url('64017d81-9430-4cba-8219-8f5cc28b923e.woff2') format("woff2");
+}
+@font-face {
+	font-family: "Proxima N W01 Smbd";
+	src: url('ae47a7f5-89da-4879-b934-29722c3dd451.woff2') format("woff2");
+}
+@font-face {
+	font-family: "Proxima N W01 Bold";
+	src: url('0d416408-95c6-4ad7-b08d-e60573d3b37d.woff2') format("woff2");
+}
+/* ::::: http://fast.fonts.net/t/1.css?apiType=js&projectid=4221a460-4ed2-4039-a07f-d1f4a2739cad ::::: */
+
+@font-face {
+	font-family: "Proxima N W01 Smbd";
+}
+@font-face {
+	font-family: "Proxima N W01 Reg";
+}
+@font-face {
+	font-family: "Proxima N W01 Bold";
+}
+#creative-wrapper { margin: 0px auto; font-family: "Proxima N W01 Reg",sans-serif; -moz-osx-font-smoothing: grayscale; }
+#flex-frame-wrapper { width: 100%; height: 270px; box-sizing: border-box; }
+.context-bullet { color: black; width: 100%; padding-left: 10px; height: 30px; display: table; }
+.context-bullet-content { font-family: "Proxima N W01 Smbd",sans-serif; font-size: 12px; vertical-align: middle; text-transform: uppercase; visibility: hidden; display: table-cell; }
+.context-bullet-content span { font-family: "Proxima N W01 Reg",sans-serif; font-size: 12px; }
+@media screen and (min-width: 1020px) {
+	#creative-wrapper { width: calc(100% - 15px); margin-left: 15px; }
+}
+@media screen and (min-width: 1200px) {
+	#creative-wrapper { width: calc(100% - 30px); margin-left: 30px; }
+}
+@media screen and (min-width: 1605px) {
+	#creative-wrapper { width: 100%; margin-left: 0px; }
+}
+@media screen and (max-width: 700px) {
+	#creative-wrapper { display: none; }
+}
+body { padding: 0px; margin: 0px; }
+@font-face {
+	font-family: "NYTFranklinBold";
+	src: url('nytfranklinbold.otf');
+}
+@font-face {
+	font-family: "NYTFranklinMedium";
+	src: url('nytfranklinmedium.otf');
+}
+#afp_1533_654685_wrapper { width: 100%; height: 270px; max-width: 1605px; min-width: 768px; position: relative; -moz-user-select: none; -moz-text-size-adjust: none; cursor: pointer; background-color: white; box-sizing: content-box; }
+#afp_1533_654685_inner { width: 100%; height: 268px; position: relative; border: 1px solid lightgray; overflow: hidden; }
+#afp_1533_654685_top { display: none; width: 100%; height: 22px; position: absolute; top: 0px; left: 0px; font-family: "NYTFranklinMedium"; padding-left: 10px; font-size: 15px; padding-top: 7.5px; border-bottom: 1px solid lightgray; }
+#afp_1533_654685_top span { font-family: "NYTFranklinBold"; }
+#afp_1533_654685_imageturkey { width: 900px; height: 270px; position: absolute; top: 0px; left: 0px; background-image: url('turkey-img.jpg'); background-repeat: no-repeat; background-position: center center; background-size: 100% auto; }
+#afp_1533_654685_copytext { width: 290px; height: 194px; position: absolute; top: 38px; left: 936px; }
+#afp_1533_654685_logo { width: 188px; height: 25px; position: absolute; bottom: 10px; right: 10px; background-image: url('supported-by.svg'); background-repeat: no-repeat; }
+#afp_1533_654685_imagetext { position: absolute; bottom: 10px; left: 10px; font-size: 10px; font-family: "NYTFranklinMedium"; color: white; }
+#afp_1533_654685_wrapper.afp_size_1440_768 {  }
+#afp_1533_654685_wrapper.afp_size_1440_768 #afp_1533_654685_imageturkey { width: 50%; background-size: cover; }
+#afp_1533_654685_wrapper.afp_size_1440_768 #afp_1533_654685_copytext { left: 50%; margin-left: 36px; }
+#afp_1533_654685_cooking { width: 290px; height: 72px; position: absolute; top: 0px; left: 0px; background-image: url('logo.png'); background-repeat: no-repeat; background-size: 100% auto; }
+#afp_1533_654685_signup { width: 66px; height: 23px; position: absolute; bottom: 13px; left: 0px; font-family: "NYTFranklinBold"; font-size: 13px; letter-spacing: 0.6px; color: rgb(227, 61, 38); border-radius: 5px; border: 1px solid rgb(227, 61, 38); padding-left: 17px; padding-top: 10px; }
+#afp_1533_654685_text { position: absolute; bottom: 67px; left: 0px; font-family: "NYTFranklinMedium"; font-size: 16px; letter-spacing: 0.25px; line-height: 23px; color: rgb(0, 0, 0); }
