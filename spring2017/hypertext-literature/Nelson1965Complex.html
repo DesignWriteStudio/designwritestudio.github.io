@@ -44,7 +44,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Nelson: Complex information processing — A File Structure for The Complex, The Changing and the Indeterminate</title>
+<title>••• — Nelson, 1965. Complex information processing: A File Structure for The Complex, The Changing and the Indeterminate</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -123,7 +123,11 @@ Error message and password prompt
 
 <li>$:/core</li>
 
+<li>$:/core/ui/TopLeftBar/menu</li>
+
 <li>$:/DefaultTiddlers</li>
+
+<li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
 
@@ -147,15 +151,23 @@ Error message and password prompt
 
 <li>$:/state/sidebar</li>
 
+<li>$:/state/tab--1498284803</li>
+
 <li>$:/state/tab/sidebar--1835078512</li>
 
 <li>$:/StoryList</li>
 
+<li>$:/temp/advancedsearch</li>
+
 <li>$:/temp/info-plugin</li>
+
+<li>$:/temp/search</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>AnnotatedQuotes</li>
 
 <li>Associative trails in Bush's memex</li>
 
@@ -173,11 +185,11 @@ Error message and password prompt
 
 <li>FullText</li>
 
+<li>HelloThere</li>
+
 <li>Initial description of Nelson's system to support the writing process</li>
 
 <li>Key ideas of the ELF system</li>
-
-<li>Key quotes from article</li>
 
 <li>The meaning of hyper</li>
 
@@ -7846,17 +7858,25 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20161118175617909" modified="20161118175625321" title="$:/DefaultTiddlers">
-<pre>[[Key quotes from article]]FullText</pre>
+<div created="20161121195315926" modified="20161121200856637" tags="$:/tags/TopLeftBar" title="$:/core/ui/TopLeftBar/menu">
+<pre>FullText || AnnotatedQuotes</pre>
+</div>
+<div created="20161118175617909" modified="20161121194037498" title="$:/DefaultTiddlers">
+<pre>HelloThere</pre>
+</div>
+<div status="complete" title="$:/Import">
+<pre>The following tiddlers were imported:
+
+# [[$:/core/ui/TopBar/menu]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20161118015850122" modified="20161118015906328" title="$:/SiteSubtitle">
-<pre>A File Structure for The Complex, The Changing and the Indeterminate</pre>
+<div created="20161118015850122" modified="20161121194119848" title="$:/SiteSubtitle">
+<pre>Nelson, 1965. Complex information processing: A File Structure for The Complex, The Changing and the Indeterminate</pre>
 </div>
-<div created="20161118015831130" modified="20161118015844613" title="$:/SiteTitle">
-<pre>Nelson: Complex information processing</pre>
+<div created="20161118015831130" modified="20161121194143452" title="$:/SiteTitle">
+<pre>•••</pre>
 </div>
 <div created="20161118180610206" modified="20161118180843277" title="$:/state/Excise/--13489312/new-title">
 <pre>excide-test-1</pre>
@@ -7876,17 +7896,23 @@ Error message and password prompt
 <div created="20161118182308809" modified="20161118182621294" title="$:/state/reveal1">
 <pre>hide</pre>
 </div>
-<div created="20161117211317066" modified="20161117211317066" title="$:/state/showeditpreview">
+<div created="20161117211317066" modified="20161121200655491" title="$:/state/showeditpreview">
+<pre>no</pre>
+</div>
+<div created="20161117211524303" modified="20161121195413052" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20161117211524303" modified="20161118025848687" title="$:/state/sidebar">
-<pre>yes</pre>
+<div created="20161121194206685" modified="20161121194820850" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20161118013656849" modified="20161118175729892" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="[[Key quotes from article]] FullText" title="$:/StoryList">
+<div list="$:/AdvancedSearch $:/core/ui/TopLeftBar/menu HelloThere FullText" title="$:/StoryList">
 <pre></pre>
+</div>
+<div created="20161121194204568" modified="20161121200840407" title="$:/temp/advancedsearch">
+<pre>TopLeft</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -7901,6 +7927,9 @@ Error message and password prompt
         }
     }
 }</pre>
+</div>
+<div created="20161121194201229" modified="20161121200840408" title="$:/temp/search">
+<pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.13">
 <pre>{
@@ -8011,6 +8040,17 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20161118020042497" modified="20161121194022587" tags="" title="AnnotatedQuotes">
+<pre>&lt;$list filter=&quot;[tag[FullText]]&quot;&gt;
+&lt;h3&gt;
+&lt;$link to={{!!title}}&gt;=&gt;&lt;/$link&gt;
+&lt;$transclude field=&quot;caption&quot;&gt;
+&lt;$view field=&quot;title&quot;/&gt;
+&lt;/$transclude&gt;
+&lt;/h3&gt;
+&lt;$transclude field=&quot;text&quot; mode=&quot;block&quot;/&gt;
+&lt;/$list&gt;</pre>
+</div>
 <div caption="Nelson focuses here on Bush's ideas of &quot;associative trails&quot;, with an extended quote of how the author/user would create, and then view, such an associative trail" created="20161118013941359" modified="20161118022040486" tags="FullText" title="Associative trails in Bush's memex">
 <pre>Bush stressed his file's ability to store related
 materials in associative trails, lists or chains of documents joined
@@ -8063,8 +8103,11 @@ then be manipulated through automatic handling of index numbers</pre>
 
 &gt;This is the quote that I also want to include in the excision</pre>
 </div>
-<div created="20161117211207816" modified="20161118025351699" title="FullText">
-<pre>T. H. Nelson Vassar College, Poughkeepsie,N.Y.
+<div created="20161117211207816" modified="20161121200819126" title="FullText">
+<pre>Text used to generate [[AnnotatedQuotes]]
+
+
+T. H. Nelson Vassar College, Poughkeepsie,N.Y.
 
 [[Online|http://dl.acm.org/citation.cfm?id=806036]]
 
@@ -8184,7 +8227,7 @@ arrangements, &lt;$transclude tiddler=&quot;Associative trails in Bush's memex&q
 
 &gt;Thus he goes, building a trail of many items.  Occasionally he inserts a comment of his own, either linking it into the main trail or joining it by a side trail to a particular item  (107)
 
-Two decades later, this machine is still unavailable*.
+Two decades later, this machine is still unavailable``*``.
 
 The hardware is ready.  Standard computers can handle huge bodies o f
 written information, storing them on magnetic recording media and
@@ -8427,7 +8470,7 @@ may be a category, trail, index, dialogue, catalogue or poem, and
 lists may be assembled into larger structures. The ELF may be thought
 of as a place; not a machine, but a piece of stationery or office
 equipment with many little locations which may be rearranged with
-regard to one another****.
+regard to one another``****``.
 
 Note that zippered lists generate only one of various possible
 Evolutionary List Files. Indeed, the description of the file structure
@@ -8773,7 +8816,7 @@ enjoyment, that will let the reader find his level, suit his taste s
 and find the parts that take on special meaning for him, as
 instruction or entertainment.
 
-Let me introduce the word &quot;hypertext&quot;***~ to mean a body of written or
+Let me introduce the word &quot;hypertext&quot;``***`` to mean a body of written or
 pictorial material interconnected in such a complex way that it could
 not conveniently be presented or represented on paper. It may contain
 sunmmries, or maps of its contents and their interrelations; it may
@@ -8781,7 +8824,7 @@ contain annotations, additions and footnotes from scholars who have
 examined it. Let me suggest that such an object and system, properly
 designed and administered, could have great potential for education,
 increasing the student's range of choices, his sense of freedom, his
-motivation, and his intellectual grasp***~*.  Such a system could grow
+motivation, and his intellectual grasp``****``.  Such a system could grow
 indefinitely, gradually including more and more of the ~ r l d ' s
 written knowledge. However, its internal file structure would have to
 be built to accept growth, change and complex informational
@@ -8792,8 +8835,8 @@ basically for mechanical reasons. But theses, too, can now be arranged
 as non-linear systems-- for instance, lattices-- for editing purposes,
 or for display with different emphasis.  (This would naturally require
 computer control, using the ELF or a related system, and various
-cartridge or re-recording devices.) The hyperfilm-a browsable or
-vari-sequenced movie-- is only one of the p~ssible hypermedia that
+cartridge or re-recording devices.) The hyperfilm -- a browsable or
+vari-sequenced movie --  is only one of the possible hypermedia that
 require our attention.
 
 So much for what we can create afresh with this structure.  What about
@@ -8815,7 +8858,7 @@ social sciences, for instance, the topic headings of the
 nineteen-thirties now sound quaint.
 
 While the disappearance and up-ending of categories and subjects may
-be erratic,, it never stops; and the meaning of this for information
+be erratic, it never stops; and the meaning of this for information
 retrieval should be clear. Last week's categories, perhaps last
 night's field, may be gone today. To the extent that information
 retrieval is concerned with seeking true or ideal or permanent codes
@@ -8867,7 +8910,7 @@ regardless of sequence or additions; the re-configurable character of
 a list complex into any humanly conceivable forms; and the ability to
 make copies of a whole list, or list complex-- in proliferation, at
 will-- to record its sequence, contents or arrangement at a
-glvenmoment.  The Evolutionary List File is a member of the class of
+glven moment.  The Evolutionary List File is a member of the class of
 evolutionary file structures; and its particular advantages are
 thought to be psychological, not technical. Despite this file's
 adaptability to complex purposes, it has the advantage of being
@@ -8876,7 +8919,7 @@ unified as a concept. This is its psychological virtue. Its use can be
 easily taught to people who do not understand computers. We can use it
 to try out combinations that interest us, to make alternatives clear
 in their details and relationships, to keep track of developments as
-they occur, to sketcW things we know, like or currently require; and
+they occur, to sketch things we know, like or currently require; and
 it will stand by for modifications.  It can be extended for all sorts
 of purposes, and implemented or incorporated in any programming
 language.
@@ -8886,31 +8929,39 @@ useful in aiding creative thought. This one operates, as it were, on
 lists that hook together sideways, and their copies. There may be many
 more.
 
-* The Bush Rapid Selector2 is a powerful microfilm instrument, but it
+``*`` The Bush Rapid Selector2 is a powerful microfilm instrument, but it
   is not suited to idiosyncratic personal uses, nor to evolutionary
   modification, as described.
 
-** It is believed that this account is reasonably correct for such
+``**`` It is believed that this account is reasonably correct for such
  writers as Tolstoy, Winston Churchill and Katherine Anne
  Porter. Those who can adhere to a prior outline faithfully, like
  James Fenimore Cooper, tend to be either hacks or prodigres, and do
  not need this system.
 
-*** For a poignant, mordant portrayal of the writer's struggle, the
+``***`` For a poignant, mordant portrayal of the writer's struggle, the
 reader is directed to Gorey's &quot;The Unstrung Harp&quot;, or &quot;Mr Earbass
 Writes a Novel&quot;.
 
-**** An ELF might even be consstructed out of cards, blocks, sticks
+``****`` An ELF might even be consstructed out of cards, blocks, sticks
      and strings, using techniques of puppetry, but this would not be
      a convenient object.
 
-***** The sense of &quot;hyper-&quot; used here connotes extension and
+``*****`` The sense of &quot;hyper-&quot; used here connotes extension and
 generality; cf. &quot;hyperspace.&quot; The criterion for this prefix is the in
 ability of these objects to be comprised sensibly into linear media,
 like the text string, or even media of some what higher
 complexity. The ELF is a hyperfile.
 
+(Citations ommitted; see [[links|HelloThere]] for bibliography)
 </pre>
+</div>
+<div created="20161121193629002" modified="20161121200209239" tags="" title="HelloThere">
+<pre>This wiki provides [[text|FullText]] and [[analysis|AnnotatedQuotes]] of the following article:
+
+Nelson, T.H. Complex information processing: a file structure for the complex, the changing and the indeterminate. Proceedings of the 1965 20th National Conference. ACM '65. Pages 84-100. URL: http://dl.acm.org/citation.cfm?id=806036. 
+
+[[Links to online versions of the article|https://scholar.google.com/scholar?cluster=11124850739612449163&amp;hl=en&amp;as_sdt=0,5]]</pre>
 </div>
 <div created="20161118023538817" modified="20161118023538817" tags="FullText" title="Initial description of Nelson's system to support the writing process">
 <pre>It would
@@ -8934,17 +8985,6 @@ a list complex into any humanly conceivable forms; and the ability to
 make copies of a whole list, or list complex-- in proliferation, at
 will-- to record its sequence, contents or arrangement at a
 glven moment.</pre>
-</div>
-<div created="20161118020042497" modified="20161118182640580" tags="" title="Key quotes from article">
-<pre>&lt;$list filter=&quot;[tag[FullText]]&quot;&gt;
-&lt;h3&gt;
-&lt;$link to={{!!title}}&gt;=&gt;&lt;/$link&gt;
-&lt;$transclude field=&quot;caption&quot;&gt;
-&lt;$view field=&quot;title&quot;/&gt;
-&lt;/$transclude&gt;
-&lt;/h3&gt;
-&lt;$transclude field=&quot;text&quot; mode=&quot;block&quot;/&gt;
-&lt;/$list&gt;</pre>
 </div>
 <div caption="Nelson clearly notes that his use of the prefix hyper comes from the idea of hyperspace, which implies multiple dimensions (especially, circa 1965)" created="20161118013112627" modified="20161118021840311" tags="FullText" title="The meaning of hyper">
 <pre>The sense of &quot;hyper-&quot; used here connotes extension and generality; cf. &quot;hyperspace.&quot; The criterion for this prefix is the inability of these objects to be comprised sensibly into linear media, like the text string, or even media of some what higher complexity.</pre>
