@@ -44,7 +44,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Paul Bley QuickDemo — </title>
+<title>Paul Bley Quick Demo — </title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -161,8 +161,6 @@ Error message and password prompt
 
 <li>$:/_ExcelImporter/ImportSpecifiers/Workbook</li>
 
-<li>$:/_ExcelImporter/ImportSpecifiers/Workbook 1</li>
-
 <li>$:/_importspec/Presidents and Justices/Justices</li>
 
 <li>$:/_importspec/Presidents and Justices/Justices/Main</li>
@@ -205,13 +203,27 @@ Error message and password prompt
 
 <li>$:/_Menu/Home/Configuration/Options</li>
 
+<li>$:/.tb/modules/startup/hide-sidebar.js</li>
+
+<li>$:/config/AnimationDuration</li>
+
+<li>$:/config/HideSidebarOnStartup</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview</li>
 
 <li>$:/config/plugins/tiddlywiki/xlsx-utils/default-import-spec</li>
 
 <li>$:/core</li>
+
+<li>$:/core/ui/TopBar/menu</li>
 
 <li>$:/core/ui/ViewTemplate/subtitle</li>
 
@@ -224,6 +236,8 @@ Error message and password prompt
 <li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
+
+<li>$:/palette</li>
 
 <li>$:/plugins/tiddlywiki/jszip</li>
 
@@ -1982,9 +1996,6 @@ Error message and password prompt
 <div caption="paul-bley-discography" created="20161121204123522" import-spec-role="workbook" list="[[$:/_ExcelImporter/ImportSpecifiers/Sheet 2]] $:/_ExcelImporter/ImportSpecifiers/Sheet [[$:/_ExcelImporter/ImportSpecifiers/Sheet 1]]" modified="20161121204520948" title="$:/_ExcelImporter/ImportSpecifiers/Workbook">
 <pre></pre>
 </div>
-<div caption="New workbook" created="20161121230832212" import-spec-role="workbook" modified="20161121230832212" title="$:/_ExcelImporter/ImportSpecifiers/Workbook 1">
-<pre></pre>
-</div>
 <div created="20161021164943746" import-sheet-name="Justices" import-spec-role="sheet" list="[[$:/_importspec/Presidents and Justices/Justices/Main]]" modified="20161021165827475" tags="" title="$:/_importspec/Presidents and Justices/Justices" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
@@ -2057,11 +2068,59 @@ Error message and password prompt
 
 [img width=&quot;10px&quot;[$:/_Icon/code-elements]] &lt;small&gt;''Tab source:'' [[$:/_Menu/Home/Configuration/Options]]&lt;/small&gt;</pre>
 </div>
-<div created="20161121232245907" modified="20161121232245907" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
-<pre>show</pre>
+<div bag="default" created="20151010151732122" creator="Tobias Beer" modified="20151010151750739" module-type="startup" revision="0" title="$:/.tb/modules/startup/hide-sidebar.js" type="application/javascript">
+<pre>/*\
+title: $:/.tb/modules/startup/hide-sidebar.js
+type: application/javascript
+module-type: startup
+created: 20151010151732122
+creator: Tobias Beer
+modified: 20151010151750739
+
+Hides the sidebar on startup when the config tiddler [[$:/config/hide-sidebar-on-startup]] contains &quot;yes&quot;
+
+\*/
+(function(){
+
+/*jslint node: true, browser: true */
+/*global $tw: false */
+&quot;use strict&quot;;
+
+// Export name and synchronous status
+exports.name = &quot;hide-sidebar-on-startup&quot;;
+exports.platforms = [&quot;browser&quot;];
+exports.after = [&quot;startup&quot;];
+exports.synchronous = true;
+
+exports.startup = function() {
+	var conf = $tw.wiki.getTiddler(&quot;$:/config/HideSidebarOnStartup&quot;),
+		value = (conf ? conf.getFieldString(&quot;text&quot;) : &quot;&quot;).toLowerCase(),
+		state = value == &quot;yes&quot; ? &quot;no&quot; : &quot;yes&quot;;
+	$tw.wiki.setText(&quot;$:/state/sidebar&quot;, &quot;text&quot;, undefined, state);
+};
+
+})();</pre>
 </div>
-<div created="20161121233339969" modified="20161121233339969" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
-<pre>show</pre>
+<div created="20161122013036098" modified="20161122013036098" title="$:/config/AnimationDuration">
+<pre>0</pre>
+</div>
+<div bag="default" created="20151007165524815" creator="Tobias Beer" modified="20161122011425884" revision="0" tags="" title="$:/config/HideSidebarOnStartup" type="text/vnd.tiddlywiki">
+<pre>yes</pre>
+</div>
+<div created="20161122012934027" modified="20161122012934027" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>hide</pre>
+</div>
+<div created="20161121232245907" modified="20161122012946862" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>hide</pre>
+</div>
+<div created="20161122012932242" modified="20161122012932242" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>hide</pre>
+</div>
+<div created="20161122012938422" modified="20161122012938422" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
+<pre>hide</pre>
+</div>
+<div created="20161121233339969" modified="20161122012951126" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
+<pre>hide</pre>
 </div>
 <div created="20161021164330811" modified="20161121205117468" title="$:/config/plugins/tiddlywiki/xlsx-utils/default-import-spec" type="text/vnd.tiddlywiki">
 <pre>$:/_ExcelImporter/ImportSpecifiers/Workbook</pre>
@@ -9825,6 +9884,19 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20151211191941338" creator="stevesunypoly" modified="20161122012900557" modifier="stevesunypoly" tags="$:/tags/TopRightBar MenuBars" title="$:/core/ui/TopBar/menu">
+<pre>&lt;div style=&quot;background:white;&quot;&gt;
+[[Albums]] || [[Songs]] || [[Years]] || 
+{{$:/core/ui/Buttons/home}}
+{{$:/core/ui/Buttons/close-all}}
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;nomatch&quot; text=&quot;no&quot;&gt;
+&lt;$button set=&quot;$:/state/sidebar&quot; setTo=&quot;no&quot; tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class=&quot;tc-btn-invisible&quot;&gt;{{$:/core/images/chevron-right}}&lt;/$button&gt;
+&lt;/$reveal&gt;
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;match&quot; text=&quot;no&quot;&gt;
+&lt;$button set=&quot;$:/state/sidebar&quot; setTo=&quot;yes&quot; tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class=&quot;tc-btn-invisible&quot;&gt;{{$:/core/images/chevron-left}}&lt;/$button&gt;
+&lt;/$reveal&gt;
+</pre>
+</div>
 <div created="20161121232755374" modified="20161121232755374" tags="" title="$:/core/ui/ViewTemplate/subtitle">
 <pre>&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
 &lt;div class=&quot;tc-subtitle&quot;&gt;
@@ -9840,7 +9912,7 @@ Error message and password prompt
 &lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;$list filter=&quot;[all[current]tags[]sort[title]]&quot; template=&quot;$:/core/ui/TagTemplate&quot; storyview=&quot;pop&quot;/&gt;&lt;/div&gt;
 &lt;/$reveal&gt;</pre>
 </div>
-<div created="20161121232754240" modified="20161121234236191" tags="" title="$:/core/ui/ViewTemplate/title">
+<div created="20161121232754240" modified="20161122014120999" tags="" title="$:/core/ui/ViewTemplate/title">
 <pre>\define title-styles()
 fill:$(foregroundColor)$;
 \end
@@ -9886,801 +9958,14 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[1953]]
-# [[1954]]
-# [[1955]]
-# [[1956]]
-# [[1957]]
-# [[1958]]
-# [[1959]]
-# [[1960]]
-# [[1961]]
-# [[1962]]
-# [[1963]]
-# [[1964]]
-# [[1965]]
-# [[1966]]
-# [[1967]]
-# [[1968]]
-# [[1969]]
-# [[1970]]
-# [[1971]]
-# [[1972]]
-# [[1973]]
-# [[1974]]
-# [[1975]]
-# [[1976]]
-# [[1977]]
-# [[1978]]
-# [[1979]]
-# [[1980]]
-# [[1981]]
-# [[1982]]
-# [[1983]]
-# [[1984]]
-# [[1985]]
-# [[1986]]
-# [[1987]]
-# [[1988]]
-# [[1989]]
-# [[1990]]
-# [[1991]]
-# [[1992]]
-# [[1993]]
-# [[1994]]
-# [[1995]]
-# [[1996]]
-# [[1997]]
-# [[1998]]
-# [[1999]]
-# [[2000]]
-# [[2001]]
-# [[2002]]
-# [[2003]]
-# [[2004]]
-# [[2005]]
-# [[2006]]
-# [[2007]]
-# [[2008]]
-# [[Free+america-30-am-6120]]
-# [[I Remember Harlem+america-30-am-6120]]
-# [[Klactoveesedstene+america-30-am-6120]]
-# [[The Blessing+america-30-am-6120]]
-# [[Improvisie+america-30-am-6121]]
-# [[Touching+america-30-am-6121]]
-# [[Closer+arista-freedom-al-1901]]
-# [[Albert's Love Theme+byg-529-313]]
-# [[Both+byg-529-313]]
-# [[Ida Lupino+byg-529-313]]
-# [[Mazatlan (as Mazatalon)+byg-529-313]]
-# [[Ramblin'+byg-529-313]]
-# [[Touching+byg-529-313]]
-# [[Both+debut-deb-147]]
-# [[Cartoon+debut-deb-147]]
-# [[Mazatlan (as Mazatalan)+debut-deb-147]]
-# [[Pablo+debut-deb-147]]
-# [[Start+debut-deb-147]]
-# [[Touching+debut-deb-147]]
-# [[Santa Claus Is Coming To Town+debut-deb-198]]
-# [[Albert's Love Theme+ecm-ecm-1003]]
-# [[Big Foot+ecm-ecm-1003]]
-# [[Blues+ecm-ecm-1003]]
-# [[Gary+ecm-ecm-1003]]
-# [[Getting Started+ecm-ecm-1003]]
-# [[Long Ago And Far Away+ecm-ecm-1003]]
-# [[Moor+ecm-ecm-1003]]
-# [[When Will The Blues Leave+ecm-ecm-1003]]
-# [[Circles+ecm-ecm-1010]]
-# [[Ending+ecm-ecm-1010]]
-# [[So Hard It Hurts+ecm-ecm-1010]]
-# [[Closer+ecm-ecm-1023]]
-# [[Harlem+ecm-ecm-1023]]
-# [[Ida Lupino+ecm-ecm-1023]]
-# [[Nothing Ever Was, Anyway+ecm-ecm-1023]]
-# [[Open, To Love+ecm-ecm-1023]]
-# [[Seven+ecm-ecm-1023]]
-# [[Started+ecm-ecm-1023]]
-# [[Closer+ecm-ecm-1320]]
-# [[For The Love Of Sarah+ecm-ecm-1320]]
-# [[Hand Dance+ecm-ecm-1320]]
-# [[Line Down+ecm-ecm-1320]]
-# [[Memories+ecm-ecm-1320]]
-# [[Monica Jane+ecm-ecm-1320]]
-# [[Nothing Ever Was, Anyway+ecm-ecm-1320]]
-# [[Once Around The Park+ecm-ecm-1320]]
-# [[Seven+ecm-ecm-1320]]
-# [[After Dark+ecm-ecm-1365]]
-# [[Heat+ecm-ecm-1365]]
-# [[Interplay+ecm-ecm-1365]]
-# [[One In Four+ecm-ecm-1365]]
-# [[Triste+ecm-ecm-1365]]
-# [[Afterthoughts+ecm-ecm-1488]]
-# [[Alignment+ecm-ecm-1488]]
-# [[Article Four+ecm-ecm-1488]]
-# [[Fair Share+ecm-ecm-1488]]
-# [[Interface+ecm-ecm-1488]]
-# [[Married Alive+ecm-ecm-1488]]
-# [[Note Police+ecm-ecm-1488]]
-# [[Portrait Of A Silence+ecm-ecm-1488]]
-# [[Soft Touch+ecm-ecm-1488]]
-# [[Spe-Cu-Lay-Ting+ecm-ecm-1488]]
-# [[Speak Easy+ecm-ecm-1488]]
-# [[Tomorrow Today+ecm-ecm-1488]]
-# [[Above The Tree Line+ecm-ecm-1537]]
-# [[Burlesque+ecm-ecm-1537]]
-# [[Clawback+ecm-ecm-1537]]
-# [[Instance+ecm-ecm-1537]]
-# [[Marsh Tides+ecm-ecm-1537]]
-# [[No Questions+ecm-ecm-1537]]
-# [[Poetic Justice+ecm-ecm-1537]]
-# [[Sprung+ecm-ecm-1537]]
-# [[Time Will Tell+ecm-ecm-1537]]
-# [[Vine Laces+ecm-ecm-1537]]
-# [[You Will, Oscar, You Will+ecm-ecm-1537]]
-# [[Variation 1+ecm-ecm-1609]]
-# [[Variation 10+ecm-ecm-1609]]
-# [[Variation 11+ecm-ecm-1609]]
-# [[Variation 12+ecm-ecm-1609]]
-# [[Variation 2+ecm-ecm-1609]]
-# [[Variation 3+ecm-ecm-1609]]
-# [[Variation 4+ecm-ecm-1609]]
-# [[Variation 5+ecm-ecm-1609]]
-# [[Variation 6+ecm-ecm-1609]]
-# [[Variation 7+ecm-ecm-1609]]
-# [[Variation 8+ecm-ecm-1609]]
-# [[Variation 9+ecm-ecm-1609]]
-# [[Dialogue Amour+ecm-ecm-1670]]
-# [[Don't You Know+ecm-ecm-1670]]
-# [[Entelechy+ecm-ecm-1670]]
-# [[Fig Foot+ecm-ecm-1670]]
-# [[Intente+ecm-ecm-1670]]
-# [[Noosphere+ecm-ecm-1670]]
-# [[Not Zero: In One Part+ecm-ecm-1670]]
-# [[Not Zero: In Three Parts+ecm-ecm-1670]]
-# [[Now+ecm-ecm-1670]]
-# [[Set Up Set+ecm-ecm-1670]]
-# [[Vocal Tracked+ecm-ecm-1670]]
-# [[Mondsee Variations: I+ecm-ecm-1786]]
-# [[Mondsee Variations: II+ecm-ecm-1786]]
-# [[Mondsee Variations: III+ecm-ecm-1786]]
-# [[Mondsee Variations: IV+ecm-ecm-1786]]
-# [[Mondsee Variations: IX+ecm-ecm-1786]]
-# [[Mondsee Variations: V+ecm-ecm-1786]]
-# [[Mondsee Variations: VI+ecm-ecm-1786]]
-# [[Mondsee Variations: VII+ecm-ecm-1786]]
-# [[Mondsee Variations: VIII+ecm-ecm-1786]]
-# [[Mondsee Variations: X+ecm-ecm-1786]]
-# [[Far North+ecm-ecm-2373]]
-# [[Flame+ecm-ecm-2373]]
-# [[Longer+ecm-ecm-2373]]
-# [[Pent-Up House+ecm-ecm-2373]]
-# [[Way Down South Suite+ecm-ecm-2373]]
-# [[Seven II+ecm-pa-9601]]
-# [[And Now The Queen+esp-disk-esp-1008]]
-# [[Around Again+esp-disk-esp-1008]]
-# [[Barrage+esp-disk-esp-1008]]
-# [[Batterie+esp-disk-esp-1008]]
-# [[Ictus+esp-disk-esp-1008]]
-# [[Walking Woman+esp-disk-esp-1008]]
-# [[And Now The Queen+esp-disk-esp-1021]]
-# [[Batterie+esp-disk-esp-1021]]
-# [[Cartoon+esp-disk-esp-1021]]
-# [[Closer+esp-disk-esp-1021]]
-# [[Crossroads+esp-disk-esp-1021]]
-# [[Ida Lupino+esp-disk-esp-1021]]
-# [[Pigfoot+esp-disk-esp-1021]]
-# [[Sideways In Mexico+esp-disk-esp-1021]]
-# [[Start+esp-disk-esp-1021]]
-# [[Violin+esp-disk-esp-1021]]
-# [[Albert's Love Theme+fontana-883-911-jcy]]
-# [[Blood+fontana-883-911-jcy]]
-# [[El Cordobes+fontana-883-911-jcy]]
-# [[Kid Dynamite+fontana-883-911-jcy]]
-# [[Mister Joy+fontana-883-911-jcy]]
-# [[Nothing Ever Was, Anyway+fontana-883-911-jcy]]
-# [[Only Sweetly+fontana-883-911-jcy]]
-# [[Pig Foot+fontana-883-911-jcy]]
-# [[Ramblin'+fontana-883-911-jcy]]
-# [[Seven+fontana-883-911-jcy]]
-# [[Dual Unity+freedom-flp-40109]]
-# [[Gargantuan Encounter+freedom-flp-40109]]
-# [[M.J.+freedom-flp-40109]]
-# [[Richter Scale+freedom-flp-40109]]
-# [[Blood+freedom-flp-40151]]
-# [[Mister Joy+freedom-flp-40151]]
-# [[Beau Diddley+gene-norman-presents-gnp-31]]
-# [[Birk's Works+gene-norman-presents-gnp-31]]
-# [[Drum Two+gene-norman-presents-gnp-31]]
-# [[Everywhere+gene-norman-presents-gnp-31]]
-# [[I Remember Harlem+gene-norman-presents-gnp-31]]
-# [[O Plus One+gene-norman-presents-gnp-31]]
-# [[Persian Village+gene-norman-presents-gnp-31]]
-# [[Porgy+gene-norman-presents-gnp-31]]
-# [[Solemn Meditation+gene-norman-presents-gnp-31]]
-# [[Carol+improvising-artists-inc-iai-37-38-39]]
-# [[Clarinet+improvising-artists-inc-iai-37-38-39]]
-# [[Duet+improvising-artists-inc-iai-37-38-39]]
-# [[Goodbye+improvising-artists-inc-iai-37-38-39]]
-# [[Laurent+improvising-artists-inc-iai-37-38-39]]
-# [[Play Blue+improvising-artists-inc-iai-37-38-39]]
-# [[Quiet Song+improvising-artists-inc-iai-37-38-39]]
-# [[Solo+improvising-artists-inc-iai-37-38-39]]
-# [[Trio+improvising-artists-inc-iai-37-38-39]]
-# [[Yeah, Guitar+improvising-artists-inc-iai-37-38-39]]
-# [[And Now The Queen+improvising-artists-inc-iai-37-38-40]]
-# [[Ballade+improvising-artists-inc-iai-37-38-40]]
-# [[Dreams+improvising-artists-inc-iai-37-38-40]]
-# [[Explanations+improvising-artists-inc-iai-37-38-40]]
-# [[Glad+improvising-artists-inc-iai-37-38-40]]
-# [[Lovers+improvising-artists-inc-iai-37-38-40]]
-# [[Ojos De Gato+improvising-artists-inc-iai-37-38-40]]
-# [[Calls+improvising-artists-inc-iai-37-38-41]]
-# [[Ictus+improvising-artists-inc-iai-37-38-41]]
-# [[Ida Lupino (alternate take)+improvising-artists-inc-iai-37-38-41]]
-# [[Kid Dynamite+improvising-artists-inc-iai-37-38-41]]
-# [[King Korn+improvising-artists-inc-iai-37-38-41]]
-# [[Mr. Joy+improvising-artists-inc-iai-37-38-41]]
-# [[Turns (as Turning)+improvising-artists-inc-iai-37-38-41]]
-# [[Butterflies+improvising-artists-inc-iai-37-38-44]]
-# [[Gary+improvising-artists-inc-iai-37-38-44]]
-# [[Longer Than You Know+improvising-artists-inc-iai-37-38-45]]
-# [[Out There+improvising-artists-inc-iai-37-38-45]]
-# [[Play Blue+improvising-artists-inc-iai-37-38-45]]
-# [[Pyramid+improvising-artists-inc-iai-37-38-45]]
-# [[Talk To Me+improvising-artists-inc-iai-37-38-45]]
-# [[Tavia+improvising-artists-inc-iai-37-38-45]]
-# [[Batterie+improvising-artists-inc-iai-37-38-46]]
-# [[Blood+improvising-artists-inc-iai-37-38-46]]
-# [[Donkey+improvising-artists-inc-iai-37-38-46]]
-# [[Jaco+improvising-artists-inc-iai-37-38-46]]
-# [[King Korn+improvising-artists-inc-iai-37-38-46]]
-# [[Overtoned+improvising-artists-inc-iai-37-38-46]]
-# [[Poconos+improvising-artists-inc-iai-37-38-46]]
-# [[Vampira+improvising-artists-inc-iai-37-38-46]]
-# [[Vashkar+improvising-artists-inc-iai-37-38-46]]
-# [[Japan Suite I+improvising-artists-inc-iai-37-38-49]]
-# [[Japan Suite II+improvising-artists-inc-iai-37-38-49]]
-# [[Axis+improvising-artists-inc-iai-37-38-53]]
-# [[El Cordobes / Please Don't Ever Leave Me+improvising-artists-inc-iai-37-38-53]]
-# [[Music Matador+improvising-artists-inc-iai-37-38-53]]
-# [[Porgy+improvising-artists-inc-iai-37-38-53]]
-# [[Basics+justin-time-just-154-2]]
-# [[Blues Waltz+justin-time-just-154-2]]
-# [[Chet+justin-time-just-154-2]]
-# [[Early Alben+justin-time-just-154-2]]
-# [[Love Lost+justin-time-just-154-2]]
-# [[Lucky+justin-time-just-154-2]]
-# [[Monk's Mood+justin-time-just-154-2]]
-# [[Speed Kills+justin-time-just-154-2]]
-# [[Startled+justin-time-just-154-2]]
-# [[Told You So+justin-time-just-154-2]]
-# [[Walk Home+justin-time-just-154-2]]
-# [[8th Avenue+justin-time-just-199-2]]
-# [[Blues Waltz+justin-time-just-199-2]]
-# [[Breakdown+justin-time-just-199-2]]
-# [[Nothing To Declare+justin-time-just-199-2]]
-# [[About Time+justin-time-just-228-2]]
-# [[Pent-Up House+justin-time-just-228-2]]
-# [[Apology+justin-time-just-28-2]]
-# [[Blueness+justin-time-just-28-2]]
-# [[Boogie+justin-time-just-28-2]]
-# [[Conversations+justin-time-just-28-2]]
-# [[Forth+justin-time-just-28-2]]
-# [[Intentions+justin-time-just-28-2]]
-# [[Love Hurts+justin-time-just-28-2]]
-# [[Lucky+justin-time-just-28-2]]
-# [[Six Eight+justin-time-just-28-2]]
-# [[Strolling+justin-time-just-28-2]]
-# [[Changing Hands+justin-time-just-40-2]]
-# [[Juanita+justin-time-just-40-2]]
-# [[Longer+justin-time-just-40-2]]
-# [[Pleasing You+justin-time-just-40-2]]
-# [[Summertime+justin-time-just-40-2]]
-# [[U-Nighted+justin-time-just-40-2]]
-# [[Willow+justin-time-just-40-2]]
-# [[As Beautiful As The Moon+justin-time-just-56-2]]
-# [[Contrary+justin-time-just-56-2]]
-# [[Finale+justin-time-just-56-2]]
-# [[Lost Love+justin-time-just-56-2]]
-# [[Never Again+justin-time-just-56-2]]
-# [[Pointillist+justin-time-just-56-2]]
-# [[Started+justin-time-just-56-2]]
-# [[Sweet Time+justin-time-just-56-2]]
-# [[Turnham Bay+justin-time-just-56-2]]
-# [[Turquoise+justin-time-just-56-2]]
-# [[Apparition+justin-time-just-57-2]]
-# [[Armoury+justin-time-just-57-2]]
-# [[Cave Painting+justin-time-just-57-2]]
-# [[Critical Mass+justin-time-just-57-2]]
-# [[Dialogue+justin-time-just-57-2]]
-# [[Evanessence+justin-time-just-57-2]]
-# [[Inception+justin-time-just-57-2]]
-# [[Matrix+justin-time-just-57-2]]
-# [[Prologue+justin-time-just-57-2]]
-# [[Reflection+justin-time-just-57-2]]
-# [[Seascape+justin-time-just-57-2]]
-# [[Soundings+justin-time-just-57-2]]
-# [[Sympatico+justin-time-just-57-2]]
-# [[A Dozen Blues+justin-time-just-58-2]]
-# [[B&amp;amp;B On The Rocks+justin-time-just-58-2]]
-# [[Ballade+justin-time-just-58-2]]
-# [[Foolishly+justin-time-just-58-2]]
-# [[Green And Brown+justin-time-just-58-2]]
-# [[Music Matador+justin-time-just-58-2]]
-# [[Neo Boogie+justin-time-just-58-2]]
-# [[Please Don't Ever Leave Me+justin-time-just-58-2]]
-# [[Prequel+justin-time-just-58-2]]
-# [[Sequel+justin-time-just-58-2]]
-# [[Time Was+justin-time-just-58-2]]
-# [[Arrival+justin-time-just-69-2]]
-# [[Horizons+justin-time-just-69-2]]
-# [[I Remember Harlem+justin-time-just-69-2]]
-# [[Meandering+justin-time-just-69-2]]
-# [[Now+justin-time-just-69-2]]
-# [[Peel Street Blues+justin-time-just-69-2]]
-# [[Pent Up House+justin-time-just-69-2]]
-# [[Sonics II+justin-time-just-69-2]]
-# [[Steeplechase+justin-time-just-69-2]]
-# [[These Foolish Things+justin-time-just-69-2]]
-# [[Willow+justin-time-just-69-2]]
-# [[You Are+justin-time-just-69-2]]
-# [[El Cordobes (45 rpm edit)+limelight-l-3086]]
-# [[Mr. Joy (45 rpm edit)+limelight-l-3086]]
-# [[Blood+limelight-ls-86060]]
-# [[El Cordobes+limelight-ls-86060]]
-# [[Kid Dynamite+limelight-ls-86060]]
-# [[Mr. Joy+limelight-ls-86060]]
-# [[Nothing Ever Was Anyway+limelight-ls-86060]]
-# [[Only Lovely+limelight-ls-86060]]
-# [[Ramblin'+limelight-ls-86060]]
-# [[Touching+limelight-ls-86060]]
-# [[Circles+milestone-msp-9033]]
-# [[Gary+milestone-msp-9033]]
-# [[Mr. Joy+milestone-msp-9033]]
-# [[Nothing Ever Was, Anyway (first chorus)+milestone-msp-9033]]
-# [[Nothing Ever Was, Anyway+milestone-msp-9033]]
-# [[Parks+milestone-msp-9033]]
-# [[Snakes+milestone-msp-9033]]
-# [[The Archangel+milestone-msp-9033]]
-# [[Capricorn+milestone-msp-9046]]
-# [[Dreams+milestone-msp-9046]]
-# [[El Cordobes+milestone-msp-9046]]
-# [[Gesture Without Plot+milestone-msp-9046]]
-# [[Ictus+milestone-msp-9046]]
-# [[King Korn+milestone-msp-9046]]
-# [[Syndrome+milestone-msp-9046]]
-# [[Like Someone In Love+original-jazz-classics-ojc-201]]
-# [[Split Kick+original-jazz-classics-ojc-201]]
-# [[Spontaneous Combustion+original-jazz-classics-ojc-201]]
-# [[Walkin' (as Teapot)+original-jazz-classics-ojc-201]]
-# [[Opus I (alternate take)+original-jazz-classics-ojccd-201-2]]
-# [[The Theme+original-jazz-classics-ojccd-201-2]]
-# [[This Time The Dream's On Me+original-jazz-classics-ojccd-201-2]]
-# [[Zootcase+original-jazz-classics-ojccd-201-2]]
-# [[And Now The Queen+owl-827258-2]]
-# [[Around Again+owl-827258-2]]
-# [[Closer+owl-827258-2]]
-# [[Donkey+owl-827258-2]]
-# [[Ictus+owl-827258-2]]
-# [[King Korn+owl-827258-2]]
-# [[Olhos De Gato+owl-827258-2]]
-# [[Overtoned+owl-827258-2]]
-# [[Seven+owl-827258-2]]
-# [[Turns+owl-827258-2]]
-# [[Vashkar+owl-827258-2]]
-# [[Flame+owl-owl-034]]
-# [[For Roy E.+owl-owl-034]]
-# [[Hardly+owl-owl-034]]
-# [[Head Over Heels+owl-owl-034]]
-# [[Music Matador+owl-owl-034]]
-# [[Ostinato+owl-owl-034]]
-# [[Solo Rose+owl-owl-034]]
-# [[Tears+owl-owl-034]]
-# [[Walkman+owl-owl-034]]
-# [[Afternoon Of A Dawn: Part 1 / Part 2 / Part 3+owl-owl-058-cd]]
-# [[Again Anew+owl-owl-058-cd]]
-# [[Gently, Gently+owl-owl-058-cd]]
-# [[Hand In Hand+owl-owl-058-cd]]
-# [[Latin Genetics+owl-owl-058-cd]]
-# [[Lull-A-Bye+owl-owl-058-cd]]
-# [[Majestique+owl-owl-058-cd]]
-# [[No Pun Intended+owl-owl-058-cd]]
-# [[Octavon+owl-owl-058-cd]]
-# [[Pleiades Skirt+owl-owl-058-cd]]
-# [[Pot Luck+owl-owl-058-cd]]
-# [[Satyr Satire+owl-owl-058-cd]]
-# [[Twitter Pat+owl-owl-058-cd]]
-# [[Who's Who Is It+owl-owl-058-cd]]
-# [[Workinoot+owl-owl-058-cd]]
-# [[A Loss Of Consciousness+polydor-2425-043]]
-# [[Climbing Aspirations+polydor-2425-043]]
-# [[Daddy's Boat (A Baby's Lullaby)+polydor-2425-043]]
-# [[Dreams+polydor-2425-043]]
-# [[I Belong To A World That's Destroying Itself+polydor-2425-043]]
-# [[I'm The One+polydor-2425-043]]
-# [[Mr. Joy+polydor-2425-043]]
-# [[The Cynic+polydor-2425-043]]
-# [[Around Again+savoy-mg-12182]]
-# [[Cousins+savoy-mg-12182]]
-# [[Floater+savoy-mg-12182]]
-# [[King Korn+savoy-mg-12182]]
-# [[Syndrome+savoy-mg-12182]]
-# [[Turns+savoy-mg-12182]]
-# [[Vashkar+savoy-mg-12182]]
-# [[When Will The Blues Leave+savoy-mg-12182]]
-# [[Ballad, No. 4+savoy-sjl-1148]]
-# [[Stereophrenic+savoy-sjl-1148]]
-# [[Around Again (second session take)+savoy-sjl-1175]]
-# [[Ballad, No. 1+savoy-sjl-1175]]
-# [[Ballad, No. 2+savoy-sjl-1175]]
-# [[King Korn (alternate take)+savoy-sjl-1175]]
-# [[Around Again+savoy-sjl-2235]]
-# [[Crossroads (as The Circle With The Hole In The Middle)+savoy-sjl-2235]]
-# [[Ida Lupino+savoy-sjl-2235]]
-# [[Start+savoy-sjl-2235]]
-# [[Syndrome+savoy-sjl-2235]]
-# [[Ballad+soul-note-121190-1]]
-# [[Batterie+soul-note-121190-1]]
-# [[Diane+soul-note-121190-1]]
-# [[Excerpt+soul-note-121190-1]]
-# [[Finale+soul-note-121190-1]]
-# [[Inside+soul-note-121190-1]]
-# [[Just Us+soul-note-121190-1]]
-# [[Love Hurts+soul-note-121190-1]]
-# [[No. 3+soul-note-121190-1]]
-# [[Notes+soul-note-121190-1]]
-# [[Piano Solo No. 1+soul-note-121190-1]]
-# [[Turns+soul-note-121190-1]]
-# [[West 107th Street+soul-note-121190-1]]
-# [[Back Lash+soul-note-121213-2]]
-# [[Circle With The Hole In The Middle+soul-note-121213-2]]
-# [[Duality+soul-note-121213-2]]
-# [[E.D.T.+soul-note-121213-2]]
-# [[Flashpoint+soul-note-121213-2]]
-# [[Heyday+soul-note-121213-2]]
-# [[How Long+soul-note-121213-2]]
-# [[Juniper Blue+soul-note-121213-2]]
-# [[Meltdown+soul-note-121213-2]]
-# [[Mindset+soul-note-121213-2]]
-# [[Random Mist+soul-note-121213-2]]
-# [[Sunrise Sunlight+soul-note-121213-2]]
-# [[Touching Bass+soul-note-121213-2]]
-# [[Where Can UB+soul-note-121213-2]]
-# [[Blues For Josh+soul-note-121240-2]]
-# [[Dark Victory+soul-note-121240-2]]
-# [[Enough Is Enough+soul-note-121240-2]]
-# [[Insanity+soul-note-121240-2]]
-# [[Latin Genetics+soul-note-121240-2]]
-# [[Memoirs+soul-note-121240-2]]
-# [[Monk's Dream+soul-note-121240-2]]
-# [[New Flame+soul-note-121240-2]]
-# [[Sting A Ring+soul-note-121240-2]]
-# [[This Is The Hour+soul-note-121240-2]]
-# [[Bow Out+soul-note-121285-2]]
-# [[Chaos+soul-note-121285-2]]
-# [[Interpercussion 1+soul-note-121285-2]]
-# [[Interpercussion 2+soul-note-121285-2]]
-# [[Modulating+soul-note-121285-2]]
-# [[Poetic Justice+soul-note-121285-2]]
-# [[Soft Touch+soul-note-121285-2]]
-# [[Starting Over+soul-note-121285-2]]
-# [[Street Wise+soul-note-121285-2]]
-# [[Template+soul-note-121285-2]]
-# [[Touch Control+soul-note-121285-2]]
-# [[Touching Bass+soul-note-121285-2]]
-# [[Turnham Bey+soul-note-121285-2]]
-# [[Darkness+soul-note-sn-1085]]
-# [[Joined+soul-note-sn-1085]]
-# [[Landscape+soul-note-sn-1085]]
-# [[Little Bells+soul-note-sn-1085]]
-# [[Recollection+soul-note-sn-1085]]
-# [[Set+soul-note-sn-1085]]
-# [[Sonor+soul-note-sn-1085]]
-# [[Speed+soul-note-sn-1085]]
-# [[Tight Rope+soul-note-sn-1085]]
-# [[Waltz+soul-note-sn-1085]]
-# [[A.G.B.+soul-note-sn-1090]]
-# [[Bound+soul-note-sn-1090]]
-# [[But Beautiful+soul-note-sn-1090]]
-# [[C.G.+soul-note-sn-1090]]
-# [[Explain+soul-note-sn-1090]]
-# [[Please+soul-note-sn-1090]]
-# [[Return Love+soul-note-sn-1090]]
-# [[Tango Palace+soul-note-sn-1090]]
-# [[Woogie+soul-note-sn-1090]]
-# [[Zebra Walk+soul-note-sn-1090]]
-# [[Stroung Out+steeplechase-sccd-31005]]
-# [[The Pause Is Not Rhythmic+steeplechase-sccd-31205]]
-# [[A.R.B.+steeplechase-sccd-31214]]
-# [[Becky+steeplechase-sccd-31214]]
-# [[Blues Waltz+steeplechase-sccd-31214]]
-# [[Bolivar Blues+steeplechase-sccd-31214]]
-# [[Goodbye+steeplechase-sccd-31214]]
-# [[How Long Has This Been Going On+steeplechase-sccd-31214]]
-# [[I'm Glad There Is You+steeplechase-sccd-31214]]
-# [[Albert's Love Theme+steeplechase-sccd-31223]]
-# [[Ida Lupino+steeplechase-sccd-31223]]
-# [[Blues Waltz+steeplechase-sccd-31230]]
-# [[Gladys+steeplechase-sccd-31236]]
-# [[If I Loved You+steeplechase-sccd-31236]]
-# [[If I Should Lose You+steeplechase-sccd-31236]]
-# [[Ostinato II+steeplechase-sccd-31236]]
-# [[So Hard It Hurts+steeplechase-sccd-31236]]
-# [[Someone To Watch Over Me+steeplechase-sccd-31236]]
-# [[Don't Blame Me+steeplechase-sccd-31259]]
-# [[The Theme+steeplechase-sccd-31259]]
-# [[All The Things You Are+steeplechase-sccd-31274]]
-# [[Bolivar Blues+steeplechase-sccd-31274]]
-# [[I Can't Get Started+steeplechase-sccd-31274]]
-# [[Ictus+steeplechase-sccd-31274]]
-# [[Rejoicing+steeplechase-sccd-31274]]
-# [[When Will The Blues Leave+steeplechase-sccd-31274]]
-# [[Black And Blue+steeplechase-sccd-31286]]
-# [[Blues Waltz+steeplechase-sccd-31286]]
-# [[Blues+steeplechase-sccd-31286]]
-# [[Diane+steeplechase-sccd-31286]]
-# [[Goodbye+steeplechase-sccd-31286]]
-# [[Indian Summer / Ictus+steeplechase-sccd-31286]]
-# [[Lisbon Nights+steeplechase-sccd-31286]]
-# [[Long Ago And Far Away+steeplechase-sccd-31286]]
-# [[The More I See You+steeplechase-sccd-31286]]
-# [[And Now The Queen+steeplechase-sccd-31303]]
-# [[Around Again+steeplechase-sccd-31303]]
-# [[Donkey+steeplechase-sccd-31303]]
-# [[Floater+steeplechase-sccd-31303]]
-# [[Ictus+steeplechase-sccd-31303]]
-# [[Ida Lupino+steeplechase-sccd-31303]]
-# [[Olhos De Gato+steeplechase-sccd-31303]]
-# [[Seven+steeplechase-sccd-31303]]
-# [[Turns+steeplechase-sccd-31303]]
-# [[Vashkar+steeplechase-sccd-31303]]
-# [[Caravan Suite I+steeplechase-sccd-31316]]
-# [[Caravan Suite II+steeplechase-sccd-31316]]
-# [[Caravan Suite III+steeplechase-sccd-31316]]
-# [[Caravan Suite IV+steeplechase-sccd-31316]]
-# [[I Got It Bad And That Ain't Good+steeplechase-sccd-31316]]
-# [[I'm Beginning To See The Light+steeplechase-sccd-31316]]
-# [[In My Solitude+steeplechase-sccd-31316]]
-# [[All The Things You Are+steeplechase-sccd-31344]]
-# [[Confirmation+steeplechase-sccd-31344]]
-# [[Don't Explain+steeplechase-sccd-31344]]
-# [[Goodbye+steeplechase-sccd-31344]]
-# [[If We May+steeplechase-sccd-31344]]
-# [[Indian Summer+steeplechase-sccd-31344]]
-# [[Long Ago And Far Away+steeplechase-sccd-31344]]
-# [[Bye+steeplechase-sccd-31348]]
-# [[Check+steeplechase-sccd-31348]]
-# [[Decade+steeplechase-sccd-31348]]
-# [[Don't+steeplechase-sccd-31348]]
-# [[Furioso+steeplechase-sccd-31348]]
-# [[Woogie+steeplechase-sccd-31348]]
-# [[Beau Diddley+steeplechase-sccd-31363]]
-# [[Crystal Ball+steeplechase-sccd-31363]]
-# [[Dropped Stitch+steeplechase-sccd-31363]]
-# [[In Walked Bud+steeplechase-sccd-31363]]
-# [[Love Is+steeplechase-sccd-31363]]
-# [[Love+steeplechase-sccd-31363]]
-# [[Past Tense+steeplechase-sccd-31363]]
-# [[Shorthand+steeplechase-sccd-31363]]
-# [[Speechless+steeplechase-sccd-31363]]
-# [[Above You+steeplechase-sccd-31379]]
-# [[Do Something+steeplechase-sccd-31379]]
-# [[For George+steeplechase-sccd-31379]]
-# [[I Surrender, Dear+steeplechase-sccd-31379]]
-# [[It Isn't+steeplechase-sccd-31379]]
-# [[Reality Check+steeplechase-sccd-31379]]
-# [[Swan Song+steeplechase-sccd-31379]]
-# [[AARP+steeplechase-sccd-31437]]
-# [[Compassion+steeplechase-sccd-31437]]
-# [[Crossroads+steeplechase-sccd-31437]]
-# [[Lorraine+steeplechase-sccd-31437]]
-# [[Rejoicing+steeplechase-sccd-31437]]
-# [[Turnaround+steeplechase-sccd-31437]]
-# [[When Will The Blues Leave+steeplechase-sccd-31437]]
-# [[A Matter Of Urgency+steeplechase-scs-1005]]
-# [[Carla+steeplechase-scs-1005]]
-# [[Gesture Without Plot+steeplechase-scs-1005]]
-# [[Later+steeplechase-scs-1005]]
-# [[Meeting+steeplechase-scs-1005]]
-# [[Olhos De Gato+steeplechase-scs-1005]]
-# [[Paradise Island+steeplechase-scs-1005]]
-# [[Summer+steeplechase-scs-1005]]
-# [[Upstairs+steeplechase-scs-1005]]
-# [[Adventure 1+steeplechase-scs-1205]]
-# [[Adventure 2+steeplechase-scs-1205]]
-# [[Adventure 3+steeplechase-scs-1205]]
-# [[Adventure 4+steeplechase-scs-1205]]
-# [[Beautiful+steeplechase-scs-1205]]
-# [[Fanfare+steeplechase-scs-1205]]
-# [[Here And Gone 1+steeplechase-scs-1205]]
-# [[Here And Gone 2+steeplechase-scs-1205]]
-# [[Here And Gone 3+steeplechase-scs-1205]]
-# [[Here And Gone 4+steeplechase-scs-1205]]
-# [[Lovely+steeplechase-scs-1205]]
-# [[Questions+steeplechase-scs-1205]]
-# [[All The Things You Are+steeplechase-scs-1214]]
-# [[Black And Blue+steeplechase-scs-1214]]
-# [[I Can't Get Started+steeplechase-scs-1214]]
-# [[I Wish I Knew+steeplechase-scs-1214]]
-# [[If I'm Lucky+steeplechase-scs-1214]]
-# [[Long Ago And Far Away+steeplechase-scs-1214]]
-# [[Lover Man+steeplechase-scs-1214]]
-# [[Santa Claus Is Coming To Town+steeplechase-scs-1214]]
-# [[The Theme+steeplechase-scs-1214]]
-# [[You'd Be So Nice To Come Home To+steeplechase-scs-1214]]
-# [[Blues+steeplechase-scs-1223]]
-# [[Ictus+steeplechase-scs-1223]]
-# [[Music Matador+steeplechase-scs-1223]]
-# [[Ostinato+steeplechase-scs-1223]]
-# [[Ramblin'+steeplechase-scs-1223]]
-# [[The Theme+steeplechase-scs-1223]]
-# [[Vashkar+steeplechase-scs-1223]]
-# [[When Will The Blues Leave+steeplechase-scs-1223]]
-# [[All The Things You Are+steeplechase-scs-1230]]
-# [[Diane+steeplechase-scs-1230]]
-# [[Ictus+steeplechase-scs-1230]]
-# [[If I Loved You+steeplechase-scs-1230]]
-# [[If I'm Lucky+steeplechase-scs-1230]]
-# [[Pent-Up House+steeplechase-scs-1230]]
-# [[Rebecca+steeplechase-scs-1230]]
-# [[What'll I Do+steeplechase-scs-1230]]
-# [[Willow Weep For Me+steeplechase-scs-1230]]
-# [[And Now The Queen+steeplechase-scs-1236]]
-# [[Blues Reconstruction+steeplechase-scs-1236]]
-# [[Carla+steeplechase-scs-1236]]
-# [[Clopin Clopan+steeplechase-scs-1236]]
-# [[Finale+steeplechase-scs-1236]]
-# [[Gee Baby, Ain't I Good To You+steeplechase-scs-1236]]
-# [[Mariona+steeplechase-scs-1236]]
-# [[Peace Pipe+steeplechase-scs-1236]]
-# [[Slipping+steeplechase-scs-1236]]
-# [[The Lady Of Chet+steeplechase-scs-1236]]
-# [[Tin Tin Deo+steeplechase-scs-1236]]
-# [[You Go To My Head+steeplechase-scs-1236]]
-# [[Blues In The Closet+steeplechase-scs-1246]]
-# [[Lullaby Of Birdland+steeplechase-scs-1246]]
-# [[Take The &amp;quot;A&amp;quot; Train+steeplechase-scs-1246]]
-# [[The Nearness Of You+steeplechase-scs-1246]]
-# [[These Foolish Things+steeplechase-scs-1246]]
-# [[This Can't Be Love+steeplechase-scs-1246]]
-# [[We'll Be Together Again+steeplechase-scs-1246]]
-# [[What A Difference A Day Makes+steeplechase-scs-1246]]
-# [[52nd Street Theme+steeplechase-scs-1259]]
-# [[A Night In Tunisia+steeplechase-scs-1259]]
-# [[Barbados+steeplechase-scs-1259]]
-# [[Bebop+steeplechase-scs-1259]]
-# [[Ladybird+steeplechase-scs-1259]]
-# [[My Little Suede Shoes+steeplechase-scs-1259]]
-# [[Now's The Time+steeplechase-scs-1259]]
-# [[Ornithology+steeplechase-scs-1259]]
-# [[Steeplechase+steeplechase-scs-1259]]
-# [[Tenderly+steeplechase-scs-1259]]
-# [[Decompose+venus-tkcv-79074]]
-# [[Digitant+venus-tkcv-79074]]
-# [[Funhouse+venus-tkcv-79074]]
-# [[Loose Change+venus-tkcv-79074]]
-# [[Please Don't+venus-tkcv-79074]]
-# [[Russell+venus-tkcv-79074]]
-# [[Spot+venus-tkcv-79074]]
-# [[Sweet Talk+venus-tkcv-79074]]
-# [[The New You+venus-tkcv-79074]]
-# [[Wisecracks+venus-tkcv-79074]]
-# [[After Me+venus-tkcv-79084]]
-# [[Chanted Evening+venus-tkcv-79084]]
-# [[Dialogue+venus-tkcv-79084]]
-# [[Downward Spiral+venus-tkcv-79084]]
-# [[Emerald Blue+venus-tkcv-79084]]
-# [[Foolishly+venus-tkcv-79084]]
-# [[Hymn+venus-tkcv-79084]]
-# [[Interiors+venus-tkcv-79084]]
-# [[Orchid Smile+venus-tkcv-79084]]
-# [[Rainbow Cry+venus-tkcv-79084]]
-# [[Spiral 1+venus-tkcv-79084]]
-# [[Spiral 2+venus-tkcv-79084]]
-# [[52nd Street Theme+wing-mgw-60001]]
-# [[Autumn Breeze+wing-mgw-60001]]
-# [[Drum One+wing-mgw-60001]]
-# [[I Want To Be Happy+wing-mgw-60001]]
-# [[My Heart+wing-mgw-60001]]
-# [[My Old Flame+wing-mgw-60001]]
-# [[My One And Only (What Am I Gonna Do)+wing-mgw-60001]]
-# [[That Old Feeling+wing-mgw-60001]]
-# [[There'll Never Be Another You+wing-mgw-60001]]
-# [[This Can't Be Love+wing-mgw-60001]]
-# [[Time On My Hands+wing-mgw-60001]]
-# [[UnknownSong+wing-mgw-60001]]
-# [[unknown album number]]
-# [[steeplechase-sccd-31005]]
-# [[soul-note-121240-2]]
-# [[debut-deb-198]]
-# [[original-jazz-classics-ojc-201]]
-# [[original-jazz-classics-ojccd-201-2]]
-# [[mercury-snp-131]]
-# [[wing-mgw-60001]]
-# [[america-30-am-6120]]
-# [[gene-norman-presents-gnp-31]]
-# [[savoy-mg-12182]]
-# [[savoy-sjl-1148]]
-# [[savoy-sjl-2235]]
-# [[ecm-ecm-1003]]
-# [[savoy-sjl-1175]]
-# [[esp-disk-esp-1008]]
-# [[improvising-artists-inc-iai-37-38-41]]
-# [[arista-freedom-al-1901]]
-# [[debut-deb-147]]
-# [[esp-disk-esp-1021]]
-# [[byg-529-313]]
-# [[fontana-883-911-jcy]]
-# [[freedom-flp-40151]]
-# [[ecm-ecm-1010]]
-# [[improvising-artists-inc-iai-37-38-44]]
-# [[limelight-l-3086]]
-# [[limelight-ls-86060]]
-# [[polydor-2425-043]]
-# [[milestone-msp-9033]]
-# [[america-30-am-6121]]
-# [[freedom-flp-40109]]
-# [[ecm-ecm-1023]]
-# [[milestone-msp-9046]]
-# [[steeplechase-scs-1005]]
-# [[improvising-artists-inc-iai-37-38-39]]
-# [[improvising-artists-inc-iai-37-38-40]]
-# [[improvising-artists-inc-iai-37-38-46]]
-# [[improvising-artists-inc-iai-37-38-49]]
-# [[improvising-artists-inc-iai-37-38-45]]
-# [[improvising-artists-inc-iai-37-38-53]]
-# [[owl-owl-034]]
-# [[soul-note-sn-1085]]
-# [[soul-note-sn-1090]]
-# [[steeplechase-sccd-31205]]
-# [[steeplechase-sccd-31214]]
-# [[steeplechase-scs-1205]]
-# [[steeplechase-scs-1214]]
-# [[ecm-ecm-1320]]
-# [[steeplechase-sccd-31223]]
-# [[steeplechase-sccd-31230]]
-# [[steeplechase-scs-1223]]
-# [[steeplechase-scs-1230]]
-# [[ecm-ecm-1365]]
-# [[justin-time-just-28-2]]
-# [[soul-note-121190-1]]
-# [[steeplechase-sccd-31286]]
-# [[steeplechase-sccd-31236]]
-# [[steeplechase-scs-1236]]
-# [[steeplechase-scs-1246]]
-# [[owl-owl-058-cd]]
-# [[steeplechase-sccd-31259]]
-# [[steeplechase-sccd-31274]]
-# [[steeplechase-scs-1259]]
-# [[ecm-ecm-1488]]
-# [[justin-time-just-40-2]]
-# [[steeplechase-sccd-31303]]
-# [[owl-827258-2]]
-# [[soul-note-121213-2]]
-# [[steeplechase-sccd-31316]]
-# [[steeplechase-sccd-31348]]
-# [[justin-time-just-56-2]]
-# [[justin-time-just-57-2]]
-# [[justin-time-just-58-2]]
-# [[steeplechase-sccd-31344]]
-# [[ecm-ecm-1537]]
-# [[justin-time-just-69-2]]
-# [[soul-note-121285-2]]
-# [[steeplechase-sccd-31363]]
-# [[steeplechase-sccd-31379]]
-# [[venus-tkcv-79074]]
-# [[venus-tkcv-79084]]
-# [[ecm-ecm-1609]]
-# [[steeplechase-sccd-31437]]
-# [[ecm-ecm-1670]]
-# [[justin-time-just-154-2]]
-# [[ecm-ecm-1786]]
-# [[justin-time-just-199-2]]
-# [[justin-time-just-228-2]]
-# [[ecm-ecm-2373]]</pre>
+# [[$:/.tb/modules/startup/hide-sidebar.js]]
+# [[$:/config/HideSidebarOnStartup]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
+</div>
+<div created="20161122012738151" modified="20161122012841848" title="$:/palette">
+<pre>$:/palettes/ContrastLight</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Wrapper for JSZip by Stuart Knightley, David Duponchel, Franz Buchinger, António Afonso" list="readme license" plugin-type="plugin" title="$:/plugins/tiddlywiki/jszip" type="application/json" version="5.1.14-prerelease">
 <pre>{
@@ -10789,8 +10074,8 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20161121233921839" modified="20161121233921839" title="$:/SiteSubtitle">
 <pre></pre>
 </div>
-<div created="20161121233914657" modified="20161121233919875" title="$:/SiteTitle">
-<pre>Paul Bley QuickDemo</pre>
+<div created="20161121233914657" modified="20161122012912340" title="$:/SiteTitle">
+<pre>Paul Bley Quick Demo</pre>
 </div>
 <div created="20161121204140191" modified="20161121214607749" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row">
 <pre>no</pre>
@@ -10828,19 +10113,19 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20161121204525138" modified="20161121215130221" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row 2">
 <pre>yes</pre>
 </div>
-<div created="20161121204131233" modified="20161121214528023" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet">
-<pre>yes</pre>
+<div created="20161121204131233" modified="20161122012110220" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet">
+<pre>no</pre>
 </div>
 <div created="20161121204316605" modified="20161121214422751" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 1">
 <pre>no</pre>
 </div>
-<div created="20161121204520948" modified="20161121215124944" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 2">
-<pre>yes</pre>
-</div>
-<div created="20161121204123523" modified="20161121230755911" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook">
+<div created="20161121204520948" modified="20161122012108375" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 2">
 <pre>no</pre>
 </div>
-<div created="20161121230832213" modified="20161121230832213" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook 1">
+<div created="20161121204123523" modified="20161122012102917" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook">
+<pre>yes</pre>
+</div>
+<div created="20161121230832213" modified="20161122012122894" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook 1">
 <pre>yes</pre>
 </div>
 <div created="20161121204120135" modified="20161121204120135" title="$:/state/expand/$:/_importspec/Presidents and Justices/">
@@ -10852,29 +10137,29 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20161121231134420" modified="20161121231134420" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20161121205138960" modified="20161121233243103" title="$:/state/sidebar">
+<div created="20161121205138960" modified="20161122014011334" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20161121205539643" modified="20161121210100218" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20161121205539643" modified="20161122012530072" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
 </div>
 <div created="20161121232049986" modified="20161121232049986" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/StoryView</pre>
 </div>
-<div created="20161121204114415" modified="20161121233911568" title="$:/state/tab-1749438307">
+<div created="20161121204114415" modified="20161122012909815" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20161121205332936" modified="20161121205332936" title="$:/state/tab/moresidebar-401116514">
 <pre>$:/core/ui/MoreSideBar/Recent</pre>
 </div>
-<div created="20161121204741260" modified="20161121234234934" title="$:/state/tab/sidebar--1835078512">
-<pre>Display</pre>
+<div created="20161121204741260" modified="20161122014122303" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div list="HelloThere Years 1969 polydor-2425-043 [[Daddy's Boat (A Baby's Lullaby)+polydor-2425-043]]" title="$:/StoryList">
+<div list="Albums original-jazz-classics-ojccd-201-2 [[album template]] HelloThere Songs [[52nd Street Theme+wing-mgw-60001]]" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20161121205535572" modified="20161121230841821" title="$:/temp/advancedsearch">
-<pre>$:/_ExcelImporter/ImportSpecifiers/Workbook 1</pre>
+<div created="20161121205535572" modified="20161122012728498" title="$:/temp/advancedsearch">
+<pre>palette</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -10925,8 +10210,8 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20161121204123523" modified="20161121230832212" title="$:/temp/newtiddler">
 <pre>$:/_ExcelImporter/ImportSpecifiers/Workbook 1</pre>
 </div>
-<div created="20161121205335472" modified="20161121234043910" title="$:/temp/search">
-<pre>clean</pre>
+<div created="20161121205335472" modified="20161122012728499" title="$:/temp/search">
+<pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.14-prerelease">
 <pre>{
@@ -11037,8 +10322,8 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
-<div created="20161121232052231" modified="20161121233343331" title="$:/view">
-<pre>classic</pre>
+<div created="20161121232052231" modified="20161122012943265" title="$:/view">
+<pre>zoomin</pre>
 </div>
 <div object-type="year" title="1953">
 <pre></pre>
@@ -11286,14 +10571,17 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div album-id="steeplechase-sccd-31223" object-type="song" song-album="Albert's Love Theme+steeplechase-sccd-31223" song-title="Albert's Love Theme" title="Albert's Love Theme+steeplechase-sccd-31223">
 <pre></pre>
 </div>
-<div created="20161121223304993" modified="20161121233021064" tags="$:/tags/ViewTemplate" title="album template" type="`q">
+<div created="20161121223304993" modified="20161122014049162" tags="$:/tags/ViewTemplate" title="album template" type="`q">
 <pre>&lt;$list filter=&quot;[is[current]field:object-type[album]]&quot;&gt;
 &lt;h1&gt;Album: {{!!album-title}}&lt;/h1&gt;
+&lt;h3&gt;Recorded: {{!!year}}&lt;/h3&gt;
+&lt;h3&gt;Musicians: {{!!musicians}}&lt;/h3&gt;
+&lt;h3&gt;Songs:&lt;/h3&gt;
 &lt;$list filter=&quot;[field:album-id{!!title}field:object-type[song]]&quot;&gt;
-&lt;$link to={{!!song-album}}&gt;&lt;$view tiddler=&lt;&lt;currentTiddler&gt;&gt; field=&quot;song-title&quot;/&gt;&lt;/$link&gt;&lt;br&gt;
+&lt;h3&gt;&lt;$link to={{!!song-album}}&gt;&lt;$view tiddler=&lt;&lt;currentTiddler&gt;&gt; field=&quot;song-title&quot;/&gt;&lt;/$link&gt;&lt;/h3&gt;
 &lt;/$list&gt;
 &lt;hr&gt;
-^^[[album template]]^^
+^^[[=|album template]]^^
 &lt;/$list&gt;
 </pre>
 </div>
@@ -12021,8 +11309,15 @@ Templates:
 <div album-id="ecm-ecm-1365" object-type="song" song-album="Heat+ecm-ecm-1365" song-title="Heat" title="Heat+ecm-ecm-1365">
 <pre></pre>
 </div>
-<div created="20161121232106811" modified="20161121232123977" title="HelloThere">
-<pre>[[Albums]] || [[Songs]] || [[Years]]</pre>
+<div created="20161121232106811" modified="20161122013940283" title="HelloThere">
+<pre>&lt;h1&gt;Hello&lt;/h1&gt;
+
+* This is a quick demo of a Paul Bley discogaphy using [[TiddlyWiki|http://tiddlywiki.com]]. 
+* It is based on the [[JazzDisco.org|http://www.jazzdisco.org/paul-bley/discography/]] discography. 
+* Visitors can surf by [[Albums]], [[Songs]] or [[Years]].  Next step: wikify musicians.
+* Data is drawn from a [[spreadsheet|https://github.com/DesignWriteStudio/designwritestudio.github.io/raw/master/projects/paul-bley-wikified/paul-bley-discography.xlsx]] imported using  [[xlsx utilities|$:/plugins/tiddlywiki/xlsx-utils/controls]].
+* Navigate using the toolbar in the upper right.
+* [[TiddlyWiki|http://tiddlywiki.com]] writers might find it helpful to view the [[display options|$:/_Menu/Home/Configuration/Options]].</pre>
 </div>
 <div album-id="steeplechase-scs-1205" object-type="song" song-album="Here And Gone 1+steeplechase-scs-1205" song-title="Here And Gone 1" title="Here And Gone 1+steeplechase-scs-1205">
 <pre></pre>
@@ -12930,7 +12225,7 @@ Templates:
 <div album-id="steeplechase-sccd-31236" object-type="song" song-album="Someone To Watch Over Me+steeplechase-sccd-31236" song-title="Someone To Watch Over Me" title="Someone To Watch Over Me+steeplechase-sccd-31236">
 <pre></pre>
 </div>
-<div created="20161121205548951" modified="20161121233034851" tags="$:/tags/ViewTemplate" title="song template">
+<div created="20161121205548951" modified="20161122013304948" tags="$:/tags/ViewTemplate" title="song template">
 <pre>&lt;$list filter=&quot;[is[current]field:object-type[song]]&quot;&gt;
 &lt;h1&gt;Song: {{!!song-title}}&lt;/h1&gt;
 &lt;$list filter=&quot;[field:song-title{!!song-title}]&quot;&gt;
@@ -12938,7 +12233,7 @@ Templates:
 &lt;/$list&gt;
 &lt;hr&gt;
 
-^^[[song template]]^^
+^^[[=|song template]]^^
 &lt;/$list&gt;
 </pre>
 </div>
@@ -13476,7 +12771,7 @@ Templates:
 <div album-id="improvising-artists-inc-iai-37-38-39" object-type="song" song-album="Yeah, Guitar+improvising-artists-inc-iai-37-38-39" song-title="Yeah, Guitar" title="Yeah, Guitar+improvising-artists-inc-iai-37-38-39">
 <pre></pre>
 </div>
-<div created="20161121225117231" modified="20161121233645940" tags="$:/tags/ViewTemplate" title="year template">
+<div created="20161121225117231" modified="20161122013315455" tags="$:/tags/ViewTemplate" title="year template">
 <pre>&lt;$list filter=&quot;[is[current]field:object-type[year]]&quot;&gt;
 &lt;h1&gt;{{!!title}} Albums&lt;/h1&gt;
 &lt;$list filter=&quot;[field:year{!!title}field:object-type[album]]&quot;&gt;
@@ -13484,7 +12779,7 @@ Templates:
 &lt;/$list&gt;
 &lt;hr&gt;
 
-^^[[year template]]^^
+^^[[=|year template]]^^
 &lt;/$list&gt;
 </pre>
 </div>
