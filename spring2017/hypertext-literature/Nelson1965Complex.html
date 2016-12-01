@@ -153,6 +153,8 @@ Error message and password prompt
 
 <li>$:/state/tab--1498284803</li>
 
+<li>$:/state/tab-1482218709</li>
+
 <li>$:/state/tab/sidebar--1835078512</li>
 
 <li>$:/StoryList</li>
@@ -163,11 +165,19 @@ Error message and password prompt
 
 <li>$:/temp/search</li>
 
+<li>$:/temp/toc/selectedTiddler</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
-<li>AnnotatedQuotes</li>
+<li>Annotations</li>
+
+<li>AnnotationsLinks</li>
+
+<li>AnnotationsList</li>
+
+<li>AnnotationsReader</li>
 
 <li>Associative trails in Bush's memex</li>
 
@@ -7866,8 +7876,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20161121195315926" modified="20161121200856637" tags="$:/tags/TopLeftBar" title="$:/core/ui/TopLeftBar/menu">
-<pre>FullText || AnnotatedQuotes</pre>
+<div created="20161121195315926" modified="20161201160633781" tags="$:/tags/TopLeftBar" title="$:/core/ui/TopLeftBar/menu">
+<pre>FullText || [[Annotations]]</pre>
 </div>
 <div created="20161118175617909" modified="20161121194037498" title="$:/DefaultTiddlers">
 <pre>HelloThere</pre>
@@ -7907,20 +7917,23 @@ Error message and password prompt
 <div created="20161117211317066" modified="20161128173519450" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20161117211524303" modified="20161128173137061" title="$:/state/sidebar">
+<div created="20161117211524303" modified="20161201155228150" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20161121194206685" modified="20161121194820850" title="$:/state/tab--1498284803">
+<div created="20161121194206685" modified="20161201160617991" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/System</pre>
+</div>
+<div created="20161201160540187" modified="20161201160540187" title="$:/state/tab-1482218709">
+<pre>$:/core/ui/TiddlerInfo/Tagging</pre>
 </div>
 <div created="20161118013656849" modified="20161118175729892" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="FullText HelloThere AnnotatedQuotes [[Evolutionary aspects of file system]] Versioning [[Dynamic outlining / Dynamic indexing]]" title="$:/StoryList">
+<div list="HelloThere" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20161121194204568" modified="20161121200840407" title="$:/temp/advancedsearch">
-<pre>TopLeft</pre>
+<div created="20161121194204568" modified="20161201160615677" title="$:/temp/advancedsearch">
+<pre>Annotated Quotes</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -7936,8 +7949,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20161121194201229" modified="20161121200840408" title="$:/temp/search">
+<div created="20161121194201229" modified="20161201160458548" title="$:/temp/search">
 <pre></pre>
+</div>
+<div created="20161201155111364" modified="20161201155145989" title="$:/temp/toc/selectedTiddler">
+<pre>Associative trails in Bush's memex</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.13">
 <pre>{
@@ -8048,7 +8064,29 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20161118020042497" modified="20161121194022587" tags="" title="AnnotatedQuotes">
+<div created="20161201155251595" modified="20161201160332704" tags="" title="Annotations">
+<pre>!! Definition
+
+Annotations are quotes from FullText selected and generated into tiddlers using the Excision tool. Each quote gets a description (stored as title in tiddler), which is then hard-coded into FullText. Post-excision, caption is used to further or alternatively explain import of quote.
+
+!! The following are interpretations / presentations of the annotations:
+
+&lt;$list filter=&quot;[tag[Annotations]]&quot;&gt;
+&lt;h3&gt;&lt;$link&gt;{{!!title}}&lt;/$link&gt;&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;{{!!caption}}&lt;/li&gt;&lt;/ul&gt;
+&lt;/$list&gt;</pre>
+</div>
+<div caption="Provides links to each annotation. Text of link is caption, if available: captions are added post-excision during a review / refactor process" created="20161201154753501" modified="20161201155755258" tags="Annotations" title="AnnotationsLinks">
+<pre>&lt;$list filter=&quot;[tag[FullText]sort[caption]]&quot;&gt;
+&lt;h3&gt;
+&lt;$link to={{!!title}}&gt;=&gt;&lt;/$link&gt;
+&lt;$transclude field=&quot;caption&quot;&gt;
+&lt;$view field=&quot;title&quot;/&gt;
+&lt;/$transclude&gt;
+&lt;/h3&gt;
+&lt;/$list&gt;</pre>
+</div>
+<div caption="Lists (and provides link to) all annotations, with full text of excised text available. Provided text is title (established at time of excision, and hard-linked in FullText) or caption (if available; provided post-excision during review or refactoring)" created="20161118020042497" modified="20161201160011703" tags="Annotations" title="AnnotationsList">
 <pre>&lt;$list filter=&quot;[tag[FullText]]&quot;&gt;
 &lt;h3&gt;
 &lt;$link to={{!!title}}&gt;=&gt;&lt;/$link&gt;
@@ -8058,6 +8096,9 @@ Error message and password prompt
 &lt;/h3&gt;
 &lt;$transclude field=&quot;text&quot; mode=&quot;block&quot;/&gt;
 &lt;/$list&gt;</pre>
+</div>
+<div caption="Uses TiddlyWiki TOC variant to provide navigation to full quotes within a tiddler (and, prevents navigation to the annotation tiddlers)" created="20161201155003253" modified="20161201160449342" tags="Annotations" title="AnnotationsReader">
+<pre>&lt;&lt;toc-tabbed-internal-nav &quot;FullText&quot;&gt;&gt;</pre>
 </div>
 <div caption="Nelson focuses here on Bush's ideas of &quot;associative trails&quot;, with an extended quote of how the author/user would create, and then view, such an associative trail" created="20161118013941359" modified="20161118022040486" tags="FullText" title="Associative trails in Bush's memex">
 <pre>Bush stressed his file's ability to store related
@@ -8116,8 +8157,8 @@ then be manipulated through automatic handling of index numbers</pre>
 
 &gt;This is the quote that I also want to include in the excision</pre>
 </div>
-<div created="20161117211207816" modified="20161128173225622" title="FullText">
-<pre>Text used to generate [[AnnotatedQuotes]]
+<div created="20161117211207816" modified="20161201160035622" title="FullText">
+<pre>Text used to generate [[Annotations]]
 
 
 T. H. Nelson Vassar College, Poughkeepsie,N.Y.
@@ -8942,8 +8983,8 @@ complexity. The ELF is a hyperfile.
 (Citations ommitted; see [[links|HelloThere]] for bibliography)
 </pre>
 </div>
-<div created="20161121193629002" modified="20161121200209239" tags="" title="HelloThere">
-<pre>This wiki provides [[text|FullText]] and [[analysis|AnnotatedQuotes]] of the following article:
+<div created="20161121193629002" modified="20161201160650375" tags="" title="HelloThere">
+<pre>This wiki provides [[text|FullText]] and [[analysis|Annotations]] of the following article:
 
 Nelson, T.H. Complex information processing: a file structure for the complex, the changing and the indeterminate. Proceedings of the 1965 20th National Conference. ACM '65. Pages 84-100. URL: http://dl.acm.org/citation.cfm?id=806036. 
 
