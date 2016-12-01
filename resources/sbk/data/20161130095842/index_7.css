@@ -1,0 +1,64 @@
+/* ::::: https://uti.degreeworks.suny.edu/DGW_Style.css ::::: */
+
+html > body { font-size: small; }
+form { margin: 0px; }
+td { font-family: helvetica,helvetica,arial,sans-serif; font-size: 10pt; }
+a { background: transparent none repeat scroll 0% 0%; text-decoration: none; color: rgb(0, 54, 89); }
+a:link { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:visited { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:active { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:hover { background: transparent none repeat scroll 0% 0%; text-decoration: underline; }
+.Inner { background-color: rgb(255, 255, 255); padding-left: 2px; padding-right: 2px; border-spacing: 3px; }
+.SchoolName { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 14pt; font-weight: bold; color: rgb(29, 85, 160); white-space: nowrap; width: 100%; text-align: center; }
+.LegendTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 10pt; font-weight: bold; color: rgb(29, 85, 160); white-space: nowrap; width: 100%; text-align: left; padding-left: 2px; padding-right: 10px; }
+.LegendItem { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(0, 0, 255); background-color: rgb(239, 239, 239); width: 20px; text-align: right; padding-left: 2px; padding-right: 2px; }
+.LegendLabel { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(239, 239, 239); text-align: left; padding-left: 2px; padding-right: 8px; }
+.DisclaimerText { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(239, 239, 239); text-align: left; padding-left: 8px; padding-right: 8px; }
+.BorderLight { background-color: rgb(221, 221, 221); height: 1px; }
+.BorderDark { background-color: rgb(29, 85, 160); height: 1px; }
+.Blocks { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; background-color: rgb(248, 248, 248); color: rgb(255, 255, 255); }
+.BlockHeader { font-family: Tahoma,helvetica,arial,serif; font-size: 10pt; font-weight: bold; background-color: rgb(29, 85, 160); background-repeat: repeat-x; color: rgb(255, 255, 255); text-align: left; padding-right: 2px; padding-left: 2px; }
+.SectionCourseTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 8pt; font-weight: normal; text-align: left; padding-left: 0px; padding-right: 0px; }
+.SectionCourseGrade { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 8pt; font-weight: normal; text-align: left; padding-left: 0px; padding-right: 0px; }
+.SectionCourseCredits { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 8pt; font-weight: normal; text-align: left; padding-left: 0px; padding-right: 0px; }
+.SectionCourseTerm { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 8pt; font-weight: normal; text-align: left; padding-left: 0px; padding-right: 0px; }
+.ClassesAppliedClasses { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 8pt; font-weight: bold; width: 100px; padding: 3px; white-space: nowrap; }
+.AuditNotesHeader { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(239, 239, 239); white-space: nowrap; text-align: left; padding-right: 8px; padding-left: 8px; }
+.AuditNotesData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(0, 0, 0); text-align: left; padding-left: 8px; padding-right: 8px; }
+.AuditTable { background-color: rgb(255, 255, 255); }
+.SectionTableSubTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(255, 255, 255); white-space: nowrap; text-align: right; padding-left: 0px; }
+.SectionTableSubData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(255, 255, 255); white-space: nowrap; text-align: left; padding-left: 0px; }
+.StuHead { background-color: rgb(29, 85, 160); }
+.StuHeadTitle { font-family: Tahoma,helvetica,arial,sans-serif; font-size: 10pt; color: rgb(255, 255, 255); font-weight: bold; padding-left: 6px; }
+.StuHeadCaption { font-family: Tahoma,helvetica,arial,sans-serif; font-size: 9pt; color: rgb(255, 255, 255); font-weight: normal; }
+.StuTableTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(210, 226, 238); white-space: nowrap; width: 3%; text-align: left; padding-right: 8px; padding-left: 8px; border-bottom: 2px solid white; border-left: 2px solid white; }
+.StuTableData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(0, 0, 0); background-color: rgb(239, 239, 239); width: 15%; white-space: nowrap; text-align: left; padding-left: 8px; padding-right: 30px; border-bottom: 2px solid white; }
+.BlockHeadTitle { font-family: Tahoma,helvetica,arial,serif; font-size: 10pt; color: rgb(255, 255, 255); font-weight: bold; padding-left: 8px; }
+.BlockHeadSubTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(255, 255, 255); white-space: nowrap; text-align: right; padding-left: 0px; }
+.BlockHeadSubData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(255, 255, 255); white-space: nowrap; text-align: left; padding-left: 0px; padding-right: 8px; }
+.BlockAdviceTable { background-color: rgb(248, 248, 248); }
+.BlockAdviceTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); white-space: nowrap; text-align: left; padding-right: 8px; padding-left: 8px; }
+.BlockAdviceData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(29, 85, 160); text-align: left; padding-left: 0px; padding-right: 8px; }
+.BlockRemarksTable { background-color: rgb(239, 239, 239); }
+.BlockRemarksData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; color: rgb(29, 85, 160); text-align: left; padding-left: 20px; padding-right: 8px; }
+.RuleLabelLine { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); text-align: left; padding: 3px 8px; width: 40%; }
+.RuleLabelTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); text-align: left; padding-right: 2px; padding-left: 2px; }
+.RuleLabelTitleNotNeeded { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(96, 96, 96); text-align: left; padding-right: 2px; padding-left: 2px; }
+.RuleLabelTitleNeeded { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); text-align: left; padding-right: 2px; padding-left: 2px; }
+.RuleLabelData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); text-align: left; padding-right: 8px; padding-left: 2px; width: 100%; }
+.RuleAdviceTitleNew { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(204, 0, 0); text-align: left; padding-right: 8px; padding-left: 2px; width: 70px; white-space: nowrap ! important; }
+.RuleAdviceData { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; color: rgb(0, 0, 0); text-align: left; padding-right: 8px; padding-left: 2px; }
+.CourseAppliedRowWhite { color: rgb(96, 96, 96); }
+.CourseAppliedRowAlt { background-color: rgb(239, 239, 239); color: rgb(96, 96, 96); }
+.CourseAppliedDataDiscNum { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; text-align: left; padding-right: 8px; padding-left: 0px; width: 20%; }
+.CourseAppliedDataTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; white-space: nowrap; text-align: left; padding-right: 8px; padding-left: 0px; width: 45%; }
+.CourseAppliedDataGrade { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; white-space: nowrap; text-align: left; padding-right: 8px; padding-left: 0px; width: 10%; }
+.CourseAppliedDataCredits { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; white-space: nowrap; text-align: left; padding-right: 8px; padding-left: 0px; width: 10%; }
+.CourseAppliedDataTerm { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: normal; white-space: nowrap; text-align: left; padding-right: 8px; padding-left: 0px; width: 15%; }
+.TableHead { background-color: rgb(29, 85, 160); }
+.ProgressTable { background-color: rgb(255, 255, 255); background-image: url('progress-light.gif'); background-repeat: repeat-x; border-color: rgb(29, 85, 160); border-style: solid; border-width: 1px; width: 80%; }
+.ProgressBar { background-color: rgb(29, 85, 160); background-image: url('progress-dark.gif'); background-repeat: repeat-x; color: white; font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 10pt; font-weight: bold; }
+.ProgressTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 10pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(255, 255, 255); white-space: nowrap; width: 100%; text-align: center; padding-left: 2px; padding-right: 10px; }
+.ProgressSubTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 10pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(255, 255, 255); white-space: nowrap; width: 90px; text-align: left; padding-left: 4px; padding-right: 4px; }
+.bgLight98 { background-color: rgb(230, 244, 255); }
+.bgLight0 { background-color: rgb(254, 238, 221); }

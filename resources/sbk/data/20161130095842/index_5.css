@@ -1,0 +1,18 @@
+/* ::::: https://uti.degreeworks.suny.edu/DGW_Style.css ::::: */
+
+html > body { font-size: small; }
+a { background: transparent none repeat scroll 0% 0%; text-decoration: none; color: rgb(0, 54, 89); }
+a:link { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:visited { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:active { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:hover { background: transparent none repeat scroll 0% 0%; text-decoration: underline; }
+.TabBody { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; background-color: rgb(255, 255, 255); }
+.selected { color: rgb(71, 71, 71); }
+ul#verticalnav { font: bold 12px Tahoma,Geneva,sans-serif; width: auto; margin: 0px; padding: 0px 0px 0px 8px; }
+ul#verticalnav li { list-style: outside none none; background-color: rgb(255, 255, 255); text-align: left; margin: 0px; width: 128px; border-bottom: 1px solid rgb(204, 204, 204); }
+ul#verticalnav li a { display: block; text-decoration: none; padding: 5px 12px 5px 5px; letter-spacing: 1pt; vertical-align: middle; width: 112px; }
+ul#verticalnav a:hover { color: rgb(91, 147, 190); }
+ul#verticalnav a:hover { background-color: rgb(255, 255, 255); }
+ul#verticalnav .selected a { color: rgb(39, 86, 144); background-color: rgb(255, 255, 255); }
+ul#verticalnav .selected a { color: rgb(39, 86, 144); background-image: url('list-arrow.gif'); background-position: right center; background-repeat: no-repeat; }
+ul#verticalnav .notselected a { color: rgb(187, 187, 187); }

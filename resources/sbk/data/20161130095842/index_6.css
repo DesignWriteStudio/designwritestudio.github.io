@@ -1,0 +1,17 @@
+/* ::::: https://uti.degreeworks.suny.edu/DGW_Style.css ::::: */
+
+html > body { font-size: small; }
+form { margin: 0px; }
+input { font-size: 10pt; font-family: Tahoma,Helvetica,sans-serif; color: rgb(85, 85, 85); padding: 2px; border-color: rgb(153, 153, 153) rgb(221, 221, 221) rgb(221, 221, 221) rgb(153, 153, 153); border-style: solid; border-width: 1px; height: 23px; }
+td { font-family: helvetica,helvetica,arial,sans-serif; font-size: 10pt; }
+a { background: transparent none repeat scroll 0% 0%; text-decoration: none; color: rgb(0, 54, 89); }
+a:link { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:visited { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:active { background: transparent none repeat scroll 0% 0%; text-decoration: none; }
+a:hover { background: transparent none repeat scroll 0% 0%; text-decoration: underline; }
+.GeneralButton { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(187, 187, 187); text-align: center; padding-left: 8px; padding-right: 8px; background-image: url('bg-button.gif'); border: 3px double rgb(255, 255, 255); height: 26px; background-position: center center; }
+html > body .GeneralButton { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(29, 85, 160); background-color: rgb(187, 187, 187); text-align: center; padding-left: 8px; padding-right: 8px; background-image: url('bg-button.gif'); height: 26px; }
+html > body .GeneralButton:hover { background-image: url('bg-button-hover.gif'); }
+.ContextBackground { background-color: rgb(255, 255, 255); background-image: url('bg-context.gif'); background-repeat: repeat-x; background-position: center top; }
+.DegInputSelect { font-family: Tahoma,"MS Sans Serif",helvetica,helvetica,arial,sans-serif; font-size: 10pt; margin-top: 1px; background-color: rgb(255, 255, 255); height: 23px; }
+.FieldTitle { font-family: Tahoma,verdana,helvetica,helvetica,arial,sans-serif; font-size: 9pt; font-weight: bold; color: rgb(102, 102, 102); }

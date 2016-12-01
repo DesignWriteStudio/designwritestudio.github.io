@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    
+    <title>Ellucian Degree Works - SUNY POLY DegreeWorks
+Audit Control
+</title>
+    
+    
+    
+    
+    
+    
+    
+    <meta http-equiv="Content-Language" content="en">
+    
+
+<link media="all" href="index_6.css" type="text/css" rel="stylesheet">
+</head>
+<body leftmargin="0" topmargin="0" class="ContextBackground" marginwidth="0" marginheight="0">
+
+<!--
+<div id="tooltip" style="position:absolute;visibility:hidden"></div>
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr height="42">
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmAuditForm"></form>
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <input name="ContentType" value="&amp;ContentType=xml" type="hidden">
+        <input name="PDFContentType" value="&amp;ContentType=pdf" type="hidden">
+        <input name="USERID" value="U00059173" type="hidden">
+        <input name="STUID" value="U00295386" type="hidden">
+        <input name="SCHOOL" value="01" type="hidden">
+        <input name="DEGREE" value="BS" type="hidden">
+        <input name="SUBMIT_TYPE" value="" type="hidden"> <!--1.1b-->
+        <td width="6" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="5" border="0" height="42">
+        </td>
+        <td width="6" valign="top" nowrap="" align="left">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tbody><tr>
+                    <td class="FieldTitle" valign="top" nowrap="" align="left"> Format:</td>
+                </tr>
+                <tr>
+                    <td class="FieldTitle" valign="top" nowrap="" align="left"></td>
+                </tr>
+                <tr>
+                    <td valign="top" nowrap="" align="left">
+                        <!-- Inlude the picklist of audit reports -->
+<label for="REPORT"></label>
+<select name="REPORT" id="REPORT" size="1" class="DegInputSelect">
+    <option value="WEB31">Student View                  
+    </option><option value="WEB33">Graduation Checklist          
+    </option><option value="WEB36">Registration Checklist        
+</option></select>
+
+
+
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="5" border="0" height="42">
+        </td>
+        <!-- "View Audit" for students and "View Current" for non-students -->
+        <td width="6" valign="middle" nowrap="" align="left">
+            <input name="REVIEW" value="View" class="GeneralButton" style="width: 100px;" onclick="ToggleButtons('off');
+					top.frControl.GetAudit('REVAUDIT', 'SD2GETAUD' +
+                     document.frmAuditForm.ContentType.value);" type="button">
+        </td>
+        <!-- "PDF Audit" -->
+        <td width="6" valign="middle" nowrap="" align="left">
+        <input name="GETPDF" value="Save as PDF" class="GeneralButton" style="width: 100px;" onclick="PDFAudit()" type="button">
+        </td>
+        <td valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="5" border="0" height="42">
+        </td>
+        <td valign="top" nowrap="" align="left">
+            <img src="line_bevel.gif" alt="">
+        </td>
+        <td valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="5" border="0" height="42">
+        </td>
+        <td width="6" valign="middle" nowrap="" align="left">
+            <input name="RUN" value="Process New" class="GeneralButton" style="width: 100px;" onclick="ToggleButtons('off');
+					top.frControl.GetAudit('RUNAUDIT', 'SD2GETAUD' +
+                     document.frmAuditForm.ContentType.value)" type="button">
+        </td>
+        <td valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="5" border="0" height="42">
+        </td>
+        <td width="6" valign="middle" nowrap="" align="left">
+            <table cellspacing="0" cellpadding="0" border="0">
+
+<!-- 1.1b Start -->
+                <!-- UCXCFG020 WEB 5:1 = N (Do Not Show InProgress Checkbox) -->
+                <input name="InProgress" id="InProgress" value="Y" type="hidden">
+
+                <!-- UCXCFG020 WEB 7:1 = N (Do Not Show PreReg Checkbox) -->
+                <input name="CutOffTerm" id="CutOffTerm" value="Y" type="hidden">
+
+<!-- 1.1b End -->
+            </table>
+        </td>
+<!-- REFRESH information removed -- 1.07 -->
+
+        <!-- Class History report -->
+        <td class="FieldTitle" width="150" nowrap="" align="center">
+          <a href="javascript:ClassHist()" style="text-decoration: underline;">
+           Class History                 
+      </a>
+        </td>
+        <td width="100%" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="5" border="0" height="42">
+        </td>
+    </tr>
+</tbody></table>
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="OpenEmailForm" target="">
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <input name="SCRIPT" value="" type="hidden">
+        <input name="SEARCHTYPE" value="" type="hidden">
+        <input name="STUID" value="U00295386" type="hidden">
+        <input name="SCHOOL" value="01" type="hidden">
+        <input name="DEGREE" value="BS" type="hidden">
+</form>
+
+
+
+
+
+</body>
+</html>

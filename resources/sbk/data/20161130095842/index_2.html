@@ -1,0 +1,384 @@
+<html lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    
+    <title>Ellucian Degree Works - SUNY POLY DegreeWorks
+Student Selection
+ </title>
+    
+    
+    
+    
+    
+    
+    
+    <meta http-equiv="Content-Language" content="en">
+    
+
+<link media="all" href="index_2.css" type="text/css" rel="stylesheet">
+</head>
+<body leftmargin="0" topmargin="0" class="StudentContext" marginwidth="0" marginheight="0">
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmCourseInfo" target="myNewWin">
+        <input name="SCRIPT" value="SD2COURSEINFO" type="hidden">
+        <input name="COURSEDISC" value="" type="hidden">
+        <input name="COURSENUMB" value="" type="hidden">
+        <input name="COURSEATTR" value="" type="hidden">
+        <input name="COURSEATTROP" value="" type="hidden">
+        <input name="REPORT" value="" type="hidden">
+        <input name="REPORTUCLASS" value="" type="hidden">
+        <input name="DEBUG" value="OFF" type="hidden">
+        <input name="ContentType" value="xml" type="hidden">
+</form>
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmUpdateAudit" target="myNewWin">
+        <input name="SCRIPT" value="SD2UPDATEAUDIT" type="hidden">
+        <input name="ACTION" value="UPDATEAUDIT" type="hidden">
+        <input name="AUDITID" value="" type="hidden">
+        <input name="FREEZETYPE" value="" type="hidden">
+        <input name="AUDITDESC" value="" type="hidden">
+        <input name="STUID" value="" type="hidden">
+        <input name="USERID" value="" type="hidden">
+        <input name="DEBUG" value="OFF" type="hidden">
+        <input name="ContentxxxxType" value="xml" type="hidden">
+</form>
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmCourseInfoSEPView" target="myNewWin">
+<input name="SCRIPT" value="SD2COURSEINFO" type="hidden">
+<input name="BUFFER" value="" type="hidden">
+<input name="FROM" value="PLANNER" type="hidden">
+<input name="DEBUG" value="OFF" type="hidden">
+<input name="ContentType" value="xml" type="hidden">
+</form>
+
+<!-- LeepFrog's InstantRapport advisor chat -->
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmAdvisorChat" target="myNewWin">
+        <input name="SCRIPT" value="LEEPIRSTUDENT" type="hidden">
+        <input name="ADVISORID" value="" type="hidden">
+        <input name="PROFILEINFO" value="" type="hidden">
+        <input name="DEBUG" value="OFF" type="hidden">
+</form>
+
+<div id="tooltip" style="position: absolute; visibility: hidden;"></div>
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="OpenSearchForm" target="wStudentSearch">
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <input name="SCRIPT" value="SD2SEARCH" type="hidden">
+        <input name="SEARCHTYPE" value="" type="hidden">
+        <input name="DEBUG" value="OFF" type="hidden">
+</form>
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmGetID" target="frHold">
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <input name="SCRIPT" value="SD2STUGID" type="hidden">
+        <input name="STUIDSEARCH" value="NO" type="hidden"> <!-- Needed for Simple ID search -->
+        <input name="STUID" type="hidden"> <!-- Needed for Simple ID search -->
+        <!--<input type="hidden" name="E7306"> <!-- advisor-id search -->
+        <input name="DEBUG" value="OFF" type="hidden">
+        <input name="FILTERMATCH01" value="" type="hidden">
+        <input name="FILTERMATCH02" value="" type="hidden">
+        <input name="FILTERMATCH03" value="" type="hidden">
+        <input name="FILTERMATCH04" value="" type="hidden">
+        <input name="FILTERMATCH05" value="" type="hidden">
+        <input name="FILTERMATCH06" value="" type="hidden">
+        <input name="FILTERMATCH07" value="" type="hidden">
+        <input name="FILTERMATCH08" value="" type="hidden">
+        <input name="FILTERMATCH09" value="" type="hidden">
+        <input name="FILTERMATCH10" value="" type="hidden">
+
+</form>
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmGetMyID" target="frHold">
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <input name="SCRIPT" value="SD2STUGID" type="hidden">
+        <input name="STUID" type="hidden"> <!-- Needed for Simple ID search -->
+        <input name="STUIDSEARCH" value="YES" type="hidden"> <!-- Needed for Simple ID search -->
+        <input name="DEBUG" value="OFF" type="hidden">
+</form>
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmCallScript" target="frBody" id="formCallScript">
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <!-- REPORT must come before SCRIPT for SOC reports -->
+        <input name="REPORT" value="WEB31" type="hidden">
+        <input name="SCRIPT" value="SD2GETAUD&amp;ContentType=xml" type="hidden">
+        <input name="USERID" value="U00059173" type="hidden">
+        <input name="USERCLASS" value="ADV" type="hidden">
+        <input name="BROWSER" value="NOT-NAV4" type="hidden">
+        <!-- Set in DGW_Control.js -->
+        <input name="ACTION" value="REVAUDIT" type="hidden">
+        <input name="AUDITTYPE" value="" type="hidden">
+        <input name="DEGREETERM" value="ACTV" type="hidden">
+        <input name="INTNOTES" value="" type="hidden">
+        <input name="INPROGRESS" value="Y" type="hidden">
+        <input name="CUTOFFTERM" value="9999" type="hidden">
+        <input name="REFRESHBRDG" value="N" type="hidden">
+        <input name="AUDITID" value="" type="hidden">
+        <input name="JSERRORCALL" value="SetError" type="hidden">
+        <input name="NOTENUM" value="" type="hidden">
+        <input name="NOTETEXT" value="" type="hidden">
+        <input name="NOTEMODE" value="" type="hidden">
+        <input name="PENDING" value="" type="hidden">
+        <input name="INTERNAL" value="" type="hidden">
+        <!-- 1.05 Begin -->
+        <input name="RELOADSEP" value="TRUE" type="hidden">
+        <input name="PRELOADEDPLAN" type="hidden">
+        <input name="ContentType" value="xml" type="hidden">
+        <!-- 1.05 End -->
+        <input name="STUID" value="U00295386" type="hidden">
+        <input name="SCHOOL" value="01" type="hidden">
+        <input name="STUSCH" value="01" type="hidden">
+        <input name="DEGREE" value="BS" type="hidden">
+        <input name="STUDEG" value="BS" type="hidden">
+        <input name="STUDEGLIT" value="BS" type="hidden">
+        <input name="STUDI" value="" type="hidden">
+        <input name="STULVL" value="Freshman" type="hidden">
+        <input name="STUMAJLIT" value="Communication/Informatn Design" type="hidden">
+        <input name="STUCATYEAR" value="" type="hidden">
+        <input name="CLASSES" value="" type="hidden"> <!-- Look-ahead audit -->
+        <input name="DEBUG" value="OFF" type="hidden">
+</form>
+<!-- 1.10 Start -->
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmRefresh" target="frHold">
+        <input name="SERVICE" value="SCRIPTER" type="hidden">
+        <input name="SCRIPT" value="SD2REFRESH" type="hidden">
+        <input name="STUID" value="" type="hidden">
+        <input name="SCHOOL" value="" type="hidden">
+        <input name="STUSCH" value="" type="hidden">
+        <input name="DEGREE" value="" type="hidden">
+        <input name="STUDEG" value="" type="hidden">
+        <input name="ContentType" value="xml" type="hidden">
+        <input name="DEBUG" value="OFF" type="hidden">
+</form>
+<!-- 1.10 End -->
+<!-- ******************************************************************** -->
+
+<form action="https://uti.degreeworks.suny.edu/IRISLink.cgi" method="POST" name="frmHoldFields" target="frBody" onsubmit="return false;">
+
+<!--###################################################################-->
+<!--###################################################################-->
+<!--###################################################################-->
+<table class="StuContextTable" width="100%" cellspacing="0" cellpadding="0" bordercolor="#000000" border="0">
+    <tbody><tr>
+        <!--<td nowrap align="left" valign="top">
+            <img src="Images_DG2/spacer.gif" alt="" width="2" height="42">
+        </td>-->
+        <td valign="bottom" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="10" height="1"><br>
+
+            <a href="javascript:OpenSearch('SD2SEARCH',%20'wStudentSearch');" accesskey="f" onmousedown="SwapDown('Button_Find');" onmouseup="SwapUp('Button_Find');" alt="Find a record.">
+                <img src="button_find.gif" name="Button_Find" alt="Find Record Button" title="Find Record Button" longdesc="ADA/FindButton.txt" border="0"></a>
+
+
+
+
+        </td>
+        <!--<td nowrap align="left" valign="top">
+            <img src="Images_DG2/spacer.gif" alt="" width="1" height="1">
+        </td>-->
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+            
+            
+            <label for="StudentID" id="StudentIdLabel" name="StudentIDLabel" accesskey="s" title="Student ID">
+Student ID          <br>
+            </label>
+
+<!--## Code: 1.1c Enter Key Search Fix-->
+
+
+            <!--## Code: 1.1b added onFocus and onBlur -->
+            <input class="DegInputText" size="6" maxlength="10" name="StudentID" id="StudentID" value="U00295386" style="width: 78px;" xxxonchange="GetIDSubmit('StudentID');" onfocus="this.select(); bStudentIDSelected = true; fixEnterSearch();" title="Student ID" type="text">
+            <!-- onBlur="bStudentIDSelected = false;"- set to false in Control.js's GetIDSubmit -->
+
+
+            </span>
+        </td>
+        <!--<td nowrap align="left" valign="top">
+            <img src="Images_DG2/spacer.gif" alt="" width="2" height="1">
+        </td>-->
+        <td valign="top" nowrap="" align="center">
+            <nobr>
+
+
+            <img src="spacer.gif" alt="" width="1" height="1">
+            <a href="#" onmouseover="SwapUp('Button_First');" onmousedown="SwapDown('Button_First');" onmouseup="GoFirst();SwapUp('Button_First');" onmouseout="SwapOff('Button_First');" alt="Go to the first record.">
+                <img src="button_first.gif" name="Button_First" id="Button_First" alt="First Record Button." longdesc="ADA/FirstButton.txt" border="0" align="absbottom"></a>
+
+
+            <a href="#" onmouseover="SwapUp('Button_Previous');" onmousedown="SwapDown('Button_Previous');" onmouseup="GoPrevious();SwapUp('Button_Previous');" onmouseout="SwapOff('Button_Previous');" alt="Go to the previous record.">
+                <img src="button_previous.gif" name="Button_Previous" id="Button_Previous" alt="Previous Record Button." longdesc="ADA/PreviousButton.txt" border="0" align="absbottom"></a>
+
+
+            <img src="spacer.gif" alt="" width="22" height="1">
+            <span class="FieldTitle">
+              <label title="Student List" alt="Student List" for="StudentList">
+                Name
+              </label>
+            </span>
+            <img src="spacer.gif" alt="" width="22" height="1">
+            <a href="#" onmouseover="SwapUp('Button_Next');" onmousedown="SwapDown('Button_Next');" onmouseup="GoNext();SwapUp('Button_Next');" onmouseout="SwapOff('Button_Next');" alt="Go to the next record.">
+                <img src="button_next.gif" name="Button_Next" id="Button_Next" alt="Next Record Button" longdesc="ADA/NextButton.txt" border="0" align="absbottom"></a>
+            <a href="#" onmouseover="SwapUp('Button_Last');" onmousedown="SwapDown('Button_Last');" onmouseup="GoLast();SwapUp('Button_Last');" onmouseout="SwapOff('Button_Last');" alt="Go to the last record.">
+                <img src="button_last.gif" name="Button_Last" id="Button_Last" alt="Last Record Button" longdesc="ADA/LastButton.txt" border="0" align="absbottom"></a>
+
+
+            <img src="spacer.gif" alt="" width="1" height="1">
+            </nobr>
+            <br>
+            <select name="StudentList" id="StudentList" size="1" class="DegInputSelect" nowrap="" style="width: 166px;" onchange="SetStudent();ReloadTab();" title="Student List" accesskey="n">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            <option value="U00295386">Schenkel, Wilfred</option></select>
+
+
+        </td>
+        <!--<td nowrap align="left" valign="top">
+            <img src="Images_DG2/spacer.gif" alt="" width="1" height="1">
+        </td>-->
+        <td rowspan="2" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="1" height="5"><br>
+            <img src="line_whiteongreen.gif" alt="">
+        </td>
+        <td valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="1" height="1">
+        </td>
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+            <label for="Degree" id="DegreeLabel" name="DegreeLabel" title="Degree">
+Degree              <br>
+            </label>
+            <select name="DegreeList" id="DegreeList" size="1" class="DegInputSelectDisplay" nowrap="" style="width: 82px;" onchange="parent.frSelection.location.href='SD_LoadFrameForm.html';
+                     ReloadTab();
+                     SetDegree();">
+                
+                
+                
+                
+                
+            <option value="BS">BS</option></select>
+            </span>
+        </td>
+        <!--<td nowrap align="left" valign="top">
+            <img src="Images_DG2/spacer.gif" alt="" width="2" height="1">
+        </td>-->
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+            <label for="Major" id="MajorLabel" name="MajorLabel" title="Major">
+Major               <br>
+            <input class="DegInputTextDisplay" size="12" name="Major" id="Major" value="Communication/Informatn Design" style="width: 150px; background-image: url('undefined'); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" onfocus="this.blur();" title="Major" type="text">
+            </label>
+            </span>
+        </td>
+        <!--<td nowrap align="left" valign="top">
+            <img src="Images_DG2/spacer.gif" alt="" width="2" height="1">
+        </td>-->
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+            <label for="School" id="SchoolLabel" name="SchoolLabel" title="Level">
+Level               <br>
+            <input class="DegInputTextDisplay" size="2" maxlength="10" name="School" id="School" value="01" style="width: 40px;" onfocus="this.blur();" title="Level" type="text">
+            </label>
+            </span>
+        </td>
+
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+                <label for="Level" id="LevelLabel" name="LevelLabel" title="Student Class Level">
+Student Class Level <br>
+                <input class="DegInputTextDisplay" size="6" maxlength="10" name="Level" id="Level" value="Freshman" style="width: 78px;" onfocus="this.blur();" title="Student Class Level" type="text">
+                </label>
+            </span>
+        </td>
+
+<!--              -->
+<!-- CUSTOM FIELD -->
+<!--              -->
+
+        <td rowspan="2" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="1" height="5"><br>
+            <img src="line_whiteongreen.gif" alt="">
+        </td>
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+                <label for="LastAudit" title="Last Audit Date">
+                    Last Audit<br>
+                    <input class="DegInputTextDisplay" size="6" name="LastAudit" id="LastAudit" title="Last Audit Date" style="width: 78px;" onfocus="this.blur();" value="11/28/2016" type="text">
+                </label>
+            </span>
+        </td>
+
+<!-- user has the SDREFBTN key -->
+<!-- BANNER byte 1 is Y - this is a Banner site -->
+
+        <!-- 1.10 Begin -->
+        <td rowspan="2" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="6" height="5"><br>
+            <img src="line_whiteongreen.gif" alt="">
+        </td>
+        <td valign="middle" nowrap="" align="left">
+            <span class="FieldTitle">
+              <label for="LastRefresh" title="Last Refresh date and time">
+                    Last Refresh<br>
+                    <input class="DegInputTextDisplay" size="6" name="LastRefresh" id="LastRefresh" title="The last time the data was refreshed was 11/29/2016 at 6:09 pm
+ but the last time the we observed data changes was 11/28/2016 at 6:09 pm" style="width: 152px;" onfocus="this.blur();" value="11/29/2016 at 6:09 pm" type="text">
+              </label>
+            </span>
+        </td>
+
+        <td valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="6" height="1">
+        </td>
+        <td valign="middle" nowrap="" align="left">
+            <a href="javascript:RefreshStudent()">
+                <img src="refresh.gif" title="Refresh this student's data" id="refresh_image" border="0"></a>
+        </td>
+        <td rowspan="2" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="6" height="5"><br>
+            <img src="line_whiteongreen.gif" alt="">
+        </td>
+
+<!-- See if this site is allowing the add-note button; make sure the user is allowed to add notes -->
+
+        <!-- this column helps squish the other columns together to the left -->
+        <td width="100%" valign="top" nowrap="" align="left">
+            <img src="spacer.gif" alt="" width="6" height="1">
+        </td>
+
+    </tr>
+</tbody></table>
+</form>
+<!--###################################################################-->
+<!--###################################################################-->
+<!--###################################################################-->
+
+
+
+
+<!-- ******************************************************************** -->
+
+
+
+</body>
+</html>

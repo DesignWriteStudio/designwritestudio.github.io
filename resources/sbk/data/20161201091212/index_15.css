@@ -1,0 +1,9 @@
+/* ::::: https://i.r1-cdn.net/static/css/r1oba.min.css ::::: */
+
+.r1-obashare-oba { position: absolute; z-index: 5; cursor: pointer; background-image: url('ach-bg-clr.png'); height: 15px; font-size: 1px; overflow: hidden; width: 19px; text-decoration: none ! important; white-space: nowrap; }
+.r1-obashare-oba:hover { text-indent: 0px; width: auto; }
+.r1-obashare-oba:hover .r1-obashare-oba__span { display: inline-block; padding: 0px 18px 0px 6px; }
+.r1-obashare-oba__ico { position: absolute; top: 1px; right: 2px; background: transparent url('ach-ico-small.png') repeat scroll 0% 0%; width: 12px; height: 13px; }
+.r1-obashare-oba__span { display: none; background-position: 6px 0px; background-repeat: no-repeat; }
+.r1-oba-obalang__en { background-image: url('ach-lang-en.png'); width: 54px; height: 15px; }
+.r1-obashare-oba-pos-tr { top: 0px; right: 0px; background-position: 0px 0px; }
