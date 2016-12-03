@@ -664,6 +664,14 @@
                    NS1:comment=""
                    NS1:source="http://eds.b.ebscohost.com.ezproxy.sunyit.edu/eds/detail/detail?sid=48c80f88-6a94-434c-b42b-c806c7676cfc%40sessionmgr106&amp;vid=0&amp;hid=104&amp;bdata=JnNpdGU9ZWRzLWxpdmU%3d#AN=508128797&amp;db=eue"
                    NS1:icon="resource://scrapbook/data/20160923155115/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161201123547"
+                   NS1:id="20161201123547"
+                   NS1:type=""
+                   NS1:title="Kolb: Association and argument: Hypertext in and... - Google Scholar"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="https://scholar.google.com/scholar?oe=utf-8&amp;um=1&amp;ie=UTF-8&amp;lr&amp;cites=6426489272300913402"
+                   NS1:icon="resource://scrapbook/data/20161201123547/favicon-png.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20160825120340"
                    NS1:id="20160825120340"
                    NS1:type=""
@@ -889,6 +897,7 @@
     <RDF:li RDF:resource="urn:scrapbook:item20161005131720"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161005133223"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161005134027"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161201123547"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20161006124522"
                    NS1:id="20161006124522"
