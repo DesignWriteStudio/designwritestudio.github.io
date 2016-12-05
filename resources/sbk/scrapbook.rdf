@@ -10,6 +10,14 @@
                    NS1:comment=""
                    NS1:source="https://scholar.google.com/scholar?q=clickable+infographics+storytelling&amp;btnG=&amp;hl=en&amp;as_sdt=1%2C33"
                    NS1:icon="resource://scrapbook/data/20161201091210/favicon-png.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205130732"
+                   NS1:id="20161205130732"
+                   NS1:type=""
+                   NS1:title="Ana Jofre"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://onewomancaravan.net/"
+                   NS1:icon="resource://scrapbook/data/20161205130732/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124516"
                    NS1:id="20161006124516"
                    NS1:type=""
@@ -118,6 +126,14 @@
                    NS1:icon="resource://scrapbook/data/20160909135339/1436297735-favicon.ico"
                    NS1:source="https://en-us.help.blackboard.com/Learn/Student/Interact/Discussions/Reply_to_Discussion_Posts"
                    NS1:comment="" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205132409"
+                   NS1:id="20161205132409"
+                   NS1:type=""
+                   NS1:title="Kathleen P.J. Brennan"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://www.kpjbrennan.com/"
+                   NS1:icon="resource://scrapbook/data/20161205132409/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124527"
                    NS1:id="20161006124527"
                    NS1:type=""
@@ -304,6 +320,14 @@
                    NS1:comment=""
                    NS1:source="http://www.writethedocs.org/"
                    NS1:icon="resource://scrapbook/data/20160826202735/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205132449"
+                   NS1:id="20161205132449"
+                   NS1:type=""
+                   NS1:title="Time Magazine Project"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="http://onewomancaravan.net/Utica/TIMEproject.html" />
   <RDF:Seq RDF:about="urn:scrapbook:item20160923155054">
     <RDF:li RDF:resource="urn:scrapbook:item20160923155115"/>
     <RDF:li RDF:resource="urn:scrapbook:item20160923164658"/>
@@ -442,6 +466,7 @@
                    NS1:icon="moz-icon://p474.pdf?size=16"
                    NS1:source="http://pubman.mpdl.mpg.de/pubman/item/escidoc:2239364:7/component/escidoc:2239368/p474.pdf" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20161205130701"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201095202"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201091158"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161116101636"/>
@@ -950,6 +975,14 @@
                    NS1:comment=""
                    NS1:source="http://www.jazzdisco.org/paul-bley/discography/"
                    NS1:icon="resource://scrapbook/data/20160825120336/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205132624"
+                   NS1:id="20161205132624"
+                   NS1:type=""
+                   NS1:title="WPSA Western Political Science Association"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="https://wpsa.research.pdx.edu/meet/meetings.php"
+                   NS1:icon="resource://scrapbook/data/20161205132624/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20160825120340"
                    NS1:id="20160825120340"
                    NS1:type=""
@@ -958,6 +991,20 @@
                    NS1:comment=""
                    NS1:source="http://www.allmusic.com/artist/paul-bley-mn0000745617/discography"
                    NS1:icon="resource://scrapbook/data/20160825120340/favicon.ico" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20161205130701">
+    <RDF:li RDF:resource="urn:scrapbook:item20161205132624"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205130732"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205132409"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205132449"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20161205130701"
+                   NS1:id="20161205130701"
+                   NS1:type="folder"
+                   NS1:title="jofre ana presentation"
+                   NS1:chars=""
+                   NS1:icon=""
+                   NS1:source=""
+                   NS1:comment="" />
   <RDF:Description RDF:about="urn:scrapbook:item20161013103439"
                    NS1:id="20161013103439"
                    NS1:type=""
