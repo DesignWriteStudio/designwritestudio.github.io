@@ -1,0 +1,5 @@
+body { margin: 0px; padding: 0px; background-color: transparent; }
+.ac { display: block; position: absolute; overflow: hidden; width: 19px; height: 15px; z-index: 9; top: 0px; right: 0px; background: transparent url('ac-topright-sprite.png') repeat scroll 0% 0%; }
+.ac:hover { width: 77px; background-position: -19px 0px; }
+.hide { display: none ! important; }
+#ad { position: relative; overflow: hidden; width: 300px; height: 250px; display: none; }

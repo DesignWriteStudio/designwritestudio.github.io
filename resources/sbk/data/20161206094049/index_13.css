@@ -1,0 +1,51 @@
+body { margin: 0px; padding: 0px; overflow: hidden; line-height: 0; }
+/* ::::: https://tpc.googlesyndication.com/pagead/gadgets/suggestion_autolayout_V2/static_image_v3.css ::::: */
+
+html, body { border: 0px none; margin: 0px; padding: 0px; width: 100%; height: 100%; overflow: hidden; }
+#adContent { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255); -moz-user-select: none; }
+#text1 { font-family: "Roboto",Arial,sans-serif; font-weight: bold; opacity: 0; z-index: 1; }
+#text2 { font-family: "Roboto",Arial,sans-serif; font-weight: 300; opacity: 0; z-index: 1; }
+#url { font-family: "Roboto",Arial,sans-serif; font-weight: 300; z-index: 1; opacity: 0.7; }
+#product { opacity: 0; z-index: 0; }
+#button { border-radius: 50%; box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.4); text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1); display: block; z-index: 1; opacity: 0; }
+#color-slot1 { position: absolute; }
+#color-slot3, #color-slot2 { position: absolute; z-index: 1; }
+[data-variation]:not([data-variation*="small"]) #text1 { opacity: 1; }
+[data-variation]:not([data-variation*="small"]) #text2 { opacity: 1; }
+[data-variation]:not([data-variation*="small"]) #button { animation: 0.5s ease 0s normal both 1 running fadein_keyframes; }
+[data-variation]:not([data-variation*="small"]) #product { animation: 0.9s ease 0s normal both 1 running fadein_keyframes; }
+div, ul, li { margin: 0px; padding: 0px; }
+.abgc { height: 15px; position: absolute; right: 16px; top: 0px; text-rendering: geometricprecision; width: 15px; z-index: 9020; }
+.abgb { height: 15px; width: 15px; }
+.abgc svg { display: block; }
+.abgs { display: none; height: 100%; }
+.abgl { text-decoration: none; }
+.abgi { fill-opacity: 1; fill: rgb(0, 174, 205); stroke: none; }
+.abgbg { fill-opacity: 1; fill: rgb(205, 204, 204); stroke: none; }
+.abgtxt { fill: black; font-family: "Arial"; font-size: 100px; overflow: visible; stroke: none; }
+.cbc { background-image: url('x_button_blue2.svg'); background-position: right top; background-repeat: no-repeat; cursor: pointer; height: 15px; right: 0px; top: 0px; margin: 0px; overflow: hidden; padding: 0px; position: absolute; transform: scaleX(1); width: 16px; z-index: 9010; }
+.cbc > .cb-x { height: 15px; position: absolute; width: 16px; right: 0px; top: 0px; }
+.ddmc { background: rgb(204, 204, 204) none repeat scroll 0% 0%; color: rgb(0, 0, 0); padding: 0px; position: absolute; z-index: 9020; max-width: 100%; box-shadow: 2px 2px 3px rgb(170, 170, 170); }
+.ddmc.right { margin-left: 0px; right: 0px; }
+.ddmc.bottom { top: 20px; }
+.ddmc .tip { border-left: 4px solid transparent; border-right: 4px solid transparent; height: 0px; position: absolute; width: 0px; font-size: 0px; line-height: 0; }
+.ddmc.bottom .tip { border-bottom: 4px solid rgb(204, 204, 204); top: -4px; }
+.ddmc.right .tip { right: 3px; }
+.ddmc .dropdown-content { display: block; }
+.dropdown-content { display: none; border-collapse: collapse; }
+.dropdown-item { font: 12px Arial,sans-serif; cursor: pointer; padding: 3px 7px; vertical-align: middle; }
+.dropdown-content > table { border-collapse: collapse; border-spacing: 0px; }
+.dropdown-content > table > tbody > tr > td { padding: 0px; }
+.feedback_container { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; display: none; z-index: 9020; background-color: white; }
+.feedback_page { font-family: "Arial"; font-size: 13px; margin: 16px; }
+.feedback_title { font-weight: bold; color: rgb(0, 0, 0); }
+.feedback_page a { font-weight: normal; color: rgb(51, 102, 204); }
+.feedback_description { color: rgb(102, 102, 102); line-height: 16px; margin: 12px 0px; }
+.feedback_closing { color: rgb(3, 103, 255); line-height: 16px; margin: 12px 0px; }
+.feedback_logo { position: absolute; right: 0px; bottom: 0px; margin: 0px 12px 9px 0px; }
+.feedback_logo img { height: 15px; }
+.survey_description { color: rgb(102, 102, 102); line-height: 17px; margin: 12px 0px 10px; }
+.survey { color: rgb(102, 102, 102); line-height: 20px; }
+.survey_option input { margin: 0px; vertical-align: middle; }
+.survey_option_text { margin: 0px 0px 0px 5px; line-height: 17px; vertical-align: bottom; }
+.survey_option:hover { background-color: lightblue; cursor: default; }

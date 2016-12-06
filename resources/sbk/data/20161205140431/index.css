@@ -1,0 +1,188 @@
+/* ::::: http://aoir.org/wp-content/themes/responsive/core/css/style.css?ver=1.9.9.0 ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0px none; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; }
+body { line-height: 1; }
+ol, ul { list-style: outside none none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+button, input, select, textarea { font-size: 100%; overflow: visible; margin: 0px; vertical-align: baseline; width: auto; }
+html { height: 100%; }
+body { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(85, 85, 85); font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 1.5em; }
+p { overflow-wrap: break-word; }
+b, strong { font-weight: 700; }
+.grid { float: left; margin-bottom: 2.12766%; padding-top: 0px; }
+.grid-right { float: right; margin-bottom: 2.12766%; padding-top: 0px; }
+.col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 { margin-right: 2.12766%; }
+.col-300 { width: 31.9149%; }
+.col-380 { width: 40.4255%; }
+.col-540 { width: 57.4468%; }
+.col-620 { width: 65.9574%; }
+.col-940 { width: 100%; }
+.fit { margin-left: 0px ! important; margin-right: 0px ! important; }
+img { border: 0px none; height: auto; max-width: 100%; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+a { color: rgb(0, 102, 204); font-weight: 400; text-decoration: none; }
+a:hover, a:focus, a:active { color: rgb(68, 68, 68); outline: 0px none; text-decoration: none; }
+a::-moz-selection { background: rgb(153, 153, 153) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-shadow: none; }
+label { display: inline-block; font-weight: 700; padding: 2px 0px; }
+select, input[type="text"], input[type="password"], input[type="email"] { box-shadow: 0px 1px 0px rgb(255, 255, 255), 0px 1px 1px rgba(0, 0, 0, 0.2) inset; background-color: rgb(255, 255, 255); box-sizing: border-box; border-width: 1px; border-style: solid; border-color: rgb(170, 170, 170) rgb(170, 170, 170) rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 2px; cursor: text; margin: 0px; outline: medium none; padding: 6px 8px; vertical-align: middle; max-width: 100%; }
+input, select { cursor: pointer; }
+area:focus, input:focus, textarea:focus { border: 1px solid rgb(102, 204, 255); }
+input[type="text"], input[type="password"] { cursor: text; }
+ul { list-style-type: disc; margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: 700; line-height: 1em; overflow-wrap: break-word; }
+h1 { font-size: 2.625em; margin-bottom: 0.5em; margin-top: 0.5em; }
+h2 { font-size: 2.25em; margin-bottom: 0.75em; margin-top: 0.75em; }
+h3 { font-size: 1.875em; margin-bottom: 0.857em; margin-top: 0.857em; }
+p, hr, dl, pre, form, table, address, blockquote { margin: 1.6em 0px; }
+input, textarea { padding: 0.3em 0.4em 0.15em; }
+ul { list-style-type: disc; }
+ul, ol { margin: 0px 1.5em 1.5em 0px; padding-left: 2em; }
+li ul, li ol { margin: 0px; }
+#container { margin: 0px auto; max-width: 960px; padding: 0px 25px; }
+#wrapper { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); border-radius: 4px; clear: both; margin: 20px auto; padding: 0px 20px 20px; position: relative; }
+#header { margin: 0px; }
+#footer { clear: both; margin: 0px auto; max-width: 960px; padding: 0px 25px; }
+#footer-wrapper { margin: 0px; padding: 0px; }
+#logo { float: left; margin: 0px; }
+#content { margin-top: 40px; margin-bottom: 20px; }
+.post-entry { clear: both; }
+.post-edit { clear: both; display: block; font-size: 12px; margin: 1.5em 0px; }
+.widget-wrapper { background-color: rgb(249, 249, 249); border: 1px solid rgb(229, 229, 229); border-radius: 4px; margin: 0px 0px 20px; padding: 20px; }
+#widgets { margin-top: 40px; }
+#widgets a { display: inline-block; margin: 0px; padding: 0px; text-decoration: none; }
+#widgets ul, #widgets ol { padding: 0px 0px 0px 20px; }
+#widgets ul li a { display: inline; text-decoration: none; }
+#widgets .tagcloud, #widgets .textwidget { display: block; line-height: 1.5em; margin: 0px; overflow-wrap: break-word; }
+#top-widget {  }
+.top-widget { background: transparent none repeat scroll 0% 0%; border: medium none; clear: right; float: right; min-height: 0px; padding: 0px 3px 0px 0px; text-align: right; width: 45%; }
+.top-widget select, .top-widget input[type="text"], .top-widget input[type="password"], .top-widget input[type="email"] { width: auto; }
+.top-widget #searchform { margin: 0px; }
+.widget-title h3, .widget-title-home h3 { display: block; font-size: 24px; font-weight: 700; line-height: 23px; margin: 0px; padding: 0px 0px 20px; text-align: left; }
+.screen-reader-text { position: absolute ! important; clip: rect(1px, 1px, 1px, 1px); }
+.screen-reader-text:focus { clip: auto; }
+.skip-container { display: block; padding: 0.5em 0.5em 0.5em 0px; position: relative; }
+.skip-link { background: rgb(245, 245, 245) none repeat scroll 0% 0%; border: 1px solid rgb(213, 213, 213); border-radius: 3px; float: right; font-size: 0.8125em; margin-left: -100%; padding: 0.5em; text-transform: uppercase; }
+.skip-link:hover, .skip-link:active, .skip-link:focus { border: 1px solid rgb(102, 102, 102); margin-left: -20%; }
+.top-menu { float: right; margin: 10px 0px; padding: 0px; }
+.top-menu li { display: inline; list-style-type: none; }
+.top-menu li a { border-left: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); font-size: 11px; padding: 0px 4px 0px 8px; }
+.top-menu > li:first-child > a { border-left: medium none; }
+.top-menu li a:hover { color: rgb(51, 51, 51); }
+.menu { background-color: rgb(88, 88, 88); background-image: linear-gradient(to top, rgb(88, 88, 88), rgb(61, 61, 61)); clear: both; margin: 0px auto; }
+.main-nav { clear: both; }
+.menu, .menu ul { display: block; list-style-type: none; margin: 0px; padding: 0px; }
+.menu li { border: 0px none; display: block; float: left; margin: 0px; padding: 0px; position: relative; z-index: 5; }
+.menu li:hover { white-space: normal; z-index: 10000; }
+.menu li li { float: none; }
+.menu ul { left: 0px; position: absolute; top: 0px; visibility: hidden; z-index: 10; }
+.menu li:hover > ul { top: 100%; visibility: visible; }
+.menu::after, .menu ul::after { clear: both; content: "."; display: block; height: 0px; overflow: hidden; visibility: hidden; }
+.menu, .menu ul { min-height: 0px; }
+.menu ul, .menu ul ul { margin: 0px; padding: 0px; }
+.menu ul li a:hover, .menu li li a:hover { color: rgb(72, 72, 72); text-decoration: none; }
+.menu ul { margin-top: 1px; min-width: 15em; width: auto; }
+.menu a { border-left: 1px solid rgb(88, 88, 88); color: rgb(255, 255, 255); cursor: pointer; display: block; font-size: 13px; font-weight: 700; height: 45px; line-height: 45px; margin: 0px; padding: 0px 0.9em; position: relative; text-decoration: none; text-shadow: 0px -1px 0px rgb(0, 0, 0); white-space: nowrap; }
+.menu a:hover { background-color: rgb(128, 128, 128); background-image: linear-gradient(to top, rgb(128, 128, 128), rgb(54, 54, 54)); color: rgb(255, 255, 255); }
+ul.menu > li:hover { background-color: rgb(54, 54, 54); color: rgb(255, 255, 255); }
+.menu li li { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 1px solid rgb(229, 229, 229); color: rgb(68, 68, 68); filter: none; margin: -1px 0px 1px; width: auto; }
+.menu li li a { background: transparent none repeat scroll 0% 0% ! important; border: medium none; color: rgb(68, 68, 68); font-size: 12px; font-weight: 400; height: 20px; line-height: 20px; padding: 5px 10px; text-shadow: none; white-space: nowrap; }
+.menu li li a:hover { background: rgb(245, 245, 245) none repeat scroll 0% 0% ! important; border: medium none; color: rgb(68, 68, 68); filter: none; }
+.menu li li:hover { background: rgb(245, 245, 245) none repeat scroll 0% 0% ! important; filter: none; }
+.menu ul > li + li { border-top: 0px none; }
+.menu > li:first-child > a { border-left: medium none; }
+.main-nav #responsive_current_menu_item { display: none; }
+.sub-header-menu::after, .sub-header-menu ul::after { clear: both; content: "."; display: block; height: 0px; overflow: hidden; visibility: hidden; }
+.footer-menu { margin-left: 0px; padding: 0px; }
+.footer-menu li { display: inline; list-style-type: none; }
+.footer-menu li a { border-left: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); padding: 0px 8px; }
+.footer-menu li a:hover { color: rgb(34, 34, 34); }
+.footer-menu > li:first-child > a { border-left: medium none; padding: 0px 8px 0px 0px; }
+a.button, input[type="reset"], input[type="button"], input[type="submit"] { background-color: rgb(249, 249, 249); background-image: linear-gradient(to top, rgb(249, 249, 249), rgb(241, 241, 241)); box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset; border: 1px solid rgb(221, 221, 221); border-radius: 2px; color: rgb(51, 51, 51); cursor: pointer; display: inline-block; font-size: 14px; font-weight: 700; line-height: 20px; margin: 0px; padding: 4px 10px; text-decoration: none; text-shadow: 0px 1px 0px rgb(255, 255, 255); vertical-align: middle; white-space: nowrap; }
+a.button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type="submit"]:hover { background-color: rgb(255, 255, 255); background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(241, 241, 241)); border: 1px solid rgb(221, 221, 221); box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset; color: rgb(51, 51, 51); }
+a.button:active, input[type="reset"]:active, input[type="button"]:active, input[type="submit"]:active { background-color: rgb(249, 249, 249); background-image: linear-gradient(to top, rgb(249, 249, 249), rgb(241, 241, 241)); box-shadow: 0px 1px 0px rgb(255, 255, 255), 0px 1px 1px rgba(0, 0, 0, 0.1) inset; }
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 650px) {
+}
+#footer { font-size: 11px; line-height: 1.5em; }
+#footer a { color: rgb(51, 51, 51); font-weight: 400; }
+#footer a:hover { color: rgb(68, 68, 68); }
+#footer-wrapper .grid.col-940 { margin: 0px; }
+.scroll-top { text-align: center; }
+.copyright { text-align: left; }
+.powered { text-align: right; }
+#footer_widget .col-300:nth-child(3n+3) { margin-right: 0px; }
+#footer .social-icons { list-style: outside none none; line-height: normal; padding: 0px; margin: 0px; text-align: right; }
+#footer .rss-icon, #footer .yelp-icon, #footer .vimeo-icon, #footer .youtube-icon, #footer .twitter-icon, #footer .facebook-icon, #footer .linkedin-icon, #footer .rss-feed-icon, #footer .instagram-icon, #footer .pinterest-icon, #footer .foursquare-icon, #footer .googleplus-icon, #footer .google-plus-icon, #footer .stumbleupon-icon, #footer .stumble-upon-icon { display: inline; margin: 1px; padding-left: 3px; }
+.clearfix::after, .clearfix::before, #container::after, #container::before, .widget-wrapper::after, .widget-wrapper::before { content: " "; display: table; }
+.clearfix::after, #container::after, .widget-wrapper::after { clear: both; }
+/* ::::: http://aoir.org/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.9.0 ::::: */
+
+@media screen and (max-width: 980px) {
+	body {  }
+	.grid, .grid-right { display: block; float: none; width: 100%; margin-right: 0px; }
+	.copyright, .scroll-top, .powered { float: left; }
+	.top-widget, .front-page .top-widget { margin-top: 0px ! important; }
+}
+@media screen and (max-width: 650px) {
+	body {  }
+	#logo { float: none; margin: 0px; text-align: center; }
+	.grid, .grid-right { float: none; }
+	.top-widget { float: none; margin: 0px auto 10px; position: relative; text-align: center; width: auto; }
+	.js .main-nav { position: relative; background-color: rgb(88, 88, 88); background-image: linear-gradient(to top, rgb(88, 88, 88), rgb(61, 61, 61)); clear: both; margin: 0px auto; }
+	.js .main-nav .menu { display: none; position: absolute; width: 100%; top: 30px; z-index: 1000; }
+	.js .main-nav .menu ul { margin-top: 1px; }
+	.js .main-nav .menu li { float: none; background-color: rgb(255, 255, 255); border: medium none; }
+	.js .main-nav .menu li a { color: rgb(68, 68, 68); font-size: 13px; font-weight: normal; height: 45px; line-height: 45px; padding: 0px 15px; border-width: medium medium 1px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color rgb(245, 245, 245); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; text-shadow: none; text-align: left; cursor: pointer; }
+	.js .main-nav .menu li li:hover { background: transparent none repeat scroll 0% 0% ! important; }
+	.js .main-nav .menu li li a { position: relative; padding: 0px 10px 0px 30px; }
+	.js .main-nav .menu li a:hover, .js .main-nav .menu li li a:hover { background-image: none; filter: none; background-color: rgb(245, 245, 245) ! important; }
+	.js .main-nav .menu li li a::before { content: "–"; position: absolute; top: 0px; left: 20px; }
+	.js .main-nav .menu li li li a::before { content: "–"; position: absolute; top: 0px; left: 20px; }
+	.js .main-nav .menu li li li a::after { content: "–"; position: absolute; top: 0px; left: 30px; }
+	.js .main-nav .menu li ul { position: static; visibility: visible; background-color: rgb(255, 255, 255); }
+	.js .main-nav .menu ul { min-width: 0px; }
+	.js .main-nav #responsive_current_menu_item { display: block; padding: 5px 40px 5px 10px; color: rgb(255, 255, 255); font-weight: 700; cursor: pointer; }
+	.js .main-nav a#responsive_menu_button { position: absolute; display: block; top: 0px; left: 100%; height: 30px; width: 23px; margin-left: -30px; background: transparent url('select-icons.png') no-repeat scroll 0px 5px; cursor: pointer; }
+	.top-menu, .footer-menu li { float: none; font-size: 11px; text-align: center; }
+	#footer { text-align: center; }
+	#footer .social-icons { padding-bottom: 10px; text-align: center; }
+}
+@media screen and (max-width: 480px) {
+	body {  }
+	#logo { float: none; text-align: center; }
+	.grid, .grid-right { float: none; }
+	.menu ul, .menu li, .top-menu, .footer-menu li, .sub-header-menu li { float: none; text-align: center; }
+	#footer { text-align: center; }
+	#footer .social-icons { text-align: center; }
+}
+@media screen and (max-width: 320px) {
+	body {  }
+}
+@media screen and (max-width: 240px) {
+	body {  }
+	.top-widget area, .top-widget select, .top-widget textarea, .top-widget input[type="text"], .top-widget input[type="password"], .top-widget input[type="email"] { width: 75%; }
+	.widget-title h3, .widget-title-home h3 { font-size: 14px; height: 13px; line-height: 13px; text-align: left; }
+}
+/* ::::: http://aoir.org/wp-content/plugins/tablepress/css/default.min.css?ver=1.7 ::::: */
+
+@font-face {
+	font-family: "TablePress";
+	font-style: normal;
+	font-weight: 400;
+	src: url('tablepress.eot') format("embedded-opentype"), url('undefined') format("woff"), url('tablepress.ttf') format("truetype"), url('tablepress.svg') format("svg");
+}
+.paging_simple .paginate_button.next::after, .paging_simple .paginate_button.previous::before { text-align: left; font-family: TablePress; font-size: 14px; font-weight: 700; content: ""; text-shadow: 0.1em 0.1em rgb(102, 102, 102); position: absolute; top: 0px; right: auto; bottom: 0px; left: -14px; margin: auto; height: 14px; width: 14px; line-height: 1; }
+.paging_simple .paginate_button.next::after { text-align: right; content: ""; left: auto; }
+.paginate_button::after, .paginate_button::before { color: rgb(217, 237, 247); }
+.paginate_button:hover::after, .paginate_button:hover::before { color: rgb(4, 156, 219); }
+.paginate_button.disabled::after, .paginate_button.disabled::before { color: rgb(249, 249, 249); }
+.tablepress .sorting::after, .tablepress .sorting_asc::after, .tablepress .sorting_desc::after { font-family: TablePress; font-weight: 400; font-size: 14px; position: absolute; top: 0px; bottom: 0px; left: auto; right: 6px; margin: auto; height: 14px; line-height: 1; }
+.tablepress .sorting::after { content: ""; }
+.tablepress .sorting_asc::after { content: ""; padding: 0px 0px 2px; }
+.tablepress .sorting_desc::after { content: ""; }
+.dataTables_scrollBody .tablepress thead th::after, .dataTables_wrapper::after { content: ""; }
+.dataTables_wrapper::after { display: block; clear: both; visibility: hidden; line-height: 0; height: 0px; }
+.widget-wrapper { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); border-radius: 4px; margin: 0px 0px 20px; padding: 20px; }

@@ -50,6 +50,14 @@
                    NS1:comment=""
                    NS1:source="https://killscreen.com/articles/pippin-barrs-new-game-brings-concrete-poetry-life/"
                    NS1:icon="resource://scrapbook/data/20161201095241/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205135412"
+                   NS1:id="20161205135412"
+                   NS1:type=""
+                   NS1:title="Ana Jofre History Projects"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://onewomancaravan.net/History.html"
+                   NS1:icon="resource://scrapbook/data/20161205135412/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124526"
                    NS1:id="20161006124526"
                    NS1:type=""
@@ -118,6 +126,14 @@
                    NS1:comment=""
                    NS1:source="http://www.tandfonline.com/doi/abs/10.1080/14681369800200036"
                    NS1:icon="resource://scrapbook/data/20161201091225/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094043"
+                   NS1:id="20161206094043"
+                   NS1:type=""
+                   NS1:title="The Interactive Diagram Sentence: Hypertext as a Medium of Thought - ProQuest"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://search.proquest.com/openview/814c362ab29cb1ed0a361b072be959c5/1?pq-origsite=gscholar&amp;cbl=1821103"
+                   NS1:icon="resource://scrapbook/data/20161206094043/favicon-16x16.png" />
   <RDF:Description RDF:about="urn:scrapbook:item20160909135339"
                    NS1:id="20160909135339"
                    NS1:type=""
@@ -166,6 +182,14 @@
                    NS1:comment=""
                    NS1:source="http://www.sciencedirect.com/science/article/pii/S036381110300064X"
                    NS1:icon="resource://scrapbook/data/20161004094757/favsd.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094052"
+                   NS1:id="20161206094052"
+                   NS1:type=""
+                   NS1:title="The logic of the link: The associative paradigm in communication criticism: Critical Studies in Media Communication: Vol 17, No 4"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://www.tandfonline.com/doi/abs/10.1080/15295030009388410"
+                   NS1:icon="resource://scrapbook/data/20161206094052/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124507"
                    NS1:id="20161006124507"
                    NS1:type=""
@@ -174,6 +198,14 @@
                    NS1:comment=""
                    NS1:source="http://eds.b.ebscohost.com.ezproxy.sunyit.edu/eds/detail/detail?sid=078fc68d-5b85-4261-b784-ce0c2a87d07c%40sessionmgr104&amp;vid=0&amp;hid=127&amp;bdata=JnNpdGU9ZWRzLWxpdmU%3d#AN=edsble.666874&amp;db=edsble"
                    NS1:icon="resource://scrapbook/data/20161006124507/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094037"
+                   NS1:id="20161206094037"
+                   NS1:type=""
+                   NS1:title="origins link hypertext - Google Scholar"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="https://scholar.google.com/scholar?start=60&amp;q=origins+link+hypertext&amp;hl=en&amp;as_sdt=0,5"
+                   NS1:icon="resource://scrapbook/data/20161206094037/favicon-png.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20160901155527"
                    NS1:id="20160901155527"
                    NS1:type=""
@@ -182,6 +214,14 @@
                    NS1:comment=""
                    NS1:source="https://www.google.com/search?q=technique&amp;ie=utf-8&amp;oe=utf-8"
                    NS1:icon="resource://scrapbook/data/20160901155527/googleg_lodp.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094049"
+                   NS1:id="20161206094049"
+                   NS1:type=""
+                   NS1:title="ShyWiki-A spatial hypertext wiki"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://dl.acm.org/citation.cfm?id=1822272"
+                   NS1:icon="resource://scrapbook/data/20161206094049/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161004094748"
                    NS1:id="20161004094748"
                    NS1:type=""
@@ -380,6 +420,14 @@
                    NS1:comment=""
                    NS1:source="http://philosophybites.com/340-bites-interviews-arranged-by-theme.html"
                    NS1:icon="resource://scrapbook/data/20160907144104/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094047"
+                   NS1:id="20161206094047"
+                   NS1:type="file"
+                   NS1:title="Ferdinand E Deist (Ancient Near Eastern Studies, Stellenbosch) - commentary_beyond_codex_AIBI.pdf"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon="moz-icon://commentary_beyond_codex_AIBI.pdf?size=16"
+                   NS1:source="http://s3.amazonaws.com/academia.edu.documents/33962284/commentary_beyond_codex_AIBI.pdf?AWSAccessKeyId=AKIAJ56TQJRTWSMTNPEA&amp;Expires=1481038638&amp;Signature=TYThc5tAk9nxlwC1eIgfOBoth90%3D&amp;response-content-disposition=inline%3B%20filename%3DCommentary_beyond_the_Codex_Hypertext_an.pdf" />
   <RDF:Seq RDF:about="urn:scrapbook:item20161012130155">
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20161012130155"
@@ -398,6 +446,14 @@
                    NS1:comment=""
                    NS1:source="https://scholar.google.com/scholar?oe=utf-8&amp;um=1&amp;ie=UTF-8&amp;lr&amp;cites=6426489272300913402"
                    NS1:icon="resource://scrapbook/data/20161201123547/favicon-png.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205135509"
+                   NS1:id="20161205135509"
+                   NS1:type=""
+                   NS1:title="Semiology of Graphics: Diagrams, Networks, Maps: Jacques Bertin: 9781589482616: Amazon.com: Books"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="https://www.amazon.com/Semiology-Graphics-Diagrams-Networks-Maps/dp/1589482611"
+                   NS1:icon="resource://scrapbook/data/20161205135509/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20160825120338"
                    NS1:id="20160825120338"
                    NS1:type=""
@@ -466,6 +522,7 @@
                    NS1:icon="moz-icon://p474.pdf?size=16"
                    NS1:source="http://pubman.mpdl.mpg.de/pubman/item/escidoc:2239364:7/component/escidoc:2239368/p474.pdf" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20161206093928"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205130701"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201095202"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201091158"/>
@@ -502,7 +559,16 @@
     <RDF:li RDF:resource="urn:scrapbook:item20161005134027"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201123547"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205102858"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205134646"/>
   </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094040"
+                   NS1:id="20161206094040"
+                   NS1:type=""
+                   NS1:title="Back to the future"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://dl.acm.org/citation.cfm?id=1286303"
+                   NS1:icon="resource://scrapbook/data/20161206094040/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161201091214"
                    NS1:id="20161201091214"
                    NS1:type="file"
@@ -519,6 +585,14 @@
                    NS1:comment=""
                    NS1:source="http://psycnet.apa.org/psycinfo/2009-05547-001"
                    NS1:icon="resource://scrapbook/data/20161004094753/favicon.png" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205140431"
+                   NS1:id="20161205140431"
+                   NS1:type=""
+                   NS1:title="Call for Proposals – AoIR"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="http://aoir.org/aoir2017/cfp2017/" />
   <RDF:Description RDF:about="urn:scrapbook:item20160822093706"
                    NS1:id="20160822093706"
                    NS1:type=""
@@ -527,6 +601,14 @@
                    NS1:comment=""
                    NS1:source="https://www.google.com/search?q=superpedestrian&amp;ie=utf-8&amp;oe=utf-8#q=superpedestrian&amp;tbm=nws"
                    NS1:icon="resource://scrapbook/data/20160822093706/googleg_lodp.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094046"
+                   NS1:id="20161206094046"
+                   NS1:type=""
+                   NS1:title="Digital literacies"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="http://eltj.oxfordjournals.org/content/66/1/108.short" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124459"
                    NS1:id="20161006124459"
                    NS1:type=""
@@ -535,6 +617,14 @@
                    NS1:comment=""
                    NS1:source="http://eds.b.ebscohost.com.ezproxy.sunyit.edu/eds/detail/detail?sid=7278b05a-1067-4728-a0d9-ee92e6742851%40sessionmgr120&amp;vid=0&amp;hid=127&amp;bdata=JnNpdGU9ZWRzLWxpdmU%3d#AN=91673019&amp;db=bth"
                    NS1:icon="resource://scrapbook/data/20161006124459/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205134646"
+                   NS1:id="20161205134646"
+                   NS1:type=""
+                   NS1:title="Semiology of Graphics: Diagrams, Networks, Maps: Jacques Bertin: 9781589482616: Amazon.com: Books"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="https://www.amazon.com/Semiology-Graphics-Diagrams-Networks-Maps/dp/1589482611"
+                   NS1:icon="resource://scrapbook/data/20161205134646/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124510"
                    NS1:id="20161006124510"
                    NS1:type=""
@@ -674,6 +764,22 @@
                    NS1:comment=""
                    NS1:source="https://sunypoly.edu/colleges/engineering/faculty/"
                    NS1:icon="resource://scrapbook/data/20161005131720/favicon-32x32.png" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094039"
+                   NS1:id="20161206094039"
+                   NS1:type=""
+                   NS1:title="The New Media Reader: Writing on the Edge"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://www.newmediareader.com/cd_samples/WOE/Harpold.html"
+                   NS1:icon="resource://scrapbook/data/20161206094039/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094051"
+                   NS1:id="20161206094051"
+                   NS1:type=""
+                   NS1:title="Hypertext in an Object-Oriented Programming Environment | Sandvad | DAIMI Report Series"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://ojs.statsbiblioteket.dk/index.php/daimipb/article/view/6657"
+                   NS1:icon="resource://scrapbook/data/20161206094051/favicon.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:item20161201095202">
     <RDF:li RDF:resource="urn:scrapbook:item20161201095241"/>
   </RDF:Seq>
@@ -877,6 +983,14 @@
                    NS1:comment=""
                    NS1:source="http://dogtec.org/articles/sometimes-dogs-bite-3-steps-to-sleeping-well-at-night"
                    NS1:icon="resource://scrapbook/data/20160822150357/favicon_001.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094044"
+                   NS1:id="20161206094044"
+                   NS1:type=""
+                   NS1:title="How to Make Sense of Hyperlinks? An Overview of Link Studies by Juliette De Maeyer :: SSRN"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1926301"
+                   NS1:icon="resource://scrapbook/data/20161206094044/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161201091222"
                    NS1:id="20161201091222"
                    NS1:type=""
@@ -959,6 +1073,14 @@
                    NS1:comment=""
                    NS1:source="http://eds.b.ebscohost.com.ezproxy.sunyit.edu/eds/detail/detail?sid=7a8dd9b1-f116-4c07-948f-122bf79a20cf%40sessionmgr106&amp;vid=0&amp;hid=127&amp;bdata=JnNpdGU9ZWRzLWxpdmU%3d#AN=2012-04186-004&amp;db=psyh"
                    NS1:icon="resource://scrapbook/data/20161006124504/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205140700"
+                   NS1:id="20161205140700"
+                   NS1:type=""
+                   NS1:title="2017 Conference Call for Papers - NYSPSA"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://www.nyspsa.org/2017_conference_call_for_papers"
+                   NS1:icon="resource://scrapbook/data/20161205140700/nyspsa_favicon.png" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124454"
                    NS1:id="20161006124454"
                    NS1:type=""
@@ -991,11 +1113,37 @@
                    NS1:comment=""
                    NS1:source="http://www.allmusic.com/artist/paul-bley-mn0000745617/discography"
                    NS1:icon="resource://scrapbook/data/20160825120340/favicon.ico" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20161206093928">
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094037"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094039"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094040"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094041"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094043"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094044"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094046"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094047"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094049"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094051"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161206094052"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20161206093928"
+                   NS1:id="20161206093928"
+                   NS1:type="folder"
+                   NS1:title="google scholar search: origins link hypertext review of 50 results"
+                   NS1:chars=""
+                   NS1:icon=""
+                   NS1:source=""
+                   NS1:comment="" />
   <RDF:Seq RDF:about="urn:scrapbook:item20161205130701">
     <RDF:li RDF:resource="urn:scrapbook:item20161205132624"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205130732"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205132409"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205132449"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205135412"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205135509"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205140127"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205140431"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161205140700"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20161205130701"
                    NS1:id="20161205130701"
@@ -1021,6 +1169,14 @@
                    NS1:comment=""
                    NS1:source="http://eds.b.ebscohost.com.ezproxy.sunyit.edu/eds/detail/detail?sid=be9039d3-b184-4f0a-8370-2ba42eca277f%40sessionmgr105&amp;vid=0&amp;hid=127&amp;bdata=JnNpdGU9ZWRzLWxpdmU%3d#AN=89549529&amp;db=sih"
                    NS1:icon="resource://scrapbook/data/20161006125304/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161206094041"
+                   NS1:id="20161206094041"
+                   NS1:type="file"
+                   NS1:title="Microsoft Word - critdemo-h.doc - 88a15d7ac8c50e3af7d3abc9a8b7477a4e85.pdf"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon="moz-icon://88a15d7ac8c50e3af7d3abc9a8b7477a4e85.pdf?size=16"
+                   NS1:source="https://pdfs.semanticscholar.org/5d66/88a15d7ac8c50e3af7d3abc9a8b7477a4e85.pdf" />
   <RDF:Seq RDF:about="urn:scrapbook:item20161201091158">
     <RDF:li RDF:resource="urn:scrapbook:item20161201091210"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201091211"/>
@@ -1109,6 +1265,14 @@
                    NS1:comment=""
                    NS1:source="https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture"
                    NS1:icon="resource://scrapbook/data/20160826215135/wikipedia.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161205140127"
+                   NS1:id="20161205140127"
+                   NS1:type=""
+                   NS1:title="DIY Robotics"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:icon=""
+                   NS1:source="http://onewomancaravan.net/Utica/DIY_Robotics.html" />
   <RDF:Description RDF:about="urn:scrapbook:item20161117123549"
                    NS1:id="20161117123549"
                    NS1:type=""

@@ -1,0 +1,14 @@
+/* ::::: https://translate.googleapis.com/translate_static/css/translateelement.css ::::: */
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * { font-family: arial; font-size: 10pt; }
+.goog-te-menu2 { background-color: rgb(255, 255, 255); text-decoration: none; border: 1px solid rgb(107, 144, 218); overflow: hidden; padding: 4px; }
+.goog-te-menu2-colpad { width: 16px; }
+.goog-te-menu2-item div, .goog-te-menu2-item-selected div { padding: 4px; }
+.goog-te-menu2-item .indicator { display: none; }
+.goog-te-menu2-item-selected .indicator {  }
+.goog-te-menu2-item-selected .text { padding-left: 4px; padding-right: 4px; }
+.goog-te-menu2-item, .goog-te-menu2-item-selected { text-decoration: none; }
+.goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div { color: rgb(0, 0, 204); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.goog-te-menu2-item:hover div { color: rgb(255, 255, 255); background: rgb(51, 102, 204) none repeat scroll 0% 0%; }
+.goog-te-menu2-item-selected div, .goog-te-menu2-item-selected:link div, .goog-te-menu2-item-selected:visited div, .goog-te-menu2-item-selected:hover div, .goog-te-menu2-item-selected:active div { color: rgb(0, 0, 0); font-weight: bold; }
+#goog-gt-tt input::-moz-focus-inner { border: 0px none; }
