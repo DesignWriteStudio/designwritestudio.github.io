@@ -125,6 +125,8 @@ Error message and password prompt
 
 <li>$:/core</li>
 
+<li>$:/core/ui/TopBar/menu</li>
+
 <li>$:/DefaultTiddlers</li>
 
 <li>$:/editions/tw5.com/snippets/download-empty-button</li>
@@ -157,11 +159,17 @@ Error message and password prompt
 
 <li>$:/temp/info-plugin</li>
 
+<li>$:/temp/RenameTags/replace</li>
+
+<li>$:/temp/RenameTags/search</li>
+
 <li>$:/temp/search</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>AddedTools</li>
 
 <li>Advanced</li>
 
@@ -177,39 +185,53 @@ Error message and password prompt
 
 <li>CourseOutline</li>
 
-<li>Database Collection &amp; Creation</li>
+<li>Critiquing hypertexts created by others</li>
 
 <li>Description</li>
 
-<li>Designing</li>
+<li>Designing hypertexts</li>
 
-<li>DisciplinaryDomains</li>
+<li>DesignWriteNavBar</li>
 
-<li>Discourse</li>
+<li>Discourse-based wiki</li>
+
+<li>Discourse+Objects</li>
+
+<li>Draft of 'Assignment Levels'</li>
+
+<li>Establishing Tiddlywiki infrastructure</li>
 
 <li>Exposition</li>
 
+<li>Filtering</li>
+
 <li>forum template</li>
 
-<li>Infrastructure</li>
+<li>Hyper</li>
+
+<li>Hypertextual Writing Techniques</li>
 
 <li>Intermediate</li>
 
 <li>Introductory</li>
 
-<li>Mathematics</li>
+<li>Linking</li>
 
-<li>Multi-object data repository</li>
+<li>MajorConcepts</li>
 
 <li>Multi-tiddler hierarchical structures</li>
 
 <li>Narration (Narrative)</li>
 
+<li>Object-based wiki</li>
+
 <li>product template</li>
 
 <li>project template</li>
 
-<li>Reading</li>
+<li>Reading Scholarship &amp; Commentary</li>
+
+<li>RenameTags</li>
 
 <li>Set color of tagged-tiddlers to match a specific tag</li>
 
@@ -217,9 +239,23 @@ Error message and password prompt
 
 <li>SyllabusWiki</li>
 
+<li>Tagging</li>
+
+<li>Templating</li>
+
+<li>Text</li>
+
+<li>Tiddly</li>
+
+<li>Transcluding</li>
+
 <li>week template</li>
 
-<li>Writing</li>
+<li>Wiki</li>
+
+<li>WikiFormats</li>
+
+<li>Writing in TiddlyWiki</li>
 
 </ul>
 </p>
@@ -6289,6 +6325,20 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20151211191941338" creator="stevesunypoly" modified="20161206212358065" modifier="stevesunypoly" tags="$:/tags/TopRightBar MenuBars" title="$:/core/ui/TopBar/menu">
+<pre>&lt;div style=&quot;background:black;&quot;&gt;
+{{DesignWriteNavBar}}
+{{$:/core/ui/Buttons/home}}
+{{$:/core/ui/Buttons/close-all}}
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;nomatch&quot; text=&quot;no&quot;&gt;
+&lt;$button set=&quot;$:/state/sidebar&quot; setTo=&quot;no&quot; tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class=&quot;tc-btn-invisible&quot;&gt;{{$:/core/images/chevron-right}}&lt;/$button&gt;
+&lt;/$reveal&gt;
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;match&quot; text=&quot;no&quot;&gt;
+&lt;$button set=&quot;$:/state/sidebar&quot; setTo=&quot;yes&quot; tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class=&quot;tc-btn-invisible&quot;&gt;{{$:/core/images/chevron-left}}&lt;/$button&gt;
+&lt;/$reveal&gt;
+
+</pre>
+</div>
 <div created="20160522134154906" modified="20161110191756080" title="$:/DefaultTiddlers">
 <pre>HelloThere
 </pre>
@@ -6305,7 +6355,7 @@ Download Empty {{$:/core/images/save-button}}
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[Set color of tagged-tiddlers to match a specific tag]]</pre>
+# [[$:/core/ui/TopBar/menu]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -6331,10 +6381,10 @@ Download Empty {{$:/core/images/save-button}}
 <div created="20161110190143230" modified="20161110191550516" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
-<div created="20160522133632188" modified="20161110192245120" title="$:/state/tab/sidebar--1835078512">
+<div created="20160522133632188" modified="20161206210559725" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="CourseOutline Discourse [[Narration (Narrative)]] Description DisciplinaryDomains Reading Infrastructure" title="$:/StoryList">
+<div list="DesignWriteNavBar [[Object-based wiki]] WikiFormats CourseOutline [[Draft of 'Assignment Levels']]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20160522134406437" modified="20161110190708261" title="$:/temp/advancedsearch">
@@ -6354,8 +6404,14 @@ Download Empty {{$:/core/images/save-button}}
     }
 }</pre>
 </div>
-<div created="20160522134401447" modified="20161110191810406" title="$:/temp/search">
-<pre></pre>
+<div created="20161206210152159" modified="20161206210445454" title="$:/temp/RenameTags/replace">
+<pre>Hypertextual Writing Techniques</pre>
+</div>
+<div created="20161206210150068" modified="20161206210450954" title="$:/temp/RenameTags/search">
+<pre>Hypertextual Techniques</pre>
+</div>
+<div created="20160522134401447" modified="20161206212223328" title="$:/temp/search">
+<pre>400</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.11">
 <pre>{
@@ -6462,6 +6518,9 @@ Download Empty {{$:/core/images/save-button}}
     }
 }</pre>
 </div>
+<div created="20161206205721013" modified="20161206205755869" tags="" title="AddedTools">
+<pre>These are the tools, macros, etc. that have been imported to provide functionality in this wiki</pre>
+</div>
 <div color="#336633" created="20161110190239442" modified="20161110191307904" tags="[[Assignment Levels]]" title="Advanced">
 <pre></pre>
 </div>
@@ -6489,22 +6548,36 @@ Download Empty {{$:/core/images/save-button}}
 <div created="20161110190346885" modified="20161110194602215" tags="" title="CourseOutline">
 <pre>&lt;&lt;toc &quot;CourseOutline&quot;&gt;&gt;</pre>
 </div>
-<div color="#990033" created="20161110192203642" modified="20161110192735459" tags="AssignmentTypes" title="Database Collection &amp; Creation">
+<div created="20161206210709753" modified="20161206210830479" tags="AssignmentTypes" title="Critiquing hypertexts created by others">
 <pre></pre>
 </div>
 <div created="20161110194111508" modified="20161110194123952" tags="Discourse" title="Description">
 <pre></pre>
 </div>
-<div color="#990033" created="20161110192054100" modified="20161110192732758" tags="AssignmentTypes" title="Designing">
+<div color="#990033" created="20161110192054100" modified="20161206210855075" tags="AssignmentTypes" title="Designing hypertexts">
 <pre></pre>
 </div>
-<div created="20161110192912881" modified="20161110192932455" tags="CourseOutline" title="DisciplinaryDomains">
-<pre></pre>
+<div created="20161012011313744" modified="20161206212702757" tags="" title="DesignWriteNavBar">
+<pre>&lt;&lt;tag &quot;Assignment Levels&quot;&gt;&gt;&lt;&lt;tag AssignmentTypes&gt;&gt;&lt;&lt;tag WikiFormats&gt;&gt;&lt;&lt;tag &quot;Hypertextual Writing Techniques&quot;&gt;&gt;&lt;&lt;tag &quot;MajorConcepts&quot;&gt;&gt;{{Projects||$:/core/ui/TagTemplate}}
+{{ViewsFromTheField||$:/core/ui/TagTemplate}}</pre>
 </div>
-<div created="20161110192949999" modified="20161110194518270" tags="DisciplinaryDomains" title="Discourse">
+<div created="20161110192949999" modified="20161206211012264" tags="WikiFormats" title="Discourse-based wiki">
 <pre>https://en.wikipedia.org/wiki/Rhetorical_modes</pre>
 </div>
+<div created="20161206205052687" modified="20161206210202351" tags="WikiFormats" title="Discourse+Objects">
+<pre>(1) Develop objects extending a discourse &lt;center&gt;//or//&lt;/center&gt;
+(2) Develop a discourse contextualizing and referencing objects</pre>
+</div>
+<div created="20161110190109640" draft.of="Assignment Levels" draft.title="Assignment Levels" modified="20161206212636702" tags="CourseOutline" title="Draft of 'Assignment Levels'">
+<pre></pre>
+</div>
+<div color="#990033" created="20161110190511645" modified="20161206210839507" tags="AssignmentTypes" title="Establishing Tiddlywiki infrastructure">
+<pre></pre>
+</div>
 <div created="20161110194026890" modified="20161110194045526" tags="Discourse" title="Exposition">
+<pre></pre>
+</div>
+<div created="20161206210527060" modified="20161206210538803" tags="[[Hypertextual Writing Techniques]]" title="Filtering">
 <pre></pre>
 </div>
 <div created="20160518161328171" creator="stevesunypoly" modified="20160522134035365" modifier="stevesunypoly" tags="$:/tags/ViewTemplate SyllabusWikiTemplate" title="forum template">
@@ -6516,7 +6589,10 @@ The following assignments should be submitted to this Blackboard forum:&lt;br&gt
 &lt;/$list&gt;
 &lt;/$list&gt;</pre>
 </div>
-<div color="#990033" created="20161110190511645" modified="20161110191818352" tags="AssignmentTypes" title="Infrastructure">
+<div created="20161206210301093" modified="20161206210304558" tags="MajorConcepts" title="Hyper">
+<pre></pre>
+</div>
+<div created="20161206210327063" modified="20161206210434515" tags="CourseOutline" title="Hypertextual Writing Techniques">
 <pre></pre>
 </div>
 <div color="#336633" created="20161110190232737" modified="20161110191306965" tags="[[Assignment Levels]]" title="Intermediate">
@@ -6525,11 +6601,14 @@ The following assignments should be submitted to this Blackboard forum:&lt;br&gt
 <div color="#336633" created="20161110190151077" modified="20161110191304858" tags="[[Assignment Levels]]" title="Introductory">
 <pre></pre>
 </div>
-<div created="20161110192934409" modified="20161110193508238" tags="DisciplinaryDomains" title="Mathematics">
+<div created="20161206210338808" modified="20161206210456273" tags="[[Hypertextual Writing Techniques]]" title="Linking">
 <pre></pre>
 </div>
-<div created="20161110193005627" modified="20161110193450729" tags="DisciplinaryDomains" title="Multi-object data repository">
-<pre>This involves managing data, probably in a spreadsheet, and using the xlsx import function to establish relationships among and between objects</pre>
+<div created="20161206210227616" modified="20161206210248298" tags="CourseOutline" title="MajorConcepts">
+<pre>* Text
+* Hyper
+* Wiki
+* Tiddly</pre>
 </div>
 <div created="20161110190624590" modified="20161110190916880" tags="[[Hypertext Practice: Writing]]" title="Multi-tiddler hierarchical structures">
 <pre>Build a multi-tiddler outline using ``new here button`` {{$:/core/ui/Buttons/new-here}} and ``table of contents macros``
@@ -6538,6 +6617,11 @@ The following assignments should be submitted to this Blackboard forum:&lt;br&gt
 </div>
 <div created="20161110194135593" modified="20161110194143926" tags="Discourse" title="Narration (Narrative)">
 <pre></pre>
+</div>
+<div created="20161110193005627" modified="20161206210943228" tags="WikiFormats" title="Object-based wiki">
+<pre>* Develop a set of objects represented as tiddlers. 
+* Use tags (or fields) to establish relationships between and among the objects.
+</pre>
 </div>
 <div created="20160518152201781" creator="stevesunypoly" modified="20160522134059108" modifier="stevesunypoly" tags="$:/tags/ViewTemplate SyllabusWikiTemplate" title="product template">
 <pre>&lt;$list filter=&quot;[is[current]tag[Product]]&quot;&gt;
@@ -6559,8 +6643,35 @@ Due {{!!duedate}}&lt;br&gt;
 &lt;/$list&gt;
 &lt;/$list&gt;</pre>
 </div>
-<div color="#990033" created="20161110190521404" modified="20161110192042746" tags="AssignmentTypes" title="Reading">
+<div color="#990033" created="20161110190521404" modified="20161206210813395" tags="AssignmentTypes" title="Reading Scholarship &amp; Commentary">
 <pre></pre>
+</div>
+<div created="20140114170004978" creator="Stephan Hradek" description="A great trick invented by Alberto Molina to search and replace tags." modified="20161206210136004" modifier="Stephan Hradek" tags="AddedTools" title="RenameTags">
+<pre>This great trick was shown to the tiddlywiki google group by [[Alberto Molina|https://groups.google.com/forum/#!topic/tiddlywiki/OCntQ79DuwM]]. I enhanced it a bit.
+
+Source: http://tw5magick.tiddlyspot.com/
+
+|!Search tag: | &lt;$edit-text tiddler=&quot;$:/temp/RenameTags/search&quot; tag=&quot;input&quot; type=&quot;text&quot;/&gt; |
+|!Replace by: | &lt;$edit-text tiddler=&quot;$:/temp/RenameTags/replace&quot; tag=&quot;input&quot; type=&quot;text&quot;/&gt; |
+
+---
+&lt;$reveal type=&quot;nomatch&quot; text=&quot;&quot; state=&quot;$:/temp/RenameTags/replace&quot;&gt;
+
+!First step
+!!//Apply the tag &lt;$tiddler tiddler={{$:/temp/RenameTags/replace}}&gt;&lt;$transclude tiddler=&quot;$:/core/ui/TagTemplate&quot;/&gt;&lt;/$tiddler&gt; to the following tiddlers//
+&lt;$list filter=&quot;[!has[draft.of]tag{$:/temp/RenameTags/search}!tag{$:/temp/RenameTags/replace}sort[created]]&quot;&gt;
+&lt;$checkbox tag={{$:/temp/RenameTags/replace}}&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;&lt;/$checkbox&gt;&lt;br/&gt;
+&lt;/$list&gt;
+&lt;/$reveal&gt;
+
+&lt;$reveal type=&quot;nomatch&quot; text=&quot;&quot; state=&quot;$:/temp/RenameTags/search&quot;&gt;
+
+!Second step
+!!//Remove the tag &lt;$tiddler tiddler={{$:/temp/RenameTags/search}}&gt;&lt;$transclude tiddler=&quot;$:/core/ui/TagTemplate&quot;/&gt;&lt;/$tiddler&gt; from the following tiddlers//
+&lt;$list filter=&quot;[!has[draft.of]tag{$:/temp/RenameTags/search}tag{$:/temp/RenameTags/replace}sort[created]]&quot;&gt;
+&lt;$checkbox tag={{$:/temp/RenameTags/search}}&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;&lt;br/&gt;
+&lt;/$list&gt;
+&lt;/$reveal&gt;</pre>
 </div>
 <div color="" created="20160826193233409" modified="20161110192444760" tags="WikiTools" title="Set color of tagged-tiddlers to match a specific tag">
 <pre>&lt;!--get list of dimensions--&gt;
@@ -6615,6 +6726,21 @@ If the button doesn't work save this link:
 {{$:/core/ui/Buttons/import}}
 </pre>
 </div>
+<div created="20161206210357273" modified="20161206210456977" tags="[[Hypertextual Writing Techniques]]" title="Tagging">
+<pre></pre>
+</div>
+<div created="20161206210544333" modified="20161206210549192" tags="[[Hypertextual Writing Techniques]]" title="Templating">
+<pre></pre>
+</div>
+<div created="20161206210252694" modified="20161206210255647" tags="MajorConcepts" title="Text">
+<pre></pre>
+</div>
+<div created="20161206210312700" modified="20161206210315694" tags="MajorConcepts" title="Tiddly">
+<pre></pre>
+</div>
+<div created="20161206210505104" modified="20161206210512169" tags="[[Hypertextual Writing Techniques]]" title="Transcluding">
+<pre></pre>
+</div>
 <div created="20160518155535109" creator="stevesunypoly" modified="20160522134134373" modifier="stevesunypoly" tags="$:/tags/ViewTemplate SyllabusWikiTemplate" title="week template">
 <pre>&lt;$list filter=&quot;[is[current]tag[Week]]&quot;&gt;
 ''{{!!start}} to {{!!end}}&lt;br&gt;''
@@ -6627,7 +6753,13 @@ If the button doesn't work save this link:
 Submit to Blackboard {{!!forum}}&lt;p&gt;
 </pre>
 </div>
-<div color="#990033" created="20161110190541461" modified="20161110192138621" tags="AssignmentTypes" title="Writing">
+<div created="20161206210307383" modified="20161206210310538" tags="MajorConcepts" title="Wiki">
+<pre></pre>
+</div>
+<div created="20161110192912881" modified="20161206205535706" tags="CourseOutline" title="WikiFormats">
+<pre></pre>
+</div>
+<div color="#990033" created="20161110190541461" modified="20161206210907908" tags="AssignmentTypes" title="Writing in TiddlyWiki">
 <pre></pre>
 </div>
 

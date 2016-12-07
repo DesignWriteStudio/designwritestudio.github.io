@@ -175,6 +175,8 @@ Error message and password prompt
 
 <li>sbkpath</li>
 
+<li>scrapbook image macro</li>
+
 <li>scrapbook macro</li>
 
 <li>scrapbook.rdf</li>
@@ -7881,10 +7883,10 @@ Error message and password prompt
 <div created="20161115205015522" modified="20161115205017977" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Standard</pre>
 </div>
-<div created="20160822134316377" modified="20161206144916692" title="$:/state/tab/sidebar--1835078512">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20160822134316377" modified="20161207161721525" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="[[Using Scrabook via Tiddlywiki to share a link collection]] $:/Import HelloThere" title="$:/StoryList">
+<div list="[[scrapbook image macro]] [[scrapbook macro]] HelloThere" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20161115204956395" modified="20161115204956395" title="$:/temp/advancedsearch">
@@ -8089,6 +8091,24 @@ Error message and password prompt
 </div>
 <div created="20161115204527916" modified="20161115204527917" tags="" title="sbkpath">
 <pre>https://designwritestudio.github.io/resources/sbk/data/</pre>
+</div>
+<div created="20161207161730396" modified="20161207162245585" tags="$:/tags/Macro" title="scrapbook image macro">
+<pre>\define fullpath() $(base)$$(timestamp)$/index.html
+
+\define imagepath() $(base)$$(timestamp)$/screengrab.png
+
+\define sbki(linktext,timestamp,path)
+&lt;$set name=&quot;base&quot; value={{sbk-repo}}&gt;
+&lt;$set name=timestamp value=&quot;&quot;&quot;$timestamp$&quot;&quot;&quot;&gt;
+&lt;$set name=&quot;path&quot; value=&lt;&lt;fullpath&gt;&gt;&gt;
+&lt;$set name=&quot;image&quot; value=&lt;&lt;imagepath&gt;&gt;&gt;
+&lt;a href=&lt;&lt;path&gt;&gt; target=&quot;_blank&quot;&gt;&lt;img src=&lt;&lt;image&gt;&gt;&gt;&lt;br&gt;$linktext$&lt;/a&gt;
+&lt;/$set&gt;
+&lt;/$set&gt;
+&lt;/$set&gt;
+\end
+&lt;$macrocall $name=&quot;sbki&quot; timestamp=&quot;20161006124512&quot; linktext=&quot;test sbk marcro&quot; 
+/&gt;</pre>
 </div>
 <div created="20161117144133639" modified="20161205190252540" tags="$:/tags/Macro" title="scrapbook macro">
 <pre>\define fullpath() $(base)$$(timestamp)$/index.html
