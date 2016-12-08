@@ -18,6 +18,22 @@
                    NS1:comment=""
                    NS1:source="http://www.jstor.org/stable/3659802?seq=1#page_scan_tab_contents"
                    NS1:icon="resource://scrapbook/data/20161004100228/favicon.ico" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161207204528"
+                   NS1:id="20161207204528"
+                   NS1:type="file"
+                   NS1:title="CIT-2017-Theme-Tracks.pdf"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon="moz-icon://CIT-2017-Theme-Tracks.pdf?size=16"
+                   NS1:source="http://cit.suny.edu/files/2016/10/CIT-2017-Theme-Tracks.pdf" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161207203401"
+                   NS1:id="20161207203401"
+                   NS1:type=""
+                   NS1:title="THATCamp | The Humanities and Technology Camp"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://thatcamp.org/"
+                   NS1:icon="resource://scrapbook/data/20161207203401/favicon.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:item20160923155108">
     <RDF:li RDF:resource="urn:scrapbook:item20160923164923"/>
   </RDF:Seq>
@@ -144,6 +160,14 @@
                    NS1:comment=""
                    NS1:icon=""
                    NS1:source="file:///Users/steve/Documents/work/steve-tiddlywiki-github/designwritestudio.github.io/experimental/mike-hand-graphics-generator/mike-hand-computational-graphics.html?i=80&amp;x=138.03078417378885&amp;y=20&amp;r=139&amp;g=247&amp;b=31&amp;ri=2.8486523274550657&amp;gi=6.542204749645366&amp;bi=14.148627479811061&amp;rand=1" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161207203556"
+                   NS1:id="20161207203556"
+                   NS1:type=""
+                   NS1:title="THATCamp | The Humanities and Technology Camp"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://thatcamp.org/"
+                   NS1:icon="resource://scrapbook/data/20161207203556/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20160822093713"
                    NS1:id="20160822093713"
                    NS1:type=""
@@ -232,6 +256,18 @@
                    NS1:comment=""
                    NS1:source="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1926301"
                    NS1:icon="resource://scrapbook/data/20161206094044/favicon.ico" />
+  <RDF:Seq RDF:about="urn:scrapbook:item20161207203548">
+    <RDF:li RDF:resource="urn:scrapbook:item20161207203556"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161207204528"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:scrapbook:item20161207203548"
+                   NS1:id="20161207203548"
+                   NS1:type="folder"
+                   NS1:title="cit2017"
+                   NS1:chars=""
+                   NS1:icon=""
+                   NS1:source=""
+                   NS1:comment="" />
   <RDF:Description RDF:about="urn:scrapbook:item20160825120142"
                    NS1:id="20160825120142"
                    NS1:type=""
@@ -983,6 +1019,7 @@
                    NS1:source="https://www.google.com/search?q=september+11+site:jstor.org+web&amp;biw=1168&amp;bih=633&amp;ei=jbTzV4jZCsX8mAGB6ZOICg&amp;start=40&amp;sa=N"
                    NS1:icon="resource://scrapbook/data/20161004100223/googleg_lodp.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20161207203548"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161206093928"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205130701"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161201095202"/>
@@ -1021,6 +1058,7 @@
     <RDF:li RDF:resource="urn:scrapbook:item20161201123547"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205102858"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205134646"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161207203401"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:scrapbook:item20161201091216"
                    NS1:id="20161201091216"
