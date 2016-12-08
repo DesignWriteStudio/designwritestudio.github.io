@@ -634,6 +634,14 @@
                    NS1:icon=""
                    NS1:source=""
                    NS1:comment="" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161208091708"
+                   NS1:id="20161208091708"
+                   NS1:type="file"
+                   NS1:title="p84-nelson.pdf"
+                   NS1:chars=""
+                   NS1:comment=""
+                   NS1:icon="moz-icon://p84-nelson.pdf?size=16"
+                   NS1:source="http://delivery.acm.org/10.1145/810000/806036/p84-nelson.pdf?ip=149.15.166.188&amp;id=806036&amp;acc=ACTIVE%20SERVICE&amp;key=7777116298C9657D%2E5234849A804BC5E3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&amp;CFID=873473198&amp;CFTOKEN=17201348&amp;__acm__=1481206893_4044ef27964cb98462dbf933580572a8" />
   <RDF:Description RDF:about="urn:scrapbook:item20160912152826"
                    NS1:id="20160912152826"
                    NS1:type=""
@@ -919,6 +927,14 @@
                    NS1:comment=""
                    NS1:icon=""
                    NS1:source="http://onewomancaravan.net/Utica/TIMEproject.html" />
+  <RDF:Description RDF:about="urn:scrapbook:item20161208101234"
+                   NS1:id="20161208101234"
+                   NS1:type=""
+                   NS1:title="CIT 2017 » Conference on Instruction and Technology"
+                   NS1:chars="UTF-8"
+                   NS1:comment=""
+                   NS1:source="http://cit.suny.edu/cit-2017/"
+                   NS1:icon="resource://scrapbook/data/20161208101234/favicon.ico" />
   <RDF:Description RDF:about="urn:scrapbook:item20161006124523"
                    NS1:id="20161006124523"
                    NS1:type=""
@@ -1019,6 +1035,8 @@
                    NS1:source="https://www.google.com/search?q=september+11+site:jstor.org+web&amp;biw=1168&amp;bih=633&amp;ei=jbTzV4jZCsX8mAGB6ZOICg&amp;start=40&amp;sa=N"
                    NS1:icon="resource://scrapbook/data/20161004100223/googleg_lodp.ico" />
   <RDF:Seq RDF:about="urn:scrapbook:root">
+    <RDF:li RDF:resource="urn:scrapbook:item20161208101234"/>
+    <RDF:li RDF:resource="urn:scrapbook:item20161208091708"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161207203548"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161206093928"/>
     <RDF:li RDF:resource="urn:scrapbook:item20161205130701"/>
