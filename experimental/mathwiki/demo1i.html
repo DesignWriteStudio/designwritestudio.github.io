@@ -269,7 +269,13 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>Draft of 'New Tiddler'</li>
+
+<li>Draft of 'Separation of Variables'</li>
+
 <li>Lectures</li>
+
+<li>New Tiddler 1</li>
 
 <li>Separation of Variables</li>
 
@@ -8105,7 +8111,7 @@ Error message and password prompt
 <div created="20160907185736322" modified="20160909182539263" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="[[Separation of Variables]]" title="$:/StoryList">
+<div list="[[New Tiddler 1]] [[Draft of 'New Tiddler']] Lectures [[Draft of 'Separation of Variables']]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -8573,8 +8579,61 @@ This plugin contains tools to help slice up long texts into individual tiddlers.
 <div created="20160909173834432" modified="20160909173834432" title="$:/view">
 <pre>zoomin</pre>
 </div>
+<div created="20161212170152406" draft.of="New Tiddler" draft.title="New Tiddler" modified="20161212170155026" tags="" title="Draft of 'New Tiddler'">
+<pre>$$dP/dt=k P$$</pre>
+</div>
+<div created="20160907185504264" draft.of="Separation of Variables" draft.title="Separation of Variables" modified="20161212170142843" tags="Lectures" title="Draft of 'Separation of Variables'">
+<pre>During the first lecture we  have explored what is the differential equation, how to verify that a function is a solution of the differential equation and also we talked shortly about Initial Value Problems. &lt;font class=&quot;custom&quot;&gt;Now we will explore the first method for solving 1st order ordinary differential equations.&lt;/font&gt;
+
+!!! Population model
+
+Recall the population model we have introduced in the first lecture:
+Assume that population grows at such rate that the rate of change in the size of the population is proportional to the current size. Using notation introduced earlier:
+$$P(t)$$=//population size at the current time t//
+
+From Calculus we know that the rate of change of a function with respect to time is taken as the derivative
+$$dP/dt=$$//rate of change of population size//. 
+Now we need to set the model up as rate of change proportional to population size, or
+
+$$dP/dt=k P$$
+
+for some constant of proportionality, $$k$$. 
+
+''How do we find a function,  P(t) which satisfies   $$ dP/dt=k P$$ ?''
+
+Remember some calculus: the differential   dP  was defined as $$dP = {dP \over dt}   $$. Working symbolically (we consider// P// and //t// to be “independent of each other) we will “separate the variables” -  bringing terms containing P to one side and terms containing t to other side of the equation.
+
+$$dP= {dP \over dt}dt = (k P)  dt $$
+
+$${1 \over P} dP=  k dt$$
+
+Now integrate both sides to get
+
+$$ \int {1 \over P} dP= \int  k dt $$
+
+$$ \ln|P|+c_1=  k t+c_2$$
+
+$$ |P|=  e^{k t+c_3 }=  e^{k t} e^{c_3 }=  e^{k t} c_4 $$
+Where $$ c_3= c_2- c_1$$ and $$c_4=e^{c_3 }$$
+
+Note that for this to be physically meaningful we need to avoid negative population sizes, so we finally have
+
+$$P(t)=   ce^{k t}$$
+
+''Note'' that the constant  $$k$$ describes how quickly the population grows.
+
+''How do we figure out what  c should be? ''
+</pre>
+</div>
 <div created="20160909173717088" modified="20160909173740979" tags="" title="Lectures">
 <pre>&lt;&lt;list-links filter:&quot;[tag[Lectures]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20161212170306548" modified="20161212170336012" tags="" title="New Tiddler 1">
+<pre>$$
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+$$</pre>
 </div>
 <div created="20160907185504264" modified="20160909182558529" tags="Lectures" title="Separation of Variables">
 <pre>During the first lecture we  have explored what is the differential equation, how to verify that a function is a solution of the differential equation and also we talked shortly about Initial Value Problems. &lt;font class=&quot;custom&quot;&gt;Now we will explore the first method for solving 1st order ordinary differential equations.&lt;/font&gt;

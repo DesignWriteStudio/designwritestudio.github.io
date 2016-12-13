@@ -1,0 +1,341 @@
+{\rtf1\ansi\ansicpg10000
+{\fonttbl
+{\f1\fnil\fcharset0\fprq0 Arial;}
+{\f2\fnil\fcharset0\fprq0 Times New Roman;}
+}
+{\colortbl;
+\red0\green0\blue0;
+\red153\green0\blue153;
+\red51\green51\blue204;
+\red255\green0\blue0;
+\red0\green0\blue0;
+\red0\green153\blue0;
+\red0\green0\blue255;
+\red255\green51\blue0;
+}
+{\stylesheet
+{\s1\li540\fi-540\fs56\cf1\lang1033\level1 heading 1;}
+{\s2\li1170\fi-450\fs56\cf1\lang1033\level2 heading 2;}
+{\s3\li1800\fi-360\fs56\cf1\lang1033\level3 heading 3;}
+{\s4\li2520\fi-360\fs40\cf1\lang1033\level4 heading 4;}
+{\s5\li3240\fi-360\fs40\cf1\lang1033\level5 heading 5;}
+{\s6\li3960\fi-360\fs40\cf1\lang1033\level6 heading 6;}
+{\s7\li4680\fi-360\fs40\cf1\lang1033\level7 heading 7;}
+{\s8\li5400\fi-360\fs40\cf1\lang1033\level8 heading 8;}
+{\s9\li6120\fi-360\fs40\cf1\lang1033\level9 heading 9;}
+}
+\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 As we\uc1\u8217\'92ve discussed many times, defining a variable does all of the following\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Gives us a name to use as a "handle" to get to a memory location\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Assigns a memory location\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Assigns a data type\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Ensures exactly the right amount of space at that memory location to accommodate the data type\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Defines an encoding and decoding standard for data representation\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Determines the operations that can be performed \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 What's wrong with the next slide's program?\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 8.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int main(void) \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab char *message_ptr; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(message_ptr,"Beam me up Scotty.");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4  \tab printf("%s", message_ptr); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab return(0); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 What's wrong with the last slide's program?\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 No memory space was ever reserved/saved/marked for the message\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 A pointer ( }{\f2\fs48\cf4 message_ptr}{\f2\fs48\cf3  ) was declared, but a pointer holds only an address\uc1\u8230\'85 the address of some other variable (usually)\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf3 It doesn't hold more than an address \par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf3 It doesn't have the space to accommodate something like a string (in this case)\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf3 It doesn't have a memory location (address) to store something like a string (in this case)\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs40 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs40{\pntxtb \uc1\u8226\'95}}{\f2\cf3 Remember, a pointer has its own address (which is unchanging) and it can hold the address of another variable or memory location, but that has to be assigned somehow\par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\f2\cf3 \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 How can we fix this?\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 9.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int main(void) \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf2 char  message [50] ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab char  *message_ptr; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf2 message_ptr  =  message ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(message_ptr,"\'5cn\'5cnBeam me up Scotty.\'5cn\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4  \tab printf("%s", message_ptr); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab return(0); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\cf3 What if we don't want to delare an array of characters like }{\f2\cf4 char message [50] ;}{\f2\cf2   }{\f2\cf3  ?\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\cf3 Is there a way to assign a memory location and the exact amount of space without declaring a variable?\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\cf4 malloc( ) and calloc( )}{\f2\cf3   to the rescue\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs56 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8211\'96}}{\f2\cf3 Used to take a piece of available memory and then assign the location of that memory while your program is running\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs56 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8211\'96}}{\f2\cf3 Here are the general format guidelines\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\cf3               }{\i\f2\cf3  }{\i\f2\cf4 pointer}{\f2\cf4   =  ( }{\i\f2\cf4 type_cast}{\f2\cf4  * )  malloc ( }{\i\f2\cf4 size}{\f2\cf4  ) ;\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs56 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8211\'96}}{\f2\cf3 For example, using 9.c as an example\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf4 \tab \tab \tab char *message_ptr ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf4 \tab \tab \tab message_ptr = ( char * )  malloc  ( 50 ) ; \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\fs48\cf4 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 10.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 #include <stdlib.h>}{\f2\fs36\cf4  \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int main(void) \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab char *message_ptr; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf2 message_ptr  =  }{\f2\fs36\cf5 ( char * )  }{\f2\fs36\cf2 malloc  ( 50 ) ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(message_ptr,"\'5cn\'5cnBeam me up Scotty.\'5cn\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4  \tab printf("%s", message_ptr); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab return(0); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 How cool is this?\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  allows you to do what the compiler and operating system have been doing for you: \par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Reserve a memory location \par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Allocate space at that memory location \par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Make that space represent the data stored there in a specific manner (}{\f2\fs48\cf4 char}{\f2\fs48\cf3  in 10.c)  \par 
+}\pard\plain\ltrpar\s4\li2520\fi-360\fs40\cf1\lang1033\li1800 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 And you can do this "on the fly"\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Of course, it's possible that }{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  can fail when we call it (perhaps there are no memory resources available), so we need to write our code to take that event into account\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\cf3               }{\i\f2\cf3  }{\f2\cf4 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 #include <stdio.h>   }{\f2\fs40\cf3 // 11.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf2 #include <stdlib.h>}{\f2\fs40\cf4  \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 int main(void) \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \'7b \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \tab char *message_ptr; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \tab }{\f2\fs40\cf2 message_ptr = }{\f2\fs40\cf5 ( char * ) }{\f2\fs40\cf2 malloc ( 50 ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf2 \tab }{\f2\fs40\cf6 if (message_ptr == NULL)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf6 \tab \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf6 \tab \tab puts("\'5cn\'5cnNot enough memory available\uc1\u8230\'85 sorry.\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf6 \tab \'7d \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \tab strcpy(message_ptr,"\'5cn\'5cnBeam me up Scotty.\'5cn\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4  \tab printf("%s", message_ptr); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \tab return(0); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs40\cf4 \'7d \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Unfortunately, some responsibility comes with the ability to use }{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  : you must "}{\f2\fs48\cf4 free}{\f2\fs48\cf3 " memory when you are finished using it (the compiler and OS usually do that for you, but you're bypassing them when you use }{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  )\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 For example, using 11.c as an example\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\fs48\cf3 \tab \tab \tab }{\f2\fs48\cf4 free ( message_ptr ) ;\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\cf4               }{\i\f2\cf4  \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Defining Variables \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 12.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 #include <stdlib.h>}{\f2\fs36\cf4  \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int main(void) \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab char *message_ptr; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf2 message_ptr = }{\f2\fs36\cf5 ( char * ) }{\f2\fs36\cf2 malloc ( 50 ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \tab }{\f2\fs36\cf6 if (message_ptr == NULL)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab \tab puts("Not enough memory available\uc1\u8230\'85 sorry.");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab \'7d \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(message_ptr,"\'5cn\'5cnBeam me up Scotty.\'5cn\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4  \tab printf("%s", message_ptr); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf7 free ( message_ptr ) ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf5 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab return(0); \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 An Alternative to Static Arrays \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Arrays are normally static\uc1\u8230\'85  it's painful to resize them    \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  gives us the opportunity to dump arrays when we need a "dynamic" data structure like a linked list\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Let's look at the next example program}{\i\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 13.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdlib.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 typedef  struct  vehicle\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \tab char  make[15] ;    char  model[15] ;  char  color[8] ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \'7d vhcl ;}{\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int   main  (void)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab vhcl  * truck_ptr ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab truck_ptr = }{\f2\fs36\cf5 ( vhcl * ) }{\f2\fs36\cf4 malloc ( sizeof ( vhcl ) ) ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab if (truck_ptr == NULL)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab \tab puts("\'5cn\'5cnNot enough memory available\uc1\u8230\'85 sorry.\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab \'7d \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(truck_ptr->make, "Chevy") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(truck_ptr->model, "Suburban") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(truck_ptr->color, "Brown") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 // continued on next slide\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab printf("%s   %s   %s \'5cn\'5cn" , truck_ptr->make , truck_ptr->model , truck_ptr->color) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab return ( 0 ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 An Alternative to Static Arrays \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 At this point we're just one step away from creating a dynamic data structure called a linked list\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 All we need to do is figure out a way around creating }{\b\i\ul\f2\fs48\cf3 named pointers }{\f2\fs48\cf3 to allow us to use }{\f2\fs48\cf4 malloc ( ) \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Actually, at this point, looking at program 13.c, it appears that there's no real benefit using }{\f2\fs48\cf4 malloc ( ) }{\f2\fs48\cf3 because we need to create a }{\b\i\ul\f2\fs48\cf3 named pointer}{\f2\fs48\cf3  for keep track of every memory location staked-out by }{\f2\fs48\cf4 malloc ( ) }{\f2\fs48\cf3 for us\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Hmmm\uc1\u8230\'85.\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 Is there something we can do here to improve our lot in life?\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 An Alternative to Static Arrays \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Brainstorm: instead of creating a pointer to stake-out a location of a structure, why don't we embed a pointer into the structure when we define the structure?\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Then we can use a structure instance's embedded pointer point to another instance of the structure in memory\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 And then we can have THAT structure instance's embedded pointer point to yet another instance of the structure in memory\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Chalk talk\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 An Alternative to Static Arrays \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Key points to remember for linked lists\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 The pointer inside each structure acts as the }{\b\i\f2\fs48\cf3 link\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 A group of structures that are linked together form a }{\b\i\f2\fs48\cf3 linked list\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 A list is linked by all the pointers\uc1\u8230\'85 the pointers are the glue that bind the structures together \par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Let's see how this works with some examples\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 14.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdlib.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 typedef  struct  vehicle\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \tab char  make[15] ;    char  model[15] ;  char  color[8] ;  }{\f2\fs36\cf6 struct  vehicle  * next_vehicle ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \'7d vhcl ;}{\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int   main  (void)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab vhcl  * truck_ptr ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab truck_ptr = }{\f2\fs36\cf5 ( vhcl * ) }{\f2\fs36\cf4 malloc ( sizeof ( vhcl ) ) ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab }{\f2\fs36\cf4 if (truck_ptr == NULL)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \tab puts("\'5cn\'5cnNot enough memory available\uc1\u8230\'85 sorry.\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \'7d \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(truck_ptr->make, "Chevy") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(truck_ptr->model, "Suburban") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(truck_ptr->color, "Brown") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf6 truck_ptr->next_vehicle = NULL ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 // continued on next slide\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab printf("\'5cn\'5cnThe first structure instance was created and here are its contents: \'5cn") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab printf("Make: %s   \'5cnModel: %s   \'5cnColor: %s  \'5cn}{\f2\fs36\cf6 Next Structure Instance Address: %p}{\f2\fs36\cf4  \'5cn" , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \tab truck_ptr->make , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \tab truck_ptr->model , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \tab truck_ptr->color,\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \tab }{\f2\fs36\cf6 truck_ptr->next_vehicle}{\f2\fs36\cf4   ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab return ( 0 ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs88\cf2 Link List Concepts to Understand \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 You must start with a structure instance\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 The structure instance must contain a pointer of the same type as the structure itself\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 You cannot use the structure tag to create this pointer\uc1\u8230\'85 you must use   }{\f2\fs48\cf4 struct  }{\b\i\f2\fs48\cf4 structure_name *  structure_element_name\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 To build the first structure instance, you need to use }{\f2\fs48\cf4 malloc( )}{\f2\fs48\cf3  and you need to use a pointer to hold and retain this first structure instance's address\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs48 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8226\'95}}{\f2\fs48\cf3 Let's add another structure instance and link it to the first structure instance\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs48 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs48{\pntxtb \uc1\u8211\'96}}{\f2\fs48\cf3 To make things a little easier, will introduce the concept of "reusable pointers"\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdio.h>   }{\f2\fs36\cf3 // 15.c\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <string.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 #include <stdlib.h> \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 typedef  struct  vehicle\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab char  make[15] ;    char  model[15] ;  char  color[8] ;  }{\f2\fs36\cf6 struct  vehicle  * next_vehicle}{\f2\fs36\cf4  ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7d vhcl ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 int   main  (void)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf6 vhcl  * first_truck ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab vhcl  * current_truck ;                     }{\f2\fs36\cf3 // Reusable pointers\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab vhcl  * new_truck ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 \tab // Let's create the first structure instance }{\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab first_truck = }{\f2\fs36\cf5 ( vhcl * ) }{\f2\fs36\cf4 malloc ( sizeof ( vhcl ) ) ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf6 \tab }{\f2\fs36\cf4 if (first_truck == NULL)\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \'7b\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \tab puts("\'5cn\'5cnNot enough memory available\uc1\u8230\'85 sorry.\'5cn\'5cn");\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab \'7d \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 // continued on next slide\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\cf4 \tab }{\f2\fs36\cf3 // Let's populate the first structure instance \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(first_truck->make, "Chevy") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(first_truck->model, "Suburban") ;         }{\f2\fs36\cf3 // }{\f2\fs36\cf4 first_truck}{\f2\fs36\cf3  pointer for first instance\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(first_truck->color, "Brown") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf2 new_truck = ( vhcl * ) malloc ( sizeof ( vhcl ) ) ; \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf6 first_truck->next_vehicle = }{\f2\fs36\cf2  new_truck}{\f2\fs36\cf6  ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf3 // Let's populate the second structure instance \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 \tab }{\f2\fs36\cf2 current_truck = new_truck ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(current_truck->make, "Mazda") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(current_truck->model, "Miata M1") ;    }{\f2\fs36\cf3 // }{\f2\fs36\cf4 current_truck}{\f2\fs36\cf3  pointer for second instance}{\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(current_truck->color, "Blue") ;             }{\f2\fs36\cf3  }{\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf2 \tab new_truck = ( vhcl * ) malloc ( sizeof ( vhcl ) ) ;  }{\f2\fs36\cf3 // reused  }{\f2\fs36\cf4 new_truck}{\f2\fs36\cf3  \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf6 current_truck->next_vehicle =  new_truck ;}{\f2\fs36\cf3           // reused  }{\f2\fs36\cf4 current_truck}{\f2\fs36\cf3  }{\f2\fs36\cf6 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf3 // Let's populate the the structure instance \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf3 \tab }{\f2\fs36\cf2 current_truck = new_truck ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(current_truck->make, "Hummer") ;     }{\f2\fs36\cf3 // }{\f2\fs36\cf4 current_truck}{\f2\fs36\cf3  pointer for third instance}{\f2\fs36\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(current_truck->model, "H1") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab strcpy(current_truck->color, "Black") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs36\cf4 \tab }{\f2\fs36\cf6 current_truck->next_vehicle =  NULL ;\par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033 {\f1 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs48\cf4 \tab }{\f2\fs32\cf3 // Let's display what we have in our linked list \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf3 \tab }{\f2\fs32\cf4 printf("\'5cn\'5cnThe first structure instance was created and here are its contents: \'5cn") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab printf("Make: %s   \'5cnModel: %s   \'5cnColor: %s  \'5cn}{\f2\fs32\cf6 Next Structure Instance Address: %p}{\f2\fs32\cf4  \'5cn" , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab first_truck->make , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab first_truck->model , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab first_truck->color,\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab }{\f2\fs32\cf6 first_truck->next_vehicle}{\f2\fs32\cf4   ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab }{\f2\fs32\cf2 current_truck = first_truck-> next_vehicle ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab printf("\'5cn\'5cnThe second structure instance was created and here are its contents: \'5cn") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab printf("Make: %s   \'5cnModel: %s   \'5cnColor: %s  \'5cn}{\f2\fs32\cf6 Next Structure Instance Address: %p}{\f2\fs32\cf4  \'5cn" , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab current_truck->make , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab current_truck->model , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab current_truck->color,\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab }{\f2\fs32\cf6 current_truck->next_vehicle}{\f2\fs32\cf4   ) ;                         }{\f2\fs32\cf3 // reused  }{\f2\fs32\cf4 current_truck}{\f2\fs32\cf3  }{\f2\fs32\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf2 \tab current_truck = current_truck-> next_vehicle ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab printf("\'5cn\'5cnThe third structure instance was created and here are its contents: \'5cn") ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab printf("Make: %s   \'5cnModel: %s   \'5cnColor: %s  \'5cn}{\f2\fs32\cf6 Next Structure Instance Address: %p}{\f2\fs32\cf4  \'5cn" , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab current_truck->make , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab current_truck->model , \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab current_truck->color,\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab \tab }{\f2\fs32\cf6 current_truck->next_vehicle}{\f2\fs32\cf4   ) ;}{\f2\fs32\cf3                        // reused  }{\f2\fs32\cf4 current_truck}{\f2\fs32\cf3  }{\f2\fs32\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \tab return ( 0 ) ;\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \'7d\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\f2\fs32\cf4 \par 
+}\pard\plain\ltrpar\s1\li540\fi-540\fs56\cf1\lang1033\li0\fi0\qc {\b\f2\fs80\cf2 Dynamic Memory Allocation\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\cf8 malloc( )}{\f2\cf3  and }{\f2\cf8 calloc( )}{\f2\cf3  often used interchangeably\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs56 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8211\'96}}{\f2\cf8 calloc( )}{\f2\cf3  advantage is that it initializes all newly allocated numeric memory to }{\f2\cf8 0}{\f2\cf3  and character memory to}{\f2\cf8  NULL\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs56 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8211\'96}}{\f2\cf8 malloc( )}{\f2\cf3  is the more general purpose\par 
+}\pard\plain\ltrpar\s3\li1800\fi-360\fs56\cf1\lang1033\li1170\fi-450 {\pntext\pard\f2\fs56 \uc1\u8211\'96\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8211\'96}}{\f2\cf8 malloc(5*sizeof(int))}{\f2\cf3  or }{\f2\cf8 calloc(5,sizeof(int))}{\f2\cf3  requests enough memory to store 5 integers\par 
+}\pard\plain\ltrpar\s2\li1170\fi-450\fs56\cf1\lang1033\li540\fi-540 {\pntext\pard\f2\fs56 \uc1\u8226\'95\tab}{\*\pn\pnlvlblt\pnf2\pnfs56{\pntxtb \uc1\u8226\'95}}{\f2\cf3 The space allocated by }{\f2\cf4 malloc( ) }{\f2\cf3 comes from the computer\uc1\u8217\'92s }{\b\f2\cf3 heap}{\f2\cf3 \par 
+}
+}
