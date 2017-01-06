@@ -8343,6 +8343,70 @@ https://github.com/Jermolene/TiddlyWiki5/edit/master/editions/tw5.com/tiddlers/$
     }
 }</pre>
 </div>
+<div created="20170106173714920" modified="20170106173714920" tags="$:/tags/Macro" title="$:/core/macros/export">
+<pre>\define exportButtonFilename(baseFilename)
+$baseFilename$$(extension)$
+\end
+
+\define exportButton(exportFilter:&quot;[!is[system]sort[title]]&quot;,lingoBase,baseFilename:&quot;tiddlers&quot;)
+&lt;span class=&quot;tc-popup-keep&quot;&gt;
+&lt;$button popup=&lt;&lt;qualify &quot;$:/state/popup/export&quot;&gt;&gt; tooltip={{$lingoBase$Hint}} aria-label={{$lingoBase$Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt; selectedClass=&quot;tc-selected&quot;&gt;
+&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
+{{$:/core/images/export-button}}
+&lt;/$list&gt;
+&lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt;
+&lt;span class=&quot;tc-btn-text&quot;&gt;&lt;$text text={{$lingoBase$Caption}}/&gt;&lt;/span&gt;
+&lt;/$list&gt;
+&lt;/$button&gt;
+&lt;/span&gt;
+&lt;$reveal state=&lt;&lt;qualify &quot;$:/state/popup/export&quot;&gt;&gt; type=&quot;popup&quot; position=&quot;below&quot; animate=&quot;yes&quot;&gt;
+&lt;div class=&quot;tc-drop-down&quot;&gt;
+&lt;$list filter=&quot;[all[shadows+tiddlers]tag[$:/tags/Exporter]]&quot;&gt;
+&lt;$set name=&quot;extension&quot; value={{!!extension}}&gt;
+&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
+&lt;$action-sendmessage $message=&quot;tm-download-file&quot; $param=&lt;&lt;currentTiddler&gt;&gt; exportFilter=&quot;&quot;&quot;$exportFilter$&quot;&quot;&quot; filename=&lt;&lt;exportButtonFilename &quot;&quot;&quot;$baseFilename$&quot;&quot;&quot;&gt;&gt;/&gt;
+&lt;$action-deletetiddler $tiddler=&lt;&lt;qualify &quot;$:/state/popup/export&quot;&gt;&gt;/&gt;
+&lt;$transclude field=&quot;description&quot;/&gt;
+&lt;/$button&gt;
+&lt;/$set&gt;
+&lt;/$list&gt;
+&lt;/div&gt;
+&lt;/$reveal&gt;
+\end
+</pre>
+</div>
+<div created="20170106173738940" modified="20170106174107344" tags="$:/tags/Macro" title="$:/core/macros/exportsince">
+<pre>\define exportButtonFilename(baseFilename)
+$baseFilename$$(extension)$
+\end
+
+\define exportButtonSince(exportFilter:&quot;[days[-1]]&quot;,lingoBase,baseFilename:&quot;tiddlers&quot;)
+&lt;span class=&quot;tc-popup-keep&quot;&gt;
+&lt;$button popup=&lt;&lt;qualify &quot;$:/state/popup/export&quot;&gt;&gt; tooltip={{$lingoBase$Hint}} aria-label={{$lingoBase$Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt; selectedClass=&quot;tc-selected&quot;&gt;
+&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
+{{$:/core/images/export-button}} [days[-2]]
+&lt;/$list&gt;
+&lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt;
+&lt;span class=&quot;tc-btn-text&quot;&gt;&lt;$text text={{$lingoBase$Caption}}/&gt;&lt;/span&gt;
+&lt;/$list&gt;
+&lt;/$button&gt;
+&lt;/span&gt;
+&lt;$reveal state=&lt;&lt;qualify &quot;$:/state/popup/export&quot;&gt;&gt; type=&quot;popup&quot; position=&quot;below&quot; animate=&quot;yes&quot;&gt;
+&lt;div class=&quot;tc-drop-down&quot;&gt;
+&lt;$list filter=&quot;[all[shadows+tiddlers]tag[$:/tags/Exporter]]&quot;&gt;
+&lt;$set name=&quot;extension&quot; value={{!!extension}}&gt;
+&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
+&lt;$action-sendmessage $message=&quot;tm-download-file&quot; $param=&lt;&lt;currentTiddler&gt;&gt; exportFilter=&quot;&quot;&quot;$exportFilter$&quot;&quot;&quot; filename=&lt;&lt;exportButtonFilename &quot;&quot;&quot;$baseFilename$&quot;&quot;&quot;&gt;&gt;/&gt;
+&lt;$action-deletetiddler $tiddler=&lt;&lt;qualify &quot;$:/state/popup/export&quot;&gt;&gt;/&gt;
+&lt;$transclude field=&quot;description&quot;/&gt;
+&lt;/$button&gt;
+&lt;/$set&gt;
+&lt;/$list&gt;
+&lt;/div&gt;
+&lt;/$reveal&gt;
+\end
+</pre>
+</div>
 <div hack-to-give-us-something-to-compare-against="yes" title="$:/core/templates/static.content" type="text/vnd.tiddlywiki">
 <pre>\define tv-wikilink-template() http://tiddlywiki.com/static/$uri_doubleencoded$.html
 
@@ -9196,7 +9260,7 @@ $src$
 <div created="20170104183654135" modified="20170104183654136" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20170104194400102" modified="20170104202827683" title="$:/state/sidebar">
+<div created="20170104194400102" modified="20170106170902552" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20170104213604858" modified="20170104213612193" title="$:/state/tab--1252252539">
@@ -9205,11 +9269,17 @@ $src$
 <div created="20170105030415027" modified="20170105030427789" title="$:/state/tab--1266875261">
 <pre>$:/core/ui/TiddlerInfo/Fields</pre>
 </div>
+<div created="20170106171136081" modified="20170106173657297" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+</div>
 <div created="20170104213130873" modified="20170104213243035" title="$:/state/tab--1641886728">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
 </div>
-<div created="20170104183943546" modified="20170106162838252" title="$:/state/tab/sidebar--1835078512">
-<pre>TableOfContents</pre>
+<div created="20170106163908410" modified="20170106164002451" title="$:/state/tab-1205655793">
+<pre>Meetups</pre>
+</div>
+<div created="20170104183943546" modified="20170106172915259" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20170105025927103" modified="20170105025928595" title="$:/state/toc/TableOfContents-Customise TiddlyWiki--81657105">
 <pre>close</pre>
@@ -9251,11 +9321,14 @@ $src$
 <pre>&lt;div class=&quot;tc-static-alert&quot;&gt;&lt;div class=&quot;tc-static-alert-inner&quot;&gt;This page is part of a static HTML representation of the ~TiddlyWiki at http://tiddlywiki.com/&lt;/div&gt;&lt;/div&gt;
 </pre>
 </div>
-<div list="[[Hello There]] DesignWriteStudio" title="$:/StoryList">
+<div list="[[Hello There]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div title="$:/SVGExampleRadius">
 <pre>50</pre>
+</div>
+<div created="20170106171109642" modified="20170106175827325" title="$:/temp/advancedsearch">
+<pre>twederation</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -9363,13 +9436,13 @@ $src$
     }
 }</pre>
 </div>
-<div created="20170104203846512" modified="20170106163036132" title="$:/temp/RenameTags/replace">
-<pre>DesignWriteStudio - A Learning Community</pre>
+<div created="20170104203846512" modified="20170106172507658" title="$:/temp/RenameTags/replace">
+<pre>DesignWriteStudioSpaces</pre>
 </div>
-<div created="20170104203842135" modified="20170106163033113" title="$:/temp/RenameTags/search">
-<pre>DesignWrite - A Learning Community</pre>
+<div created="20170104203842135" modified="20170106172526832" title="$:/temp/RenameTags/search">
+<pre>DesignWriteStudioSpaces</pre>
 </div>
-<div created="20170104184423250" modified="20170106163051792" title="$:/temp/search">
+<div created="20170104184423250" modified="20170106175827325" title="$:/temp/search">
 <pre></pre>
 </div>
 <div title="$:/theme">
@@ -11517,14 +11590,6 @@ template=&quot;DD mmm YY&quot;/&gt;//
 * Anyone can read the group.
 * Anyone can apply to join the group by clicking &quot;Apply to Group&quot; at the forum's [[web page|https://groups.google.com/d/forum/designwrite]].</pre>
 </div>
-<div created="20160116173822913" creator="stevesunypoly" modified="20170106163041225" modifier="stevesunypoly" tags="DesignWrite [[DesignWriteStudio - A Learning Community]]" title="DesignWriteSpaces">
-<pre>The [[learning community|A Learning Community]] includes a number of spaces to support Studio activities:
-&lt;$list filter=&quot;
-[tag[DesignWriteStudioSpaces]]&quot;&gt;
-&lt;h3&gt;{{!!title}}&lt;/h3&gt;
-&lt;$transclude tiddler=&lt;&lt;currentTiddler&gt;&gt;  mode=&quot;block&quot;/&gt;
-&lt;/$list&gt;</pre>
-</div>
 <div created="20170104211402069" modified="20170106163445328" title="DesignWriteStudio">
 <pre>* A Studio for ''DESIGN''ing and ''WR''iting ''I''nteractive ''TE''xts
 * Housed at SUNY Polytechnic Institute
@@ -11539,6 +11604,14 @@ template=&quot;DD mmm YY&quot;/&gt;//
 * [[SUNY Poly Blackboard|https://sunypoly.open.suny.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1]]. //Participation limited to SUNY Poly students enrolled in// [[COM 375|SUNY Poly COM 375 Spring 2017]]// or //[[IDT 575|SUNY Poly IDT 575 Spring 2017]].
 
 </pre>
+</div>
+<div created="20160116173822913" creator="stevesunypoly" modified="20170106172456688" modifier="stevesunypoly" tags="DesignWrite [[DesignWriteStudio - A Learning Community]]" title="DesignWriteStudioSpaces">
+<pre>The [[learning community|A Learning Community]] includes a number of spaces to support Studio activities:
+&lt;$list filter=&quot;
+[tag[DesignWriteStudioSpaces]]&quot;&gt;
+&lt;h3&gt;{{!!title}}&lt;/h3&gt;
+&lt;$transclude tiddler=&lt;&lt;currentTiddler&gt;&gt;  mode=&quot;block&quot;/&gt;
+&lt;/$list&gt;</pre>
 </div>
 <div created="20160116031448520" creator="stevesunypoly" modified="20170104211026031" modifier="stevesunypoly" tags="DesignWriteStudioSpaces" title="DesignWriteStudioVideo">
 <pre>&lt;a title=&quot;By Oejitv (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File%3AYoutube.png&quot;&gt;&lt;img width=&quot;100px&quot; alt=&quot;Youtube&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Youtube.png/512px-Youtube.png&quot;/&gt;&lt;/a&gt;
@@ -13034,8 +13107,13 @@ CSS classes can be assigned to individual headings like this:
 ```
 </pre>
 </div>
-<div created="20160526142239613" creator="stevesunypoly" modified="20170106163516764" modifier="stevesunypoly" title="Hello There">
-<pre>&lt;$link to=DesignWriteStudio tooltip={{DesignWriteStudio}}&gt;``{{DesignWriteStudio}}``&lt;/$link&gt;
+<div created="20160526142239613" creator="stevesunypoly" modified="20170106200005652" modifier="stevesunypoly" title="Hello There">
+<pre>! Forked 20170106145900:
+!! https://designwritestudio.updog.co/spring2017.html
+&lt;hr&gt;
+
+
+&lt;$link to=DesignWriteStudio tooltip={{DesignWriteStudio}}&gt;``{{DesignWriteStudio}}``&lt;/$link&gt;
 
 &lt;!--This is a tiddlywiki--&gt;
  &lt;&lt;reveal &quot;This is a TiddlyWiki&quot;  &quot;Welcome to TiddlyWiki&quot; &quot;x100&quot;&gt;&gt;
@@ -15737,6 +15815,22 @@ The following widget messages are implemented by the core:
 Modals are displayed with the [[WidgetMessage: tm-modal]].
 
 &lt;$button message=&quot;tm-modal&quot; param=&quot;SampleWizard&quot;&gt;Open demo modal&lt;/$button&gt;</pre>
+</div>
+<div created="20170106171654767" modified="20170106174437726" tags="" title="ModifiedSince">
+<pre>```
+&lt;&lt;exportButtonSince&gt;&gt;
+
+\define exportButtonSince(exportFilter:&quot;[days[-1]]&quot;,lingoBase,baseFilename:&quot;tiddlers&quot;)
+
+```
+&lt;&lt;exportButtonSince&gt;&gt;
+
+* Macro:   $:/core/macros/exportsince 
+* Hard coded filter into system macro  $:/core/macros/export (probably don't need to; just need to parameterize export filter value)
+* Need to set # days as pulldown to populate filter
+* Provide directions for json export and import
+
+</pre>
 </div>
 <div created="20131129162919588" modified="20160610082237902" tags="Concepts" title="Modules" type="text/vnd.tiddlywiki">
 <pre>A //module// in TiddlyWiki5 is a tiddler containing executable JavaScript, of the type `application/javascript` and with the field `module-type` set to the ModuleType of the module.
