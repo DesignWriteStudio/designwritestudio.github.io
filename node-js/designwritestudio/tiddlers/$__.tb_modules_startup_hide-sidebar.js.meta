@@ -1,8 +1,6 @@
 created: 20151010151732122
 creator: Tobias Beer
-modified: 20171109184751102
-modifier: stevesunypoly
+modified: 20171114203001246
 module-type: startup
-tags: DWS [[Hide Sidebar on Startup]]
 title: $:/.tb/modules/startup/hide-sidebar.js
 type: application/javascript

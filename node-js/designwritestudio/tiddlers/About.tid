@@ -1,0 +1,12 @@
+created: 20170117045930035
+creator: stevesunypoly
+modified: 20171114203908409
+modifier: stevesunypoly
+tags: DesignWriteStudio
+title: About
+type: text/vnd.tiddlywiki
+
+! The DesignWriteStudio is a virtual learning space focused on designing and writing interactive texts.
+
+!! <$link to="What We're Doing">• </$link>What We're Doing <$appear show=">>" hide="<<" state="$:/what"><$transclude tiddler="What We're Doing" mode="block"/></$appear><br>
+!! <$link to="Who We Are">• </$link>Who We Are <$appear show=">>" hide="<<" state="$:/who"> <$transclude tiddler="Who We Are" mode="block"></$appear><br>

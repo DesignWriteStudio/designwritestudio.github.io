@@ -1,0 +1,57 @@
+author: Mat von TWaddle
+created: 20170502164245611
+creator: twMat
+description: TablLinks - Access the tab content tiddler easily
+modified: 20171114191848348
+modifier: twMat
+plugin-type: plugin
+tags: DWS
+title: $:/plugins/TWaddle/TabLinks
+type: application/json
+version: 1.0.4
+
+{
+    "tiddlers": {
+        "$:/core/macros/tabs": {
+            "text": "\\define tabs(tabsList,default,state:\"$:/state/tab\",class,template)\n<div class=\"tc-tab-set $class$\">\n<div class=\"tc-tab-buttons $class$\">\n<$list filter=\"$tabsList$\" variable=\"currentTab\"><$set name=\"save-currentTiddler\" value=<<currentTiddler>>><$tiddler tiddler=<<currentTab>>><$button set=<<qualify \"$state$\">> setTo=<<currentTab>> default=\"$default$\" selectedClass=\"tc-tab-selected\" tooltip={{!!tooltip}}>\n<$tiddler tiddler=<<save-currentTiddler>>><<tablink>>\n<$set name=\"tv-wikilinks\" value=\"no\">\n<$transclude tiddler=<<currentTab>> field=\"caption\">\n<$macrocall $name=\"currentTab\" $type=\"text/plain\" $output=\"text/plain\"/>\n</$transclude>\n</$set></$tiddler></$button></$tiddler></$set></$list>\n</div>\n<div class=\"tc-tab-divider $class$\"/>\n<div class=\"tc-tab-content $class$\">\n<$list filter=\"$tabsList$\" variable=\"currentTab\">\n\n<$reveal type=\"match\" state=<<qualify \"$state$\">> text=<<currentTab>> default=\"$default$\">\n\n<$transclude tiddler=\"$template$\" mode=\"block\">\n\n<$transclude tiddler=<<currentTab>> mode=\"block\"/>\n\n</$transclude>\n\n</$reveal>\n\n</$list>\n</div>\n</div>\n\\end\n",
+            "title": "$:/core/macros/tabs",
+            "tags": "$:/tags/Macro",
+            "modifier": "twMat",
+            "modified": "20170304123501677",
+            "creator": "twMat",
+            "created": "20170303214346165"
+        },
+        "$:/plugins/TWaddle/TabLinks/macro": {
+            "created": "20160806203109547",
+            "creator": "twMat",
+            "text": "\\define tablink()\n<div class=\"tablink\">\n<$tiddler tiddler=<<currentTab>>>\n<$link to=<<currentTab>> tooltip=\"go to tab\" >\n  <span class=\"tablink-btn\">{{$:/core/images/preview-open}}</span>\n</$link>\n<$button message=\"tm-edit-tiddler\" param=<<currentTab>> tooltip=\"edit tab\">\n  <span class=\"tablink-btn\">{{$:/core/images/edit-button}}</span>\n</$button>\n</$tiddler>\n</div>\n\\end",
+            "title": "$:/plugins/TWaddle/TabLinks/macro",
+            "tags": "$:/tags/Macro",
+            "modifier": "twMat",
+            "modified": "20170304132153989"
+        },
+        "$:/plugins/TWaddle/TabLinks/Stylesheet": {
+            "created": "20170304101100313",
+            "creator": "twMat",
+            "text": "<pre>\n.tablink {display:none;}\n\n.tc-tab-selected .tablink {\n  display:{{$:/plugins/TWaddle/TabLinks/Stylesheet!!display}};\n  position:absolute;\n  margin:-1.5rem 0 0 -7px;\n  font-size:1rem;\n  background:white;\n  padding:0 5px;\n  border:1px solid silver;\n  border-radius:2px;\n  visibility:hidden;\n  opacity:0;\n}\n.tc-tab-selected:hover .tablink {\n  visibility:visible;\n  opacity:1;\n    -webkit-transition:opacity 0.9s;\n    -moz-transition:opacity 0.9s;\n    -ms-transition:opacity 0.9s; \n    -o-transition:opacity 0.9s;\n    transition:opacity 0.9s;\n  -webkit-transition-timing-function: ease-in; /* Safari and Chrome */\n  transition-timing-function: ease-in;\n}\n.tc-tab-buttons .tablink button, .tablink-btn {\n  border:0;\n  background:transparent;\n  padding: 2px 1px;\n  margin:0;\n}\n\n.tablink-btn { opacity:.4; }\n\n.tablink-btn:hover { opacity:1; } \n\n.tablink a:hover {  text-decoration:none; }\n</pre>",
+            "type": "text/vnd.tiddlywiki",
+            "title": "$:/plugins/TWaddle/TabLinks/Stylesheet",
+            "tags": "$:/tags/Stylesheet",
+            "modifier": "twMat",
+            "modified": "20170304153832912",
+            "display": "inline-block",
+            "list-after": "$:/themes/tiddlywiki/vanilla/base"
+        },
+        "$:/plugins/TWaddle/TabLinks/Toggle": {
+            "created": "20170115223014606",
+            "creator": "twMat",
+            "text": "<<toggle  \"$:/plugins/TWaddle/TabLinks/Stylesheet!!display\" inline-block none>>In tabs, display shortcut links to the content tiddler, //when hovering// on the active tab.\n\n",
+            "title": "$:/plugins/TWaddle/TabLinks/Toggle",
+            "tags": "$:/tags/ControlPanel/Settings",
+            "modifier": "twMat",
+            "modified": "20170304132100553",
+            "list-before": "",
+            "caption": "TabLinks"
+        }
+    }
+}

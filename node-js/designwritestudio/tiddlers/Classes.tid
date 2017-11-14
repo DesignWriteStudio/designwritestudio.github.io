@@ -1,0 +1,16 @@
+created: 20170113025014401
+creator: stevesunypoly
+modified: 20171114205022256
+modifier: stevesunypoly
+tags: DesignWriteStudio
+title: Classes
+type: text/vnd.tiddlywiki
+
+<h2>Spring 2018</h2>
+//SUNY Poly classes start 23 January 2018//<br>
+The DesignWrite Studio is the host to a class, "Designing and Writing Interactive Texts," offered by the SUNY Polytechnic Institute to both registered and open students,
+
+* Course Description <$appear show=">>" hide="<<" state="$:/desc"><$transclude tiddler="Course Description" mode="block"/></$appear><br>
+* IDT 575 <$appear show=">>" hide="<<" state="$:/idt"><$transclude tiddler="SUNY Poly IDT 575 Spring 2018" mode="block"/></$appear><br>
+* COM 375 <$appear show=">>" hide="<<" state="$:/com"><$transclude tiddler="SUNY Poly COM 375 Spring 2018" mode="block"/><br></$appear><br>
+* Open Class <$appear show=">>" hide="<<" state="$:/open"><$transclude tiddler="Open Course Spring 2018" mode="block"/><br>
