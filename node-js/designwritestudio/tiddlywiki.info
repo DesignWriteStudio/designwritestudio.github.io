@@ -13,7 +13,7 @@
         "index": [
             "--rendertiddler",
             "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
-            "index.html",
+            "../../index.html",
             "text/plain"
         ],
         "externalimages": [
