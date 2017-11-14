@@ -1,14 +1,17 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20171114204344038
+modified: 20171114213603963
 modifier: stevesunypoly
 tags: 
 title: Hello There
 type: text/vnd.tiddlywiki
 
+''Navigation Help '' <$appear show=">>" hide="<<" state="$:/nav"> In the upper right click on {{$:/core/ui/Buttons/home}} to restart || Within any Tiddler click on {{$:/core/ui/Buttons/close}} to go back or close</$appear><hr>
+
+
 !! Welcome to the {{DesignWriteStudio!!tagline}}
-* In the upper right click on {{$:/core/ui/Buttons/home}} to restart
-* And click on {{$:/core/ui/Buttons/close}} to go back
+Home of IDT 575 and COM 375<br>
+
 
 <<tabs  "[tag[DesignWriteStudio]]" "Welcome to TiddlyWiki">>
 <!--<<strex "{{NewAtDesignWriteStudio}}" "What's New?">>-->
