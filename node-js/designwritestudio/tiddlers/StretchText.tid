@@ -1,0 +1,22 @@
+created: 20170107014817441
+creator: stevesunypoly
+modified: 20171109184751142
+modifier: stevesunypoly
+tags: DesignWriteStudioMacros
+title: StretchText
+type: text/vnd.tiddlywiki
+
+Approach 1: ``<<strex>>``<br>
+
+* Source: http://tid.li/tw5/hacks.html#TextStretch
+* Usage: [[TextStretch]]
+* Copy: <<list-links filter:"[tag[TextStretch]]">>
+* Filter: ``[tag[TextStretch]]`` 
+
+
+Approach 2: ``<<stretch>>``<br>
+
+* Source: http://stretchtext.tiddlyspot.com/
+* Usage: AboutStretchText
+* Copy: <<list-links filter:"[prefix[$:/_TWaddle]]">>
+* Filter: ``[prefix[$:/_TWaddle]]``

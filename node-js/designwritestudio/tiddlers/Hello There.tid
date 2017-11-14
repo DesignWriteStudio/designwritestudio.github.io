@@ -1,0 +1,19 @@
+created: 20170113024114875
+creator: stevesunypoly
+modified: 20171109185834786
+modifier: stevesunypoly
+tags: 
+title: Hello There
+type: text/vnd.tiddlywiki
+
+!! {{DesignWriteStudio!!tagline}}
+<$transclude tiddler="DesignWriteStudio" mode="block"/>
+
+!!! IDT 575 • Spring 2018 • CoreComponents
+!!! [[IDT 575 • Spring 2017|http://designwritestudio.updog.co/spring2017.html]]
+
+<!--<<strex "{{NewAtDesignWriteStudio}}" "What's New?">>-->
+<<tabs  "[tag[DesignWriteStudio]]" "Welcome to TiddlyWiki">>
+
+
+{{$:/favicon.ico}}<br>
