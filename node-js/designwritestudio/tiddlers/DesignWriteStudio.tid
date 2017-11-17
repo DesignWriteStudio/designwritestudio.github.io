@@ -1,9 +1,9 @@
 caption: DesignWriteStudio
 created: 20170107012105523
 creator: stevesunypoly
-list: About [[Welcome to TiddlyWiki]] [[A Learning Community]] Spaces Classes [[Open Course]] Toolkit [[Next Steps!]]
+list: About [[Spring 2018 Classes]] [[Spring 2018 Open Course]] [[Welcome to TiddlyWiki]] [[A Learning Community]] Spaces Toolkit [[Next Steps!]]
 liveurl: https://designwritestudio.updog.co/spring2017.html
-modified: 20171114204109538
+modified: 20171117163602918
 modifier: stevesunypoly
 subcaption: [[COM375|SUNY Poly COM 375 Spring 2017]] || [[IDT575|SUNY Poly IDT 575 Spring 2017]] || [[Open|DesignWrite Open Spring 2017]]
 tagline: The Studio for ''Design''ing and ''Wr''iting ''I''nteractive ''Te''xts
@@ -11,9 +11,15 @@ title: DesignWriteStudio
 type: text/vnd.tiddlywiki
 
 ! {{!!tagline}}
+
+
 <!--<<stretch "~LiveURL" "{{!!liveurl}})>>-->
 
-<h3>Two flavors of one hypertext strategy:</h3>
+<h3>We explore the processes and techniques associated with writing and designing interactive texts. 
+
+Here are two flavors of ''Stretch Text <$appear show=">>" hide="<<" >
+[img width="100%" [stretch-text-nelson.png]]
+</$appear>'' a hypertext strategy invented by Ted Nelson, and implemented in TiddlyWiki:</h3>
 <h2>[[StretchText]]: <<stretch "Design" "ing and">><<stretch "Wr" "iting">><<stretch "I" "nteractive">><<stretch "Te" "xts">>Studio</h2>
 <h2>[[TextStretch]]:
 <<strex "Designing and" "Design">><<strex "Writing" "Wr">><<strex "Interactive" "i">><<strex "Texts" "Te">>Studio</h2>
