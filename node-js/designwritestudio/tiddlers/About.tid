@@ -1,12 +1,13 @@
 created: 20170117045930035
 creator: stevesunypoly
-modified: 20171114203908409
+modified: 20171127160650717
 modifier: stevesunypoly
 tags: DesignWriteStudio
 title: About
 type: text/vnd.tiddlywiki
 
-! The DesignWriteStudio is a virtual learning space focused on designing and writing interactive texts.
+The DesignWriteStudio is a participatory, collaborative and open learning space focused on designing and writing interactive texts. We use the TiddlyWiki platform to explore the practices and techniques of hypertext and hypertextuality. 
 
-!! <$link to="What We're Doing">• </$link>What We're Doing <$appear show=">>" hide="<<" state="$:/what"><$transclude tiddler="What We're Doing" mode="block"/></$appear><br>
-!! <$link to="Who We Are">• </$link>Who We Are <$appear show=">>" hide="<<" state="$:/who"> <$transclude tiddler="Who We Are" mode="block"></$appear><br>
+Steven M. Schneider<br>
+Director, Principal Investigator<br>
+Contact: steve@sunyit.edu<br>

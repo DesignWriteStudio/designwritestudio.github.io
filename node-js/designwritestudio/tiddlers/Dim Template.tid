@@ -1,0 +1,15 @@
+created: 20171122183759051
+modified: 20171122183923379
+tags: $:/tags/ViewTemplate
+title: Dim Template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Dimensions]]">
+<$list filter="[tag{!!title}]">
+''<<currentTiddler>>''
+<$appear show=">>" hide="<<">
+<$transclude tiddler=<<currentTiddler>> mode="block"/>
+</$appear>
+<br>
+</$list>
+</$list>

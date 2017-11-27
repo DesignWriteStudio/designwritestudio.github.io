@@ -1,0 +1,9 @@
+created: 20171122183939563
+modified: 20171124213913461
+tags: Transclusion [[TiddlyWiki Skills]]
+title: Revealing Text
+type: text/vnd.tiddlywiki
+
+* Use code to reveal text on command
+** [[Reveal|$:/plugins/tobibeer/appear]]
+** StretchText and TextStretch
