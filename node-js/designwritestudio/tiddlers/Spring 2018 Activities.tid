@@ -2,12 +2,23 @@ caption: Spring 2018 Activities
 created: 20170113025014401
 creator: stevesunypoly
 list: [[SUNY Poly COM 375 Spring 2018]] [[SUNY Poly IDT 575 Spring 2018]] [[Open Course Spring 2018]]
-modified: 20171127164554959
+modified: 20171128193116206
 modifier: stevesunypoly
 tags: DesignWriteStudio
 title: Spring 2018 Activities
 type: text/vnd.tiddlywiki
 
-The DesignWriteStudio will be the primary Web space for the course "Designing and Writing Interactive Texts. <$appear show="+ Show Course Description" hide="<<" state="$:/desc"><$transclude tiddler="Course Description" mode="block"/></$appear> In the Spring 2018 semester, this course will be offered as both an open course and as credit-bearing courses. <<tabs  "[tag[Spring2018Courses]]" "[[SUNY Poly COM 375 Spring 2018]]">>
+The DesignWriteStudio will be the primary Web space for the course "Designing and Writing Interactive Texts. <$appear show="+ Show Course Description" hide="<<" state="$:/desc"><$transclude tiddler="Course Description" mode="block"/></$appear> In the Spring 2018 semester, this course will be offered as both an open course and as credit-bearing courses. 
+<hr>
+
+!! Courses
+<<tabs  "[tag[Spring2018Courses]]" "[[SUNY Poly COM 375 Spring 2018]]">>
+<hr>
+
+!! Course Components
+<<tabs  "[tag[CourseComponents]]">>
+
+!! Course Resources
+<<tabs  "[tag[CourseResources]]">>
 
 
