@@ -1,0 +1,11 @@
+created: 20171130190335804
+modified: 20171130190722804
+tags: DesignWriteStudio
+title: Journal
+type: text/vnd.tiddlywiki
+
+Notes identifying changes, updates and developments to this wiki
+
+<$list filter="[tag[Journal]!sort[created]]">
+<$link>{{!!title}}</$link><$appear><$transclude mode="block"/></$appear><br>
+</$list>

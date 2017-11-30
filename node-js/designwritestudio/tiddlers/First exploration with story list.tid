@@ -1,0 +1,25 @@
+created: 20171130212726045
+modified: 20171130214912680
+tags: 
+title: First exploration with story list
+type: text/vnd.tiddlywiki
+
+This is my first exploration ever with the use of storylist in a filter.
+
+```
+[list[$:/StoryList]]
+```
+
+There are currently <$count filter="[list[$:/StoryList]]"/> tiddlers in the story list.
+
+<$list filter="[list[$:/StoryList]first[]]"/>|| the first tiddler in the story list.
+
+<$list filter="[list[$:/StoryList]last[]]"/> || the last tiddler in the story list.
+
+<$list filter="[list[$:/StoryList]before<currentTiddler>]"/> || the tiddler before this tiddler, {{!!title}}.
+
+<$list filter="[list[$:/StoryList]after<currentTiddler>]"/> ||  the tiddler after this tiddler ( <$link to={{!!title}}>{{!!title}}</$link> )
+
+Here are all the tiddlers in the story list: <$list filter="[list[$:/StoryList]]" history="$:/HistoryList" storyview="pop">
+<$link><<currentTiddler>></$link>, 
+</$list>

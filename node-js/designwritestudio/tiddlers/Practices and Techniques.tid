@@ -1,0 +1,12 @@
+created: 20171130211833614
+modified: 20171130213553933
+tags: 
+title: Practices and Techniques
+type: text/vnd.tiddlywiki
+
+* Practices - the doing of an act. Engaging in hypertextual practices means the act of doing. Authors engage in the practice of writing links, and readers engage in the practice of following links. 
+* Techniques - a way of doing a practice. So the technique of linking is the way of making a link. In tiddlywiki, the tecnique of linking to another tiddler is to enclose a word or set of words in double square brackets, like this:
+```
+[[Tiddler Name]]
+```
+Like this: [[Tiddler Name]]

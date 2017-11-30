@@ -1,0 +1,14 @@
+created: 20171130184720847
+list: 
+modified: 20171130215837305
+tags: [[DWS ToDo]]
+title: Write in-depth read.me and explanation of DesignWrite Github Repository
+type: text/vnd.tiddlywiki
+
+[[GitHub Repository|https://github.com/DesignWriteStudio/designwritestudio.github.io]]
+
+Contents/Directories
+
+experimental: series of experimental projects, each of which should be described. Example: bibtex. Includes some wikis with ideas, like [[bibtex|http://designwritestudio.com/experimental/bibtex/bibtex/bib2.html]] (each of these wikis is web-served via github...)
+
+

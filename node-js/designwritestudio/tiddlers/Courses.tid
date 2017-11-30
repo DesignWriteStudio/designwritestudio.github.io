@@ -1,0 +1,17 @@
+created: 20171129151458765
+modified: 20171129151513715
+title: Courses
+type: text/vnd.tiddlywiki
+
+!! Components
+<$list filter="[tag[CourseComponents]]">
+<$link><<currentTiddler>></$link>
+<$appear><$transclude/></$appear><br>
+</$list>
+
+!! Resources
+<$list filter="[tag[CourseResources]]">
+<$link><<currentTiddler>></$link>
+<$appear><$transclude/></$appear><br>
+</$list>
+

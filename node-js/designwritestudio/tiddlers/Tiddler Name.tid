@@ -1,0 +1,8 @@
+created: 20171130212248448
+modified: 20171130214250348
+title: Tiddler Name
+type: text/vnd.tiddlywiki
+
+By clicking on the link, you engaged in the practice of following links. If you made this tiddler visible by tapping on its name in another tiddler, then there should be a link to that tiddler here: <$list filter="[list[$:/StoryList]before<currentTiddler>]"/>
+
+If there is nothing following the word here in the previous sentence, then you made this tiddler visible by some other way (perhaps by ciicking in the recent tab in the sidebar?

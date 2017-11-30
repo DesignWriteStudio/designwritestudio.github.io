@@ -1,18 +1,19 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20171122173854695
+modified: 20171130222437526
 modifier: stevesunypoly
 tags: 
 title: Hello There
 type: text/vnd.tiddlywiki
 
-''Navigation Help '' <$appear show=">>" hide="<<" state="$:/nav"> In the upper right click on {{$:/core/ui/Buttons/home}} to restart || Within any Tiddler click on {{$:/core/ui/Buttons/close}} to go back or close</$appear><hr>
+''Navigation Help '' <$appear> Tap {{$:/plugins/tobibeer/appear/defaults/show}} to open/close popups || In the upper right tap {{$:/core/ui/Buttons/home}} to restart || Within any Tiddler tap {{$:/core/ui/Buttons/close}} to go back or close</$appear><hr>
 
 
 !! Welcome to the {{DesignWriteStudio!!tagline}}
 Home of IDT 575 and COM 375<br>
 
-
-<<tabs  "[tag[DesignWriteStudio]]" "Welcome to TiddlyWiki">>
-<!--<<strex "{{NewAtDesignWriteStudio}}" "What's New?">>-->
+<$list filter="[tag[DesignWriteStudio]]">
+<$link><<currentTiddler>></$link>
+<$appear><$transclude mode="block"/></$appear><br>
+</$list>
 {{$:/favicon.ico}}<br>

@@ -1,0 +1,12 @@
+created: 20171130223344290
+modified: 20171130223611341
+tags: 
+title: Navigation-Help
+type: text/vnd.tiddlywiki
+
+Tap {{$:/plugins/tobibeer/appear/defaults/show}} to open/close popups || In the upper right tap {{$:/core/ui/Buttons/home}} to restart and <$reveal state="$:/state/sidebar" type="nomatch" text="no">
+<$button set="$:/state/sidebar" setTo="no" tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class="tc-btn-invisible">{{$:/core/images/chevron-right}}</$button>
+</$reveal>
+<$reveal state="$:/state/sidebar" type="match" text="no">
+<$button set="$:/state/sidebar" setTo="yes" tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class="tc-btn-invisible"> {{$:/core/images/chevron-left}}</$button>
+</$reveal> to close/open the sidebar || within any Tiddler tap {{$:/core/ui/Buttons/close}} to go back or close it

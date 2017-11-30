@@ -1,9 +1,9 @@
 created: 20151007165524815
 creator: Tobias Beer
-modified: 20171114203001241
+modified: 20171130221634936
 modifier: stevesuny
 tags: 
 title: $:/config/HideSidebarOnStartup
 type: text/vnd.tiddlywiki
 
-yes
+no

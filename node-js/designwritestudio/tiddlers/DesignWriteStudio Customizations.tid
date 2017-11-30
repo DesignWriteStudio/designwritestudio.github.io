@@ -1,7 +1,10 @@
 created: 20171102203423502
-modified: 20171109184751152
+modified: 20171130191816153
 tags: 
 title: DesignWriteStudio Customizations
 type: text/vnd.tiddlywiki
 
-<<tag DWS>>
+This identifies plugins and other customizations that have been added to the default TiddlyWiki <<list-links [tag[DWS]]>>
+
+Macros:
+<<list-links [tag[$:/tags/Macro]tag[DWS]]>>
