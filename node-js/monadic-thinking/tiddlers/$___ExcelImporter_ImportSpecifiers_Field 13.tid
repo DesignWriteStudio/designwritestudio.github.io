@@ -1,0 +1,10 @@
+created: 20170612100848553
+import-field-column: sitestory-notenumber
+import-field-name: sitestory-notenumber
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201449960
+title: $:/_ExcelImporter/ImportSpecifiers/Field 13
+type: text/vnd.tiddlywiki
+

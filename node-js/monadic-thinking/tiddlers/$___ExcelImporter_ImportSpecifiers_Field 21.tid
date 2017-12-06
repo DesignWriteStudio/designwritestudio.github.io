@@ -1,0 +1,10 @@
+created: 20170611153700420
+import-field-column: content-action
+import-field-name: content-action
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450231
+title: $:/_ExcelImporter/ImportSpecifiers/Field 21
+type: text/vnd.tiddlywiki
+

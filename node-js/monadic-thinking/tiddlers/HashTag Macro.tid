@@ -1,0 +1,19 @@
+created: 20170627191826579
+creator: stevesuny
+modified: 20171204201452300
+modifier: stevesuny
+tags: $:/tags/Macro
+title: HashTag Macro
+type: text/vnd.tiddlywiki
+
+\define hashtaglink() $(static-twitter1)$$(actual-hashtag)$$(static-twitter2)$
+
+
+\define hashtag(actual-hashtag)
+<$set name=static-twitter1 value="https://twitter.com/hashtag/">
+<$set name=static-twitter2 value="?src=hash">
+<$set name=actual-hashtag value=$actual-hashtag$>
+hashtaglink: <<hashtaglink>><br>
+actual-hashtag: <<actual-hashtag>>
+<a href=<<hashtaglink>> target="_blank"><<actual-hashtag>></a>
+\end

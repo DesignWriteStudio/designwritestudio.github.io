@@ -1,0 +1,90 @@
+author: TonGerner
+core-version: 5.1.14
+created: 20140815090725509
+creator: TonGerner
+description: Tristate sidebar
+list: readme
+modified: 20171204201450721
+modifier: TonGerner
+plugin-type: plugin
+source: http://tongerner.tiddlyspot.com/
+title: $:/plugins/tongerner/tristate
+type: application/json
+version: 0.1.7
+
+{
+    "tiddlers": {
+        "$:/core/ui/TopBar/menu": {
+            "created": "20140906123741743",
+            "creator": "TonGerner",
+            "text": "<$reveal state=\"$:/state/sidebar\" type=\"match\" text=\"yes\">\n<$button set=\"$:/state/sidebar\" setTo=\"fluid-width\" tooltip=\"Fluid-width\" class=\"tc-btn-invisible\">{{$:/core/images/right-arrow}}</$button>\n</$reveal>\n\n<$reveal state=\"$:/state/sidebar\" type=\"match\" text=\"fluid-width\">\n<$button set=\"$:/state/sidebar\" setTo=\"no\" tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class=\"tc-btn-invisible\">{{$:/core/images/chevron-right}}</$button>\n</$reveal>\n\n<$reveal state=\"$:/state/sidebar\" type=\"match\" text=\"no\">\n<$button set=\"$:/state/sidebar\" setTo=\"yes\" tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class=\"tc-btn-invisible\">{{$:/core/images/chevron-left}}</$button>\n</$reveal>\n",
+            "modified": "20150719161036493",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopRightBar",
+            "title": "$:/core/ui/TopBar/menu"
+        },
+        "$:/plugins/tongerner/tristate/stylesheet": {
+            "text": "<pre><<if-fluid \"\n\n.tc-story-river {\n     width: calc(100% - {{!!sidebar-width}});\n}\n\n.tc-tiddler-frame {\n     width: 100%;\n}\n\n.tc-sidebar-scrollable {\n     float: right;\n     width: {{!!sidebar-width}};\n     left: auto;\n     padding: 71px 0 0 0;\n}\n\n.tc-storyview-zoomin-tiddler {\n     position: absolute;\n     display: block;\n     width: 100%;\n     width: calc(100% - 84px);\n}\n\">>\n</pre>",
+            "created": "20140907193809552",
+            "creator": "TonGerner",
+            "list-after": "$:/themes/tiddlywiki/vanilla/base",
+            "modified": "20160114201035074",
+            "modifier": "TonGerner",
+            "sidebar-width": "30em",
+            "tags": "$:/tags/Stylesheet",
+            "title": "$:/plugins/tongerner/tristate/stylesheet"
+        },
+        "$:/plugins/tongerner/tristate/settings": {
+            "created": "20140907193931322",
+            "creator": "TonGerner",
+            "text": "!!Tristate settings\n<table class=\"tablestyle\">\n<<tableRow \"Sidebar width \" \"$:/plugins/tongerner/tristate/stylesheet\" \"sidebar-width\">>\n</table>\nYou can use CSS units like `em`, `px` or `%`.",
+            "caption": "Tristate",
+            "modified": "20170405111506035",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/plugin-tweaks",
+            "title": "$:/plugins/tongerner/tristate/settings",
+            "order": "10"
+        },
+        "$:/plugins/tongerner/tristate/readme": {
+            "created": "20140907194057629",
+            "creator": "TonGerner",
+            "text": "This plugin is meant for widescreen monitors.<br>It changes the standard 'twostate' ({{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}) functionality of the Sidebar to a 'tristate' ({{$:/core/images/right-arrow}} / {{$:/core/images/chevron-right}} / {{$:/core/images/chevron-left}}) functionality:\n\n# normal tiddler width (default 686px) with a broad Sidebar (showing {{$:/core/images/right-arrow}}).\n# small Sidebar (with programmable width; default 30em) and fluid tiddler width (showing {{$:/core/images/chevron-right}}).\n# fluid tiddler width without Sidebar (showing {{$:/core/images/chevron-left}}).\n\n<<<\n''Note:''\n\n* ''This plugin needs my $:/plugins/tongerner/layout_adjustment plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''\n* Sidebar layout (''~ControlPanel > Appearance > Theme Tweaks: Options'') @@color:red;must@@ be set at 'Fixed story, fluid sidebar'<br>('Fluid story, fixed sidebar' interferes with the Tristate plugin!)\n* The Sidebar width (default 30em) can be configured in [[Tristate width|$:/plugins/tongerner/tristate/settings]] (can also be found in ''~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/tristate/settings]], tab 'Tristate''').\n<<<\n",
+            "modified": "20160925113441419",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/tristate/readme"
+        },
+        "$:/plugins/tongerner/tristate/icon": {
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   version=\"1.1\"\n   id=\"svg2\"\n   viewBox=\"0 0 99.212598 99.212598\"\n   height=\"28mm\"\n   width=\"28mm\">\n  <defs\n     id=\"defs4\" />\n  <metadata\n     id=\"metadata7\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n        <dc:title></dc:title>\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     transform=\"translate(0,-953.14961)\"\n     id=\"layer1\">\n    <path\n       d=\"m 48.98237,1051.0187 -41.9831281,-24.239 -1.3e-6,-48.47796 41.9831264,-24.23897 41.983128,24.23897 10e-7,48.47796 z\"\n       id=\"path4142\"\n       style=\"fill:#a0a0ff;fill-opacity:1;stroke:#a0a0ff;stroke-width:1.22180152;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n    <path\n       d=\"m 45.122785,979.61449 c -1.800233,2.02271 -3.943359,4.46302 -4.772013,5.38631 l -1.48589,1.71475 3.314702,0 3.286123,0 -0.05727,10.37688 -0.08577,10.39867 -2.028809,0.066 c -1.400181,0.043 -2.114547,-0.029 -2.314573,-0.2187 -0.171533,-0.1525 -0.571499,-1.1872 -0.914392,-2.2866 -0.600077,-1.8247 -2.428861,-6.15559 -4.514857,-10.55271 -0.48579,-0.96732 -1.714496,-3.05565 -2.743204,-4.66075 -1.057288,-1.58265 -1.914521,-2.9457 -1.914521,-3.0119 0,-0.0662 1.028708,-0.10936 2.285993,-0.10936 1.257314,0 2.285994,-0.0892 2.285994,-0.19859 0,-0.0892 -1.000129,-0.92328 -2.200285,-1.80254 -4.343411,-3.18775 -8.058165,-5.05648 -12.001495,-6.11187 -3.028967,-0.79146 -3.971938,-0.87925 -3.543307,-0.30766 0.171533,0.21873 0.828683,0.83522 1.48589,1.38493 4.343411,3.62752 12.058654,15.45523 14.944725,22.86425 0.857262,2.2641 1.914521,5.4081 1.857391,5.6499 -0.02878,0.089 0,0.2648 0.02878,0.3957 0.114259,0.3958 0.200026,0.8574 0.228519,1.473 l 0.05727,0.6156 4.571987,0 4.572016,0 0,13.8505 0,13.8501 3.00036,0 3.000388,0 0,-13.8501 0,-13.8505 4.571987,0 4.571987,0 0,-0.5715 c 0,-0.8355 1.543049,-5.6062 2.714625,-8.4423 1.600207,-3.75927 3.286123,-6.88112 6.343641,-11.62993 3.657595,-5.69398 6.343641,-9.01354 9.029715,-11.19023 1.142997,-0.90112 1.142997,-0.92328 0.457181,-0.92328 -2.200285,0 -7.258061,1.78066 -10.658472,3.73746 -3.000388,1.71475 -7.086615,4.59484 -6.886589,4.85847 0.114259,0.10937 1.200155,0.19859 2.45744,0.19859 l 2.314573,0 -1.628786,2.35253 c -1.343023,1.95651 -4.400541,7.25504 -4.400541,7.65049 0,0.0662 -0.714366,1.78095 -1.543048,3.8034 -0.857262,2.0226 -1.800233,4.4411 -2.085968,5.3644 l -0.542919,1.7147 -2.343152,0 -2.371732,0 0,-10.44273 0,-10.44279 3.086097,0 c 1.714496,0 3.171835,-0.0662 3.257544,-0.13239 0.200026,-0.1324 -8.80111,-10.48654 -9.172582,-10.59648 -0.142752,-0.0432 -1.714495,1.60481 -3.514728,3.62752 l 0,0 z\"\n       id=\"path4763\" />\n  </g>\n</svg>\n",
+            "created": "20160109193157153",
+            "creator": "TonGerner",
+            "modified": "20160109193201374",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/tristate/icon",
+            "type": "image/svg+xml"
+        },
+        "$:/core/ui/PageTemplate/sidebar": {
+            "text": "<$scrollable fallthrough=\"no\" class=\"tc-sidebar-scrollable\">\n\n<div class=\"tc-sidebar-header\">\n\n<$reveal state=\"$:/state/sidebar\" type=\"nomatch\" text=\"no\" default=\"no\">\n\n<h1 class=\"tc-site-title\">\n\n<$transclude tiddler=\"$:/SiteTitle\" mode=\"inline\"/>\n\n</h1>\n\n<div class=\"tc-site-subtitle\">\n\n<$transclude tiddler=\"$:/SiteSubtitle\" mode=\"inline\"/>\n\n</div>\n\n{{||$:/core/ui/PageTemplate/pagecontrols}}\n\n<$transclude tiddler=\"$:/core/ui/SideBarLists\" mode=\"inline\"/>\n\n</$reveal>\n\n</div>\n\n</$scrollable>",
+            "created": "20150719161218144",
+            "modified": "20150719161221992",
+            "tags": "$:/tags/PageTemplate",
+            "title": "$:/core/ui/PageTemplate/sidebar"
+        },
+        "$:/plugins/tongerner/tristate/fluid-width-macro": {
+            "created": "20140907193724930",
+            "text": "\\define if-fluid(text)\n<$reveal state=\"$:/state/sidebar\" type=\"match\" text=\"fluid-width\" default=\"yes\">$text$</$reveal>\n\\end",
+            "creator": "TonGerner",
+            "modified": "20150719181713169",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/Macro",
+            "title": "$:/plugins/tongerner/tristate/fluid-width-macro"
+        },
+        "$:/state/sidebar": {
+            "created": "20160725112947956",
+            "creator": "TonGerner",
+            "text": "yes",
+            "title": "$:/state/sidebar",
+            "modifier": "TonGerner",
+            "modified": "20170504103155457"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+created: 20170623144307573
+creator: stevesuny
+list: 
+modified: 20171204201452884
+modifier: stevesuny
+slideorder: 1
+tags: [[Digital Methods and Monadic Thinking]]
+title: Principles of monadic thinking
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}sort[slideorder]]">
+<p><div class="level1"><$link><<currentTiddler>></$link></div>
+<$appear show="&raquo;" hide="&laquo;" $state="dataset">
+<div class="level2"><$transclude mode="block" field="text"/></div>
+</$appear>
+</p>
+</$list>
+
+Quoted and paraphrased from <<stretch "Latour et al (2012)" "pp. 590-599" "<$transclude tiddler='The whole is always smaller than its parts' field='citation'/><$link to='The whole is always smaller than its parts'>&raquo;</$link>">>

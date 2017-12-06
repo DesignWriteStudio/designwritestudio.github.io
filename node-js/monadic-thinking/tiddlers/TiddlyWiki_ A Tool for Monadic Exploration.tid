@@ -1,0 +1,17 @@
+created: 20170613231535325
+creator: stevesuny
+list: 
+modified: 20171204201453699
+modifier: stevesuny
+slideorder: 3
+tags: [[Digital Methods and Monadic Thinking]]
+title: TiddlyWiki: A Tool for Monadic Exploration
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}sort[slideorder]]">
+<p><div class="level1"><$link><<currentTiddler>></$link></div>
+<$appear show="&raquo;" hide="&laquo;" $state="dataset">
+<div class="level2"><$transclude mode="block" field="text"/></div>
+</$appear>
+</p>
+</$list>

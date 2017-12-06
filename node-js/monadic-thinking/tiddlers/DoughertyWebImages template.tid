@@ -1,0 +1,12 @@
+created: 20170626095700429
+creator: stevesuny
+modified: 20171204201451715
+modifier: stevesuny
+tags: $:/tags/ViewTemplate
+title: DoughertyWebImages template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[DoughertyWebImages]]">
+<$macrocall $name="show-ia-blog" page={{!!title}}/>
+<<dox "[[DoughertyWebImages template]]">>
+</$list>

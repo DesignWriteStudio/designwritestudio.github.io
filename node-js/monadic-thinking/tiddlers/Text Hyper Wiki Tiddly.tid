@@ -1,0 +1,18 @@
+created: 20170309221912113
+creator: stevesunypoly
+modified: 20171204201453274
+modifier: stevesuny
+title: Text Hyper Wiki Tiddly
+type: text/vnd.tiddlywiki
+
+<div class="level1">Four Words:
+<$appear show="&raquo;" hide="&laquo;" $state="fourwords">
+This presentation explores <<tag "Four Words">>  ( <$list filter="[tag[Four Words]]"><<currentTiddler>> </$list>) that comprise the terms ``Hypertext`` and ``TiddlyWiki``.
+</$appear> 
+<$list filter="[tag[Four Words]]">
+<p><div class="level1"><$link><<currentTiddler>></$link></div>
+<$appear show="&raquo;" hide="&laquo;" $state="dataset">
+<div class="level2"><$transclude mode="block" field="text"/></div>
+</$appear>
+</p>
+</$list>

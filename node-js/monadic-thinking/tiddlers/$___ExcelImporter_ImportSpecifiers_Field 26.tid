@@ -1,0 +1,12 @@
+created: 20170612103547373
+import-field-column: Column Name
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: actor-type
+import-spec-role: field
+modified: 20171204201450215
+title: $:/_ExcelImporter/ImportSpecifiers/Field 26
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,12 @@
+created: 20170626094155618
+creator: stevesuny
+import-field-column: arcurl
+import-field-name: arcurl
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450157
+modifier: stevesuny
+title: $:/_ExcelImporter/ImportSpecifiers/Field 39
+type: text/vnd.tiddlywiki
+

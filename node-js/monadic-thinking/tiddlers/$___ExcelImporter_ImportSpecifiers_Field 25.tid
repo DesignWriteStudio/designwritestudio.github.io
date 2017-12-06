@@ -1,0 +1,11 @@
+created: 20170612103538684
+import-field-column: actor-type
+import-field-name: title
+import-field-skip-tiddler-if-blank: yes
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450218
+title: $:/_ExcelImporter/ImportSpecifiers/Field 25
+type: text/vnd.tiddlywiki
+

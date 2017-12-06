@@ -1,0 +1,12 @@
+created: 20170612103318334
+import-field-column: producer-approach
+import-field-name: title
+import-field-skip-tiddler-if-blank: yes
+import-field-source: column
+import-field-type: string
+import-field-value: producer-approach
+import-spec-role: field
+modified: 20171204201449968
+title: $:/_ExcelImporter/ImportSpecifiers/Field 11
+type: text/vnd.tiddlywiki
+

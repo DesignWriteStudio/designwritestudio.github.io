@@ -1,0 +1,17 @@
+created: 20170615000350683
+creator: stevesuny
+modified: 20171204201451316
+modifier: stevesuny
+tags: 
+title: blog-cells
+type: text/vnd.tiddlywiki
+
+\define celltitle() Web pages tagged $(RowTag)$ and $(ColumnTag)$
+
+
+
+<$button>
+<$count filter='[tag<RowTag>tag<ColumnTag>]'/>
+<$action-setfield $tiddler=<<celltitle>>  rowtag=<<RowTag>> coltag=<<ColumnTag>> text="<$macrocall $name='blog-cell-list'/>"/>
+<$action-navigate $to=<<celltitle>>/>
+</$button>

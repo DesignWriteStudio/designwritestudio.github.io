@@ -1,0 +1,9 @@
+created: 20170626094141986
+creator: stevesuny
+import-spec-role: row
+list: [[$:/_ExcelImporter/ImportSpecifiers/Field 40]] [[$:/_ExcelImporter/ImportSpecifiers/Field 39]] [[$:/_ExcelImporter/ImportSpecifiers/Field 38]]
+modified: 20171204201450336
+modifier: stevesuny
+title: $:/_ExcelImporter/ImportSpecifiers/Row
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,11 @@
+created: 20170605220937955
+import-field-column: content-action
+import-field-list-op: append
+import-field-name: tags
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450036
+title: $:/_ExcelImporter/ImportSpecifiers/Field 10
+type: text/vnd.tiddlywiki
+

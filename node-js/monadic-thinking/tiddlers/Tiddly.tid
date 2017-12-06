@@ -1,0 +1,17 @@
+created: 20150721175058293
+creator: stevesunypoly
+list: [[A platform for writing, reading, thinking, teaching, learning]] Tiddlers [[Single Page Application]] [[Open Source]] [[Alternative To? Replacement for?]]
+modified: 20171204201453702
+modifier: stevesuny
+slideorder: 2
+tags: [[TiddlyWiki: A Tool for Monadic Exploration]] [[Four Words]] [[Hypertext & Tiddlywiki]]
+title: Tiddly
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}]">
+<p><div class="level1"><$link><<currentTiddler>></$link></div>
+<$appear show="&raquo;" hide="&laquo;" $state="dataset">
+<div class="level2"><$transclude mode="block" field="text"/></div>
+</$appear>
+</p>
+</$list>

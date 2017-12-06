@@ -1,0 +1,10 @@
+coltag: Educational
+created: 20170614103914289
+creator: stevesuny
+modified: 20171204201453985
+modifier: stevesuny
+rowtag: Dedicated
+title: Web pages tagged Dedicated and Educational
+type: text/vnd.tiddlywiki
+
+<$macrocall $name='cell-list'/>

@@ -1,0 +1,10 @@
+created: 20170613002018386
+import-field-column: origurl
+import-field-name: origurl
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450166
+title: $:/_ExcelImporter/ImportSpecifiers/Field 37
+type: text/vnd.tiddlywiki
+

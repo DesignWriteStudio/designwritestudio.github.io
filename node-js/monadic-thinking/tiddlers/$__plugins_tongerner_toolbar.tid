@@ -1,0 +1,740 @@
+author: TonGerner
+core-version: 5.1.14
+created: 20150805095641947
+creator: TonGerner
+description: Toolbar on top
+list: readme
+modified: 20171204201450744
+modifier: TonGerner
+plugin-type: plugin
+source: http://tongerner.tiddlyspot.com/
+title: $:/plugins/tongerner/toolbar
+type: application/json
+version: 0.2.19
+
+{
+    "tiddlers": {
+        "$:/plugins/tongerner/toolbar/advanced-search-button": {
+            "text": "{{$:/core/ui/Buttons/advanced-search}}",
+            "caption": "{{$:/core/images/advanced-search-button}} {{$:/language/Buttons/AdvancedSearch/Caption}}",
+            "created": "20150727113655362",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/AdvancedSearch/Hint}}",
+            "modified": "20150810104108349",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/advanced-search-button"
+        },
+        "$:/plugins/tongerner/toolbar/close-all-button": {
+            "text": "{{$:/core/ui/Buttons/close-all}}",
+            "caption": "{{$:/core/images/close-all-button}} {{$:/language/Buttons/CloseAll/Caption}}",
+            "created": "20150727113504402",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/CloseAll/Hint}}",
+            "modified": "20150810104107679",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/close-all-button"
+        },
+        "$:/plugins/tongerner/toolbar/controlpanel-button": {
+            "text": "{{$:/core/ui/Buttons/control-panel}}",
+            "caption": "{{$:/core/images/options-button}} {{$:/language/Buttons/ControlPanel/Caption}}",
+            "created": "20150727111608178",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/ControlPanel/Hint}}",
+            "modified": "20150810104106429",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/controlpanel-button"
+        },
+        "$:/plugins/tongerner/toolbar/export-page-button": {
+            "text": "{{$:/core/ui/Buttons/export-page}}",
+            "caption": "{{$:/core/images/export-button}} {{$:/language/Buttons/ExportPage/Caption}}",
+            "created": "20150727114546367",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/ExportPage/Hint}}",
+            "modified": "20150810104110811",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/export-page-button"
+        },
+        "$:/plugins/tongerner/toolbar/full-screen-button": {
+            "text": "{{$:/core/ui/Buttons/full-screen}}",
+            "caption": "{{$:/core/images/full-screen-button}} {{$:/language/Buttons/FullScreen/Caption}}",
+            "created": "20150727085351568",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/FullScreen/Hint}}",
+            "modified": "20150810104104623",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/full-screen-button"
+        },
+        "$:/plugins/tongerner/toolbar/home-button": {
+            "text": "{{$:/core/ui/Buttons/home}}",
+            "caption": "{{$:/core/images/home-button}} {{$:/language/Buttons/Home/Caption}}",
+            "created": "20150727085124647",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/Home/Hint}}",
+            "modified": "20150810104104023",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/home-button"
+        },
+        "$:/plugins/tongerner/toolbar/icon": {
+            "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<svg\n   xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n   xmlns:cc=\"http://creativecommons.org/ns#\"\n   xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n   xmlns:svg=\"http://www.w3.org/2000/svg\"\n   xmlns=\"http://www.w3.org/2000/svg\"\n   version=\"1.1\"\n   id=\"svg2\"\n   viewBox=\"0 0 99.212598 99.212598\"\n   height=\"28mm\"\n   width=\"28mm\">\n  <defs\n     id=\"defs4\" />\n  <metadata\n     id=\"metadata7\">\n    <rdf:RDF>\n      <cc:Work\n         rdf:about=\"\">\n        <dc:format>image/svg+xml</dc:format>\n        <dc:type\n           rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\" />\n        <dc:title></dc:title>\n      </cc:Work>\n    </rdf:RDF>\n  </metadata>\n  <g\n     transform=\"translate(0,-953.14961)\"\n     id=\"layer1\">\n    <path\n       d=\"m 48.98237,1051.0187 -41.9831281,-24.239 -1.3e-6,-48.47796 41.9831264,-24.23897 41.983128,24.23897 10e-7,48.47796 z\"\n       id=\"path4142\"\n       style=\"fill:#a0a0ff;fill-opacity:1;stroke:#a0a0ff;stroke-width:1.22180152;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n    <g\n       style=\"fill-rule:evenodd\"\n       transform=\"matrix(0.11300223,0,0,0.11300223,17.222103,983.45683)\"\n       id=\"g4872\">\n      <path\n         d=\"m 110.48779,76.000254 c -1.13358,4.404252 -2.87653,8.563868 -5.13362,12.383609 l 0,0 6.72416,6.724159 c 3.12274,3.122739 3.13177,8.191798 0.0108,11.312738 l -5.66866,5.66866 c -3.11945,3.11945 -8.185815,3.11608 -11.312733,-0.0108 l -6.724159,-6.72416 C 84.563867,107.61152 80.404252,109.35447 76,110.48805 l 0,0 0,9.50523 c 0,4.41622 -3.577985,8.00697 -7.991653,8.00697 l -8.016695,0 C 55.580076,128.00025 52,124.41541 52,119.99328 l 0,-9.50523 c -4.404252,-1.13358 -8.563867,-2.87653 -12.383608,-5.13362 l -6.72416,6.72416 c -3.122739,3.12273 -8.191802,3.13176 -11.312736,0.0108 l -5.66866,-5.66866 c -3.119455,-3.11946 -3.116084,-8.185821 0.01083,-11.312738 l 6.724159,-6.724159 C 20.388738,84.564122 18.645786,80.404506 17.51221,76.000254 l -9.5052367,0 C 3.5907529,76.000254 0,72.42227 0,68.008602 l 0,-8.016695 c 0,-4.411576 3.584844,-7.991653 8.0069733,-7.991653 l 9.5052367,0 c 1.133576,-4.404252 2.876528,-8.563867 5.133619,-12.383608 L 15.92167,32.892487 C 12.79893,29.769747 12.789902,24.700685 15.91084,21.57975 l 5.66866,-5.668659 c 3.119455,-3.119456 8.185819,-3.116084 11.312736,0.01083 l 6.72416,6.724159 C 43.436133,20.388993 47.595748,18.64604 52,17.512464 L 52,8.0072276 C 52,3.5910073 55.577985,2.5437507e-4 59.991652,2.5437507e-4 l 8.016695,0 C 72.419924,2.5437507e-4 76,3.5850984 76,8.0072276 l 0,9.5052364 c 4.404252,1.133576 8.563867,2.876529 12.383608,5.133619 l 6.724159,-6.724159 c 3.12274,-3.122739 8.191803,-3.131768 11.312733,-0.01083 l 5.66866,5.668659 c 3.11946,3.119456 3.11609,8.185819 -0.0108,11.312737 l -6.72416,6.724159 0,0 c 2.25709,3.819741 4.00004,7.979356 5.13362,12.383608 l 9.50524,0 c 4.41622,0 8.00697,3.577985 8.00697,7.991653 l 0,8.016695 c 0,4.411576 -3.58484,7.991652 -8.00697,7.991652 l -9.50524,0 0,0 z m -46.48779,20 c 17.673112,0 32,-14.326888 32,-32 0,-17.673112 -14.326888,-32 -32,-32 -17.673112,0 -32,14.326888 -32,32 0,17.673112 14.326888,32 32,32 z\"\n         id=\"path4874\" />\n    </g>\n    <g\n       style=\"fill-rule:evenodd\"\n       transform=\"matrix(0.11579241,0,0,0.11579241,63.644957,982.92385)\"\n       id=\"g4936\">\n      <path\n         d=\"m 120.78304,34.329058 c 4.64125,8.863343 7.26637,18.948803 7.26637,29.647392 0,35.346224 -28.653781,64 -64.000004,64 -35.346224,0 -64.00000046,-28.653776 -64.00000046,-64 0,-35.346224 28.65377646,-63.9999998 64.00000046,-63.9999998 18.80747,0 35.720157,8.1125354 47.429644,21.0291858 l 2.68053,-2.680536 c 3.12961,-3.129613 8.19646,-3.131136 11.32065,-0.0069 3.11784,3.117838 3.12109,8.192622 -0.007,11.32065 l -4.69025,4.69025 z m -12.05853,12.05853 c 2.14606,5.446549 3.3249,11.38004 3.3249,17.588862 0,26.509668 -21.490337,48 -48.000004,48 -26.509669,0 -48.000001,-21.490332 -48.000001,-48 0,-26.509668 21.490332,-48 48.000001,-48 14.38948,0 27.300098,6.331765 36.097694,16.361134 L 58.941125,73.543555 41.975581,56.578011 c -3.126966,-3.126966 -8.200889,-3.122856 -11.318727,-0.005 -3.124194,3.124195 -3.119634,8.194075 0.005,11.318727 L 53.279253,90.5091 c 1.564319,1.564319 3.615899,2.345031 5.658769,2.346726 2.049949,9.8e-5 4.100936,-0.782686 5.666899,-2.34865 L 108.72451,46.387588 Z\"\n         id=\"path4938\" />\n    </g>\n    <g\n       transform=\"matrix(0.11690278,0,0,0.11690278,38.314452,983.18889)\"\n       id=\"g5003\">\n      <title\n         id=\"title5005\">Layer 1</title>\n      <g\n         style=\"fill-rule:evenodd\"\n         id=\"svg_1\">\n        <path\n           id=\"svg_2\"\n           d=\"m 55.85411,66.94532 c -1.52416,-1.80209 -2.84072,-3.42633 -3.89984,-4.81894 -11.06427,-14.54832 -16.64509,-6.88804 -22.96008,0 -6.31499,6.88803 1.6636,12.46909 -4.32957,17.33473 -5.99318,4.86562 -5.62318,6.5522 -15.73807,-2.34916 C -1.18834,68.21058 -1.88793,65.75978 2.75536,60.68073 c 4.64328,-5.07906 8.52412,2.91821 18.0093,-6.1079 9.48518,-9.02611 1.51725,-17.02576 1.51725,-17.02576 0,0 19.74913,-40.3714 46.1387,-37.38968 26.38957,2.98173 -9.98323,-3.86096 -19.03074,27.80068 -3.87369,13.55592 0.72092,10.3617 8.06618,16.08732 1.70653,1.33025 6.4279,4.73206 12.67112,9.31714 -6.12912,5.87914 -11.1567,10.66902 -14.27306,13.58279 z M 67.49525,79.892 c 16.01297,17.03624 37.74187,37.72569 45.11634,40.42049 C 123.04413,124.12481 128,117.17091 128,105.52295 128,98.37055 104.17068,78.98048 84.07605,63.75296 76.66833,70.90903 70.7001,76.70552 67.49525,79.892 Z\" />\n        <path\n           id=\"svg_3\"\n           d=\"M 33.98171,109.82779 69.222788,74.586711 c -1.389062,-1.39189 -1.386502,-3.647942 0,-5.034444 1.390214,-1.390215 3.643064,-1.391382 5.037118,0.0027 l 15.097967,15.097968 c 1.391706,1.391706 1.39008,3.649738 0.0027,5.037131 -1.389331,1.389331 -3.640193,1.391367 -5.034445,0 l 0,0 -35.241077,35.241082 c -4.170672,4.17067 -10.932684,4.17067 -15.103349,10e-6 -4.170664,-4.17066 -4.170657,-10.93266 2.1e-5,-15.10334 z M 147.25664,6.6217501 l 5.03444,5.0344379 -7.48954,12.523985 -7.61379,2.579342 -52.861635,52.861634 -5.034437,-5.034438 52.861632,-52.861634 2.57933,-7.6138 12.524,-7.4895269 z\" />\n      </g>\n    </g>\n    <rect\n       ry=\"3.6519036\"\n       y=\"979.39362\"\n       x=\"8.8170929\"\n       height=\"22.722958\"\n       width=\"80.40152\"\n       id=\"rect5021\"\n       style=\"fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.9198997;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1\" />\n  </g>\n</svg>\n",
+            "created": "20160109201523824",
+            "creator": "TonGerner",
+            "modified": "20160109201529083",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/icon",
+            "type": "image/svg+xml"
+        },
+        "$:/plugins/tongerner/toolbar/images/sidebar-button": {
+            "text": "<svg class=\"tgc-sidebar-button tc-image-button\" viewBox=\"0 0 32 32\" width=\"22pt\" height=\"22pt\"><path    d=\"M16,1.466C7.973,1.466,1.466,7.973,1.466,16c0,8.027,6.507,14.534,14.534,14.534c8.027,0,14.534-6.507,14.534-14.534C30.534,7.973,24.027,1.466,16,1.466zM24.386,14.968c-1.451,1.669-3.706,2.221-5.685,1.586l-7.188,8.266c-0.766,0.88-2.099,0.97-2.979,0.205s-0.973-2.099-0.208-2.979l7.198-8.275c-0.893-1.865-0.657-4.164,0.787-5.824c1.367-1.575,3.453-2.151,5.348-1.674l-2.754,3.212l0.901,2.621l2.722,0.529l2.761-3.22C26.037,11.229,25.762,13.387,24.386,14.968z\" id=\"path3032\" /></svg>\n",
+            "created": "20131123133128497",
+            "creator": "TonGerner",
+            "modified": "20160407181147339",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/images/sidebar-button"
+        },
+        "$:/plugins/tongerner/toolbar/list-all-button": {
+            "text": "<$button tooltip=\"List all tiddlers\" popup=\"$:/state/popup/all\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/list-all-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"list all\"/></span>\n</$list>\n</$button>\n<$reveal type=\"popup\" state=\"$:/state/popup/all\">\n<div class=\"tc-drop-down tgc-font-size-menus\">\n\n:''All tiddlers''\n<$scrollable class='tgc-scrollable-list'>\n{{$:/core/ui/MoreSideBar/All}}\n</$scrollable>\n</div>\n</$reveal>",
+            "title": "$:/plugins/tongerner/toolbar/list-all-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505144937596",
+            "description": "List all tiddlers",
+            "creator": "TonGerner",
+            "created": "20150728202153771",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/list-all-button}} list all"
+        },
+        "$:/plugins/tongerner/toolbar/list-recent-button": {
+            "text": "<$button tooltip=\"List recent tiddlers\" popup=\"$:/state/popup/recent\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/list-recent-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"list recent\"/></span>\n</$list>\n</$button>\n<$reveal type=\"popup\" state=\"$:/state/popup/recent\">\n<div class=\"tc-drop-down tgc-font-size-menus\">\n\n:''Recent tiddlers''\n<$scrollable class='tgc-scrollable-list'>\n{{$:/core/ui/MoreSideBar/Recent}}\n</$scrollable>\n</div>\n</$reveal>",
+            "title": "$:/plugins/tongerner/toolbar/list-recent-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505150557203",
+            "description": "List recent tiddlers",
+            "creator": "TonGerner",
+            "created": "20150728201622065",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/list-recent-button}} list recent"
+        },
+        "$:/plugins/tongerner/toolbar/list-standard-tags": {
+            "text": "<$set name=\"tv-config-toolbar-icons\" value=\"yes\">\n\n<$set name=\"tv-config-toolbar-text\" value=\"yes\">\n\n<$set name=\"tv-config-toolbar-class\" value=\"\">\n\n{{$:/core/ui/Buttons/tag-manager}}\n\n</$set>\n\n</$set>\n\n</$set>\n\n<style type=\"text/css\">\n     .cloud span { white-space:nowrap; margin-right:6px; }\n     .cloud .tc-tag-list-item { margin-right:0; margin-top:4px; }\n</style>\n<div class=\"cloud\">\n     <$list filter=\"[tags[]!is[system]sort[title]]\">\n           <span>\n           <$transclude tiddler=\"$:/core/ui/TagTemplate\"/>\n           <small><$count filter=\"[all[current]tagging[]]\"/></small>\n           </span>\n      </$list>\n</div>\n\n<hr>\n\n{{$:/core/ui/UntaggedTemplate}}\n\n",
+            "caption": "Standard tags",
+            "created": "20140430135036880",
+            "creator": "TonGerner",
+            "modified": "20160731144648254",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/list-standard-tags"
+        },
+        "$:/plugins/tongerner/toolbar/list-systemtags": {
+            "created": "20140806181818854",
+            "creator": "TonGerner",
+            "text": "\\define lingo-base() $:/language/SideBar/Tags/\n\n<$list filter=\"[all[shadows+tiddlers]tags[]is[system]sort[title]]\"><br>\n<$transclude tiddler=\"$:/core/ui/TagTemplate\"/> <small class=\"tc-menu-list-count\"><$count filter=\"[all[current]tagging[]]\"/></small>\n\n</$list>",
+            "caption": "System tags",
+            "list-after": "$:/core/ui/MoreSideBar/Tags",
+            "modified": "20160731150554287",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/list-systemtags"
+        },
+        "$:/plugins/tongerner/toolbar/new-journal-button": {
+            "text": "{{$:/core/ui/Buttons/new-journal}}",
+            "caption": "{{$:/core/images/new-journal-button}} {{$:/language/Buttons/NewJournal/Caption}}",
+            "created": "20150727085921741",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/NewJournal/Hint}}",
+            "modified": "20150810104105827",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/new-journal-button"
+        },
+        "$:/plugins/tongerner/toolbar/new-template": {
+            "created": "20131214180957987",
+            "creator": "TonGerner",
+            "text": "This is a - demo - template [[$:/plugins/tongerner/toolbar/new-template]] tagged with `task` and `field` color = #04B.\n\nMake your own template  - with content, tag(s), and field(s) to your liking:\n\n* by modifying [[$:/plugins/tongerner/toolbar/new-template]]\n\n:''or''\n\n* by making your own template (e.g. [[MyTemplate]]) and modifying [[$:/plugins/tongerner/toolbar/new-template-tiddler-button]]: replace 'param=\"$:/plugins/tongerner/toolbar/new-template\"' by 'param=\"MyTemplate\"'.",
+            "color": "#0044bb",
+            "modified": "20150728185653667",
+            "modifier": "TonGerner",
+            "tags": "task",
+            "title": "$:/plugins/tongerner/toolbar/new-template"
+        },
+        "$:/plugins/tongerner/toolbar/new-template-tiddler-button": {
+            "text": "<$button message=\"tm-new-tiddler\" tooltip=\"New template tiddler\" class=<<tv-config-toolbar-class>> param=\"$:/plugins/tongerner/toolbar/new-template\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/new-template-tiddler-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"new template tiddler\"/>\n</$list>\n</$button>",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/new-template-tiddler-button}} new template tiddler",
+            "created": "20131214181113770",
+            "creator": "TonGerner",
+            "description": "Create a new tiddler based on a template",
+            "modified": "20150810104103429",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/new-template-tiddler-button"
+        },
+        "$:/plugins/tongerner/toolbar/new-tiddler-button": {
+            "text": "{{$:/core/ui/Buttons/new-tiddler}}",
+            "caption": "{{$:/core/images/new-button}} {{$:/language/Buttons/NewTiddler/Caption}}",
+            "created": "20150727085549203",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/NewTiddler/Hint}}",
+            "modified": "20150810104105217",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/new-tiddler-button"
+        },
+        "$:/plugins/tongerner/toolbar/palette-button": {
+            "text": "{{$:/core/ui/Buttons/palette}}",
+            "caption": "{{$:/core/images/palette}} {{$:/language/Buttons/Palette/Caption}}",
+            "created": "20150727114333302",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/Palette/Hint}}",
+            "modified": "20150810104110209",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/palette-button"
+        },
+        "$:/plugins/tongerner/toolbar/readme": {
+            "text": "This plugin creates a toolbar on top of the screen.<br>\nWith buttons to replicate the functions normally only available in the sidebar and buttons for a few new functions: tagging in view mode, rename tags, delete a corrupt tiddler, list (open/all/recent/tags/untagged), new template tiddler, ...\n\n<<<\n''Note:''<br>''This plugin needs my $:/plugins/tongerner/layout_adjustment plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''\n<<<\n\nSettings for the layout can be found in ~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]].\n\nThe buttons in the toolbar can be switched on/off in ''~ControlPanel > Appearance > Toolbars > [[Top toolbar|$:/plugins/tongerner/toolbar/toolbar-display]]''. Drag and drop to change the ordering.\n\n<<<\n''Note:''\n\n* This plugin incorporates a slightly modified version of [[Danielo's TagsSearch plugin|http://braintest.tiddlyspot.com/#TagsSearch-Plugin]]\n* For toggling of sticky behaviour, see ~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]] (tab Layout)\n* In case you want the possibility to enable/disable the toolbar, drag & drop $:/_toggle-toolbar-plugin-button (available at http://tongerner.tiddlyspot.com/ & http://tw5toolbar.tiddlyspot.com/) to your TW5<br>It creates a button ({{$:/plugins/tongerner/toolbar/images/enable-toolbar}} / {{$:/plugins/tongerner/toolbar/images/disable-toolbar}}) in the right topbar which enables/disables the toolbar plugin\n<<<\n",
+            "title": "$:/plugins/tongerner/toolbar/readme",
+            "modifier": "TonGerner",
+            "modified": "20170505111806664",
+            "creator": "TonGerner",
+            "created": "20150724160944794"
+        },
+        "$:/plugins/tongerner/toolbar/save-wiki-button": {
+            "text": "{{$:/core/ui/Buttons/save-wiki}}",
+            "caption": "{{$:/core/images/save-button}} {{$:/language/Buttons/SaveWiki/Caption}}",
+            "created": "20150727113226924",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/SaveWiki/Hint}}",
+            "modified": "20150810104107031",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/save-wiki-button"
+        },
+        "$:/plugins/tongerner/toolbar/settings": {
+            "created": "20140616162341822",
+            "text": "!!Toolbar settings\n<table class=\"tablestyle\">\n@@.brown ''Toolbar''@@\n<<tableRow \"Size 'Toolbar' buttons\" \"$:/plugins/tongerner/toolbar/styles\" \"button-size\">>\n<<tableRow \"Color 'Toolbar' buttons\" \"$:/plugins/tongerner/toolbar/styles\" \"button-color\">>\n<<tableRow \"Hover color 'Toolbar' buttons\" \"$:/plugins/tongerner/toolbar/styles\" \"button-hover-color\">>\n<<tableRow \"Start 'Toolbar'\" \"$:/plugins/tongerner/toolbar/styles\" \"toolbar-left\">>\n<<tableRow \"Top 'Toolbar'\" \"$:/plugins/tongerner/toolbar/styles\" \"toolbar-top\">>\n<<tableRow \"Button spacing 'Toolbar'\" \"$:/plugins/tongerner/toolbar/styles\" \"toolbar-button-spacing\">>\n@@.brown ''Menus''@@\n<<tableRow \"Scroll height menus\" \"$:/plugins/tongerner/toolbar/styles\" \"menus-scroll-height\">>\n<<tableRow \"Font size menus\" \"$:/plugins/tongerner/toolbar/styles\" \"menus-font-size\">>\n</table>\n<$button message=\"tm-open-window\" param=\"$:/plugins/tongerner/toolbar/settings-help\" tooltip=\"Help\" aria-label=\"Help\">Help</$button>",
+            "title": "$:/plugins/tongerner/toolbar/settings",
+            "tags": "$:/tags/plugin-tweaks",
+            "order": "6",
+            "modifier": "TonGerner",
+            "modified": "20170405104325167",
+            "creator": "TonGerner",
+            "caption": "Toolbar"
+        },
+        "$:/plugins/tongerner/toolbar/settings-help": {
+            "created": "20140616162513097",
+            "text": "<<<\n''Note:''<br>You can enter values in allowed CSS units, e.g. `%`, `px`, `em`...\n<<<\n\n|Item|Entry |Description |Default |h\n|Toolbar |Size 'Toolbar' buttons|Size of toolbar buttons| 1.4em |\n|~|Color 'Toolbar' buttons|Color of toolbar buttons|#AAAAAA&nbsp;^^1^^|\n|~|Hover color 'Toolbar' buttons|Hover color of toolbar buttons|#131313 ^^1^^|\n|~|Start 'Top toolbar' |Start of the top toolbar<br>(from the left)| 40px |\n|~|Top 'Toolbar'|Offset from top| 0px |\n|~|Button spacing 'Top toolbar' |Distance between buttons of Topbar toolbar| 5px |\n|Menus |Scroll height menus |Scroll height of menus in toolbar | 200px |\n|~|Font size menus |Font size for menu entries | 0.8em |\n\n|borderless|k\n|^^^''1''^^ |&nbsp;&nbsp;|Usable for Vanilla and/or Snow White theme; overwritten by Emphasized theme/Bluish color palette!|",
+            "title": "$:/plugins/tongerner/toolbar/settings-help",
+            "modifier": "TonGerner",
+            "modified": "20170505171729069",
+            "creator": "TonGerner"
+        },
+        "$:/plugins/tongerner/toolbar/sidebar-button": {
+            "text": "<$button to=\"$:/core/ui/SideBarLists\" tooltip=\"Open the Sidebar tabs\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/sidebar-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"sidebar\"/>\n</$list>\n</$button>",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/sidebar-button}} sidebar",
+            "created": "20131123133349221",
+            "creator": "TonGerner",
+            "description": "Shows the Sidebar",
+            "modified": "20150810104102615",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/sidebar-button"
+        },
+        "$:/plugins/tongerner/toolbar/storyview-button": {
+            "text": "{{$:/core/ui/Buttons/storyview}}",
+            "caption": "{{$:/core/images/storyview-classic}} {{$:/language/Buttons/StoryView/Caption}}",
+            "created": "20150727113916016",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/StoryView/Hint}}",
+            "modified": "20150810104108975",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/storyview-button"
+        },
+        "$:/plugins/tongerner/toolbar/styles": {
+            "text": "<pre>/* TOOLBAR */\n.tc-topbar-left {\n     font-size: {{!!button-size}};\n}\n\n.tc-topbar button svg {\n     fill: {{!!button-color}};\n}\n\n.tc-topbar button:hover svg {\n     fill:{{!!button-hover-color}};\n}\n\n/* space between toolbar buttons */\n.tc-topbar button {\n     padding: 8px {{!!toolbar-button-spacing}};\n}\n\n/* TOP BAR LEFT */\n.tc-topbar-left {\n     left: {{!!toolbar-left}};\n     top: {{!!toolbar-top}};\n}\n\n/* TIDDLER */\n/* TOP PADDING TIDDLER */\nhtml .tc-tiddler-frame {\n     padding-top: {{!!tiddler-padding-top}};\n}\n\n/* SIZE OF TIDDLER CONTROL BUTTONS */\nhtml .tc-tiddler-controls button svg {\n     height: {{!!tiddler-button-size}};\n}\n\n/* SPACE BETWEEN TIDDLER CONTROL BUTTONS */\nhtml .tc-tiddler-controls button {\n     margin-left: {{!!tiddler-button-spacing}};\n}\n\n/* SCROLL HEIGHT MENUS IN TOOLBAR */\n.tgc-scrollable-list {\n     padding: 0em;\n     height: {{!!menus-scroll-height}};\n     position: relative;\n}\n\n/* FONT SIZE MENUS */\n.tgc-font-size-menus {\n     font-size: {{!!menus-font-size}};\n}\n\n/* DUMMY BUTTON STYLE */\n.dummybutton {\n    padding: 1px 8px 1px 8px;\n    background-color: #DCDAD5;\n    border-width: 2px;\n    border-style: solid;\n    border-color: white gray gray white;\n}\n\n/* STYLES BELOW USED IN: */\n/* $:/plugins/tongerner/toolbar/expandable-tiddler-template */\n/* $:/plugins/tongerner/toolbar/tag-search-menu */\n\n/* THREE COLUMN MODE */\n.tgc-3columns { \n   display:block; \n   -moz-column-count:3; \n   -moz-column-gap:1em; \n   -webkit-column-count: 3;\n   -webkit-column-gap:1em; \n}\n\n/* CUT LONG STRINGS */\n.tgc-trim-string {\n    white-space: nowrap; \n    overflow: hidden; \n    text-overflow: ellipsis;\n}\n\n.tgc-trim-string:hover {\n    white-space: normal;\n    overflow: inherit; \n}\n\n.tgc-message-box {\n    border: 1px solid <<color message-border>>;\n    background: <<color code-background>>;\n    padding: 10px 21px 10px 21px;\n    margin: -10px -21px -10px -21px;\n}\n\n.tgc-font-bold {\n     font-weight: bold;\n}\n\n.tgc-underlined {\n     text-decoration: underline;\n}\n\n/* Font-size More menu */\n.tgc-more {\n     font-size: 0.7em;\n}\n</pre>",
+            "toolbar-top": "0px",
+            "toolbar-left": "40px",
+            "toolbar-button-spacing": "5px",
+            "title": "$:/plugins/tongerner/toolbar/styles",
+            "tags": "$:/tags/Stylesheet",
+            "modifier": "TonGerner",
+            "modified": "20170505171441974",
+            "menus-scroll-height": "200px",
+            "menus-font-size": "0.8em",
+            "list-after": "$:/themes/tiddlywiki/vanilla/base",
+            "creator": "TonGerner",
+            "created": "20150721080358195",
+            "button-size": "1.4em",
+            "button-hover-color": "#131313",
+            "button-color": "#AAAAAA"
+        },
+        "$:/plugins/tongerner/toolbar/theme-button": {
+            "text": "{{$:/core/ui/Buttons/theme}}",
+            "caption": "{{$:/core/images/theme-button}} {{$:/language/Buttons/Theme/Caption}}",
+            "created": "20150727114037029",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/Theme/Hint}}",
+            "modified": "20150810104109569",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/theme-button"
+        },
+        "$:/plugins/tongerner/toolbar/refresh-button": {
+            "text": "{{$:/core/ui/Buttons/refresh}}",
+            "caption": "{{$:/core/images/refresh-button}} {{$:/language/Buttons/Refresh/Caption}}",
+            "created": "20150728084910677",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/Refresh/Hint}}",
+            "modified": "20150810104111475",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/refresh-button"
+        },
+        "$:/plugins/tongerner/toolbar/toolbar-display": {
+            "created": "20150727082309628",
+            "text": "\\define lingo-base() $:/language/TiddlerInfo/\n\n\\define config-base() $:/config/TopLeftBarButtons/Visibility/\n\n{{$:/language/ControlPanel/Toolbars/TopLeftBar/Hint}}\n\n<$set name=\"tv-config-toolbar-icons\" value=\"yes\">\n\n<$set name=\"tv-config-toolbar-text\" value=\"yes\">\n\n<$macrocall $name=\"list-tagged-draggable\" tag=\"$:/tags/TopLeftBar\" itemTemplate=\"$:/core/ui/ControlPanel/Toolbars/ItemTemplate\"/>\n\n</$set>\n\n</$set>\n",
+            "caption": "Top toolbar",
+            "creator": "TonGerner",
+            "modified": "20170504081616095",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/ControlPanel/Toolbars",
+            "title": "$:/plugins/tongerner/toolbar/toolbar-display"
+        },
+        "$:/plugins/tongerner/toolbar/list-open-tiddlers-button": {
+            "text": "<$button tooltip=\"List open tiddlers\" popup=\"$:/state/popup/open\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/list-open-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"list open\"/></span>\n</$list>\n</$button>\n<$reveal type=\"popup\" state=\"$:/state/popup/open\">\n<div class=\"tc-drop-down tgc-font-size-menus\">\n\n:''Open tiddlers''\n<$scrollable class='tgc-scrollable-list'>\n<$list filter=\"[list[$:/StoryList]]+[sort[]]\"/>\n</$scrollable>\n</div>\n</$reveal>",
+            "title": "$:/plugins/tongerner/toolbar/list-open-tiddlers-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505150514843",
+            "description": "List open tiddlers",
+            "creator": "TonGerner",
+            "created": "20150728143158416",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/list-open-button}} list open"
+        },
+        "$:/plugins/tongerner/toolbar/list-untagged-tiddlers-button": {
+            "text": "<$button tooltip=\"List untagged tiddlers\" popup=\"$:/state/popup/untagged\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/list-untagged-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"list untagged\"/></span>\n</$list>\n</$button>\n<$reveal type=\"popup\" state=\"$:/state/popup/untagged\">\n<div class=\"tc-drop-down tgc-font-size-menus\">\n\n:''Untagged tiddlers''\n<$scrollable class='tgc-scrollable-list'>\n<$list filter=\"[untagged[]!is[system]] -[tags[]] +[sort[title]]\"/>\n</$scrollable>\n</div>\n</$reveal>",
+            "title": "$:/plugins/tongerner/toolbar/list-untagged-tiddlers-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505150633734",
+            "description": "List untagged tiddlers",
+            "creator": "TonGerner",
+            "created": "20150728165824527",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/list-untagged-button}} list untagged"
+        },
+        "$:/plugins/tongerner/toolbar/toggle-tagging-button": {
+            "text": "<$fieldmangler tiddler=\"$:/plugins/tongerner/toolbar/tagging\">\n<$list filter=\"[[$:/plugins/tongerner/toolbar/tagging]tag[$:/tags/ViewTemplate]]\">\n<$button message=\"tm-remove-tag\" tooltip=\"Hide tagging in view mode\" param=\"$:/tags/ViewTemplate\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n<span class=\"tgc-active-indicator\">\n{{$:/plugins/tongerner/toolbar/images/tagging-button}}\n</span>\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"tagging\"/>\n</$list>\n</$button>\n</$list>\n\n<$list filter=\"[[$:/plugins/tongerner/toolbar/tagging]!tag[$:/tags/ViewTemplate]]\">\n<$button message=\"tm-add-tag\" tooltip=\"Tagging in view mode\" param=\"$:/tags/ViewTemplate\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/tagging-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"tagging\"/>\n</$list>\n</$button>\n</$list>\n</$fieldmangler>\n",
+            "title": "$:/plugins/tongerner/toolbar/toggle-tagging-button",
+            "tags": "$:/tags/PageControls $:/tags/ViewToolbar $:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170314183336448",
+            "description": "Toggle tagging in view mode",
+            "creator": "TonGerner",
+            "created": "20160111131840237",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/tagging-button}} tagging"
+        },
+        "$:/plugins/tongerner/toolbar/rename-tags": {
+            "text": "Thanks to [[Alberto Molina|https://groups.google.com/forum/#!topic/tiddlywiki/OCntQ79DuwM]].\n\n''Search tag:''\n<div class=\"tc-search\">\n<$edit-text tiddler=\"$:/temp/renametags/search\" tag=\"input\" default=\"\" placeholder=\"Enter tag to be replaced\" size=20/>\n<$reveal state=\"$:/temp/renametags/search\" type=\"nomatch\" text=\"\">\n<$button class=\"tc-btn-invisible\">\n<$action-setfield $tiddler=\"$:/temp/renametags/search\" text=\"\" />\n{{$:/core/images/close-button}}\n</$button>\n</$reveal>\n</div>\n\n''Replace by:''\n<div class=\"tc-search\">\n<$edit-text tiddler=\"$:/temp/renametags/replace\" tag=\"input\" default=\"\" placeholder=\"Enter tag to replace\" size=20/>\n<$reveal state=\"$:/temp/renametags/replace\" type=\"nomatch\" text=\"\">\n<$button class=\"tc-btn-invisible\">\n<$action-setfield $tiddler=\"$:/temp/renametags/replace\" text=\"\" />\n{{$:/core/images/close-button}}\n</$button>\n</$reveal>\n</div>\n\n''First step''<br>\nApply the tag ''//{{$:/temp/renametags/replace}}//'' to the following tiddlers:\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag{$:/temp/renametags/search}!tag{$:/temp/renametags/replace}sort[created]]\">\n\n<$checkbox tag={{$:/temp/renametags/replace}}>\n<$link to={{!!title}}>\n<$view field=\"title\"/>\n</$link>\n</$checkbox>\n</$list>\n\n''Second step''<br>\nRemove the tag ''//{{$:/temp/renametags/search}}//'' from the following tiddlers:\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag{$:/temp/renametags/search}tag{$:/temp/renametags/replace}sort[created]]\">\n\n<$checkbox tag={{$:/temp/renametags/search}}>\n~~<$link to={{!!title}}>\n<$view field=\"title\"/>\n</$link>~~\n</$checkbox>\n</$list>",
+            "created": "20150730072835309",
+            "creator": "TonGerner",
+            "modified": "20160811070327525",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/rename-tags"
+        },
+        "$:/plugins/tongerner/toolbar/images/list-all-button": {
+            "text": "<svg class= \"tgc-list-all-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22px\" height=\"22px\">\n <g>\n  <g stroke=\"null\" id=\"svg_16\">\n   <g stroke=\"null\" id=\"svg_1\">\n    <rect stroke=\"null\" id=\"svg_2\" height=\"2.1868\" width=\"16.21141\" y=\"19.6257\" x=\"5.66359\"/>\n    <rect stroke=\"null\" id=\"svg_3\" height=\"2.1868\" width=\"3.03625\" y=\"19.6257\" x=\"0.1875\"/>\n   </g>\n   <g stroke=\"null\" id=\"svg_4\">\n    <rect stroke=\"null\" id=\"svg_5\" height=\"2.1868\" width=\"16.21141\" y=\"14.76615\" x=\"5.66359\"/>\n    <rect stroke=\"null\" id=\"svg_6\" height=\"2.1868\" width=\"3.03625\" y=\"14.76615\" x=\"0.1875\"/>\n   </g>\n   <g stroke=\"null\" id=\"svg_7\">\n    <rect stroke=\"null\" id=\"svg_8\" height=\"2.1868\" width=\"3.03625\" y=\"9.9066\" x=\"0.1875\"/>\n    <rect stroke=\"null\" id=\"svg_9\" height=\"2.1868\" width=\"16.21141\" y=\"9.9066\" x=\"5.66359\"/>\n   </g>\n   <g stroke=\"null\" id=\"svg_10\">\n    <rect stroke=\"null\" id=\"svg_11\" height=\"2.1868\" width=\"3.03625\" y=\"5.04705\" x=\"0.1875\"/>\n    <rect stroke=\"null\" id=\"svg_12\" height=\"2.1868\" width=\"16.21141\" y=\"5.04705\" x=\"5.66359\"/>\n   </g>\n   <g stroke=\"null\" id=\"svg_13\">\n    <rect stroke=\"null\" id=\"svg_14\" height=\"2.1868\" width=\"3.03625\" y=\"0.1875\" x=\"0.1875\"/>\n    <rect stroke=\"null\" id=\"svg_15\" height=\"2.1868\" width=\"16.21141\" y=\"0.1875\" x=\"5.66359\"/>\n   </g>\n  </g>\n </g>\n</svg>",
+            "created": "20131030210000000",
+            "creator": "TonGerner",
+            "modified": "20160407180618272",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/images/list-all-button"
+        },
+        "$:/plugins/tongerner/toolbar/images/list-recent-button": {
+            "text": "<svg class=\"tgc-list-recent-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22pt\" height=\"22pt\"> <path d=\"m7.05874,13.26509c0.22436,0.38865 0.72531,0.52252 1.11366,0.29777l2.69645,-1.36067c0.04406,0.00649 0.08811,0.0146 0.13462,0.0146c0.67554,0 1.2238,-0.54443 1.2238,-1.21706l-0.40793,-6.39036c0,-0.44788 -0.36551,-0.81137 -0.81587,-0.81137c-0.45036,0 -0.81587,0.36349 -0.81587,0.81137l-0.38019,5.9579l-2.45087,1.59029c-0.38999,0.22475 -0.52379,0.72131 -0.29779,1.10752zm1.13895,-7.09707c0.3908,-0.22394 0.52379,-0.7205 0.29861,-1.10833c-0.22518,-0.38784 -0.72449,-0.5209 -1.11448,-0.29696s-0.52379,0.7205 -0.29861,1.10833c0.226,0.38865 0.72449,0.52171 1.11448,0.29696zm-3.16802,7.32425c-0.38999,0.22475 -0.52379,0.72131 -0.29779,1.10914c0.22436,0.38865 0.72531,0.52009 1.11366,0.29615c0.3908,-0.22313 0.5246,-0.7205 0.29942,-1.10915c-0.22518,-0.38621 -0.72449,-0.51928 -1.11529,-0.29615zm0.81669,-6.39036c-0.3908,-0.22394 -0.8893,-0.09087 -1.11448,0.29696s-0.09056,0.8844 0.29779,1.10833c0.3908,0.22394 0.8893,0.09168 1.11529,-0.29696c0.22436,-0.38784 0.09056,-0.88358 -0.29861,-1.10833zm-2.08536,3.89783c0,0.44869 0.36633,0.81137 0.81587,0.81137c0.45036,0 0.81587,-0.36268 0.81668,-0.81137c-0.00082,-0.44788 -0.36551,-0.81056 -0.81668,-0.81137c-0.45118,0 -0.81587,0.36349 -0.81587,0.81137zm6.4266,6.39117c0,0.44869 0.36551,0.81137 0.81587,0.81137c0.45036,0 0.81587,-0.36268 0.81587,-0.81137s-0.36551,-0.81137 -0.81587,-0.81137c-0.45036,0 -0.81587,0.36268 -0.81587,0.81137zm-3.10438,-1.26168c-0.22436,0.38865 -0.09056,0.8844 0.29861,1.10752c0.38999,0.22394 0.89011,0.08925 1.11366,-0.29615c0.226,-0.38865 0.09219,-0.88439 -0.29779,-1.10915c-0.38999,-0.22313 -0.88848,-0.09006 -1.11448,0.29777zm9.07736,-9.02732c-0.3908,0.22556 -0.5246,0.72212 -0.29861,1.10914s0.72449,0.5209 1.11448,0.29615c0.38998,-0.22313 0.5246,-0.7205 0.29779,-1.10833c-0.22355,-0.38784 -0.72531,-0.5209 -1.11366,-0.29696zm-0.29861,6.68732c-0.22355,0.38865 -0.09138,0.88602 0.29942,1.10915c0.38917,0.22232 0.88848,0.09087 1.11285,-0.29615c0.22518,-0.38865 0.09138,-0.88602 -0.29698,-1.10915c-0.39162,-0.22394 -0.89174,-0.09087 -1.11529,0.29615zm2.38397,-2.7895c0,-0.44707 -0.36551,-0.81137 -0.81587,-0.81137c-0.45199,0.00162 -0.81668,0.36512 -0.81668,0.81137c0.00082,0.44788 0.36551,0.81137 0.81668,0.81137c0.45036,0 0.81587,-0.36268 0.81587,-0.81137zm-4.73612,5.94086c0.22355,0.38703 0.72449,0.52171 1.11448,0.29615c0.38999,-0.22313 0.52379,-0.72212 0.29779,-1.10752c-0.226,-0.38865 -0.72449,-0.52171 -1.11366,-0.29777c-0.3908,0.22475 -0.5246,0.72131 -0.29861,1.10915zm0.29861,-10.77177c0.38917,0.22394 0.88767,0.09087 1.11366,-0.29696c0.22518,-0.38784 0.09219,-0.88521 -0.29943,-1.10915c-0.38917,-0.22394 -0.8893,-0.09006 -1.11284,0.29696c-0.22436,0.38946 -0.09056,0.88521 0.29861,1.10915zm7.96614,3.90919c-0.51318,-5.91652 -5.75106,-10.29955 -11.69874,-9.79244c-2.65484,0.228 -4.99148,1.40043 -6.73092,3.14569l-1.44653,-1.20976l-1.06797,5.97494l5.73637,-2.06737l-1.33476,-1.11726c1.32742,-1.27142 3.07338,-2.12661 5.05349,-2.29862c4.6015,-0.38702 8.64413,2.99721 9.04717,7.57415c0.38917,4.57614 -3.013,8.59648 -7.6145,8.99811c-4.60395,0.38621 -8.64739,-2.99721 -9.04962,-7.57253c-0.08322,-0.97689 0.0155,-1.92538 0.25292,-2.82195l-2.66789,0.96229c-0.07261,0.67506 -0.08648,1.36635 -0.02529,2.069c0.51318,5.9149 5.75024,10.29712 11.70037,9.79001c5.9485,-0.51035 10.35582,-5.71854 9.8459,-11.63426z\"/></svg>",
+            "created": "20131120132127875",
+            "creator": "TonGerner",
+            "modified": "20160407180723775",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/images/list-recent-button"
+        },
+        "$:/plugins/tongerner/toolbar/images/rename-tags-button": {
+            "text": "<svg class=\"tgc-rename-tags-button tc-image-button\" height=\"22px\" width=\"22px\" viewBox=\"0 0 512 512\">\n  <path d=\"m-883.429993,-366.779999l191.880005,0c-14.219971,0.479462 -28.530029,1.34848 -42.419983,4.604736c-19.570007,4.125305 -38.570007,12.355957 -53.75,25.540924c-6.230042,-5.463776 -13.170044,-10.078522 -20.52002,-13.904144c-23.119995,-11.95639 -49.450012,-15.652191 -75.190002,-16.241516z\" id=\"svg_3\"/>\n  <path d=\"m242.559998,-0.057619l2.299988,0c25.740021,0.589325 52.070007,4.285113 75.190002,16.241499c7.350006,3.825661 14.290009,8.440399 20.52002,13.904179c15.179993,-13.184996 34.179993,-21.415613 53.75,-25.54092c13.889984,-3.256287 28.199982,-4.125307 42.419983,-4.604757l2.279999,0c7.380005,0.299662 14.790009,2.966624 20.140015,8.160705c6.22998,5.74346 9.690002,14.313715 9.220001,22.764086c-0.369995,11.436954 -8.240021,22.104832 -18.959991,26.040356c-9.030029,3.206341 -18.790009,1.787941 -28.140015,3.006554c-13.700012,1.508289 -27.899994,4.434948 -39.290009,12.625637c-6.380005,4.724594 -12.130005,11.906418 -11.73999,20.246925c0.070007,14.95298 -0.01001,29.905952 0.040009,44.84893c-0.172668,321.623795 3.069977,292.776566 -0.01001,236.031235c-0.01001,15.592224 0,31.184448 -0.01001,46.776733c-0.109985,3.565948 1.190002,7.002045 3.089996,9.968628c4.550018,7.24176 12.230011,11.79657 20.02002,14.853088c13.309998,5.114166 27.699982,6.632446 41.869995,6.902161c4.440002,0.099884 8.970001,0.299652 13.169983,1.917816c10.150024,3.266235 18.070007,12.545715 19.590027,23.103699c1.509979,8.510254 -1.190002,17.550018 -6.890106,24.012634c-5.589905,6.57251 -14.160004,9.93869 -22.679993,10.158386l-0.900024,0c-25.829987,-0.439484 -52.289978,-3.835571 -75.639984,-15.522278c-7.660004,-3.755737 -14.820007,-8.510345 -21.330017,-14.014008c-15.299988,13.174927 -34.519989,21.145905 -54.179993,25.161285c-13.919983,3.186371 -28.23999,3.925568 -42.470001,4.375l-2.319977,0c-12.400009,-0.399506 -24.12001,-8.969757 -27.550018,-20.976105c-3.479996,-10.9375 0.279999,-23.712982 9.210007,-30.954742c5.73999,-5.124176 13.559998,-7.021973 21.089981,-7.201752c12.690002,-0.219788 25.480011,-1.338501 37.690002,-4.954376c7.809998,-2.427246 15.580017,-5.833374 21.529999,-11.586792c4.059998,-3.985504 7.370026,-9.26947 7.320007,-15.132782c0.02002,-109.575226 0,-219.140457 0.01001,-328.705658c0.049988,-7.141861 -4.550018,-13.334824 -9.76001,-17.779747c-11.75,-9.51915 -27.179993,-12.635632 -41.859985,-14.223816c-9.230011,-1.22858 -18.929993,0.449471 -27.76001,-3.076485c-9.630005,-3.615879 -16.990005,-12.705536 -18.389999,-22.893944c-1.75,-10.398161 2.800003,-21.545469 11.289993,-27.798328c5.130005,-4.075361 11.690002,-5.773439 18.140015,-6.133016l0.000092,-0.00003l0,-0.000001z\" id=\"svg_2\"/>\n  <path d=\"m22.613998,146.095932c4.079998,-5.074203 10.760002,-7.111893 17.09,-7.031998c91.120007,0 182.249996,-0.009964 273.380016,0c0.009979,13.105072 0.009979,26.210175 0,39.315247c-85.330139,0.019958 -170.660141,0 -255.990013,0.009964l0,157.380814c85.329994,0.009979 170.659996,-0.01001 255.990013,0.009979c0.009979,13.105072 0.009979,26.210144 0,39.315216c-91.770126,0 -183.540131,0.029938 -275.310009,-0.019989c-10.630001,0.109863 -19.869999,-9.019684 -20.060001,-19.607666l0,-198.054459c0.75,-4.065353 2.020004,-8.210663 4.900002,-11.317108l-0.000008,0z\" id=\"svg_5\"/>\n  <path d=\"m87.932999,214.897583c59.069992,-0.009995 118.139999,-0.009995 177.210007,-0.009995l0,78.670425c-59.069992,0 -118.139999,0 -177.220001,-0.01001c0,-26.220123 0,-52.430267 0.010002,-78.650421l-0.000008,0z\" id=\"svg_7\"/>\n  <path d=\"m489.619995,146.095932c-4.079987,-5.074203 -10.76001,-7.111893 -17.089996,-7.031998c-91.119995,0 -182.25,-0.009964 -273.380005,0c-0.01001,13.105072 -0.01001,26.210175 0,39.315247c85.329987,0.019958 170.660004,0 255.98999,0.009964l0,157.380814c-85.329987,0.009979 -170.660004,-0.01001 -255.98999,0.009979c-0.01001,13.105072 -0.01001,26.210144 0,39.315216c91.769989,0 183.539978,0.029938 275.309998,-0.019989c10.630005,0.109863 19.869995,-9.019684 20.059998,-19.607666l0,-198.054459c-0.75,-4.065353 -2.019989,-8.210663 -4.899994,-11.317108z\" id=\"path3380\"/>\n</svg>",
+            "created": "20150730083614332",
+            "creator": "TonGerner",
+            "modified": "20160407181105810",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/rename-tags-button"
+        },
+        "$:/plugins/tongerner/toolbar/images/new-template-tiddler-button": {
+            "text": "<svg class=\"tgc-new-template-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22\" height=\"22\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n <g>\n  <title>Layer 1</title>\n  <rect height=\"3.18427\" width=\"11.84691\" id=\"e1_rectangle\" y=\"17.06573\" x=\"10.02809\"/>\n  <rect id=\"e2_rectangle\" height=\"3.18427\" width=\"11.82083\" y=\"1.625\" x=\"10\"/>\n  <rect transform=\"matrix(0.03696432039320857,0,0,0.06008064622899197,61.76691469018027,72.69297278575596) \" id=\"e4_rectangle\" height=\"53\" width=\"264\" y=\"-1052.87631\" x=\"-1343.80504\"/>\n  <rect id=\"e5_rectangle\" transform=\"matrix(0.03696432039320857,0,0,0.06008064622899197,61.76691469018027,72.69297278575596) \" height=\"53\" width=\"264\" y=\"-1053.87631\" x=\"-1663.22788\"/>\n  <rect id=\"e6_rectangle\" transform=\"matrix(0.00003294807490963891,0.040680485400358,-0.0537343780992714,0.00005355276385491953,82.7917997491252,94.38851470356855) \" height=\"53\" width=\"264\" y=\"1414.59029\" x=\"-2185.64586\"/>\n </g>\n</svg>",
+            "created": "20131214180218851",
+            "creator": "TonGerner",
+            "modified": "20160407181017552",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/images/new-template-tiddler-button"
+        },
+        "$:/plugins/tongerner/toolbar/rename-tags-button": {
+            "text": "<$button to=\"$:/plugins/tongerner/toolbar/rename-tags\" tooltip=\"Rename tags\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/rename-tags-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"rename tags\"/>\n</$list>\n</$button>",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/rename-tags-button}} rename tags",
+            "created": "20150730073458066",
+            "creator": "TonGerner",
+            "description": "Rename tags",
+            "modified": "20150810104116897",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/rename-tags-button"
+        },
+        "$:/plugins/tongerner/toolbar/images/list-open-button": {
+            "text": "<svg class= \"tgc-list-open-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22\" height=\"22\" xmlns=\"http://www.w3.org/2000/svg\" stroke=\"null\" style=\"vector-effect: non-scaling-stroke;\" preserveAspectRatio=\"xMidYMid meet\">\n <metadata stroke=\"null\" style=\"vector-effect: non-scaling-stroke;\">Created by potrace 1.12, written by Peter Selinger 2001-2015</metadata>\n <g stroke=\"null\">\n  <title stroke=\"null\">Layer 1</title>\n  <g id=\"svg_1\" transform=\"translate(0,512) scale(0.10000000149011612,-0.10000000149011612) \">\n   <path stroke=\"null\" id=\"svg_2\" d=\"m63.99242,5116.30566c-1.18196,-0.64453 -5.36082,-5.67871 -16.16689,-19.44336c-8.06235,-10.23926 -14.7739,-18.54102 -14.98498,-18.49902c-0.21106,0.08691 -4.64323,3.01221 -9.87743,6.58252c-5.23418,3.52783 -10.00404,6.58203 -10.59499,6.71094c-2.11056,0.55957 -5.52967,-0.04248 -7.26033,-1.24707c-4.22112,-3.01123 -4.64324,-9.98047 -0.84423,-13.46484c1.39297,-1.29053 24.69356,-17.07764 26.93075,-18.23975c2.36383,-1.24805 5.86734,-1.07568 8.18896,0.38721c1.05531,0.6875 7.21814,8.17334 18.36192,22.36914c9.202,11.74365 17.17991,22.06787 17.72863,22.97168c2.32163,3.87158 0.71762,9.63623 -3.29241,11.78613c-2.40608,1.2915 -5.90961,1.33447 -8.18899,0.08643z\"/>\n   <path stroke=\"null\" id=\"svg_3\" d=\"m101.26492,5083.22559l0,-8.604l58.25144,0l58.25145,0l0,8.604l0,8.60352l-58.25145,0l-58.25144,0l0,-8.60352z\"/>\n   <path stroke=\"null\" id=\"svg_4\" d=\"m63.78136,5039.69092c-1.77287,-1.1626 -4.72768,-4.64648 -16.16689,-19.27246c-7.68245,-9.80811 -14.09854,-17.98145 -14.26736,-18.15332c-0.12666,-0.17188 -4.38999,2.45215 -9.41314,5.89307c-5.02313,3.39844 -9.83518,6.49609 -10.67943,6.8833c-3.46131,1.46289 -7.59801,0.25781 -10.08848,-2.9248c-1.05527,-1.33398 -1.30854,-2.1084 -1.43516,-4.34521c-0.21106,-3.0542 0.63317,-5.20508 2.74372,-7.18408c2.49047,-2.4082 26.67745,-18.4126 28.19708,-18.71338c2.6593,-0.5166 5.52967,0.04297 7.21812,1.3335c1.64625,1.29102 34.69761,43.14697 35.87951,45.42725c1.05525,2.10791 0.92864,5.89453 -0.25325,8.04492c-1.47741,2.6665 -3.63017,4.00098 -6.8382,4.2583c-2.44828,0.17236 -2.8282,0.08594 -4.89652,-1.24707z\"/>\n   <path stroke=\"null\" id=\"svg_5\" d=\"m101.26492,5007.08301l0,-8.60352l58.25144,0l58.25145,0l0,8.60352l0,8.60352l-58.25145,0l-58.25144,0l0,-8.60352z\"/>\n   <path stroke=\"null\" id=\"svg_6\" d=\"m65.25877,4964.2793c-0.92868,-0.30078 -2.11058,-1.03174 -2.70156,-1.59131c-0.59095,-0.51514 -7.17588,-8.73242 -14.60505,-18.1958c-7.42916,-9.46436 -13.80305,-17.55225 -14.22516,-17.98096c-0.71761,-0.77588 -1.0975,-0.56006 -10.25733,5.67773c-10.93271,7.39941 -12.49453,8.04346 -15.95583,6.88232c-3.63016,-1.24805 -5.82515,-4.3877 -5.86734,-8.34619c0,-2.36523 1.1397,-5.03223 2.6593,-6.36621c1.98392,-1.67773 25.91768,-17.80957 27.09958,-18.23877c3.50354,-1.33447 6.88042,-0.81836 9.24424,1.46143c2.06834,1.93701 34.65537,43.70703 35.24635,45.16895c1.39298,3.52832 0.16883,8.38916 -2.65933,10.36768c-2.61708,1.80713 -5.19193,2.19385 -7.97787,1.16113z\"/>\n   <path stroke=\"null\" id=\"svg_7\" d=\"m101.26492,4930.94092l0,-8.60352l58.25144,0l58.25145,0l0,8.60352l0,8.60352l-58.25145,0l-58.25144,0l0,-8.60352z\"/>\n  </g>\n </g>\n</svg>",
+            "created": "20150807195235541",
+            "creator": "TonGerner",
+            "modified": "20160407180640364",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/list-open-button"
+        },
+        "$:/plugins/tongerner/toolbar/images/list-untagged-button": {
+            "text": "<svg class= \"tgc-list-untagged-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22\" height=\"22\" xmlns=\"http://www.w3.org/2000/svg\" stroke=\"null\" style=\"vector-effect: non-scaling-stroke;\" preserveAspectRatio=\"xMidYMid meet\">\n <metadata stroke=\"null\" style=\"vector-effect: non-scaling-stroke;\">Created by potrace 1.12, written by Peter Selinger 2001-2015</metadata>\n <g stroke=\"null\">\n  <title stroke=\"null\">Layer 1</title>\n  <g id=\"svg_1\" transform=\"translate(0,411) scale(0.10000000149011612,-0.10000000149011612) \">\n   <path stroke=\"null\" id=\"svg_2\" d=\"m5.8654,4105.51318l-1.91815,-1.72705l-0.17437,-25.84082c-0.17437,-23.04248 -0.05813,-25.95972 0.75564,-27.62695c1.86,-3.51318 1.62751,-3.51318 28.77208,-3.51318c27.26083,0 27.08645,0 28.77208,3.57324c1.27876,2.85767 1.33688,50.66943 0,53.28906c-1.86001,3.69141 -0.98813,3.57227 -28.88833,3.57227l-25.45893,0l-1.86001,-1.72656zm43.71032,-28.3418l0,-16.96924l-16.27512,0l-16.27512,0l0,16.96924l0,16.96924l16.27512,0l16.27512,0l0,-16.96924z\"/>\n   <path stroke=\"null\" id=\"svg_3\" d=\"m92.87917,4087.23413c-4.18505,-2.20313 -6.21943,-5.5376 -6.33569,-10.06274c-0.05811,-6.01367 4.59193,-10.95532 10.40446,-11.07446c1.56941,0 27.26084,-0.05957 57.02103,-0.05957c59.98544,0 55.74229,-0.29761 59.40417,3.92993c4.41756,5.17993 2.73192,13.81299 -3.37129,17.02856c-2.20872,1.19092 -3.48747,1.19092 -58.82289,1.19092c-50.10411,0 -56.73041,-0.1189 -58.29979,-0.95264z\"/>\n   <path stroke=\"null\" id=\"svg_4\" d=\"m5.6329,4028.40723l-1.97628,-2.02466l0,-25.72168c0,-23.16162 0.11626,-25.90063 0.98814,-27.44873c2.03438,-3.45337 2.38314,-3.51245 28.65584,-3.51245c26.62145,0 26.97019,0.05908 28.71395,3.87012c1.33689,2.85791 1.395,50.66968 0.05812,53.28955c-1.86001,3.69141 -0.98813,3.57202 -28.94645,3.57202l-25.51707,0l-1.97626,-2.02417zm43.94282,-28.04419l0,-16.96924l-16.27512,0l-16.27512,0l0,16.96924l0,16.96948l16.27512,0l16.27512,0l0,-16.96948z\"/>\n   <path stroke=\"null\" id=\"svg_5\" d=\"m92.87917,4010.36621c-4.24318,-2.26294 -6.27758,-5.47778 -6.27758,-10.00317c-0.05811,-4.22729 1.80192,-7.56152 5.2313,-9.64526l2.79003,-1.66748l56.67228,0c63.18234,0 58.24168,-0.29761 62.07794,4.1084c4.53378,5.29932 2.61566,14.1709 -3.60373,17.08838c-2.26692,1.07178 -4.9407,1.13135 -58.76482,1.07178c-50.2785,0 -56.55605,-0.1189 -58.12543,-0.95264z\"/>\n   <path stroke=\"null\" id=\"svg_6\" d=\"m7.43478,3953.08716c-0.63938,-0.29736 -1.68565,-1.13135 -2.32502,-1.8457c-1.10438,-1.25049 -1.16252,-2.2627 -1.33689,-27.15088c-0.17437,-28.6394 -0.17437,-28.40112 3.60377,-30.24683c1.74378,-0.8335 4.94067,-0.95264 25.92395,-0.95264c20.5764,0 24.23829,0.11914 25.86581,0.95264c3.72003,1.78638 3.77814,2.08374 3.77814,29.83032c0,23.81641 -0.05811,24.94775 -1.16251,26.85303c-0.63937,1.07178 -1.86,2.20288 -2.67378,2.50098c-1.80187,0.71411 -49.98785,0.71411 -51.67348,0.05908zm42.14093,-29.53247l0,-16.96924l-16.27512,0l-16.27512,0l0,16.96924l0,16.96973l16.27512,0l16.27512,0l0,-16.96973z\"/>\n   <path stroke=\"null\" id=\"svg_7\" d=\"m93.16978,3933.61719c-4.30128,-1.90552 -6.56819,-5.35864 -6.56819,-10.0625c-0.05811,-5.41797 2.9644,-9.52661 8.02133,-10.95557c3.13876,-0.89307 110.08958,-0.89307 113.22834,0c2.49937,0.7146 5.87067,3.51294 7.14943,5.9541c1.22064,2.44116 1.04623,7.26416 -0.34879,10.06274c-0.63939,1.30981 -2.26688,3.0957 -3.60376,3.98926l-2.44125,1.66724l-56.6723,0.1189c-49.69724,0.11914 -56.96293,0 -58.76481,-0.77417z\"/>\n  </g>\n </g>\n</svg>",
+            "created": "20150807200200203",
+            "creator": "TonGerner",
+            "modified": "20160407180902068",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/list-untagged-button"
+        },
+        "$:/plugins/tongerner/toolbar/import-button": {
+            "text": "{{$:/core/ui/Buttons/import}}",
+            "caption": "{{$:/core/images/import-button}} {{$:/language/Buttons/Import/Caption}}",
+            "created": "20150810090131830",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/Import/Hint}}",
+            "modified": "20150810104118694",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/import-button"
+        },
+        "$:/plugins/tongerner/toolbar/permaview-button": {
+            "created": "20150728085559554",
+            "creator": "TonGerner",
+            "text": "{{$:/core/ui/Buttons/permaview}}",
+            "caption": "{{$:/core/images/permaview-button}} {{$:/language/Buttons/Permaview/Caption}}",
+            "description": "{{$:/language/Buttons/Permaview/Hint}}",
+            "modified": "20150810155322620",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/permaview-button"
+        },
+        "$:/plugins/tongerner/toolbar/toggle-sidebar": {
+            "text": "{{$:/core/ui/TopBar/menu}}",
+            "caption": "{{$:/core/images/chevron-right}} {{$:/language/Buttons/HideSideBar/Caption}}",
+            "created": "20150810175051794",
+            "creator": "TonGerner",
+            "description": "{{$:/language/Buttons/HideSideBar/Hint}}",
+            "modified": "20150810175918083",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/TopLeftBar",
+            "title": "$:/plugins/tongerner/toolbar/toggle-sidebar"
+        },
+        "$:/tags/TopLeftBar": {
+            "created": "20150810081323549",
+            "text": "The buttons in the toolbar can be switched on/off in ''ControlPanel > Appearance > Toolbars > Top toolbar''.\nThe default - programmed - order is according to the list below.  Drag and drop to change the ordering.\n\n* $:/plugins/tongerner/toolbar/toggle-sidebar\n* $:/plugins/tongerner/toolbar/advanced-search-button\n* $:/plugins/tongerner/toolbar/home-button\n* $:/plugins/tongerner/toolbar/full-screen-button\n* $:/plugins/tongerner/toolbar/refresh-button\n* $:/plugins/tongerner/toolbar/close-all-button\n* $:/plugins/tongerner/toolbar/controlpanel-button\n* $:/plugins/tongerner/toolbar/sidebar-button\n* $:/plugins/tongerner/toolbar/import-button\n* $:/plugins/tongerner/toolbar/export-page-button\n* $:/plugins/tongerner/toolbar/list-all-button\n* $:/plugins/tongerner/toolbar/list-recent-button\n* $:/plugins/tongerner/toolbar/list-open-tiddlers-button\n* $:/plugins/tongerner/toolbar/list-untagged-tiddlers-button\n* $:/plugins/tongerner/toolbar/new-journal-button\n* $:/plugins/tongerner/toolbar/new-template-tiddler-button\n* $:/plugins/tongerner/toolbar/new-tiddler-button\n* $:/plugins/tongerner/toolbar/theme-button\n* $:/plugins/tongerner/toolbar/palette-button\n* $:/plugins/tongerner/toolbar/storyview-button\n* $:/plugins/tongerner/toolbar/toggle-sticky-button\n* $:/plugins/tongerner/toolbar/toggle-editortoolbar-button\n* $:/plugins/tongerner/toolbar/toggle-preview-button\n* $:/plugins/tongerner/toolbar/fold-all-button\n* $:/plugins/tongerner/toolbar/unfold-all-button\n* $:/plugins/tongerner/toolbar/permaview-button\n* $:/plugins/tongerner/toolbar/save-wiki-button\n* $:/plugins/tongerner/toolbar/toggle-tagging-button\n* $:/plugins/tongerner/toolbar/rename-tags-button\n* $:/plugins/tongerner/toolbar/tiddler-manager-button\n* $:/plugins/tongerner/toolbar/tag-handling-button\n* $:/plugins/tongerner/toolbar/corrupt-tiddler-button\n* $:/plugins/tongerner/toolbar/search-delete-tiddlers-button\n* $:/plugins/tongerner/toolbar/more-toolbar-actions\n\nAdditional buttons can become available when my 'tiddlersbar' or 'tabstory' plugin is used:\n\n\"\"\"\n$:/plugins/tongerner/tiddlersbar/button\n$:/plugins/tongerner/tabstory/button\n\"\"\"\n\n<<<\n''Note:''<br>To let $:/plugins/tongerner/tiddlersbar/button and/or $:/plugins/tongerner/tabstory/button show up in in ''ControlPanel > Appearance > Toolbars > Top toolbar'', they need to be tagged with $:/tags/TopLeftBar!\n<<<\n",
+            "title": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170504095951063",
+            "list": "$:/plugins/tongerner/toolbar/toggle-sidebar $:/plugins/tongerner/toolbar/home-button $:/plugins/tongerner/toolbar/advanced-search-button $:/plugins/tongerner/toolbar/full-screen-button $:/plugins/tongerner/toolbar/refresh-button $:/plugins/tongerner/toolbar/close-all-button $:/plugins/tongerner/toolbar/controlpanel-button $:/plugins/tongerner/toolbar/sidebar-button $:/plugins/tongerner/toolbar/import-button $:/plugins/tongerner/toolbar/export-page-button $:/plugins/tongerner/toolbar/list-all-button $:/plugins/tongerner/toolbar/list-recent-button $:/plugins/tongerner/toolbar/list-open-tiddlers-button $:/plugins/tongerner/toolbar/list-untagged-tiddlers-button $:/plugins/tongerner/toolbar/new-journal-button $:/plugins/tongerner/toolbar/new-template-tiddler-button $:/plugins/tongerner/toolbar/new-tiddler-button $:/plugins/tongerner/toolbar/theme-button $:/plugins/tongerner/toolbar/palette-button $:/plugins/tongerner/toolbar/storyview-button $:/plugins/tongerner/toolbar/toggle-sticky-button $:/plugins/tongerner/toolbar/toggle-editortoolbar-button $:/plugins/tongerner/toolbar/toggle-preview-button $:/plugins/tongerner/toolbar/fold-all-button $:/plugins/tongerner/toolbar/unfold-all-button $:/plugins/tongerner/toolbar/permaview-button $:/plugins/tongerner/toolbar/save-wiki-button $:/plugins/tongerner/toolbar/toggle-tagging-button $:/plugins/tongerner/toolbar/rename-tags-button $:/plugins/tongerner/toolbar/tiddler-manager-button $:/plugins/tongerner/toolbar/tag-handling-button $:/plugins/tongerner/toolbar/corrupt-tiddler-button $:/plugins/tongerner/toolbar/search-delete-tiddlers-button $:/plugins/tongerner/toolbar/more-toolbar-actions",
+            "creator": "TonGerner"
+        },
+        "$:/plugins/tongerner/toolbar/tagging": {
+            "text": "\\define lingo-base() $:/language/EditTemplate/\n\n\\define tag-styles()\nbackground-color:$(backgroundColor)$;\nfill:$(foregroundColor)$;\ncolor:$(foregroundColor)$;\n\\end\n\n\\define tag-body-inner(colour,fallbackTarget,colourA,colourB)\n<$vars foregroundColor=<<contrastcolour target:\"\"\"$colour$\"\"\" fallbackTarget:\"\"\"$fallbackTarget$\"\"\" colourA:\"\"\"$colourA$\"\"\" colourB:\"\"\"$colourB$\"\"\">> backgroundColor=\"\"\"$colour$\"\"\">\n<span style=<<tag-styles>> class=\"tc-tag-label\">\n<$view field=\"title\" format=\"text\" />\n<$button message=\"tm-remove-tag\" param={{!!title}} class=\"tc-btn-invisible tc-remove-tag-button\">&times;</$button>\n</span>\n</$vars>\n\\end\n\n\\define tag-body(colour,palette)\n<$macrocall $name=\"tag-body-inner\" colour=\"\"\"$colour$\"\"\" fallbackTarget={{$palette$##tag-background}} colourA={{$palette$##foreground}} colourB={{$palette$##background}}/>\n\\end\n\n\\define tag-picker-actions()\n<$action-listops\n\t$tiddler=<<currentTiddler>>\n\t$field=\"tags\"\n\t$subfilter=\"[<tag>] [all[current]tags[]]\"\n/>\n\\end\n\n<div class=\"tc-edit-tags\">\n<$fieldmangler>\n<$list filter=\"[all[current]tags[]sort[title]]\" storyview=\"pop\">\n<$macrocall $name=\"tag-body\" colour={{!!color}} palette={{$:/palette}}/>\n</$list>\n</$fieldmangler>\n<$macrocall $name=\"tag-picker\" actions=<<tag-picker-actions>>/>\n</div>\n",
+            "title": "$:/plugins/tongerner/toolbar/tagging",
+            "modifier": "TonGerner",
+            "modified": "20170531074051877",
+            "list-after": "$:/core/ui/ViewTemplate/tags",
+            "creator": "TonGerner",
+            "created": "20160111124429261"
+        },
+        "$:/plugins/tongerner/toolbar/fold-all-button": {
+            "created": "20160111133242734",
+            "creator": "TonGerner",
+            "text": "{{$:/core/ui/Buttons/fold-all}}",
+            "title": "$:/plugins/tongerner/toolbar/fold-all-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modified": "20160111135108707",
+            "modifier": "TonGerner",
+            "caption": "{{$:/core/images/fold-all-button}} {{$:/language/Buttons/FoldAll/Caption}}",
+            "description": "{{$:/language/Buttons/FoldAll/Hint}}"
+        },
+        "$:/plugins/tongerner/toolbar/unfold-all-button": {
+            "created": "20160111133543876",
+            "creator": "TonGerner",
+            "text": "{{$:/core/ui/Buttons/unfold-all}}",
+            "title": "$:/plugins/tongerner/toolbar/unfold-all-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modified": "20160111135200866",
+            "modifier": "TonGerner",
+            "caption": "{{$:/core/images/unfold-all-button}} {{$:/language/Buttons/UnfoldAll/Caption}}",
+            "description": "{{$:/language/Buttons/UnfoldAll/Hint}}"
+        },
+        "$:/core/ui/PageTemplate/topleftbar": {
+            "created": "20160131125744806",
+            "creator": "TonGerner",
+            "title": "$:/core/ui/PageTemplate/topleftbar",
+            "tags": "$:/tags/PageTemplate",
+            "text": "\\define config-title()\n$:/config/TopLeftBarButtons/Visibility/$(listItem)$\n\\end\n\n<$view field=\"title\"/>\n<span class=\"tc-topbar tc-topbar-left\">\n<$list filter=\"[all[shadows+tiddlers]tag[$:/tags/TopLeftBar]!has[draft.of]]\" variable=\"listItem\">\n<$reveal type=\"nomatch\" state=<<config-title>> text=\"hide\">\n<$transclude tiddler=<<listItem>>/>\n</$reveal>\n</$list>\n</span>\n\n",
+            "modified": "20160131125851674",
+            "modifier": "TonGerner"
+        },
+        "$:/plugins/tongerner/toolbar/corrupt-tiddler-button": {
+            "text": "\\define corrupt-tiddler-button(class)\n<$button to=\"$:/plugins/tongerner/toolbar/corrupt-tiddler-template\" tooltip=\"Manage a corrupt tiddler\" class=\"\"\"$(tv-config-toolbar-class)$ $class$\"\"\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/corrupt-tiddler}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"manage corrupt tiddler\"/></span>\n</$list>\n</$button>\n\\end\n\n<$list filter=\"[list[$:/StoryList]] +[field:title[$:/plugins/tongerner/toolbar/corrupt-tiddler-button]]\" emptyMessage=<<corrupt-tiddler-button>>>\n<<corrupt-tiddler-button \"tc-selected\">>\n</$list>\n",
+            "title": "$:/plugins/tongerner/toolbar/corrupt-tiddler-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505143338479",
+            "description": "Manage a corrupt tiddler",
+            "creator": "TonGerner",
+            "created": "20160212212247535",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/corrupt-tiddler}} manage corrupt tiddler"
+        },
+        "$:/plugins/tongerner/toolbar/corrupt-tiddler-input": {
+            "text": "<$edit-text class=\"tc-edit-texteditor\" default=\"After entering the title of the tiddler (above), the source of the 'corrupt' tiddler will be displayed here and can be edited.\" tiddler={{$:/temp/corrupt-tiddler}}/>\n\n",
+            "created": "20160810185025269",
+            "creator": "TonGerner",
+            "modified": "20160810190314153",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/corrupt-tiddler-input"
+        },
+        "$:/plugins/tongerner/toolbar/corrupt-tiddler-template": {
+            "created": "20160213131631987",
+            "creator": "TonGerner",
+            "text": "Thanks to [[Alberto Molina|https://groups.google.com/d/msg/tiddlywiki/JRtIBfv2WO4/lmtywZIMQy8J]]\n\n''Enter title of 'corrupt' tiddler:''\n<$linkcatcher to=\"$:/temp/corrupt-tiddler\">\n<div class=\"tc-search\">\n<$edit-text tiddler=\"$:/temp/corrupt-tiddler\" type=\"search\" tag=\"input\" default=\"\" placeholder=\"Enter title of 'corrupt' tiddler\" size=50/>\n<$reveal state=\"$:/temp/corrupt-tiddler\" type=\"nomatch\" text=\"\">\n<$link to=\"\" class=\"tc-btn-invisible\">\n{{$:/core/images/close-button}}\n</$link>\n</$reveal>\n</div>\n</$linkcatcher>\n\n''Edit text of corrupt tiddler:''\n{{$:/plugins/tongerner/toolbar/corrupt-tiddler-input}}\n",
+            "modified": "20160811111128118",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/corrupt-tiddler-template"
+        },
+        "$:/plugins/tongerner/toolbar/images/corrupt-tiddler": {
+            "text": "<svg class=\"tgc-image-corrupt-button tc-image-button\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 521.000000 521.000000\"\n preserveAspectRatio=\"xMidYMid meet\">\n<g transform=\"translate(0.000000,521.000000) scale(0.100000,-0.100000)\">\n<path d=\"M1350 5032 c-668 -74 -1216 -136 -1217 -136 -3 -2 554 -4867 558\n-4871 2 -2 549 64 1214 146 666 82 1226 149 1245 150 19 1 360 -17 758 -41\n398 -23 725 -40 727 -38 5 4 405 4739 405 4789 l0 34 -812 43 c-447 24 -827\n43 -844 42 -31 0 -31 -1 -418 -782 l-388 -783 17 -55 c9 -30 109 -341 222\n-690 113 -349 206 -639 207 -645 0 -5 -20 -12 -47 -15 -36 -5 -51 -2 -61 10\n-20 24 -738 1259 -743 1279 -2 10 97 395 221 855 124 460 226 839 226 841 0 9\n-37 5 -1270 -133z m2839 -408 l333 -18 -5 -45 c-3 -25 -77 -890 -163 -1921\n-86 -1031 -160 -1878 -163 -1882 -6 -7 -681 27 -686 34 -9 13 -387 910 -384\n912 2 1 125 14 273 29 148 14 271 28 273 31 3 2 -124 404 -282 892 l-287 888\n274 554 273 554 105 -6 c58 -2 255 -13 439 -22z m-2223 -31 c-3 -10 -76 -279\n-162 -598 -126 -465 -155 -585 -147 -605 5 -14 168 -297 362 -630 194 -332\n353 -608 354 -613 1 -5 -128 -44 -288 -87 -159 -43 -289 -82 -288 -88 1 -6\n196 -282 434 -614 387 -542 428 -603 407 -607 -13 -2 -360 -45 -772 -95 -493\n-61 -749 -89 -751 -82 -6 18 -446 3888 -443 3891 3 2 1247 142 1281 144 13 1\n17 -4 13 -16z\"/>\n</g>\n</svg>",
+            "created": "20160213194442669",
+            "creator": "TonGerner",
+            "modified": "20160804194258428",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/corrupt-tiddler"
+        },
+        "$:/plugins/tongerner/toolbar/tag-handling": {
+            "text": "<<tabs \"[[$:/plugins/tongerner/toolbar/list-standard-tags]] [[$:/plugins/tongerner/toolbar/list-systemtags]] [[$:/plugins/tongerner/toolbar/tag-search-menu]]\" \"[[$:/plugins/tongerner/toolbar/list-standard-tags]]\">>",
+            "title": "$:/plugins/tongerner/toolbar/tag-handling",
+            "tags": "",
+            "modifier": "TonGerner",
+            "modified": "20170313194020172",
+            "creator": "TonGerner",
+            "created": "20160731104557811"
+        },
+        "$:/plugins/tongerner/toolbar/tag-handling-button": {
+            "text": "<$button to=\"$:/plugins/tongerner/toolbar/tag-handling\" tooltip=\"List & search via tags\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/tongerner/toolbar/images/tag-handling-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"list tags\"/>\n</$list>\n</$button>\n",
+            "title": "$:/plugins/tongerner/toolbar/tag-handling-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170314183222003",
+            "description": "List and expand tags",
+            "creator": "TonGerner",
+            "created": "20150728085245822",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/tag-handling-button}} tag handling"
+        },
+        "$:/plugins/tongerner/toolbar/tag-search-menu": {
+            "created": "20160613121702886",
+            "creator": "TonGerner",
+            "text": "\\define bcolor(color)\nbackground-color:$color$;\n\\end\n\n\\define ShowTagMenuSubList(title)\n<$list filter=\"[tag[$title$]!prefix[$]!is[tag]sort[title]]\"><dd><div class=\"trim-string\"><$link to={{!!title}}><$view field=\"title\"/></$link> <$list filter=\"[is[current]tags[]!prefix[$]sort[title]] -[[$title$]]\" template=\"$:/core/ui/TagTemplate\"/></div></dd></$list>\n\\end\n\n\\define ShowTagMenuItem()\n<dt><$button set=<<qualify \"$:/state/TagMenuOpenL1\">> setTo=\"$(tmi-title)$\" style=<<bcolor \"$(tmi-color)$\">>   class=\"tc-btn-invisible tc-tag-label\"><$transclude tiddler=\"$(tmi-icon)$\"/> <<tmi-title>></$button> <small class=\"tc-menu-list-count\"><$count filter=\"[[$(tmi-title)$]tagging[]!prefix[$]]\"/></small> <$link to=\"$(tmi-title)$\">↗</$link></dt>\n<$reveal type=\"match\" state=<<qualify \"$:/state/TagMenuOpenL1\">> text=\"$(tmi-title)$\">\n<<ShowTagMenuSubMenu \"$(tmi-title)$\">>\n<<ShowTagMenuSubList \"$(tmi-title)$\">>\n</$reveal>\n\\end\n\n\\define ShowTagMenuItem2()\n<dd><$button  set=<<qualify \"$:/state/TagMenuOpenL2\">> setTo=\"$(tmi-title2)$\" style=<<bcolor \"$(tmi-color2)$\">>   class=\"tc-btn-invisible tc-tag-label\"><$transclude tiddler=\"$(tmi-icon2)$\"/> <<tmi-title2>></$button> <small class=\"tc-menu-list-count\"><$count filter=\"[[$(tmi-title2)$]tagging[]!prefix[$]]\"/></small> <$link to=\"$(tmi-title2)$\">↗</$link>\n<$reveal type=\"match\" state=<<qualify \"$:/state/TagMenuOpenL2\">> text=\"$(tmi-title2)$\">\n<<ShowTagMenuSubMenu2 \"$(tmi-title2)$\">>\n<<ShowTagMenuSubList \"$(tmi-title2)$\">>\n</$reveal>\n</dd>\n\\end\n\n\\define ShowTagMenuItem3()\n<dd><$button  set=<<qualify \"$:/state/TagMenuOpenL3\">> setTo=\"$(tmi-title3)$\" style=<<bcolor \"$(tmi-color3)$\">>   class=\"tc-btn-invisible tc-tag-label\"><$transclude tiddler=\"$(tmi-icon3)$\"/> <<tmi-title3>></$button> <small class=\"tc-menu-list-count\"><$count filter=\"[[$(tmi-title3)$]tagging[]!prefix[$]]\"/></small> <$link to=\"$(tmi-title3)$\">↗</$link>\n<$reveal type=\"match\" state=<<qualify \"$:/state/TagMenuOpenL3\">> text=\"$(tmi-title3)$\">\n<<ShowTagMenuSubMenu3 \"$(tmi-title3)$\">>\n<<ShowTagMenuSubList \"$(tmi-title3)$\">>\n</$reveal>\n</dd>\n\\end\n\n\\define ShowTagMenuSubMenu(title)\n<$list filter=\"[tag[$title$]!prefix[$]is[tag]sort[title]]\"><$set name=\"tmi-title2\" value={{!!title}}><$set name=\"tmi-color2\" value={{!!color}}><$set name=\"tmi-icon2\" value={{!!icon}}><<ShowTagMenuItem2>></$set></$set></$set></$list>\n\\end\n\n\\define ShowTagMenuSubMenu2(title)\n<$list filter=\"[tag[$title$]!prefix[$]is[tag]sort[title]]\"><$set name=\"tmi-title3\" value={{!!title}}><$set name=\"tmi-color3\" value={{!!color}}><$set name=\"tmi-icon3\" value={{!!icon}}><<ShowTagMenuItem3>></$set></$set></$set></$list>\n\\end\n\n\\define ShowTagMenuSubMenu3(title)\n<$list filter=\"[tag[$title$]!prefix[$]is[tag]sort[title]]\"><dd><$transclude tiddler=\"$:/core/ui/TagTemplate\"/> <small class=\"tw-menu-list-count\"><$count filter=\"[is[current]tagging[]]\"/></small></dd>\n\\end\n\nThanks to [[aSpex Daemon|https://groups.google.com/d/msg/tiddlywiki/XxLT8zJqHYM/5dKWcxFFAAAJ]]\n\nClick <$button class=\"tc-btn-invisible tc-tag-label\" style=<<bcolor \"grey\">>> tag pill</$button> to expand.<br>\nClick <$button set=<<qualify \"$:/state/TagMenuOpenL1\">> class=\"tc-btn-invisible tc-tag-label\" style=<<bcolor \"grey\">>> close all</$button> to close list.\n\n<dt><$button set=<<qualify \"$:/state/TagMenuOpenL1\">> class=\"tc-btn-invisible tc-tag-label\" style=<<bcolor \"grey\">>> close all</$button></dt>\n<$list filter=\"[tags[]!is[system]sort[title]]\"><$set name=\"tmi-title\" value={{!!title}}><$set name=\"tmi-color\" value={{!!color}}><$set name=\"tmi-icon\" value={{!!icon}}><<ShowTagMenuItem>></$set></$set></$set></$list>\n<dt><$button set=<<qualify \"$:/state/TagMenuOpenL1\">> class=\"tc-btn-invisible tc-tag-label\" style=<<bcolor \"grey\">>> close all</$button></dt>\n",
+            "caption": "Tag menu",
+            "modified": "20160803185718506",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/tag-search-menu"
+        },
+        "$:/plugins/tongerner/toolbar/expandable-tiddler-template": {
+            "text": "<div class=\"tgc-message-box\">\n<dt>\n<div class=\"tgc-trim-string tc-menu-list-item\">\n<abbr title=\"click to expand\">\n<$button popup=<<qualify \"$:/ExpState\">> class=\"tc-btn-invisible\" selectedClass=\"tgc-font-bold\">\n<$view field=\"title\"/>\n</$button>\n</abbr>\n<abbr title=\"click to open tiddler\">\n<$link>&#8599;</$link>\n</abbr>\n<abbr title=\"click to delete\">\n<$button message=\"tm-delete-tiddler\" class=\"tc-btn-invisible\" param={{!!title}}>{{$:/core/images/delete-button}}</$button>\n</abbr>\n<$list filter=\"[is[current]tags[]!prefix[$]sort[title]]\" template=\"$:/core/ui/TagTemplate\"/>\n</div>\n</dt>\n<dt>\n^^''<$view field=\"created\" format=\"date\" template=\"YYYY-0MM-0DD 0hh:0mm:0ss\" />'' / <$view field=\"modified\" format=\"date\" template=\"YYYY-0MM-0DD 0hh:0mm:0ss\" />^^\n</dt>\n</div>\n\n<$reveal state=<<qualify \"$:/ExpState\">> type=\"nomatch\" text=\"\">\n<$transclude mode=\"block\"/>\n</$reveal>\n",
+            "created": "20160612134937083",
+            "creator": "TonGerner",
+            "modified": "20160809164106322",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/expandable-tiddler-template"
+        },
+        "$:/plugins/tongerner/toolbar/images/tag-handling-button": {
+            "text": "<svg class=\"tgc-list-tags-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22px\" height=\"22px\"><path d=\"m0.1875,4.2932l0,4.1057l13.06098,13.02746c0.5684,0.56672 1.48974,0.56672 2.05813,0l6.17418,-6.15877c0.56818,-0.56672 0.56818,-1.4857 0,-2.05285l-13.06098,-13.02724l-4.11605,0l-4.11627,4.1057zm6.81947,2.62217c-0.5684,0.56694 -1.48974,0.56694 -2.05813,0c0.5684,-0.56694 -0.5684,-1.48591 0,-2.05285c0.56818,-0.56694 1.48952,-0.56694 2.05813,0c0.5684,0.56694 0.5684,1.48591 0,2.05285z\"/></svg>",
+            "created": "20131020115200000",
+            "creator": "TonGerner",
+            "modified": "20160731150156105",
+            "modifier": "TonGerner",
+            "title": "$:/plugins/tongerner/toolbar/images/tag-handling-button"
+        },
+        "$:/plugins/tongerner/toolbar/search-delete-tiddlers": {
+            "text": "Thanks to [[Stephan Hradek/Matabele|https://groups.google.com/d/msg/tiddlywiki/U9GYlwVXp6M/lubA413asP4J]]/[[Tobias Beer|http://tobibeer.github.io/tb5/#%24%3A%2F.tb%2Ftemplates%2Fdelete-filter]]\n\nEnter filter expression<br>(e.g. `[prefix[$:/state/]]`, `[tag[mytag]]` or more specific `[tag[mytag]search[mytext]]`):\n\n<$linkcatcher to=\"$:/temp/delete-filter\">\n<div class=\"tc-search\">\n<$edit-text tiddler=\"$:/temp/delete-filter\" tag=\"input\" placeholder=\"enter a filter expression\" default=\"\" size=50/>\n<$reveal state=\"$:/temp/delete-filter\" type=\"nomatch\" text=\"\">\n<$link to=\"\" class=\"tc-btn-invisible\">\n{{$:/core/images/close-button}}\n</$link>\n</$reveal>\n</div>\n</$linkcatcher>\n\nClick @@.tgc-underlined link@@ to expand tiddler, click ''&#8599;'' to open tiddler, click {{$:/core/images/delete-button}} to delete tiddler.<br>Click @@.dummybutton Delete all: ''[filter]'' tiddlers@@ to delete ''all'' filtered tiddlers.\n\n<$list filter={{$:/temp/delete-filter}} template=\"$:/plugins/tongerner/toolbar/expandable-tiddler-template\"/>\n\n<$button>\n<$set name=\"myVariable\" value={{$:/temp/delete-filter}}>\n<$action-deletetiddler $filter=<<myVariable>> />\nDelete all: ''{{$:/temp/delete-filter}}'' tiddlers\n</$set>\n</$button>\n",
+            "title": "$:/plugins/tongerner/toolbar/search-delete-tiddlers",
+            "modifier": "TonGerner",
+            "modified": "20160926175923142",
+            "creator": "TonGerner",
+            "created": "20160729193254618"
+        },
+        "$:/plugins/tongerner/toolbar/search-delete-tiddlers-button": {
+            "created": "20160803185834570",
+            "creator": "TonGerner",
+            "text": "<$button to=\"$:/plugins/tongerner/toolbar/search-delete-tiddlers\" tooltip=\"Search & delete tiddlers\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/delete-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"search & delete tiddlers\"/>\n</$list>\n</$button>",
+            "title": "$:/plugins/tongerner/toolbar/search-delete-tiddlers-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modified": "20160803191302452",
+            "modifier": "TonGerner",
+            "type": "",
+            "caption": "{{$:/core/images/delete-button}} search & delete",
+            "description": "Search & delete tiddlers"
+        },
+        "$:/plugins/tongerner/toolbar/toggle-editortoolbar-button": {
+            "text": "<$reveal state=\"$:/config/TextEditor/EnableToolbar\" type=\"nomatch\" text=\"no\">\n<$button set=\"$:/config/TextEditor/EnableToolbar\" setTo=\"no\" tooltip=\"Hide editor toolbar\" class=\"tgc-active-indicator tc-btn-invisible\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\" variable=\"listItem\">\n{{$:/core/images/edit-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"non-sticky behaviour\"/></span>\n</$list>\n</$button>\n\n</$reveal>\n<$reveal state=\"$:/config/TextEditor/EnableToolbar\" type=\"match\" text=\"no\">\n<$button set=\"$:/config/TextEditor/EnableToolbar\" setTo=\"yes\" tooltip=\"Show editor toolbar\" class=\"tc-btn-invisible\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\" variable=\"listItem\">\n{{$:/core/images/edit-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"sticky behaviour\"/></span>\n</$list>\n</$button>\n</$reveal>\n",
+            "title": "$:/plugins/tongerner/toolbar/toggle-editortoolbar-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505115507673",
+            "description": "Toggle editor toolbar",
+            "creator": "TonGerner",
+            "created": "20160727112924760",
+            "caption": "{{$:/core/images/edit-button}} toggle editor toolbar"
+        },
+        "$:/plugins/tongerner/toolbar/images/disable-toolbar": {
+            "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 8 8\">\n  <path d=\"M4 0c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 1v2h3v2h-3v2l-3-3 3-3z\" />\n</svg>",
+            "created": "20160815143553927",
+            "creator": "TonGerner",
+            "list-after": "",
+            "modified": "20160913142125093",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/disable-toolbar"
+        },
+        "$:/plugins/tongerner/toolbar/images/enable-toolbar": {
+            "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 8 8\">\n  <path d=\"M4 0c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 1l3 3-3 3v-2h-3v-2h3v-2z\" />\n</svg>",
+            "created": "20160815143621896",
+            "creator": "TonGerner",
+            "modified": "20160913142150234",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/enable-toolbar"
+        },
+        "$:/plugins/tongerner/toolbar/more-toolbar-actions": {
+            "text": "\\define config-title()\n$:/config/TopLeftBarButtons/Visibility/$(listItem)$\n\\end\n<$button popup=<<qualify \"$:/state/popup/more\">> tooltip={{$:/language/Buttons/More/Hint}} aria-label={{$:/language/Buttons/More/Caption}} class=<<tv-config-toolbar-class>> selectedClass=\"tc-selected\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/down-arrow}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/language/Buttons/More/Caption}}/></span>\n</$list>\n</$button><$reveal state=<<qualify \"$:/state/popup/more\">> type=\"popup\" position=\"below\" animate=\"yes\">\n<div class=\"tgc-more tc-drop-down\">\n<$set name=\"tv-config-toolbar-icons\" value=\"yes\">\n<$set name=\"tv-config-toolbar-text\" value=\"yes\">\n<$set name=\"tv-config-toolbar-class\" value=\"tc-btn-invisible\">\n<$list filter=\"[all[shadows+tiddlers]tag[$:/tags/TopLeftBar]!has[draft.of]] -[[$:/plugins/tongerner/toolbar/more-toolbar-actions]]\" variable=\"listItem\">\n<$reveal type=\"match\" state=<<config-title>> text=\"hide\">\n<$transclude tiddler=<<listItem>> mode=\"inline\"/>\n</$reveal>\n</$list>\n</$set>\n</$set>\n</$set>\n</div>\n</$reveal>",
+            "title": "$:/plugins/tongerner/toolbar/more-toolbar-actions",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505171326970",
+            "description": "{{$:/language/Buttons/More/Hint}}",
+            "creator": "TonGerner",
+            "created": "20161010113847343",
+            "caption": "{{$:/core/images/down-arrow}} {{$:/language/Buttons/More/Caption}}"
+        },
+        "$:/plugins/tongerner/toolbar/toggle-preview-button": {
+            "text": "<$reveal state=\"$:/state/showeditpreview\" type=\"nomatch\" text=\"no\">\n<$button set=\"$:/state/showeditpreview\" setTo=\"no\" tooltip=\"Hide preview\" class=\"tgc-active-indicator tc-btn-invisible\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\" variable=\"listItem\">\n{{$:/core/images/preview-open}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"non-sticky behaviour\"/></span>\n</$list>\n</$button>\n\n</$reveal>\n<$reveal state=\"$:/state/showeditpreview\" type=\"match\" text=\"no\">\n<$button set=\"$:/state/showeditpreview\" setTo=\"yes\" tooltip=\"Show preview\" class=\"tc-btn-invisible\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\" variable=\"listItem\">\n{{$:/core/images/preview-closed}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"sticky behaviour\"/></span>\n</$list>\n</$button>\n</$reveal>\n",
+            "title": "$:/plugins/tongerner/toolbar/toggle-preview-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505115527822",
+            "description": "Toggle preview",
+            "creator": "TonGerner",
+            "created": "20161225111254821",
+            "caption": "{{$:/core/images/preview-open}} toggle preview"
+        },
+        "$:/plugins/tongerner/toolbar/toggle-sticky-button": {
+            "text": "<$reveal state=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" type=\"nomatch\" text=\"no\">\n<$button set=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" setTo=\"no\" tooltip=\"No sticky titles\" class=\"tgc-active-indicator tc-btn-invisible\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\" variable=\"listItem\">\n{{$:/plugins/tongerner/toolbar/images/sticky-icon}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"non-sticky behaviour\"/></span>\n</$list>\n</$button>\n\n</$reveal>\n<$reveal state=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" type=\"match\" text=\"no\">\n<$button set=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" setTo=\"yes\" tooltip=\"Sticky titles\" class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\" variable=\"listItem\">\n{{$:/plugins/tongerner/toolbar/images/sticky-icon}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"sticky behaviour\"/></span>\n</$list>\n</$button>\n</$reveal>",
+            "title": "$:/plugins/tongerner/toolbar/toggle-sticky-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modifier": "TonGerner",
+            "modified": "20170505115544470",
+            "description": "Toggle sticky behaviour",
+            "creator": "TonGerner",
+            "created": "20170131182427858",
+            "caption": "{{$:/plugins/tongerner/toolbar/images/sticky-icon}} toggle sticky behaviour"
+        },
+        "$:/plugins/danielo/tagSearch/css": {
+            "created": "20140924100100430",
+            "modified": "20170313155351224",
+            "tags": "$:/tags/Stylesheet",
+            "title": "$:/plugins/danielo/tagSearch/css",
+            "type": "text/css",
+            "text": ".tc-advanced-search .tc-radio input { width: auto; }",
+            "modifier": "TonGerner"
+        },
+        "$:/plugins/danielo/tagSearch/macros/extractTagsAsFilter.js": {
+            "created": "20140110061443770",
+            "text": "/*\\\ncreated: 20140110061443770\ncreator: Danielo Rodriguez\nmodified: 20140415014136920\nmodifier: Danielo\ntags: macros\ntitle: $:/plugins/danielo/tagSearch/macros/extractTagsAsFilter.js\ntype: application/javascript\nmodule-type: macro\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\n/*\nInformation about this macro\nThis is developed to .\n*/\n\nexports.name = \"extractTagsAsFilter\";\n\nexports.params = [\n\t{ name: \"tiddlerName\" }\n];\n\n/*\nRun the macro\n*/\nexports.run = function(tiddlerName) {\n   var tiddler=$tw.wiki.getTiddler(tiddlerName);\n    var result=\"\";\n    if(tiddler && tiddler.fields.tags)\n    {\n        var tags=tiddler.fields.tags;\n        for(var i=0; i<tags.length; i++)\n            result+=\"tag[\"+tags[i]+\"]\";\n    }\n\nreturn result;\n}\n\n})();",
+            "creator": "Danielo Rodriguez",
+            "modified": "20170313155325139",
+            "modifier": "TonGerner",
+            "tags": "macros",
+            "title": "$:/plugins/danielo/tagSearch/macros/extractTagsAsFilter.js",
+            "type": "application/javascript",
+            "module-type": "macro"
+        },
+        "$:/plugins/danielo/tagSearch/readme": {
+            "text": "This plugin allows you to refine searches using tags. It's possible to search without any tag and the opposite, using just tags as filter.\n\n!! How to use\nAfter installing it you will have a new tab in \"Advanced search\" tiddler. You can also transclude this search whatever you want just transcluding it\n\n```\n{{TagsSearch}}\n```\n\n\n",
+            "type": "text/vnd.tiddlywiki",
+            "title": "$:/plugins/danielo/tagSearch/readme",
+            "modified": "20170313170222220",
+            "created": "20140927204347971"
+        },
+        "$:/plugins/danielo/tagSearch/SearchFilter": {
+            "created": "20140414232747021",
+            "modified": "20170313155436114",
+            "module-type": "macro",
+            "tags": "macros",
+            "title": "$:/plugins/danielo/tagSearch/SearchFilter",
+            "type": "application/javascript",
+            "text": "/*\\\ntitle: $:/macros/danielo/SearchFilter.js\ntype: application/javascript\nmodule-type: macro\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\n/*\nInformation about this macro\nThis returns an empty search string if tiddlerName is empty. This avoids all tiddlers as result when using an empty as search string. \n*/\n\nexports.name = \"search-filter\";\n\nexports.params = [\n\t{ name: \"tiddlerName\" }\n];\n\n/*\nRun the macro\n*/\nexports.run = function(tiddlerName) {\n   var tiddler=$tw.wiki.getTiddler(tiddlerName);\n    var result=\"search{}\"; //by default,empty search\n    if(tiddler && tiddler.fields.text.trim().length>0 || tiddler.fields.tags)\n    {\n            result=\"search{\"+tiddlerName+\"}\";\n    }\n\nreturn result;\n}\n\n})();",
+            "modifier": "TonGerner"
+        },
+        "$:/plugins/tongerner/toolbar/tagssearch": {
+            "text": "\\define lingo-base() $:/language/EditTemplate/\n\n\\define tag-styles()\nbackground-color:$(backgroundColor)$;\nfill:$(foregroundColor)$;\ncolor:$(foregroundColor)$;\n\\end\n\n\\define tag-body-inner(colour,fallbackTarget,colourA,colourB)\n<$vars foregroundColor=<<contrastcolour target:\"\"\"$colour$\"\"\" fallbackTarget:\"\"\"$fallbackTarget$\"\"\" colourA:\"\"\"$colourA$\"\"\" colourB:\"\"\"$colourB$\"\"\">> backgroundColor=\"\"\"$colour$\"\"\">\n<span style=<<tag-styles>> class=\"tc-tag-label\">\n<$view field=\"title\" format=\"text\" />\n<$button message=\"tm-remove-tag\" param={{!!title}} class=\"tc-btn-invisible tc-remove-tag-button\">&times;</$button>\n</span>\n</$vars>\n\\end\n\n\\define tag-body(colour,palette)\n<$macrocall $name=\"tag-body-inner\" colour=\"\"\"$colour$\"\"\" fallbackTarget={{$palette$##tag-background}} colourA={{$palette$##foreground}} colourB={{$palette$##background}}/>\n\\end\n\n\\define tag-filter() [![$:/temp/search]!has[draft.of]!is[current]$(systemFilter)$$(shadowFilter)$$(searchFilter)$$(tagNames)$sort[title]]\n\n\\define show-system()\n<div>\nSystem tiddlers:\n<$radio field=\"systemfilter\" value=\"\"> Show </$radio>&nbsp; <$radio field=\"systemfilter\" value=\"!is[system]\"> Hide </$radio>\n</div>\n\\end\n\n\\define show-shadow()\n<small><div> <em> Shadow:</em> <$radio field=\"shadowfilter\" value=\"is[shadow]\">  Show </$radio> <$radio field=\"shadowfilter\" value=\"!is[shadow]\"> Hide </$radio></div></small>\n\\end\n\nThanks to [[Danielo|http://braintest.tiddlyspot.com/#TagsSearch-Plugin]]\n\n<div class=\"tc-search\">\n<$edit-text tiddler=\"$:/temp/search\" type=\"search\" tag=\"input\"/>\n<$reveal state=\"$:/temp/search\" type=\"nomatch\" text=\"\">\n<$linkcatcher to=\"$:/temp/search\">\n<$link to=\"\" class=\"tc-btn-invisible\">{{$:/core/images/close-button}}</$link>\n</$linkcatcher>\n</$reveal>\n</div>\n<$fieldmangler tiddler=\"$:/temp/search\">\n\n<div class=\"tc-edit-add-tag\">\n<span class=\"tc-add-tag-name\">\n<$edit-text tiddler=\"$:/temp/NewTagName\" tag=\"input\" default=\"\" placeholder={{$:/language/EditTemplate/Tags/Add/Placeholder}} focusPopup=<<qualify \"$:/state/popup/tags-auto-complete\">> class=\"tc-edit-texteditor tc-popup-handle\"/>\n</span>\n<$button popup=<<qualify \"$:/state/popup/tags-auto-complete\">> class=\"tc-btn-invisible tc-btn-dropdown\" tooltip={{$:/language/EditTemplate/Tags/Dropdown/Hint}} aria-label={{$:/language/EditTemplate/Tags/Dropdown/Caption}}>{{$:/core/images/down-arrow}}\n</$button>\n<span class=\"tc-add-tag-button\">\n<$button message=\"tm-add-tag\" param={{$:/temp/NewTagName}} set=\"$:/temp/NewTagName\" setTo=\"\" tooltip=\"Add tag\">''+''</$button>\n</span>\n</div>\n\n<div class=\"tc-block-dropdown-wrapper\">\n<$reveal state=<<qualify \"$:/state/popup/tags-auto-complete\">> type=\"nomatch\" text=\"\" default=\"\">\n<div class=\"tc-block-dropdown\">\n<$linkcatcher set=\"$:/temp/NewTagName\" setTo=\"\" message=\"tm-add-tag\">\n<$list filter=\"[tags[]!is[system]search:title{$:/temp/NewTagName}sort[]]\">\n{{||$:/core/ui/Components/tag-link}}\n</$list>\n<hr>\n<$list filter=\"[tags[]is[system]search:title{$:/temp/NewTagName}sort[]]\">\n{{||$:/core/ui/Components/tag-link}}\n</$list>\n</$linkcatcher>\n</div>\n</$reveal>\n</div>\n<$list filter=\"[[$:/temp/search]tags[]sort[title]]\" storyview=\"pop\"><$set name=\"backgroundColor\" value={{!!color}}><span style=<<tag-styles>> class=\"tc-tag-label\">\n<$view field=\"title\" format=\"text\" />\n<$button message=\"tm-remove-tag\" param={{!!title}} class=\"tc-btn-invisible tc-remove-tag-button\">&times;</$button></span>\n</$set>\n</$list>\n</$fieldmangler>\n<div style=\"display:inline;\"><<show-system>></div>\n<$set name=\"searchFilter\" value=<<search-filter \"$:/temp/search\">> >\n<$set name=\"tagNames\" value=<<extractTagsAsFilter \"$:/temp/search\">> >\n<$set name=\"systemFilter\" value={{!!systemfilter}}>\n<br>\n<$list filter=<<tag-filter>> template=\"$:/plugins/tongerner/toolbar/expandable-tiddler-template\">\n\n</$list>\n</$set></$set></$set>",
+            "title": "$:/plugins/tongerner/toolbar/tagssearch",
+            "tags": "$:/tags/AdvancedSearch",
+            "systemfilter": "!is[system]",
+            "modifier": "TonGerner",
+            "modified": "20170313170043313",
+            "creator": "TonGerner",
+            "created": "20161215195311696",
+            "caption": "Tags search"
+        },
+        "$:/plugins/tongerner/toolbar/images/tagging-button": {
+            "created": "20150806203451280",
+            "text": "<svg class=\"tgc-tagging-on-button tc-image-button\" height=\"28px\" width=\"28px\" viewBox=\"0 0 22 22\">\n<path id=\"svg_1\" d=\"m7.4224,21.44207l13.97943,-13.96076c0.08521,-0.08543 0.15867,-0.1777 0.22215,-0.27477c0.17689,-0.22723 0.28806,-0.5095 0.28877,-0.82012l-0.00162,-4.94194c0.00091,-0.74124 -0.59945,-1.34073 -1.34167,-1.3403l-4.9476,-0.00043c-0.31232,0 -0.59452,0.11003 -0.82238,0.28763c-0.09682,0.06387 -0.18954,0.13724 -0.27474,0.22229l-13.97857,13.96114c-0.66794,0.66711 -0.6687,1.74766 0,2.41468l4.45844,4.45256c0.66695,0.66621 1.74972,0.66707 2.41779,0zm9.42597,-18.24285c0.54183,-0.54193 1.42166,-0.54193 1.9644,0c0.54268,0.54203 0.54268,1.42046 0,1.96245c-0.54269,0.54151 -1.42257,0.54151 -1.9644,0c-0.54263,-0.54203 -0.54263,-1.42046 0,-1.96245z\"/>\n</svg>",
+            "creator": "TonGerner",
+            "modified": "20170314180011225",
+            "modifier": "TonGerner",
+            "tags": "",
+            "title": "$:/plugins/tongerner/toolbar/images/tagging-button"
+        },
+        "$:/plugins/tongerner/toolbar/images/sticky-icon": {
+            "text": "<svg class=\"tgc-sticky-button tc-image-button\" height=\"22px\" width=\"22px\" viewBox=\"0 0 290 290\">\n<path d=\"M284.779,92.635L197.365,5.222c-6.962-6.963-18.253-6.963-25.217,0l-0.818,0.818c-6.964,6.963-6.963,18.254,0,25.217\n\tl1.232,1.232L97.788,95.371L95.6,93.182c-2.412-2.412-5.691-3.688-9.484-3.688c-6.215,0-13.456,3.53-19.369,9.443l-5.059,5.059\n\tc-1.238,1.237-1.932,2.915-1.932,4.665c0,1.749,0.694,3.428,1.932,4.665l43.014,43.013L2.526,271.29\n\tc-3.52,3.959-3.34,9.977,0.408,13.72l2.07,2.066C6.949,289.019,9.507,290,12.071,290c2.369,0,4.743-0.838,6.642-2.526\n\tl114.946-102.175l43.015,43.015c1.288,1.288,2.976,1.932,4.665,1.932c1.688,0,3.376-0.644,4.665-1.932l5.06-5.06\n\tc9.864-9.865,12.338-22.27,5.754-28.855l-2.187-2.186l62.881-74.773l1.232,1.231c6.962,6.963,18.252,6.963,25.214-0.002l0.819-0.818\n\tC291.74,110.888,291.741,99.599,284.779,92.635z\"/>\n</svg>\n",
+            "title": "$:/plugins/tongerner/toolbar/images/sticky-icon",
+            "tags": "",
+            "modified": "20170314125946693",
+            "created": "20170314123023395"
+        },
+        "$:/plugins/tongerner/toolbar/tiddler-manager-button": {
+            "text": "\\define tiddler-manager-button(class)\n<$button to=\"$:/Manager\" tooltip=\"Manage tiddlers\" class=\"\"\"$(tv-config-toolbar-class)$ $class$\"\"\">\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/list}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text=\"manage tiddlers\"/></span>\n</$list>\n</$button>\n\\end\n\n<$list filter=\"[list[$:/StoryList]] +[field:title[$:/Manager]]\" emptyMessage=<<tiddler-manager-button>>>\n<<tiddler-manager-button \"tc-selected\">>\n</$list>",
+            "title": "$:/plugins/tongerner/toolbar/tiddler-manager-button",
+            "tags": "$:/tags/TopLeftBar",
+            "modified": "20170505115451875",
+            "description": "Manage tiddlers",
+            "created": "20170503094941294",
+            "caption": "{{$:/core/images/list}} manage tiddlers"
+        },
+        "$:/language/ControlPanel/Toolbars/TopLeftBar/Hint": {
+            "created": "20170504074539994",
+            "text": "Choose which tiddlers are displayed on the top left toolbar. Drag and drop to change the ordering",
+            "title": "$:/language/ControlPanel/Toolbars/TopLeftBar/Hint",
+            "tags": "",
+            "modified": "20170504081701002"
+        }
+    }
+}

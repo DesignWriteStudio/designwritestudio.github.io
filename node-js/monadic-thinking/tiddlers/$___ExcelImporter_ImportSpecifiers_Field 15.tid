@@ -1,0 +1,13 @@
+created: 20170612103410061
+import-field-column: web-actio
+import-field-list-op: append
+import-field-name: tags
+import-field-skip-tiddler-if-blank: yes
+import-field-source: constant
+import-field-type: string
+import-field-value: web-action
+import-spec-role: field
+modified: 20171204201449954
+title: $:/_ExcelImporter/ImportSpecifiers/Field 15
+type: text/vnd.tiddlywiki
+

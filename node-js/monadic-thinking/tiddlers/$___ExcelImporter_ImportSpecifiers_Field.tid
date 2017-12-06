@@ -1,0 +1,11 @@
+created: 20170605220637865
+import-field-column: generic-notetext
+import-field-name: title
+import-field-prefix: 
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450049
+title: $:/_ExcelImporter/ImportSpecifiers/Field
+type: text/vnd.tiddlywiki
+

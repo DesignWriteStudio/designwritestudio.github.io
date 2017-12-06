@@ -1,0 +1,14 @@
+caption: {{$:/_Icon/options}} Options
+created: 20160409074144650
+modified: 20171204201450320
+tags: $:/_Menu/Home SampleDataExtras
+title: $:/_Menu/Home/Configuration/Options
+type: text/vnd.tiddlywiki
+
+* ''Tiddler titles:'' <$radio  tiddler="$:/core/ui/ViewTemplate/title" field="tags" value="">Hide</$radio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$radio  tiddler="$:/core/ui/ViewTemplate/title" field="tags" value="$:/tags/ViewTemplate">Show</$radio>
+* ''Tiddler subtitles:'' <$radio  tiddler="$:/core/ui/ViewTemplate/subtitle" field="tags" value="">Hide</$radio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$radio  tiddler="$:/core/ui/ViewTemplate/subtitle" field="tags" value="$:/tags/ViewTemplate">Show</$radio>
+* ''Tiddler tags:'' <$radio  tiddler="$:/core/ui/ViewTemplate/tags" field="tags" value="">Hide</$radio>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<$radio  tiddler="$:/core/ui/ViewTemplate/tags" field="tags" value="$:/tags/ViewTemplate">Show</$radio>
+
+<hr>
+
+[img width="10px"[$:/_Icon/code-elements]] <small>''Tab source:'' [[$:/_Menu/Home/Configuration/Options]]</small>

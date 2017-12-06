@@ -1,0 +1,16 @@
+caption: Layout adjustment
+created: 20150729185548862
+creator: TonGerner
+modified: 20171204201452635
+modifier: TonGerner
+status: upgraded to
+tags: plugin
+title: Layout adjustment plugin
+type: text/vnd.tiddlywiki
+
+!! [[Layout adjustment plugin]] v<<pversion "layout_adjustment">>
+
+''Status:'' @@.RED {{Layout adjustment plugin!!status}} v<<version>>@@
+
+<<readme $:/plugins/tongerner/layout_adjustment/readme $:/plugins/tongerner/layout_adjustment>>
+

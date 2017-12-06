@@ -1,0 +1,10 @@
+created: 20170611153716639
+import-field-column: medium
+import-field-name: medium
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450227
+title: $:/_ExcelImporter/ImportSpecifiers/Field 22
+type: text/vnd.tiddlywiki
+

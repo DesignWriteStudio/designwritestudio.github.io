@@ -1,0 +1,12 @@
+created: 20170611141544338
+modified: 20171204201453223
+tags: $:/tags/ViewTemplate
+title: TableTiddlers Template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[TableTiddlers]]">
+There are <$count filter="[tag{!!row}tag{!!col}]"/> sites with these tags<hr>
+
+<$list filter="[tag{!!row}tag{!!col}]">
+<$link><<currentTiddler>></$link><br>
+</$list>

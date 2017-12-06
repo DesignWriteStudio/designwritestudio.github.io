@@ -1,0 +1,22 @@
+created: 20160815144023076
+creator: TonGerner
+list-before: $:/core/ui/TopBar/menu
+modified: 20171204201450301
+modifier: stevesuny
+tags: DisableToolbar
+title: $:/_toggle-toolbar-plugin-button
+type: text/vnd.tiddlywiki
+
+\define save_refresh()
+<$action-sendmessage $message="tm-save-wiki"/>
+<$action-sendmessage $message="tm-browser-refresh"/>
+\end
+
+<$reveal state="$:/config/Plugins/Disabled/$:/plugins/tongerner/toolbar" type="nomatch" text="no">
+<$button set="$:/config/Plugins/Disabled/$:/plugins/tongerner/toolbar" setTo="no" tooltip="Enable toolbar" class="tc-btn-invisible" actions=<<save_refresh>>><$transclude tiddler="$:/plugins/tongerner/toolbar" subtiddler="$:/plugins/tongerner/toolbar/images/enable-toolbar"/>
+</$button>
+</$reveal>
+<$reveal state="$:/config/Plugins/Disabled/$:/plugins/tongerner/toolbar" type="match" text="no">
+<$button set="$:/config/Plugins/Disabled/$:/plugins/tongerner/toolbar" setTo="yes" tooltip="Disable toolbar" class="tc-btn-invisible" actions=<<save_refresh>>>{{$:/plugins/tongerner/toolbar/images/disable-toolbar}}
+</$button>
+</$reveal>

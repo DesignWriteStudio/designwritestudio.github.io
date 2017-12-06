@@ -1,0 +1,14 @@
+created: 20170625215550767
+creator: stevesuny
+modified: 20171204201451360
+modifier: stevesuny
+tags: [[Project Pitch]]
+title: Background
+type: text/vnd.tiddlywiki
+
+This project explores the use of TiddlyWiki, a wiki with a distinctive data model integrating code and content within a single-page HTML file, as a tool for monadic exploration of data.
+
+* The notion of monadic exploration, drawn and [[Latour et al (20012)|The whole is always smaller than its parts]] and [[Dörk et al (2014)|Monadic Exploration]], “brings the contradictory representations of individual  elements and entire collections closer together and suggests continuous movements between partially overlapping vantage points.” 
+* Much of the work in monadic exploration has focused on visualization; in this project, we begin with an initial focus using hypertextualization techniques of tagging, linking and filtering to develop a text-based exploration of a data set. 
+* [[TiddlyWiki|What is TiddlyWiki?]], the tool chosen to develop this exploration, affords the opportunity to create an interface to a knowledge base integrating research objects, source material, and narrative description of the monadic exploration. 
+* As a case study, we will focus on archived Web pages and objects from the days and weeks following the September 11 terrorist attacks in the United States.

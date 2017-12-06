@@ -1,0 +1,10 @@
+coltag: Appropriating
+created: 20170615011753855
+creator: stevesuny
+modified: 20171204201454004
+modifier: stevesuny
+rowtag: Individual/Volunteer
+title: Web pages tagged Individual/Volunteer and Appropriating
+type: text/vnd.tiddlywiki
+
+<$macrocall $name='cell-list'/>

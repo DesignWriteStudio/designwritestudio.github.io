@@ -1,0 +1,13 @@
+created: 20170626094145414
+creator: stevesuny
+import-field-column: title
+import-field-name: title
+import-field-source: column
+import-field-suffix: 
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450162
+modifier: stevesuny
+title: $:/_ExcelImporter/ImportSpecifiers/Field 38
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,137 @@
+author: TonGerner
+core-version: 5.1.14
+created: 20170325114613015
+creator: TonGerner
+description: TiddlersBar
+list: readme combination license
+modified: 20171204201450755
+modifier: TonGerner
+plugin-type: plugin
+source: http://tongerner.tiddlyspot.com/
+tags: 
+title: $:/plugins/tongerner/tiddlersbar
+type: application/json
+version: 0.0.5
+
+{
+    "tiddlers": {
+        "$:/plugins/tongerner/tiddlersbar/button": {
+            "text": "<$fieldmangler tiddler=\"$:/plugins/tongerner/tiddlersbar/styles\">\n<$list filter=\"[[$:/plugins/tongerner/tiddlersbar/styles]tag[$:/tags/Stylesheet]]\"><$button message=\"tm-remove-tag\" tooltip=\"Hide Tiddlersbar\" param=\"$:/tags/Stylesheet\" class=<<tv-config-toolbar-class>>>\n<span class=\"tgc-active-indicator\">\n{{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off}}\n</span>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tgc-active-indicator\">\n<$text text=\"tiddlersbar\"/>\n</span>\n</$list>\n</$button>\n</$list>\n<$list filter=\"[[$:/plugins/tongerner/tiddlersbar/styles]!tag[$:/tags/Stylesheet]]\">\n<$button message=\"tm-add-tag\" tooltip=\"Show tiddlersbar\" param=\"$:/tags/Stylesheet\" class=<<tv-config-toolbar-class>>>{{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}}\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<$text text=\"tiddlersbar\"/>\n</$list>\n</$button>\n</$list>\n</$fieldmangler>\n",
+            "title": "$:/plugins/tongerner/tiddlersbar/button",
+            "tags": "$:/tags/PageControls $:/tags/ViewToolbar",
+            "modifier": "TonGerner",
+            "modified": "20170325122226644",
+            "description": "Toggle tiddlersbar on/off",
+            "creator": "TonGerner",
+            "created": "20170325114731405",
+            "caption": "{{$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on}} breadcrumbs"
+        },
+        "$:/plugins/tongerner/tiddlersbar/combination": {
+            "created": "20170325114751649",
+            "text": "In case the Tiddlersbar 'menu' has to be combined with other 'top menus' like the ones in 'Toolbar' ^^''1''^^ or 'Top menu' ^^''1''^^, some adjustments to the Tiddlersbar and the 'receiving' TW are required:\n\n# The Tiddlersbar has to be shifted downwards, otherwise toolbars and/or top menu will be hidden:\n#* Adjust @@.BLUE Top 'Tiddlersbar'@@ (In ''~ControlPanel > Appearance > Plugin tweaks'', tab 'Tiddlersbar' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]).\n# To prevent the Tiddlersbar menu hides the top part of the tiddlers and the Sidebar, story-river and Sidebar have to be shifted downwards as well.\n#* Adjust @@.BLUE Story top position@@ and @@.BLUE Sidebar top position\t@@ with the same amount (In ''~ControlPanel > Appearance > Plugin tweaks'', tab 'Theme tweaks' or direct via [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]).\n\n^^''1''^^ http://tongerner.tiddlyspot.com/",
+            "title": "$:/plugins/tongerner/tiddlersbar/combination",
+            "tags": "",
+            "modified": "20170330091727242"
+        },
+        "$:/plugins/tongerner/tiddlersbar/icon": {
+            "text": "<svg width=\"99.212598\" height=\"99.212598\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\">\n\n <metadata id=\"metadata7\">image/svg+xml</metadata>\n <g>\n  <title>Layer 1</title>\n  <path fill=\"#a0a0ff\" stroke=\"#a0a0ff\" stroke-width=\"1.2218\" stroke-miterlimit=\"4\" d=\"m48.98237,97.86909l-41.98313,-24.239l0,-48.47796l41.98313,-24.23897l41.98313,24.23897l0,48.47796l-41.98313,24.239z\" id=\"path4142\"/>\n  <rect fill=\"#000000\" stroke=\"#000000\" stroke-width=\"8.78819\" stroke-miterlimit=\"4\" stroke-opacity=\"0\" y=\"25.08274\" x=\"8.68744\" height=\"9.10985\" width=\"16.25652\" id=\"rect4807\"/>\n  <rect fill=\"#000000\" stroke=\"#000000\" stroke-width=\"8.78819\" stroke-miterlimit=\"4\" stroke-opacity=\"0\" id=\"rect4809\" width=\"16.25652\" height=\"9.10985\" x=\"54.08981\" y=\"25.08274\"/>\n  <rect fill=\"#000000\" stroke=\"#000000\" stroke-width=\"8.78819\" stroke-miterlimit=\"4\" stroke-opacity=\"0\" y=\"25.08274\" x=\"31.38863\" height=\"9.10985\" width=\"16.25652\" id=\"rect4820\"/>\n </g>\n</svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/tongerner/tiddlersbar/icon",
+            "tags": "",
+            "modified": "20170325171737556",
+            "created": "20170325114817530"
+        },
+        "$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off": {
+            "text": "<svg class=\"tgc-image-tiddlersbar-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22pt\" height=\"22pt\"><path d=\"m7.3572,12.30506c-0.13915,-0.39832 -0.23057,-0.82001 -0.23057,-1.26429c0,-2.13671 1.74588,-3.87591 3.889,-3.87591c0.44658,0 0.8689,0.09111 1.26856,0.2298l1.84701,-1.84079c-1.05983,-0.44185 -2.12289,-0.73293 -3.11557,-0.73293c-6.10492,0 -10.92187,6.21983 -10.92187,6.21983s1.75316,2.2504 4.47392,4.04523l2.78953,-2.78094zm9.7407,-5.14664l-2.47239,2.46407c0.17556,0.44024 0.27911,0.91757 0.27911,1.4191c0,2.1351 -1.74588,3.87591 -3.889,3.87591c-0.50321,0 -0.98135,-0.10321 -1.42389,-0.27818l-1.99749,1.99157c1.07358,0.38622 2.22078,0.63134 3.42138,0.63134c4.6689,0 10.92188,-6.22064 10.92188,-6.22064s-2.13664,-2.11816 -4.8396,-3.88316zm1.63747,-5.05392l-16.73636,16.68002l1.14477,1.14173l16.73555,-16.68083l-1.14396,-1.14092z\"/></svg>",
+            "title": "$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-off",
+            "tags": "",
+            "modifier": "TonGerner",
+            "modified": "20170325122633833",
+            "creator": "TonGerner",
+            "created": "20170325114839090"
+        },
+        "$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on": {
+            "text": "<svg class=\"tgc-image-tiddlersbar-button tc-image-button\" viewBox=\"0 0 22 22\" width=\"22pt\" height=\"22pt\">  <path  d=\"m10.98438,4.786c-6.10492,0 -10.92187,6.2141 -10.92187,6.2141s4.81695,6.2149 10.92187,6.2149c4.6689,0 10.92188,-6.2149 10.92188,-6.2149s-6.25298,-6.2141 -10.92188,-6.2141zm0,10.08643c-2.14311,0 -3.889,-1.73759 -3.889,-3.87233s1.74588,-3.87233 3.889,-3.87233s3.889,1.7384 3.889,3.87233s-1.74588,3.87233 -3.889,3.87233zm0,-6.13273c-1.25318,0 -2.27013,1.01178 -2.27013,2.2604c0,1.24862 1.01614,2.2604 2.27013,2.2604c1.25399,0 2.27013,-1.01179 2.27013,-2.2604c0,-1.24781 -1.01614,-2.2604 -2.27013,-2.2604z\"/></svg>",
+            "title": "$:/plugins/tongerner/tiddlersbar/image-tiddlersbar-on",
+            "tags": "",
+            "modifier": "TonGerner",
+            "modified": "20170325122651014",
+            "creator": "TonGerner",
+            "created": "20170325114911997"
+        },
+        "$:/plugins/tongerner/tiddlersbar/license": {
+            "text": "!!! Licence of Buggy j's ~StoryTopTabs plugin\n\nThe MIT License (MIT)\n\nCopyright (c) 2015 Jeffrey Wikinson aka Buggyj\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+            "title": "$:/plugins/tongerner/tiddlersbar/license",
+            "tags": "",
+            "modified": "20170428155502780",
+            "created": "20161213130359603"
+        },
+        "$:/plugins/tongerner/tiddlersbar/readme": {
+            "created": "20170325115014248",
+            "text": "This plugin - based on Buggyj's [[StoryTopTabs plugin|http://bjtools.tiddlyspot.com/#StoryTopTabs]] - creates a 'Tiddlersbar' of open tiddlers (as tabs) on top of the screen. It works best in Zoomin view.<br>\nThe Tiddlersbar can be toggled on/off with a button in the Page toolbar and/or the View toolbar.\n\n<<<\n''Note:''<br>''This plugin needs my $:/plugins/tongerner/layout-adjustment plugin for general layout settings (available at http://tongerner.tiddlyspot.com/).''\n<<<\n\nSettings for the layout can be found in ''~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout-adjustment/tweaks]]''.\n",
+            "title": "$:/plugins/tongerner/tiddlersbar/readme",
+            "tags": "",
+            "modifier": "TonGerner",
+            "modified": "20170325144830343",
+            "creator": "TonGerner"
+        },
+        "$:/plugins/tongerner/tiddlersbar/settings": {
+            "created": "20170325115624509",
+            "text": "!!Tiddlersbar settings\n<table class=\"tablestyle\">\n<<tableRow \"Left 'Tiddlersbar'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"left-tiddlersbar\">>\n<<tableRow \"Top 'Tiddlersbar'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"top-tiddlersbar\">>\n<<tableRow \"Font size 'Tiddlersbar'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"tiddlersbar-font-size\">>\n<<tableRow \"Background color 'Tiddler tabs'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"tiddlersbar-color\">>\n<<tableRow \"Text color 'Tiddler tabs'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"tiddlersbar-text-color\">>\n<<tableRow \"Background color 'Tiddler tab selected'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"tiddlersbar-selected-color\">>\n<<tableRow \"Text color 'Tiddler tab selected'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"tiddlersbar-selected-text-color\">>\n<<tableRow \"Rounded corners 'tiddler tabs'\" \"$:/plugins/tongerner/tiddlersbar/styles\" \"tiddlersbar-border-radius\">>\n</table>\n<$button message=\"tm-open-window\" param=\"$:/plugins/tongerner/tiddlersbar/settings-help\" tooltip=\"Help\" aria-label=\"Help\">Help</$button>",
+            "title": "$:/plugins/tongerner/tiddlersbar/settings",
+            "tags": "$:/tags/plugin-tweaks",
+            "order": "7",
+            "modifier": "TonGerner",
+            "modified": "20170405110448458",
+            "list-after": "$:/plugins/tongerner/layout-adjustment",
+            "creator": "TonGerner",
+            "caption": "Tiddlersbar"
+        },
+        "$:/plugins/tongerner/tiddlersbar/settings-help": {
+            "text": "<<<\n''Note:''<br>You can enter CSS values in all allowed units, e.g. `%`, `px`, or `em`.\n<<<\n\n|Entry |Description |Default |h\n|Left 'Tiddlersbar'  |Start (from the left) of the Tiddlersbar| 42px |\n|Top 'Tiddlersbar' |Start (from the top) of the Tiddlersbar| 10px |\n|Font size 'Tiddlersbar' |Font size of Tiddlersbar | 0.9em |\n|Background color 'Tiddler tabs' |Background color of breadcrumbs |#D8D8D8 |\n|Text color 'Tiddler tabs' |Text color of tiddler tabs | #666666 |\n|Background color 'Tiddler tab selected' |Background color of selected tiddler tab| #FFFFFF |\n|Text color 'Tiddler tab selected' |Text color of selected tiddler tab | #666666 |\n|Rounded corners 'tiddler tabs' |Rounded corners of tiddlersbar | 1px |\n",
+            "title": "$:/plugins/tongerner/tiddlersbar/settings-help",
+            "tags": "",
+            "modifier": "TonGerner",
+            "modified": "20170325123756939",
+            "creator": "TonGerner",
+            "created": "20170325115648290"
+        },
+        "$:/plugins/tongerner/tiddlersbar/style-no-tiddlersbar": {
+            "text": "/* DEFAULT: HIDDEN BREADCRUMBS */\n.tgc-tiddlersbar {\n     display: none;\n}",
+            "type": "text/css",
+            "title": "$:/plugins/tongerner/tiddlersbar/style-no-tiddlersbar",
+            "tags": "$:/tags/Stylesheet",
+            "modifier": "TonGerner",
+            "modified": "20170325123152056",
+            "creator": "TonGerner",
+            "created": "20170325115709994"
+        },
+        "$:/plugins/tongerner/tiddlersbar/styles": {
+            "created": "20170325123352694",
+            "text": "<pre>/* BREADCRUMBS TOP MENU */\n.tgc-tiddlersbar {\n     display: block;\n     position: fixed;\n     left: 0;\n     top: {{!!top-tiddlersbar}};  /* vertical start of tiddlersbar 'menu' */\n     width: calc(100% - 60px); /* right margin for '>>' icon */\n     margin-left: {{!!left-tiddlersbar}};\n     z-index: 1100;\n}\n\n/* TIDDLERSBAR */\n.tgc-tiddlersbar button {\n     font-size: {{!!tiddlersbar-font-size}};\n     color: {{!!tiddlersbar-text-color}};\n     padding: 3px 5px 3px 5px;\n     border: none;\n     border-radius: {{!!tiddlersbar-border-radius}};\n     background-color: {{!!tiddlersbar-color}};\n     border-left: 1px solid #cccccc;\n     border-top: 1px solid #cccccc;\n     border-right: 1px solid #cccccc;\n}\n\n/* TIDDLERBAR SELECTED */\n.tgc-tiddlersbar button.tgc-tiddlersbar-selected {\n     color: {{!!tiddlersbar-selected-text-color}};\n     background-color: {{!!tiddlersbar-selected-color}};\n}\n/* HOVER over 'x' */\n.tgc-tiddlersbar button.tgc-x:hover {\n     font-weight: bold;\n}\n.tgc-tiddlersbar button.tgc-tiddlersbar-selected.tgc-x:hover {\n     font-weight: bold;\n}\n</pre>",
+            "top-tiddlersbar": "10px",
+            "title": "$:/plugins/tongerner/tiddlersbar/styles",
+            "tiddlersbar-text-color": "#666666",
+            "tiddlersbar-selected-text-color": "#666666",
+            "tiddlersbar-selected-color": "#FFFFFF",
+            "tiddlersbar-font-size": "0.9em",
+            "tiddlersbar-color": "#D8D8D8",
+            "tiddlersbar-border-radius": "1px",
+            "tags": "$:/tags/Stylesheet",
+            "modifier": "TonGerner",
+            "modified": "20170328111019391",
+            "list-after": "$:/themes/tiddlywiki/vanilla/base",
+            "left-tiddlersbar": "42px",
+            "creator": "TonGerner"
+        },
+        "$:/plugins/tongerner/tiddlersbar/tiddlersbar": {
+            "text": "<div class=\"tgc-tiddlersbar\" >\n<$list filter=\"[list[$:/StoryList]]\" history=\"$:/HistoryList\" variable=\"currentTab\">\n<$reveal type=\"match\" state=\"$:/HistoryList!!current-tiddler\" text=<<currentTab>>>\n<div style=\"display:inline-block;\">\n<$button to=<<currentTab>> class=\"tgc-tiddlersbar-selected\" style=\"margin-right: -0.4em; border-right: 0.0em\">\n<$macrocall $name=\"currentTab\" $type=\"text/plain\" $output=\"text/plain\"/>\n</$button>\n<$button message=\"tm-close-tiddler\" param=<<currentTab>> class=\"tgc-tiddlersbar-selected tgc-x\" style=\"border-left: 0.0em;\">X</$button></div></$reveal>\n<$reveal type=\"nomatch\" state=\"$:/HistoryList!!current-tiddler\" text=<<currentTab>>>\n<div style=\"display:inline-block;\">\n<$button to=<<currentTab>>  style=\"margin-right: 0.0em;\" >\n<$macrocall $name=\"currentTab\" $type=\"text/plain\" $output=\"text/plain\"/>\n</$button><$button message=\"tm-close-tiddler\" param=<<currentTab>> class=\"tgc-x\">\nX</$button></div></$reveal>\n</$list>\n</div>\n",
+            "title": "$:/plugins/tongerner/tiddlersbar/tiddlersbar",
+            "tags": "$:/tags/PageTemplate",
+            "modifier": "TonGerner",
+            "modified": "20170403184720166",
+            "creator": "TonGerner",
+            "created": "20170325114702089"
+        }
+    }
+}

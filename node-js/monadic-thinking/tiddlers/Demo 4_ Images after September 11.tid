@@ -1,0 +1,20 @@
+created: 20170626140930831
+creator: stevesuny
+modified: 20171204201451538
+modifier: stevesuny
+slideorder: 4
+tags: Demonstrations
+title: Demo 4: Images after September 11
+type: text/vnd.tiddlywiki
+
+* Dataset: 382m images archived by Internet Archive from September 11, 2001 to October 10, 2001 (4.25m unique)
+** Data: http://archive.org/~vinay/911-images/
+** Wayback link for source page: web.archive.org/web/<source_html_timestamp>/<source_html_url>
+** Wayback link for destination image: web.archive.org/web/2001/<destination_image_url>
+* Process: Run command-line tools to parse for uniq images and other sets
+** image name
+** domain name
+** shared images (the birth of viral images?)
+** sequentially numbered (finding photographs: enormous expansion of uploaded photography during this period)
+* Ingest and analyze, possibly with Google visual analyzers
+* Tag and search for monads

@@ -1,0 +1,56 @@
+created: 20150810081323549
+creator: TonGerner
+list: $:/plugins/tongerner/toolbar/toggle-sidebar $:/plugins/tongerner/toolbar/home-button $:/plugins/tongerner/toolbar/close-all-button $:/plugins/tongerner/toolbar/full-screen-button $:/plugins/tongerner/toolbar/advanced-search-button $:/plugins/tongerner/toolbar/refresh-button $:/plugins/tongerner/toolbar/controlpanel-button $:/plugins/tongerner/toolbar/import-button $:/plugins/tongerner/toolbar/sidebar-button $:/plugins/tongerner/toolbar/new-tiddler-button $:/plugins/tongerner/toolbar/list-recent-button $:/plugins/tongerner/toolbar/storyview-button [[Draft of '$:/plugins/tongerner/toolbar/sidebar-button']] $:/plugins/tongerner/tiddlersbar/button $:/plugins/tongerner/toolbar/save-wiki-button $:/plugins/tongerner/toolbar/export-page-button $:/plugins/tongerner/toolbar/list-all-button $:/plugins/tongerner/toolbar/list-open-tiddlers-button $:/plugins/tongerner/toolbar/list-untagged-tiddlers-button $:/plugins/tongerner/toolbar/new-journal-button $:/plugins/tongerner/toolbar/new-template-tiddler-button $:/plugins/tongerner/toolbar/theme-button $:/plugins/tongerner/toolbar/palette-button $:/plugins/tongerner/toolbar/toggle-sticky-button $:/plugins/tongerner/toolbar/toggle-editortoolbar-button $:/plugins/tongerner/toolbar/toggle-preview-button $:/plugins/tongerner/toolbar/fold-all-button $:/plugins/tongerner/toolbar/unfold-all-button $:/plugins/tongerner/toolbar/permaview-button $:/plugins/tongerner/toolbar/toggle-tagging-button $:/plugins/tongerner/toolbar/rename-tags-button $:/plugins/tongerner/toolbar/tiddler-manager-button $:/plugins/tongerner/toolbar/tag-handling-button $:/plugins/tongerner/toolbar/corrupt-tiddler-button $:/plugins/tongerner/toolbar/search-delete-tiddlers-button $:/plugins/tongerner/toolbar/more-toolbar-actions $:/plugins/tongerner/topmenu/topmenu end
+modified: 20171204201450696
+modifier: stevesuny
+title: $:/tags/TopLeftBar
+type: text/vnd.tiddlywiki
+
+The buttons in the toolbar can be switched on/off in ''ControlPanel > Appearance > Toolbars > Top toolbar''.
+The default - programmed - order is according to the list below.  Drag and drop to change the ordering.
+
+* $:/plugins/tongerner/toolbar/toggle-sidebar
+* $:/plugins/tongerner/toolbar/advanced-search-button
+* $:/plugins/tongerner/toolbar/home-button
+* $:/plugins/tongerner/toolbar/full-screen-button
+* $:/plugins/tongerner/toolbar/refresh-button
+* $:/plugins/tongerner/toolbar/close-all-button
+* $:/plugins/tongerner/toolbar/controlpanel-button
+* $:/plugins/tongerner/toolbar/sidebar-button
+* $:/plugins/tongerner/toolbar/import-button
+* $:/plugins/tongerner/toolbar/export-page-button
+* $:/plugins/tongerner/toolbar/list-all-button
+* $:/plugins/tongerner/toolbar/list-recent-button
+* $:/plugins/tongerner/toolbar/list-open-tiddlers-button
+* $:/plugins/tongerner/toolbar/list-untagged-tiddlers-button
+* $:/plugins/tongerner/toolbar/new-journal-button
+* $:/plugins/tongerner/toolbar/new-template-tiddler-button
+* $:/plugins/tongerner/toolbar/new-tiddler-button
+* $:/plugins/tongerner/toolbar/theme-button
+* $:/plugins/tongerner/toolbar/palette-button
+* $:/plugins/tongerner/toolbar/storyview-button
+* $:/plugins/tongerner/toolbar/toggle-sticky-button
+* $:/plugins/tongerner/toolbar/toggle-editortoolbar-button
+* $:/plugins/tongerner/toolbar/toggle-preview-button
+* $:/plugins/tongerner/toolbar/fold-all-button
+* $:/plugins/tongerner/toolbar/unfold-all-button
+* $:/plugins/tongerner/toolbar/permaview-button
+* $:/plugins/tongerner/toolbar/save-wiki-button
+* $:/plugins/tongerner/toolbar/toggle-tagging-button
+* $:/plugins/tongerner/toolbar/rename-tags-button
+* $:/plugins/tongerner/toolbar/tiddler-manager-button
+* $:/plugins/tongerner/toolbar/tag-handling-button
+* $:/plugins/tongerner/toolbar/corrupt-tiddler-button
+* $:/plugins/tongerner/toolbar/search-delete-tiddlers-button
+* $:/plugins/tongerner/toolbar/more-toolbar-actions
+
+Additional buttons can become available when my 'tiddlersbar' or 'tabstory' plugin is used:
+
+"""
+$:/plugins/tongerner/tiddlersbar/button
+$:/plugins/tongerner/tabstory/button
+"""
+
+<<<
+''Note:''<br>To let $:/plugins/tongerner/tiddlersbar/button and/or $:/plugins/tongerner/tabstory/button show up in in ''ControlPanel > Appearance > Toolbars > Top toolbar'', they need to be tagged with $:/tags/TopLeftBar!
+<<<

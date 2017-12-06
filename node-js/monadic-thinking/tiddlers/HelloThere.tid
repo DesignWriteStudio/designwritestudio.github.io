@@ -1,0 +1,18 @@
+created: 20170612220643773
+creator: stevesuny
+modified: 20171204201452297
+modifier: stevesuny
+tags: 
+title: HelloThere
+type: text/vnd.tiddlywiki
+visible-dox: no
+
+# [[Identify and Define Analysis Tags]]
+# <$button>Delete <$count filter="[tag{$:/keytag-set}]"/> tiddlers filtered by ``$filter="`[tag{$:/keytag-set}]``, currently  ''{{$:/keytag-set}}''<$action-deletetiddler $filter="`[tag{$:/keytag-set}]"/></$button>
+# <$button> Delete <$count filter="[prefix[Web pages tagged]]"/> tiddlers filtered by ``[prefix[Web pages tagged]]``<$action-deletetiddler $filter="`[prefix[Web pages tagged]]"/></$button>
+# <$checkbox tiddler="showdox" field="visible-dox" checked="yes" unchecked="no" default="no">Show Dox</$checkbox>
+# Play with <<tag AnalysisTools>>
+
+
+<<dox "[[showdox]]">>
+

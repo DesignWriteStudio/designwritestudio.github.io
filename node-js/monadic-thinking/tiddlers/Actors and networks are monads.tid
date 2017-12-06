@@ -1,0 +1,11 @@
+created: 20170625171721120
+modified: 20171204201451064
+slideorder: 2
+tags: [[Principles of monadic thinking]]
+title: Actors and networks are monads
+type: text/vnd.tiddlywiki
+
+* A monad is a highly specific point of view – this or that entity – on all the other entities present in the dataset
+* ''Monads are constructed through shared tags'' or other metadata associated with objects, frequently viewed as profiles. 
+** Not a part of a whole, but a point of view on all the other entities taken severally and not as a totality. 
+* A monad may be operationalized by deploying navigation through digital profiles rendering objects as collections of attributes

@@ -1,0 +1,9 @@
+created: 20170612103432428
+import-spec-role: row
+list: [[$:/_ExcelImporter/ImportSpecifiers/Field 17]] [[$:/_ExcelImporter/ImportSpecifiers/Field 16]]
+modified: 20171204201452682
+tags: [[Table Attributes]] analysis-field
+title: medium
+type: text/vnd.tiddlywiki
+
+Type of content produced on Web page being analyzed

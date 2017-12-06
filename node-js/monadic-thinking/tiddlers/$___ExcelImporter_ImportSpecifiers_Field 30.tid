@@ -1,0 +1,10 @@
+created: 20170612093332876
+import-field-column: producer-approach
+import-field-name: producer-approach
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450199
+title: $:/_ExcelImporter/ImportSpecifiers/Field 30
+type: text/vnd.tiddlywiki
+

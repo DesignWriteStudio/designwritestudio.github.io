@@ -1,0 +1,11 @@
+created: 20160828212950842
+creator: Thomas Elmiger
+modified: 20171204201450317
+modifier: Thomas Elmiger
+tags: $:/tags/Macro TextStretch
+title: $:/_telmiger/ref
+type: text/vnd.tiddlywiki
+
+\define ref(content:"empty")
+<$macrocall $name="strex" content="""$content$""" label="&#x200b;" start="start" end="&#x200b;" class="hint numbers"/> 
+\end

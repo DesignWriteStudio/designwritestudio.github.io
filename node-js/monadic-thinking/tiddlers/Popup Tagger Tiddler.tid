@@ -1,0 +1,18 @@
+_active: off
+_debug: off
+_edittag: off
+_tagpopup: off
+_tagtable: off
+created: 20170406013551005
+creator: EucalyJ
+list: 
+list-after: 911sitenote template
+modified: 20171204201452899
+modifier: stevesuny
+taggroup: producer-approach producer-type web-action medium content-action
+tags: $:/tags/ViewTemplate $:/_UI $:/_popuptagger $:/_macros
+title: Popup Tagger Tiddler
+type: text/vnd.tiddlywiki
+view-filter: [tag{keytag-set}]
+
+<<PopupTaggerAuto>>

@@ -1,0 +1,11 @@
+created: 20160412001419903
+creator: stevesuny
+modified: 20171204201450576
+modifier: stevesuny
+tags: $:/tags/PageControls
+title: $:/Display
+type: text/vnd.tiddlywiki
+
+{{$:/_Menu/Home/Configuration/Options}}
+Templates:
+<<list-links filter:"[tag[$:/tags/ViewTemplate]]">>

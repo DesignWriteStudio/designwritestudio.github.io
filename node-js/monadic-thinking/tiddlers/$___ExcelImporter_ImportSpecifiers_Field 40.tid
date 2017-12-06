@@ -1,0 +1,14 @@
+created: 20170626094206186
+creator: stevesuny
+import-field-column: Column Name
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: DoughertyWebImages
+import-spec-role: field
+modified: 20171204201450147
+modifier: stevesuny
+title: $:/_ExcelImporter/ImportSpecifiers/Field 40
+type: text/vnd.tiddlywiki
+

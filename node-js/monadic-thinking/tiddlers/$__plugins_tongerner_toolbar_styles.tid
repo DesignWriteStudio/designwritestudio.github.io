@@ -1,0 +1,123 @@
+button-color: #AAAAAA
+button-hover-color: #131313
+button-size: 1.4em
+created: 20150721080358195
+creator: TonGerner
+list-after: $:/themes/tiddlywiki/vanilla/base
+menus-font-size: 0.7em
+menus-scroll-height: 400px
+modified: 20171204201450737
+modifier: stevesuny
+tags: $:/tags/Stylesheet
+title: $:/plugins/tongerner/toolbar/styles
+toolbar-button-spacing: 5px
+toolbar-left: 40px
+toolbar-top: 20px
+type: text/vnd.tiddlywiki
+
+<pre>/* TOOLBAR */
+.tc-topbar-left {
+     font-size: {{!!button-size}};
+}
+
+.tc-topbar button svg {
+     fill: {{!!button-color}};
+}
+
+.tc-topbar button:hover svg {
+     fill:{{!!button-hover-color}};
+}
+
+/* space between toolbar buttons */
+.tc-topbar button {
+     padding: 8px {{!!toolbar-button-spacing}};
+}
+
+/* TOP BAR LEFT */
+.tc-topbar-left {
+     left: {{!!toolbar-left}};
+     top: {{!!toolbar-top}};
+}
+
+/* TIDDLER */
+/* TOP PADDING TIDDLER */
+html .tc-tiddler-frame {
+     padding-top: {{!!tiddler-padding-top}};
+}
+
+/* SIZE OF TIDDLER CONTROL BUTTONS */
+html .tc-tiddler-controls button svg {
+     height: {{!!tiddler-button-size}};
+}
+
+/* SPACE BETWEEN TIDDLER CONTROL BUTTONS */
+html .tc-tiddler-controls button {
+     margin-left: {{!!tiddler-button-spacing}};
+}
+
+/* SCROLL HEIGHT MENUS IN TOOLBAR */
+.tgc-scrollable-list {
+     padding: 0em;
+     height: {{!!menus-scroll-height}};
+     position: relative;
+}
+
+/* FONT SIZE MENUS */
+.tgc-font-size-menus {
+     font-size: {{!!menus-font-size}};
+}
+
+/* DUMMY BUTTON STYLE */
+.dummybutton {
+    padding: 1px 8px 1px 8px;
+    background-color: #DCDAD5;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white gray gray white;
+}
+
+/* STYLES BELOW USED IN: */
+/* $:/plugins/tongerner/toolbar/expandable-tiddler-template */
+/* $:/plugins/tongerner/toolbar/tag-search-menu */
+
+/* THREE COLUMN MODE */
+.tgc-3columns { 
+   display:block; 
+   -moz-column-count:3; 
+   -moz-column-gap:1em; 
+   -webkit-column-count: 3;
+   -webkit-column-gap:1em; 
+}
+
+/* CUT LONG STRINGS */
+.tgc-trim-string {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.tgc-trim-string:hover {
+    white-space: normal;
+    overflow: inherit; 
+}
+
+.tgc-message-box {
+    border: 1px solid <<color message-border>>;
+    background: <<color code-background>>;
+    padding: 10px 21px 10px 21px;
+    margin: -10px -21px -10px -21px;
+}
+
+.tgc-font-bold {
+     font-weight: bold;
+}
+
+.tgc-underlined {
+     text-decoration: underline;
+}
+
+/* Font-size More menu */
+.tgc-more {
+     font-size: 0.7em;
+}
+</pre>

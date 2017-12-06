@@ -1,0 +1,9 @@
+created: 20170612103350472
+import-spec-role: row
+list: [[$:/_ExcelImporter/ImportSpecifiers/Field 15]] [[$:/_ExcelImporter/ImportSpecifiers/Field 14]]
+modified: 20171204201454033
+tags: [[Table Attributes]] analysis-field
+title: web-action
+type: text/vnd.tiddlywiki
+
+Action of web producer with respect to production of content (not associated with meaning of content)

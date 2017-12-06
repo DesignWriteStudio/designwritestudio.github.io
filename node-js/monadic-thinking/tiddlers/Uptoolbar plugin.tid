@@ -1,0 +1,16 @@
+caption: Uptoolbar
+created: 20160111103524320
+creator: TonGerner
+modified: 20171204201453910
+modifier: TonGerner
+status: upgraded to
+tags: plugin
+title: Uptoolbar plugin
+type: text/vnd.tiddlywiki
+
+!! [[Uptoolbar plugin]] v<<pversion "uptoolbar">>
+
+''Status:'' @@.RED {{Uptoolbar plugin!!status}} v<<version>>@@
+
+<<readme $:/plugins/tongerner/uptoolbar/readme $:/plugins/tongerner/uptoolbar>>
+* [[$:/plugins/tongerner/layout_adjustment]]

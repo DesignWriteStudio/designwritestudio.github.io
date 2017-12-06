@@ -1,0 +1,27 @@
+created: 20170626081231945
+creator: stevesuny
+modified: 20171204201452195
+modifier: stevesuny
+tags: 
+title: FrontSlide
+type: text/vnd.tiddlywiki
+
+<div class="slide">
+
+! http://bit.do/schneider-dmss-2017
+
+
+
+
+<h5>
+Steven M. Schneider<br>
+SUNY Polytechnic Institute<br>
+Utica, NY USA<br>
+steve@sunyit.edu [[@stevesunypoly|https://twitter.com/stevesunypoly]]
+<br>
+
+<h6><div class="tc-table-of-contents">
+<<toc-selective-expandable 'TableOfContents' sort[slideorder]>>
+</div>
+</h6>
+

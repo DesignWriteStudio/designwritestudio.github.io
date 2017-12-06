@@ -1,0 +1,33 @@
+created: 20170616180808275
+creator: stevesuny
+modified: 20171204201452992
+modifier: stevesuny
+slideorder: 1
+tags: Resources
+title: Readings
+type: text/vnd.tiddlywiki
+
+<div class="level2">Web Sphere Analysis</div>
+<$list filter="[tag[Readings]tag[Web Sphere Analysis]]">
+<p>
+''<$link><<currentTiddler>></$link>''<br>
+<$transclude/>
+<<stretch "Citation" "{{!!citation}}">> <<stretch "Abstract" "<$link to={{!!pdf}}>pdf</$link>" "{{!!abstract}}" >>
+</p>
+</$list>
+<div class="level2">Monadic Thinking</div>
+<$list filter="[tag[Readings]tag[Monadic Thinking]]">
+<p>
+''<$link><<currentTiddler>></$link>''<br>
+<$transclude/>
+<<stretch "Citation" "{{!!citation}}">> <<stretch "Abstract" "<$link to={{!!pdf}}>pdf</$link>" "{{!!abstract}}" >>
+</p>
+</$list>
+<div class="level2">Hypertext</div>
+<$list filter="[tag[Readings]tag[Hypertext]]">
+<p>
+''<$link><<currentTiddler>></$link>''<br>
+<$transclude/>
+<<stretch "Citation" "{{!!citation}}">> <<stretch "Abstract" "<$link to={{!!pdf}}>pdf</$link>" "{{!!abstract}}" >>
+</p>
+</$list>

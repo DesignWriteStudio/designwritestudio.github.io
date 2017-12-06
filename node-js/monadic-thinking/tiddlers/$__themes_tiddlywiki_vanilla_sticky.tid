@@ -1,0 +1,32 @@
+created: 20170330150510113
+modified: 20171204201450664
+tags: 
+title: $:/themes/tiddlywiki/vanilla/sticky
+top-sticky-editor-toolbar: 85px
+top-sticky-title: 50px
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/themes/tiddlywiki/vanilla/options/stickytitles" type="match" text="yes">
+``
+.tc-tiddler-title {
+     position: -webkit-sticky;
+     position: -moz-sticky;
+     position: -o-sticky;
+     position: -ms-sticky;
+     position: sticky;
+     top: ``{{!!top-sticky-title}}``;
+     background: ``<<colour tiddler-background>>``;
+     z-index: 500;
+}
+.tc-editor-toolbar {
+     position: -webkit-sticky;
+     position: -moz-sticky;
+     position: -o-sticky;
+     position: -ms-sticky;
+     position: sticky;
+     top: ``{{!!top-sticky-editor-toolbar}}``;
+     background: ``<<colour tiddler-background>>``;
+     z-index: 500;
+}
+``
+</$reveal>

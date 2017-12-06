@@ -1,0 +1,21 @@
+created: 20170611152701617
+creator: stevesuny
+modified: 20171204201450892
+modifier: stevesuny
+tags: $:/tags/ViewTemplate
+title: 911site template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[911site]]">
+
+This dataset includes <$count filter="[tag[911sitenote]field:producer-name{!!producer-name}]"/> pages produced by produced by {{!!producer-name}}<br>
+[[Producer type|producer-type]]: {{!!producer-type}}<br>
+[[Producer approach|producer-approach]]: {{!!producer-approach}}<br>
+<br>
+<$list filter="[tag[911sitenote]field:producer-name{!!producer-name}]">
+<$link to=<<currentTiddler>>>{{$:/plugins/tongerner/toolbar/images/sidebar-button}}</$link><<currentTiddler>>
+<$appear class="appearbuttons" show="show &raquo;" hide="&laquo; hide" $state="slider-buttons-level1">
+<$macrocall $name="get-ia-page" page={{!!title}}/>
+</$appear>
+<br>
+</$list>

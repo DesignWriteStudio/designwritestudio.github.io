@@ -1,0 +1,23 @@
+caption: Emphasized
+created: 20170427192444703
+creator: TonGerner
+modified: 20171204201452138
+modifier: TonGerner
+status: upgraded to
+tags: theme
+title: Emphasized theme
+type: text/vnd.tiddlywiki
+
+!! [[Emphasized theme]]  v<<tversion "emphasized">>
+
+''Status:'' @@.RED {{Emphasized theme!!status}} v<<version>>@@
+
+<<readme $:/themes/tongerner/emphasized/readme $:/themes/tongerner/emphasized>>
+
+<<<
+''Note:''<br>This TW5 uses my Emphasized theme in combination with the Bluish palette.
+<<<
+
+Drag & drop the following link to your wiki to install the 'Bluish' palette:
+
+* [[$:/palettes/Bluish]]

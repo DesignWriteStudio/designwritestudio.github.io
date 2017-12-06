@@ -1,0 +1,30 @@
+created: 20170627061853819
+creator: stevesuny
+modified: 20171204201452688
+modifier: stevesuny
+tags: [[Digital Methods Summer School 2017]]
+title: Masterclass
+type: text/vnd.tiddlywiki
+
+! Platform, Method, Interface
+!! A TiddlyWiki-based monadic exploration of the post-September 11 Web
+
+!! Wiki<br>http://bit.do/steve-dmss
+
+!! Join the meeting (no audio, please)<br>https://zoom.us/j/561925928
+
+
+Steve Schneider<br>
+SUNY Polytechnic Institute<br>
+Utica, NY USA<br>
+steve@sunyit.edu<br>
+
+
+
+<$list filter="[tag{!!title}sort[slideorder]]">
+<p><div class="level1"><$link><<currentTiddler>></$link></div>
+<$appear show="&raquo;" hide="&laquo;" $state="dataset">
+<div class="level2"><$transclude mode="block" field="text"/></div>
+</$appear>
+</p>
+</$list>

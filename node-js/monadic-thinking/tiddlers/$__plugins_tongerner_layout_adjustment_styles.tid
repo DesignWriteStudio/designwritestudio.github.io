@@ -1,0 +1,97 @@
+active-state-color: orange
+created: 20161212103011213
+creator: TonGerner
+list-after: $:/themes/tiddlywiki/vanilla/base
+modified: 20171204201450762
+modifier: TonGerner
+sidebar-top: 0px
+story-river-top: 0px
+tags: $:/tags/Stylesheet
+tiddler-padding-top: 10px
+title: $:/plugins/tongerner/layout_adjustment/styles
+topbar-background-color: #7499DA
+topbar-height: 86px
+type: text/vnd.tiddlywiki
+
+<pre>/* LAYOUT SETTINGS */
+
+/* VERTICAL OFFSET FOR TOP OF SIDEBAR */
+html .tc-sidebar-scrollable {
+    top: {{$:/plugins/tongerner/layout_adjustment/sidebar-top}};
+}
+
+* BACKGROUND COLOR TOPRIGHTBAR (with double chevron) */
+.tc-topbar {
+     background-color: {{!!topbar-background-color}};
+}
+
+/* TOPBAR */
+.tc-toolbar {
+     display:block;
+     position:fixed;
+     left:0px;
+     top:0px;
+     width:100%;
+     height: {{!!topbar-height}};
+     background-color: {{!!topbar-background-color}};
+     z-index: 1000;
+}
+
+/* TOP PADDING TIDDLER */
+body.tc-body .tc-tiddler-frame {
+     padding-top: {{!!tiddler-padding-top}};
+}
+
+/* COLOR ACTIVE STATE TOGGLE BUTTON */
+body.tc-body .tgc-active-indicator {
+     color: {{!!active-state-color}};
+}
+body.tc-body .tgc-active-indicator svg {
+     fill: {{!!active-state-color}};
+}
+
+body.tc-body .tgc-active-indicator:hover svg {
+     fill: <<colour "foreground">>;
+}
+
+/* SETTINGS TABLE */
+/* WIDTH, FONT-SIZE SETTINGS TABLE */
+input[type='text'].settings {
+	width: 120px;
+/*	font-size: 0.9em;*/
+}
+
+table.tablestyle {
+     font-size: 0.9em;
+     border-width: 0px;
+     border-style: solid;
+     padding: 2px;
+     border-color: #DDD;
+     border-collapse: collapse;
+}
+table.tablestyle th {
+     background-color: #F0F0F0;
+     border-color: #DDD;
+     text-align: left;
+     vertical-align: top;
+     border-style: solid;
+     border-width: 1px;
+     padding: 5px;
+}
+table.tablestyle tr {
+     background-color: #F0F0F0;
+     padding: 0px;
+}
+table.tablestyle td {
+     border-color: #DDD;
+     border-style: solid;
+     border-width: 1px;
+     padding:2px;
+}
+/* BORDERLESS TABLES */
+.borderless, .borderless table, .borderless td, .borderless tr, .borderless th, .borderless tbody {
+     border:0 !important;
+     margin:0 !important;
+     padding:0 !important;
+}
+</pre>

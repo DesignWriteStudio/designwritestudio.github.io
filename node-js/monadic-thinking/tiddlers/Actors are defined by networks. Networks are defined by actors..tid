@@ -1,0 +1,17 @@
+created: 20170623144723024
+modified: 20171204201451060
+slideorder: 0
+tags: [[Principles of monadic thinking]]
+title: Actors are defined by networks. Networks are defined by actors.
+type: text/vnd.tiddlywiki
+
+* A network is not a second level added to that of the individual. An individual is not a second level added to that of a network.
+** Each are exactly the same level differently deployed. 
+** It is unnecessary to specify individuals and aggregates as distinctive levels
+* The concept of a profile enables us to see that 
+** the set of attributes associated with an entity – the network – may be grasped as an envelope – the actor – that encapsulates its content in one shorthand notation
+** ''entities are defined by the open-ended lists of attributes in databases''. 
+* These definitions are reversible
+** An actor is defined by its network
+** A network is defined by its actors
+

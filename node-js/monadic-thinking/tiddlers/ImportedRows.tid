@@ -1,0 +1,9 @@
+created: 20170612105113760
+modified: 20171204201452452
+tags: 
+title: ImportedRows
+type: text/vnd.tiddlywiki
+
+<$list filter="[import-spec-role[row]]">
+<$link><<currentTiddler>></$link><br>
+</$list>

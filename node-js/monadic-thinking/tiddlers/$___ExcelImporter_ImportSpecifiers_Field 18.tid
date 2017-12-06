@@ -1,0 +1,10 @@
+created: 20170605221110448
+import-field-column: arcurl
+import-field-name: arcurl
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450248
+title: $:/_ExcelImporter/ImportSpecifiers/Field 18
+type: text/vnd.tiddlywiki
+

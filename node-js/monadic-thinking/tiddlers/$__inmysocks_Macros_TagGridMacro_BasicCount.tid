@@ -1,0 +1,17 @@
+created: 20161026102742596
+modified: 20171204201450564
+tags: 
+title: $:/inmysocks/Macros/TagGridMacro/BasicCount
+type: text/vnd.tiddlywiki
+
+\define thisMakeButton()
+<$count 
+    filter="""$(InputTiddlerList)$ +[tag<RowTag>tag<ColumnTag>]"""
+/>
+\end
+
+<div 
+    style='position:relative;'
+>
+<<thisMakeButton>>
+</div>

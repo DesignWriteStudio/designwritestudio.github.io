@@ -1,0 +1,13 @@
+created: 20170620084505029
+creator: stevesuny
+modified: 20171204201452990
+modifier: stevesuny
+tags: $:/tags/ViewTemplate
+title: Readings template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Readings]]">
+<$list filter="[title<currentTiddler>]">
+<<stretch "Citation" "{{!!citation}}">> <<stretch "Abstract" "<$link to={{!!pdf}}>pdf</$link>" "{{!!abstract}}" >>
+</$list>
+</$list>

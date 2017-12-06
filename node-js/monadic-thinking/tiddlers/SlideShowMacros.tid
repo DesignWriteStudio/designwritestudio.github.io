@@ -1,0 +1,44 @@
+created: 20161203024901929
+creator: stevesuny
+modified: 20171204201453136
+modifier: stevesuny
+tags: $:/tags/Macro
+title: SlideShowMacros
+type: text/vnd.tiddlywiki
+
+\define slideshow(slidetag)
+<$set name="slidetag" value="$slidetag$">
+<$button set="$:/state/sidebar" setTo="no"}} >
+<$action-sendmessage $message="tm-close-all-tiddlers"/>
+<$action-setfield $tiddler="$:/core/ui/ViewTemplate/next" tags="$:/tags/ViewTemplate"/>
+<$action-setfield $tiddler="$:/core/ui/ViewTemplate/prev" tags="$:/tags/ViewTemplate"/>
+<$action-setfield $tiddler="$:/view" text="zoomin"/>
+<$list filter="[tag<slidetag>!sort[slideorder]]">
+<$action-navigate $to=<<currentTiddler>> />
+</$list>
+<<slidetag>>
+</$button>
+</$set>
+\end
+
+\define endslideshow()
+<$button set="$:/state/sidebar" setTo="no" class="tc-btn-invisible tc-tiddlylink">
+<$action-listops $tiddler="$:/core/ui/ViewTemplate/next" $field="tags" $filter="[[]]"/>
+<$action-listops $tiddler="$:/core/ui/ViewTemplate/prev" $field="tags" $filter="[[]]"/>
+<$action-sendmessage $message="tm-close-all-tiddlers"/>
+<$action-navigate $to="RESAW / IIPC 2017"/>
+{{$:/core/images/close}}
+</$button>
+\end
+
+\define lose-slideshow-buttons()
+<$action-listops $tiddler="$:/core/ui/ViewTemplate/next" $field="tags" $filter="[[]]"/>
+<$action-listops $tiddler="$:/core/ui/ViewTemplate/prev" $field="tags" $filter="[[]]"/>
+{{$:/core/images/close}}
+\end
+
+
+Tiddlers with code/image links for slide show nav: 
+<$transclude tiddler="DWS" mode="block"/>
+
+

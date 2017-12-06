@@ -1,0 +1,41 @@
+created: 20170614125432358
+creator: stevesuny
+modified: 20171204201451057
+modifier: stevesuny
+tags: 
+title: Add metadata fields to be applied to identified objects in entirely new study
+type: text/vnd.tiddlywiki
+
+<div class="level2">
+Step 1: Enter tag to identify analysis objects:<br></div>
+<$edit-text tiddler="$:/keytag-entered-demo2" field="text" default="Enter tag to identify analysis objects" tag="input" size="25" type="text"/><br>
+
+<div class="level2">
+Step 2: Confirm selection<br>
+</div>
+<$button>
+<$action-setfield $tiddler="$:/keytag-demo2" text={{$:/keytag-entered-demo2}}/>
+Set {{$:/keytag-entered-demo2}} as tag identifying analysis objects
+</$button>
+
+<div class="level2">
+Step 3: Name and define fields to be added as metadata from pages included in dataset (use 911 fields as base)(add suffix to fieldnames to make them uniq)
+</div>
+
+
+<div class="level2">
+<$list filter="[tag{$:/keytag-set}first[]]">
+<$set name="example-note" value=<<currentTiddler>>>
+<$list filter="[<currentTiddler>fields[]sort[]]">
+<hr>
+<div class="level2">
+Fieldname: <$macrocall $name="tag" tag=<<currentTiddler>>/><br>
+</div>
+<div class="level3">
+Example value: <$view tiddler=<<example-note>> field=<<currentTiddler>>/><br>
+Current Definition:<br>
+<$edit-text tiddler=<<currentTiddler>> field="text" default="Enter definition" tag="input" size="140" type="text"/><br>
+Check <$checkbox tiddler=<<currentTiddler>> tag="analysis-field"> to use in <<tag "AnalysisTools">></$checkbox><br>
+<$button>Copy <<currentTiddler>> field to {{$:/keytag-demo2}} analysis</$button><br>
+</div>
+</$list>

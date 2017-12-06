@@ -1,0 +1,21 @@
+created: 20170614212027115
+creator: stevesuny
+modified: 20171204201451554
+modifier: stevesuny
+slideorder: 0
+tags: Demonstrations
+title: Demo 1: Producer Actions in the post-September 11 Web Sphere
+type: text/vnd.tiddlywiki
+
+<div class="slide">
+
+* Dataset <$appear show="&raquo;" hide="&laquo;" $state="dataset">
+
+* Dataset in xlsx file (downloaded from [[google sheets|https://drive.google.com/file/d/0B6pMEe8dCtrQdHljYzFVMHFaWkU/view?usp=sharing]])
+* 347 observed pages from 78 different sites
+* Sampled from September 11 Web Archive Library of Congress collection of analyzed sites (see [[Project Report|http://www.webarchivist.org/911_final_report.pdf]])
+* Analyzed by SUNY Poly students in graduate seminar on Web analysis methods
+</$appear><br>
+* [[Monadic Exploration 1|Crosstab of Objects Sharing Two Characteristics]]
+* [[Monadic Exploration 2|3-level listing of sites & pages]]
+</div>

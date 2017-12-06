@@ -1,0 +1,231 @@
+created: 20161026091752068
+modified: 20171204201450567
+tags: $:/tags/Macro
+title: $:/inmysocks/Macros/TagGridMacro
+type: text/vnd.tiddlywiki
+
+\define TagGridMakeBasicButton(prefix)
+<div 
+    style='position:relative;'
+>
+<$button
+    popup=<<qualify """$:/temp/popup/$prefix$$(RowTag)$$(ColumnTag)$""">>
+    class='tc-btn-invisible'
+    style='width:100%;height:100%'
+>
+    <$list
+        filter='[[$prefix$]!prefix[columns]!prefix[rows]]'
+        emptyMessage="""$(RowTag)$$(ColumnTag)$"""
+    >
+        <$count 
+            filter="""$(InputTiddlerList)$ +[tag<RowTag>tag<ColumnTag>]"""
+        />
+    </$list>
+</$button>
+<$reveal
+    type='popup'
+    state=<<qualify """$:/temp/popup/$prefix$$(RowTag)$$(ColumnTag)$""">>
+    class='tc-popup-keep'
+>
+    <div class='tc-drop-down' style='position:absolute;'>
+        Tiddlers:
+        <$list
+            filter="""[[$prefix$]prefix[column]]"""
+        >
+            <$list
+                filter="""$(InputTiddlerList)$ +[tag<ColumnTag>]"""
+            >
+
+            </$list>
+        </$list>
+        <$list
+            filter="""[[$prefix$]prefix[rows]]"""
+        >
+            <$list
+                filter="""$(InputTiddlerList)$ +[tag<RowTag>]"""
+            >
+
+            </$list>
+        </$list>
+        <$list
+            filter="""$(InputTiddlerList)$ +[tag<RowTag>tag<ColumnTag>]"""
+        >
+
+        </$list>
+        <hr>
+        <$button
+            class='tc-btn-invisible'
+        >
+            Open All
+            <$list
+                filter="""$(InputTiddlerList)$ +[tag<RowTag>tag<ColumnTag>]"""
+            >
+                <$action-navigate 
+                    $to=<<currentTiddler>>
+                />
+            </$list>
+        </$button>
+        <hr>
+        <$button
+            class='tc-btn-invisible'
+        >
+            Make new tiddler with tags<br>
+            <$list
+                filter='[<RowTag>][<ColumnTag>]+[limit[1]]'
+            >
+                __<<currentTiddler>>__
+                <$list
+                    filter='[<currentTiddler>!prefix<ColumnTag>]'
+                >
+                    __<<ColumnTag>>__
+                </$list>
+            </$list>
+            <$set
+                name=TiddlerTags
+                filter='[<RowTag>][<ColumnTag>]'
+            >
+                <$action-sendmessage 
+                    $message="tm-new-tiddler" 
+                    tags=<<TiddlerTags>>
+                />
+            </$set>
+        </$button>
+    </div>
+</$reveal>
+</div>
+\end
+
+\define TagGridCountTiddlers()
+<$count 
+    filter="""$(InputTiddlerList)$ +[tag<RowTag>tag<ColumnTag>]"""
+/>
+\end
+
+\define TagGrid(RowFilter:"[!is[system]tags[]limit[5]]" ColumnFilter:"[!is[system]tags[]limit[5]]" InputTiddlers:"[!is[system]]" ShowColumnTitle:true UseTagPills:false class cells)
+<$set 
+    name=RowTagList 
+    filter="""$RowFilter$"""
+>
+    <$set 
+        name=ColumnTagList 
+        filter="""$ColumnFilter$"""
+    >
+        <$set
+            name=InputTiddlerList
+            filter="""$InputTiddlers$"""
+        >
+            <table
+                class="""$class$"""
+            >
+                <$list
+                    filter='[[$ShowColumnTitle$]prefix[true]]'
+                >
+                    <tr>
+                        <th>
+                        </th>
+                        <$list 
+                            filter=<<ColumnTagList>>
+                            variable=ColumnTag
+                        >
+                            <th>
+                                <$list
+                                    filter='[[$UseTagPills$]prefix[true]]'
+                                    emptyMessage="""<<TagGridMakeBasicButton columns>>"""
+                                >
+                                    <$macrocall
+                                        $name=tag
+                                        tag=<<ColumnTag>>
+                                    />
+                                </$list>
+                            </th>
+                        </$list>
+                    </tr>
+                </$list>
+                <$list 
+                    filter=<<RowTagList>> 
+                    variable=RowTag
+                >
+                    <tr>
+                        <th>
+                            <$list
+                                filter='[[$UseTagPills$]prefix[true]]'
+                                emptyMessage="""<<TagGridMakeBasicButton rows>>"""
+                            >
+                                <$macrocall
+                                    $name=tag
+                                    tag=<<RowTag>>
+                                />
+                            </$list>
+                        </th>
+                        <$list 
+                            filter=<<ColumnTagList>> 
+                            variable=ColumnTag
+                        >
+                            <td>
+                                <$list 
+                                    filter='[[$cells$]has[title]has[text]]'
+                                    template="""$cells$"""
+                                    emptyMessage=<<TagGridMakeBasicButton>>
+                                />
+                            </td>
+                        </$list>
+                    </tr>
+                </$list>
+            </table>
+        </$set>
+    </$set>
+</$set>
+\end
+
+This is a macro that will display a grid showing tags on both the columns and rows.
+Each cell in the grid is the number of tiddlers that have both the tag for the column and the tag for the row.
+You can change what the cells display by using a template.
+
+Macro Tiddler: [[$:/inmysocks/Macros/TagGridMacro]]
+
+Other support tiddlers you may want:
+
+<$list
+    filter='[prefix[$:/inmysocks/Macros/TagGridMacro/]]'
+>
+
+</$list>
+
+Usage:
+
+```
+<<TagGrid RowFilter:"[!is[system]limit[5]]" ColmunFilter:"[!is[system]limit[5]]" InputTiddlers:"[!is[system]]" ShowColumnTitle:true UseTagPills:false class:tag-grid-default cells:default>>
+```
+
+|!Name |!Description |
+|`RowFilter` |This is a filter that determines which tags are used to make the rows of the table. Default: `[!is[system]limit[5]]` |
+|`ColumnFilter` |This is a filter that determines which tags are used to make the columns of the table. Default: `[!is[system]limit[5]]` |
+|`InputTiddlers` |This is a filter. Only tiddlers returned by this filter will be returned by the count in the table. If you use the `cells` parameter below than you will need to setup whatever is needed to make this parameter function in the template tiddler you create. Default: `[!is[system]]` |
+|`ShowColumnTitle` |This sets if the tag names are listed on each column. The table can get very wide if this is true. Options are `true` and `false`. Default `true` |
+|`UseTagPills` |This sets if the row and colmun headers show tag pills instead of just the name. This is false by default because if you have the same tag in both the columns and in the rows than both pills will show a dropdown when you click on one. Options are `true` and `false`. Default: `false` |
+|`class` |This is an optional css class to be used by the table. No default. |
+|`cells` |This is an optional name of a tiddler to use as a template in each cell. If nothing is given, it lists the number of tiddlers that have both the column and the row tags. No default value. |
+
+It looks like this by default (click on a cell or colmun or row header to see what it does):
+
+Code: `<<TagGrid>>`
+
+<<TagGrid>>
+
+And using tag pills:
+
+Code: `<<TagGrid UseTagPills:true>>`
+
+<<TagGrid UseTagPills:true>>
+
+Using the [[CountButton|$:/inmysocks/Macros/TagGridMacro/BasicCount]] cell template (clicking on a cell does nothing):
+
+Code: `<<TagGrid cells:"""$:/inmysocks/Macros/TagGridMacro/BasicCount""">>`
+
+<<TagGrid cells:"""$:/inmysocks/Macros/TagGridMacro/BasicCount""">>
+
+Using the [[BasicList|$:/inmysocks/Macros/TagGridMacro/BasicCount]] cell template:
+
+Code: `<<TagGrid cells:"""$:/inmysocks/Macros/TagGridMacro/BasicList""">>`
+
+<<TagGrid cells:"""$:/inmysocks/Macros/TagGridMacro/BasicList""">>

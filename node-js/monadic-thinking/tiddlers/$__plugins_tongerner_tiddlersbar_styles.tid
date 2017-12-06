@@ -1,0 +1,54 @@
+created: 20170325123352694
+creator: TonGerner
+left-tiddlersbar: 42px
+list-after: $:/themes/tiddlywiki/vanilla/base
+modified: 20171204201450748
+modifier: stevesuny
+tags: $:/tags/Stylesheet
+tiddlersbar-border-radius: 1px
+tiddlersbar-color: #7499DA
+tiddlersbar-font-size: 0.9em
+tiddlersbar-selected-color: #4A7ACF
+tiddlersbar-selected-text-color: #FFFFFF
+tiddlersbar-text-color: #FFFFFF
+title: $:/plugins/tongerner/tiddlersbar/styles
+top-tiddlersbar: 64px
+type: text/vnd.tiddlywiki
+
+<pre>/* BREADCRUMBS TOP MENU */
+.tgc-tiddlersbar {
+     display: block;
+     position: fixed;
+     left: 0;
+     top: {{!!top-tiddlersbar}};  /* vertical start of tiddlersbar 'menu' */
+     width: calc(100% - 60px); /* right margin for '>>' icon */
+     margin-left: {{!!left-tiddlersbar}};
+     z-index: 1100;
+}
+
+/* TIDDLERSBAR */
+.tgc-tiddlersbar button {
+     font-size: {{!!tiddlersbar-font-size}};
+     color: {{!!tiddlersbar-text-color}};
+     padding: 3px 5px 3px 5px;
+     border: none;
+     border-radius: {{!!tiddlersbar-border-radius}};
+     background-color: {{!!tiddlersbar-color}};
+     border-left: 1px solid #cccccc;
+     border-top: 1px solid #cccccc;
+     border-right: 1px solid #cccccc;
+}
+
+/* TIDDLERBAR SELECTED */
+.tgc-tiddlersbar button.tgc-tiddlersbar-selected {
+     color: {{!!tiddlersbar-selected-text-color}};
+     background-color: {{!!tiddlersbar-selected-color}};
+}
+/* HOVER over 'x' */
+.tgc-tiddlersbar button.tgc-x:hover {
+     font-weight: bold;
+}
+.tgc-tiddlersbar button.tgc-tiddlersbar-selected.tgc-x:hover {
+     font-weight: bold;
+}
+</pre>

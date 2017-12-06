@@ -1,0 +1,10 @@
+created: 20170612093304441
+import-field-column: producer-name
+import-field-name: producer-name
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171204201450208
+title: $:/_ExcelImporter/ImportSpecifiers/Field 28
+type: text/vnd.tiddlywiki
+

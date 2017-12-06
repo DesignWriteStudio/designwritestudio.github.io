@@ -1,0 +1,16 @@
+created: 20150721174609665
+creator: stevesunypoly
+list: 
+modified: 20171204201452466
+modifier: stevesuny
+tags: [[Four Words]] [[Text Hyper Wiki Tiddly]]
+title: Hyper
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag{!!title}]">
+<p><div class="level1"><$link><<currentTiddler>></$link></div>
+<$appear show="&raquo;" hide="&laquo;" $state="dataset">
+<div class="level2"><$transclude mode="block" field="text"/></div>
+</$appear>
+</p>
+</$list>

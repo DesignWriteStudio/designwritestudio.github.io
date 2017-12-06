@@ -1,0 +1,37 @@
+caption: DesignWriteStudio
+created: 20170107012105523
+creator: stevesunypoly
+draft.of: DesignWriteStudio
+draft.title: DesignWriteStudio
+modified: 20171204155138848
+modifier: stevesunypoly
+tagline: The Studio for ''Design''ing and ''Wr''iting ''I''nteractive ''Te''xts
+title: Draft of 'DesignWriteStudio'
+type: text/vnd.tiddlywiki
+
+!!! {{!!tagline}}
+
+
+<!--<<stretch "~LiveURL" "{{!!liveurl}})>>-->
+
+We explore the processes and techniques associated with writing and designing interactive texts. 
+
+A quick demonstration of an interactive text:
+<$appear show=">>" hide="<<" state="$:/demo">
+
+* Two flavors of ''Stretch Text <$appear show=">>" hide="<<" >
+[img width="100%" [stretch-text-nelson.png]]
+</$appear>'' -- a hypertext strategy invented by Ted Nelson -- as implemented in TiddlyWiki:
+** [[StretchText]]: <<stretch "Design" "ing and">><<stretch "Wr" "iting">><<stretch "I" "nteractive">><<stretch "Te" "xts">>Studio
+**  [[TextStretch]]: <<strex "Designing and" "Design">><<strex "Writing" "Wr">><<strex "Interactive" "i">><<strex "Texts" "Te">>Studio
+
+
+
+
+
+
+
+
+
+
+

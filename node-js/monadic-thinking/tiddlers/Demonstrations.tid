@@ -1,0 +1,10 @@
+created: 20170614215911784
+creator: stevesuny
+modified: 20171204201451534
+modifier: stevesuny
+title: Demonstrations
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Demonstrations]nsort[slideorder]]">
+<$link><<currentTiddler>></$link><br>
+</$list>

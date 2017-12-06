@@ -1,0 +1,13 @@
+created: 20170612103140509
+import-field-column: Column Name
+import-field-list-op: append
+import-field-name: tags
+import-field-skip-tiddler-if-blank: yes
+import-field-source: constant
+import-field-type: string
+import-field-value: producer-type
+import-spec-role: field
+modified: 20171204201450144
+title: $:/_ExcelImporter/ImportSpecifiers/Field 5
+type: text/vnd.tiddlywiki
+
