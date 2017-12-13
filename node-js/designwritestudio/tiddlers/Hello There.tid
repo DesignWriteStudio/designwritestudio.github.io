@@ -1,6 +1,6 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20171213164126188
+modified: 20171213170024236
 modifier: stevesunypoly
 tags: 
 title: Hello There
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 
 !! Welcome to the {{DesignWriteStudio!!tagline}}
 
-Beginning in January 2018, the DesignWriteStudio will serve as the primary Web presence supporting a 15-week university course using TiddlyWiki as the primary teaching and learning platform...<$appear show="+Read More" hide="-Read Less" state="$:/about"><$transclude tiddler="About January-May 2018" mode="block"/></$appear>
+<$view tiddler="About January-May 2018" field="intro"/> <$appear show="+Read More" hide="-Read Less" state="$:/about"><$transclude tiddler="About January-May 2018" mode="block"/></$appear>
 <hr>
 
 <$list filter="[tag[DesignWriteStudio]]">
