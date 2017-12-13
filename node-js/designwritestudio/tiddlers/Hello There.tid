@@ -1,16 +1,18 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20171130222437526
+modified: 20171213164126188
 modifier: stevesunypoly
 tags: 
 title: Hello There
 type: text/vnd.tiddlywiki
 
-''Navigation Help '' <$appear> Tap {{$:/plugins/tobibeer/appear/defaults/show}} to open/close popups || In the upper right tap {{$:/core/ui/Buttons/home}} to restart || Within any Tiddler tap {{$:/core/ui/Buttons/close}} to go back or close</$appear><hr>
+''Navigation Help '' <$appear>{{Navigation-Help}}</$appear><hr>
 
 
 !! Welcome to the {{DesignWriteStudio!!tagline}}
-Home of IDT 575 and COM 375<br>
+
+Beginning in January 2018, the DesignWriteStudio will serve as the primary Web presence supporting a 15-week university course using TiddlyWiki as the primary teaching and learning platform...<$appear show="+Read More" hide="-Read Less" state="$:/about"><$transclude tiddler="About January-May 2018" mode="block"/></$appear>
+<hr>
 
 <$list filter="[tag[DesignWriteStudio]]">
 <$link><<currentTiddler>></$link>

@@ -1,9 +1,0 @@
-created: 20160412001419903
-modified: 20161104162441852
-tags: Hegart $:/tags/SideBar
-title: Display
-type: text/vnd.tiddlywiki
-
-{{$:/_Menu/Home/Configuration/Options}}
-Templates:
-<<list-links filter:"[tag[$:/tags/ViewTemplate]]">>

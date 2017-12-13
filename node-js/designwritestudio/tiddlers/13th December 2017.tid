@@ -1,0 +1,8 @@
+created: 20171213164336868
+modified: 20171213164724305
+tags: Journal
+title: 13th December 2017
+type: text/vnd.tiddlywiki
+
+* Added better description of [[January-May 2018 Activities]], and integrated it into [[Hello There]] (note [[trick|January-May 2018 Activities]] of transcluding first line of tiddler using a ``{{!!fieldname}}`` so that on ``<$appear>`` transclusion it isn't visible...)
+* Briefly explored https://github.com/Arlen22/TiddlyServer, and a tutorial for it at https://www.didaxy.com/introduction-to-tiddlyserver, and the really excellent site https://www.didaxy.com/.

@@ -1,0 +1,9 @@
+created: 20171206205013056
+modified: 20171206205129905
+tags: DWS
+title: xlsx utilities
+type: text/vnd.tiddlywiki
+
+[[$:/plugins/tiddlywiki/xlsx-utils]], a plugin
+
+requires [[$:/plugins/tiddlywiki/jszip]]

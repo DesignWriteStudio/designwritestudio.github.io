@@ -1,9 +1,0 @@
-created: 20151007154302388
-creator: stevesunypoly
-modified: 20161028145752902
-modifier: stevesunypoly
-tags: 
-title: SaveTiddlyWiki
-type: text/vnd.tiddlywiki
-
-{{$:/core/ui/Buttons/save-wiki}}

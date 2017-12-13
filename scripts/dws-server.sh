@@ -1,2 +1,1 @@
-tiddlywiki ../node.js/designwritestudio/ --server
-
+tiddlywiki ../node.js/designwritestudio --server

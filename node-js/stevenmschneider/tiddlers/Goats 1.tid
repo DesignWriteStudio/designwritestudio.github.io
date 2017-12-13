@@ -1,9 +1,0 @@
-created: 20150716201047388
-creator: stevesunypoly
-modified: 20161028145750207
-modifier: stevesunypoly
-tags: steveMod $:/tags/MoreSideBar
-title: Goats
-type: text/vnd.tiddlywiki
-
-<$list filter="[tag[goatNarrative]]">
