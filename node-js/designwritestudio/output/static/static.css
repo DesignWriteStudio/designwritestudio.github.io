@@ -2713,3 +2713,40 @@ button.strex-end.numbers::after {
   }
 }
 
+.yellow-hilite {
+    background-color: yellow;
+}.fpnl-days {
+    background-color: cornsilk;
+}
+.component-description {
+    background-color: cornsilk;
+}.paragraph {
+    color: green;
+}.class-event {
+    font-weight: bold;
+}.class-topic {
+    font-weight: bold;
+}.calendar-event {
+    font-style: italic;
+}.project-link {
+    font-weight: normal;
+}.project-title {
+    font-weight: bold;
+}.project-title-overview {
+    font-weight: bold;
+    font-size: 125%;
+}
+.days-overview {
+    font-weight: bold;
+    font-size: 125%;
+}.project-component-title {
+    font-weight: bold;
+}.project-component-text {
+    font-weight: normal;
+}.project-due {
+    font-weight: bold;
+}.no-assignments {
+    font-style: italic;
+}
+
+
