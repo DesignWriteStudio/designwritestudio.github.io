@@ -1,5 +1,5 @@
 created: 20171219001707204
-modified: 20171219013535400
+modified: 20171219015244701
 tags: 
 title: Demo of multi-reveal of annotations using appear plugin
 type: text/vnd.tiddlywiki
@@ -8,8 +8,10 @@ type: text/vnd.tiddlywiki
 <hr>
 The [[Google Dictionary|https://www.google.com/search?ei=thw4WtvdDYjcjwT2xLHYAg&q=define%3Adesign]] suggests three parts to the definition of design, each of which is a component worth thinking about:
 
-# a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made <$appear show="" state="$:/temp/dictionary"  class="yellow-hilite">I like the words like "look and function" (similar to but not exactly the same as "[[look and feel|https://en.wikipedia.org/wiki/Look_and_feel]]" in the digital world).</$appear>
+# a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made<$appear show="" state="$:/temp/dictionary"  class="yellow-hilite">
+I like the words like "look and function" (similar to but not exactly the same as "[[look and feel|https://en.wikipedia.org/wiki/Look_and_feel]]" in the digital world).
+</$appear>
 # purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object <$appear show="" state="$:/temp/dictionary" class="yellow-hilite"> the word "behind" is key -- design exists behind things such as actions, facts or material objects.  When designing hypertexts, the text is the material object whose look and function is shaped by design</$appear>
-# decide upon the look and functioning of (a building, garment, or other object), typically by making a detailed drawing of it <br><$appear show="+Show Comments" hide="-Hide Comments" state="$:/temp/dictionary"  class="yellow-hilite"> the notion of design as a verb -- to decide upon --  highlights the activity of design - the fact that it is something that is done with intention and agency by a designer</$appear>
+# decide upon the look and functioning of (a building, garment, or other object), typically by making a detailed drawing of it <$appear show="" state="$:/temp/dictionary" class="yellow-hilite">the notion of design as a verb -- to decide upon --  highlights the activity of design - the fact that it is something that is done with intention and agency by a designer</$appear><br><$appear show="+Show Comments" hide="-Hide Comments" state="$:/temp/dictionary"  ></$appear>
 
 
