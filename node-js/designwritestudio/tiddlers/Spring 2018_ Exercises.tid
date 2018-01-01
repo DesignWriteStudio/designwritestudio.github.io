@@ -1,0 +1,11 @@
+created: 20171219150524458
+modified: 20171219154920623
+tags: [[Spring 2018 Class Overview]]
+title: Spring 2018: Exercises
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[DesignWriteStudio Exercises]]">
+<$link><<currentTiddler>></$link>
+<$appear><$transclude mode="block"/></$appear>
+<br>
+</$list>

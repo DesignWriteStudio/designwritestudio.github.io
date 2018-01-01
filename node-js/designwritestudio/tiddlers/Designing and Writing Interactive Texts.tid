@@ -1,0 +1,17 @@
+created: 20171229155009614
+modified: 20171229160249019
+tags: 
+title: Designing and Writing Interactive Texts
+type: text/vnd.tiddlywiki
+
+<span class="yellow-hilite">Transclusion</span><$appear state="$:/transclusion">
+Designing<$appear state="$:/designing">{{Designing}}</$appear>
+and 
+Writing<$appear state="$:/writing">{{Writing}}</$appear>
+Interactive<$appear state="$:/interactive">{{Interactive}}</$appear>
+Texts<$appear state="$:/texts">{{Texts}}</$appear>
+</$appear>
+<br><br>
+<span class="yellow-hilite">Links</span><br>
+[[Designing]] and [[Writing]] [[Interactive]] [[Texts]]
+

@@ -1,8 +1,27 @@
 created: 20171218194847572
-modified: 20171218205955422
-synonym: Design
-tags: CoreSynonym
+modified: 20171228183652858
+tags: CoreTerms
 title: Designing
 type: text/vnd.tiddlywiki
 
-See: <$link>{{!!synonym}}</$link><br>
+* Dictionary <$appear state="$:/dictionary" >
+
+The [[Google Dictionary|https://www.google.com/search?ei=thw4WtvdDYjcjwT2xLHYAg&q=define%3Adesign&oq=define%3Adesign&gs_l=psy-ab.3..0i71k1l4.0.0.0.967524.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.sMCetYk-HDE]] suggests three parts to the definition of design, each of which is a component worth thinking about:
+
+# a plan or drawing produced to show the look and function or workings of a building, garment, or other object before it is built or made
+# purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object.
+# decide upon the look and functioning of (a building, garment, or other object), typically by making a detailed drawing of it.
+
+All three are part of what I think of with the term design:
+
+* I like the words like "look and function" (similar to but not exactly the same as "[[look and feel|https://en.wikipedia.org/wiki/Look_and_feel]]" in the digital world).
+* In the second point, I think the word "behind" is key -- design exists behind things -- actions, facts, material objects are mentioned. When designing hypertexts, the text is the material object whose look and function is shaped by design.
+* Finally, the notion of design as a verb highlights the activity of design - the fact that it is something that is done with intention and agency, by a designer.
+</$appear>
+* Wikipedia <$appear state="$:/wikipedia">
+
+* [[Wikipedia|https://en.wikipedia.org/wiki/Design]] suggests that design includes both the material abstraction of a thing to be created, and a verb signifying the process of creating. 
+* I think the [[six stages of the design process|https://en.wikipedia.org/wiki/Design#Six_stages_of_the_Design_Process]] are helpful to identify and think about.
+* When designing interactive texts, I think we should give consideration to both the [[action-centric|https://en.wikipedia.org/wiki/Design#The_action-centric_model]] and the [[rational|https://en.wikipedia.org/wiki/Design#The_rational_model]] of design. Which should guide us?
+</$appear>
+

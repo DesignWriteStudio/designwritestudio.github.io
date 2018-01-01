@@ -1,0 +1,11 @@
+created: 20171219150635311
+modified: 20171219155454168
+tags: [[Spring 2018 Class Overview]]
+title: Spring 2018: Workshops
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[DesignWriteStudio Workshops]]">
+<$link><<currentTiddler>></$link>
+<$appear><$transclude mode="block"/></$appear>
+<br>
+</$list>

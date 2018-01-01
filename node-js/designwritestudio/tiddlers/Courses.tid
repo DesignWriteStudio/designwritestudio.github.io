@@ -1,7 +1,10 @@
 created: 20171129151458765
-modified: 20171129151513715
+modified: 20171220153320255
 title: Courses
 type: text/vnd.tiddlywiki
+
+<hr>
+{{Spring 2018 Class Overview}}
 
 !! Components
 <$list filter="[tag[CourseComponents]]">
