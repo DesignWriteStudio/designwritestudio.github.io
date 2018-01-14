@@ -1,0 +1,10 @@
+created: 20180110222533139
+import-field-column: date
+import-field-name: date
+import-field-source: column
+import-field-type: date
+import-spec-role: field
+modified: 20180111195041074
+title: class-days-rows-date
+type: text/vnd.tiddlywiki
+

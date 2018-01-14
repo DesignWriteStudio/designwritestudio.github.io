@@ -1,0 +1,10 @@
+created: 20180110222549763
+import-field-column: class-notes
+import-field-name: class-notes
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180110222604248
+title: class-days-rows-class-notes
+type: text/vnd.tiddlywiki
+

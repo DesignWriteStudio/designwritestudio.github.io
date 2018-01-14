@@ -1,0 +1,10 @@
+created: 20180110224351041
+import-field-column: exercise-group
+import-field-name: exercise-group
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180110224403682
+title: $:/_ExcelImporter/ImportSpecifiers/Field 3
+type: text/vnd.tiddlywiki
+

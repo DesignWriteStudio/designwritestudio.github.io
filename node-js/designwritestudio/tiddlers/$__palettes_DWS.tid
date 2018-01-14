@@ -1,10 +1,10 @@
 created: 20170117044228288
 creator: stevesunypoly
 description: DesignWriteStudio
-modified: 20171114192136652
+modified: 20180112163538228
 modifier: stevesunypoly
 name: DWS
-tags: $:/tags/Palette
+tags: DWS $:/tags/Palette
 title: $:/palettes/DWS
 type: application/x-tiddler-dictionary
 
@@ -111,3 +111,18 @@ toolbar-cancel-button:
 toolbar-done-button: 
 untagged-background: #999999
 very-muted-foreground: #888888
+1: #DEFF65
+2: #FF9563
+3: #FF7575
+4: #5AD3FF
+5: #A7FF7B
+6: #DEFF65
+7: #FF9563
+8: #FF7575
+9: #5AD3FF
+10: #A7FF7B
+11: #DEFF65
+12: #FF9563
+13: #FF7575
+14: #5AD3FF
+15: #A7FF7B

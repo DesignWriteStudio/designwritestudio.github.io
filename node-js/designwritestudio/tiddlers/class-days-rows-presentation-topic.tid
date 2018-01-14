@@ -1,0 +1,11 @@
+created: 20180110222605098
+import-field-column: presentation-topic
+import-field-name: presentation-topic
+import-field-prefix: 
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180111162639118
+title: class-days-rows-presentation-topic
+type: text/vnd.tiddlywiki
+

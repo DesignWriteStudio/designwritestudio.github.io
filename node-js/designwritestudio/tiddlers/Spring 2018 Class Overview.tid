@@ -1,5 +1,5 @@
 created: 20171219150023758
-modified: 20171219155031935
+modified: 20180109202620061
 title: Spring 2018 Class Overview
 type: text/vnd.tiddlywiki
 
@@ -7,7 +7,8 @@ type: text/vnd.tiddlywiki
 Enumerate core aspects of course for potential participants. Identify [[CoreElements]] and build independent tiddlers for each. Create links to [[CoreElements]] tiddlers for editing and writing. Enable one-tap show/hide of all and of individual elements. 
 </$appear>
 
-<<translink """Spring 2018: Learning Objectives""">>
+<<translink """Spring 2018: Course Goals""">>
+<<translink """Spring 2018: Course Objectives""">>
 <<translink """Spring 2018: Outcomes""">>
 <<translink """Spring 2018: Exercises""">>
 <<translink """Spring 2018: Presentations""">>

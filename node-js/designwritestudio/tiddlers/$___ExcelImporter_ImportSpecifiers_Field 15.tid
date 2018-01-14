@@ -1,0 +1,12 @@
+created: 20180111192811949
+import-field-column: Presentations
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: Presentations
+import-spec-role: field
+modified: 20180111192933449
+title: $:/_ExcelImporter/ImportSpecifiers/Field 15
+type: text/vnd.tiddlywiki
+

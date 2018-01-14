@@ -1,0 +1,10 @@
+created: 20180110224109637
+import-field-column: exercise-due-date
+import-field-name: date
+import-field-source: column
+import-field-type: date
+import-spec-role: field
+modified: 20180111214403101
+title: $:/_ExcelImporter/ImportSpecifiers/Field 2
+type: text/vnd.tiddlywiki
+

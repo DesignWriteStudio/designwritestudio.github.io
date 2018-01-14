@@ -1,0 +1,12 @@
+created: 20180110224525619
+import-field-column: Column Name
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: Exercises
+import-spec-role: field
+modified: 20180111193016727
+title: $:/_ExcelImporter/ImportSpecifiers/Field 5
+type: text/vnd.tiddlywiki
+

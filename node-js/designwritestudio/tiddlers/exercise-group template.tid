@@ -1,0 +1,16 @@
+created: 20180111161541430
+creator: stevesunypoly
+modified: 20180111161950337
+modifier: stevesunypoly
+tags: CourseOutlineTemplates $:/tags/ViewTemplate
+title: exercise-group template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[exercise-group]]">
+<$list filter="[exercise-group<currentTiddler>sort[title]]">
+<$link to=<<currentTiddler>>><<currentTiddler>>: {{!!exercise-title}}</$link><br>
+</$list>
+<hr>
+^^[[Template|exercise-group template]]^^
+</$list>
+

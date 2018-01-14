@@ -1,0 +1,10 @@
+created: 20180110222508526
+import-field-column: week-number
+import-field-name: week-number
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180110222532044
+title: class-days-rows-week-number
+type: text/vnd.tiddlywiki
+

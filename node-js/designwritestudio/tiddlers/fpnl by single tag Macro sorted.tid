@@ -1,0 +1,31 @@
+created: 20170405184231651
+modified: 20180111200331170
+tags: DWS $:/tags/Macro
+title: fpnl by single tag Macro sorted
+type: text/vnd.tiddlywiki
+
+\define fpnl-by-tag(myTiddler myTag mySortField)
+<$set name="myTiddler" value="""$myTiddler$""">
+<$set name="mySortField" value=$mySortField$>
+<$set name="myTag" value="""$myTag$""">
+<$list filter="[tag<myTag>sort<mySortField>first[]]">
+<$link to=<<currentTiddler>>>
+<<currentTiddler>></$link> ||
+</$list>
+<$list filter="[tag<myTag>sort<mySortField>before<myTiddler>]">
+<$link to=<<currentTiddler>>>
+<<currentTiddler>></$link> ||
+</$list>
+<<tag """$myTag$""">> ||
+<$list filter="[tag<myTag>sort<mySortField>after<myTiddler>]">
+<$link to=<<currentTiddler>>>
+<<currentTiddler>></$link> ||
+</$list>
+<$list filter="[tag<myTag>sort<mySortField>last[]]">
+<$link to=<<currentTiddler>>>
+<<currentTiddler>></$link> 
+</$list>
+<<designwrite "^^[[fpnlX Macro]]^^">>
+\end
+
+<$macrocall $name="fpnl-by-tag" myTiddler=<<currentTiddler>> myTag="This is my Test Tag" mySortField="sortable-date">

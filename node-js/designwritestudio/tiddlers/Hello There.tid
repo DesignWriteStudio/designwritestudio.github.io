@@ -1,6 +1,6 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20171223040551227
+modified: 20180103045134488
 modifier: stevesunypoly
 tags: 
 title: Hello There
@@ -10,9 +10,6 @@ type: text/vnd.tiddlywiki
 
 
 !! Welcome to the {{DesignWriteStudio!!tagline}}
-
-<$view tiddler="About January-May 2018" field="intro" mode="block"/> <$appear show="+Read More" hide="-Read Less" state="$:/about"><$transclude tiddler="About January-May 2018" mode="block"/></$appear>
-<hr>
 
 <$list filter="[tag[DesignWriteStudio]]">
 <$link><<currentTiddler>></$link>

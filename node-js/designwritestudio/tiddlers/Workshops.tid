@@ -1,13 +1,18 @@
 created: 20171128180633154
 list: 
-modified: 20171128192418448
-tags: Videos
+modified: 20180111213942706
+tags: DesignWriteStudio
 title: Workshops
 type: text/vnd.tiddlywiki
 
-* Students registered for <<tag Spring2018Courses>> may choose to attend open workshops on Monday evenings.
-* Workshops may be attended by as many as 20 students.
-* Workshops should be live streamed to all students, including students in the [[Open Course Spring 2018]].
-* Workshops should be recorded and posted automatically to a page with links to videos.
-* Participating students should be able to share their screens in the workshop.
-* Recording ideally can be turned on/off during the workshop as needed.
+\define presentation() Presentation: $(presentation-topic)$
+\define workshop() Workshop: $(workshop-topic)$
+\define exercise() Exercise $(exercise-number)$
+
+<$list filter="[tag[Workshops]sort[date]]">
+<$vars workshop-tiddler=<<currentTiddler>>>
+<$list filter="[tag[Classes]date{!!date}]">
+<<currentTiddler>>: <$link to=<<workshop-tiddler>>>{{!!workshop-topic}}</$link><br>
+</$list>
+</$vars>
+</$list>

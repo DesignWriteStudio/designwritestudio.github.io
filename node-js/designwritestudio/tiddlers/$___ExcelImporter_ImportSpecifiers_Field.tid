@@ -1,0 +1,11 @@
+created: 20180110222626324
+import-field-column: workshop-topic
+import-field-name: workshop-topic
+import-field-prefix: 
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180111162642987
+title: $:/_ExcelImporter/ImportSpecifiers/Field
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,12 @@
+created: 20180111192748965
+import-field-column: Workshops
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: Workshops
+import-spec-role: field
+modified: 20180111192919430
+title: $:/_ExcelImporter/ImportSpecifiers/Field 14
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,19 @@
+created: 20180111214113803
+modified: 20180111215511083
+tags: DesignWriteStudio
+title: Exercises
+type: text/vnd.tiddlywiki
+
+\define presentation() Presentation: $(presentation-topic)$
+\define workshop() Workshop: $(workshop-topic)$
+\define exercise() Exercise $(exercise-number)$
+<$list filter="[tag[Exercises]sort[date]]">
+<$vars exercise-tiddler=<<currentTiddler>>>
+<$list filter="[tag[Classes]exercise-number{!!exercise-number}]">
+<$link to=<<exercise-tiddler>>>Exercise {{!!exercise-number}}:
+ {{!!exercise}}</$link></$list>
+(Due: <$view field="date" format="date" template="ddd 0DD mmm"/>)
+<br>
+
+</$vars>
+</$list>

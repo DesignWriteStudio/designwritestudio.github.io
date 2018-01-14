@@ -1,0 +1,9 @@
+created: 20170530215704784
+modified: 20180114170844226
+tags: 
+title: $:/core/ui/ViewTemplate/endslideshow
+type: text/vnd.tiddlywiki
+
+<div class="tc-next" style="margin-left:-30px;margin-top:-20px;">
+<<endslideshow>>
+</div>

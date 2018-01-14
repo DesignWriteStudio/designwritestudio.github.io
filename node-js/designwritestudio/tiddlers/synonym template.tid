@@ -1,13 +1,16 @@
 created: 20171228183305710
 creator: stevesunypoly
-modified: 20171228183459390
+modified: 20180103050025575
 modifier: stevesunypoly
 tags: $:/tags/ViewTemplate
 title: synonym template
 type: text/vnd.tiddlywiki
 
 <$list filter="[is[current]tag[CoreSynonym]]">
-See: <$link>{{!!synonym}}</$link><br>
+<$list filter="[title{!!synonym}]">
+Showing: <$link><<currentTiddler>></$link><br>
+</$list>
+<$transclude tiddler={{!!synonym}} mode="block"/>
 
 <hr>
 ^^[[Template|synonym template]]^^

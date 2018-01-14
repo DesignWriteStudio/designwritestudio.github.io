@@ -1,0 +1,10 @@
+created: 20180111192736804
+import-field-column: date
+import-field-name: date
+import-field-source: column
+import-field-type: date
+import-spec-role: field
+modified: 20180111211130507
+title: $:/_ExcelImporter/ImportSpecifiers/Field 13
+type: text/vnd.tiddlywiki
+

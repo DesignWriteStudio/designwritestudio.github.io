@@ -1,0 +1,11 @@
+created: 20180110224009276
+import-field-column: exercise-number
+import-field-name: title
+import-field-prefix: Exercise 
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180110224104026
+title: $:/_ExcelImporter/ImportSpecifiers/Field 1
+type: text/vnd.tiddlywiki
+

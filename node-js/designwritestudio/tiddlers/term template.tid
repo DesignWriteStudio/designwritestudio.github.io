@@ -1,0 +1,14 @@
+created: 20180103045436289
+creator: stevesunypoly
+modified: 20180103050445350
+modifier: stevesunypoly
+tags: $:/tags/ViewTemplate
+title: term template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[CoreTerm]]">
+<$list filter="[synonym{!!title}]">
+Synonym: <$link><<currentTiddler>></$link><br>
+<hr>
+^^[[Template|term template]]^^
+</$list>

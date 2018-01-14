@@ -1,0 +1,20 @@
+created: 20170531021151279
+list-before: $:/core/ui/ViewTemplate/title
+modified: 20180114170844231
+tags: 
+title: $:/core/ui/ViewTemplate/next
+type: text/vnd.tiddlywiki
+
+<div class="tc-next" style="margin-left:-30px;margin-top:-30px;">
+
+<$list filter="[all[current]next[$:/StoryList]]">
+
+<$link to={{!!title}}>
+
+{{$:/core/images/down-arrow}}
+
+</$link>
+
+</$list>
+
+</div>

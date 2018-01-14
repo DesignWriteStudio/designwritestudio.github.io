@@ -1,0 +1,10 @@
+created: 20180110222645847
+import-field-column: exercise
+import-field-name: exercise
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180110222723006
+title: class-days-rows-exercise
+type: text/vnd.tiddlywiki
+

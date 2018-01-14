@@ -1,0 +1,16 @@
+created: 20180111193226632
+creator: stevesunypoly
+modified: 20180111211318641
+modifier: stevesunypoly
+tags: CourseOutlineTemplates $:/tags/ViewTemplate
+title: workshop template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Workshops]]">
+<$list filter="[tag[Classes]date{!!date}]">
+<$link to=<<currentTiddler>>><<currentTiddler>></$link>
+</$list><br>
+<hr>
+^^[[Template|workshop template]]^^
+</$list>
+

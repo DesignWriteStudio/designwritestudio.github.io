@@ -1,0 +1,17 @@
+created: 20180111210856015
+modified: 20180111213911047
+tags: DesignWriteStudio
+title: Presentations
+type: text/vnd.tiddlywiki
+
+\define presentation() Presentation: $(presentation-topic)$
+\define workshop() Workshop: $(workshop-topic)$
+\define exercise() Exercise $(exercise-number)$
+
+<$list filter="[tag[Presentations]sort[date]]">
+<$vars presentation-tiddler=<<currentTiddler>>>
+<$list filter="[tag[Classes]date{!!date}]">
+<<currentTiddler>>: <$link to=<<presentation-tiddler>>>{{!!presentation-topic}}</$link><br>
+</$list>
+</$vars>
+</$list>
