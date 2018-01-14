@@ -1,0 +1,15 @@
+created: 20180114201613502
+modified: 20180114202050997
+presentation-topic: Text, Interactivity, Writing and Designing
+tags: 
+title: New Tiddler 2
+type: text/vnd.tiddlywiki
+
+\define title-slide() Title Slide: $(presentation-topic)$
+
+<$button>
+<$vars presentation-topic={{!!presentation-topic}}>
+<$action-createtiddler $basetitle=<<presentation-topic>> slidenum="0" text="<h1>{{!!presentation-topic}}</h1>"/>
+Create title slide
+</$vars>
+</$button>

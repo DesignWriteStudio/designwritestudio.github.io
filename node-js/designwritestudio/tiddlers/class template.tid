@@ -1,6 +1,6 @@
 created: 20180111162434269
 creator: stevesunypoly
-modified: 20180111204156088
+modified: 20180114195452952
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: class template
@@ -15,7 +15,7 @@ Presentation: <$link to=<<presentation>>>{{!!presentation-topic}}</$link><br>
 Workshop: <$link to=<<workshop>>>{{!!workshop-topic}}</$link><br>
 Exercise Assigned: <$link to=<<exercise>>>Exercise {{!!exercise-number}}: {{!!exercise}}</$link> (Due: 
 <$list filter="[title<exercise>]">
-<$view field="due-date" format="date" template="ddd 0DD mmm"/>
+<$view field="date" format="date" template="ddd 0DD mmm"/>
 </$list>)
 <br>
 

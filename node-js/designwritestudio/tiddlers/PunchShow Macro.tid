@@ -1,5 +1,5 @@
 created: 20180112160044263
-modified: 20180114170834995
+modified: 20180114215128255
 tags: DWS $:/tags/Macro
 title: PunchShow Macro
 type: text/vnd.tiddlywiki
@@ -11,11 +11,11 @@ type: text/vnd.tiddlywiki
 <!--macro creates slideshow of tiddlers tagged with slidetag and ordered by field slidenum.  sets bgcolor according to values in customized palette (palette name is hardcoded). requires modified viewTemplate. requires theme punch. requires $:/themes/tiddlywiki/punch, $:/core/ui/ViewTemplate/next, $:/core/ui/ViewTemplate/prev, $:/core/ui/ViewTemplate/endslideshow -->
 
 <!--capture slidetag in variable-->
-<$set name=slidetag value="$slidetag$">
+<$set name=slidetag value="""$slidetag$""">
 
 <!--button text, close all tiddlers, hide sidebar, close open tiddlers, change theme, activate next/prev buttons, activate endslideshow button in ViewTemplate-->
 
-<$button set="$:/state/sidebar" setTo="no" tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} >
+<$button set="$:/state/sidebar" setTo="no" tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class="tc-btn-invisible tc-tiddlylink" >
 <$action-sendmessage $message="tm-close-all-tiddlers"/>
 <$action-setfield $tiddler="$:/theme" text="$:/themes/tiddlywiki/punch"/>
 <$action-setfield $tiddler="$:/core/ui/ViewTemplate/next" tags="$:/tags/ViewTemplate"/>
@@ -25,8 +25,10 @@ type: text/vnd.tiddlywiki
 <!--set default return-->
 <$action-setfield $tiddler="$:/fromTiddler" text=<<currentTiddler>>/>
 
+
 <!--set bg color of all slides in show -->
-<$list filter="[tag<slidetag>!nsort[slidenum]]">
+
+<$list filter="[tag<slidetag>!nsort[slidenum]]" >
 <$vars slidenum={{!!slidenum}}>
 <$wikify name="rgb" text=<<bgcolor>>>
 <$action-setfield background-color=<<bgcolor2>>/>
