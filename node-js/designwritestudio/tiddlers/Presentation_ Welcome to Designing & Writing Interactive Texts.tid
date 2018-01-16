@@ -1,0 +1,21 @@
+created: 20180116125406645
+modified: 20180116130104214
+title: Presentation: Welcome to Designing & Writing Interactive Texts
+type: text/vnd.tiddlywiki
+
+* What is an "interactive text"? <$appear state="interactive" show=">>show" hide="<<hide">
+
+* A //text// that readers can interact with to change its format or presentation
+* A //text// that writers have constructed and designed with interaction in mind
+</$appear><br>
+* What is TiddlyWiki?<$appear state="tiddlywiki">
+
+* A single-page application
+* A personal (not collaborative) //wiki//
+* A platform that integrates the grammar of //hypertext// into the practice of //writing//
+</$appear><br>
+* Getting Setup with TiddlyWiki<$appear state="setup">
+
+* [[Workshop: Saving, Serving, New Tiddlers]]
+* [[Exercise 1.01]]
+</$appear><br>

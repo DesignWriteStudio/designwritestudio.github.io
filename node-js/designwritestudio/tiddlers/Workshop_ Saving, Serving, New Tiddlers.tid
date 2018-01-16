@@ -1,9 +1,11 @@
 created: 20180116041901470
 date: 20180116120000000
-modified: 20180116042013411
+modified: 20180116143723854
 slideshow: <$macrocall $name="punchshow" slidetag="Saving, Serving, New Tiddlers"/>
 tags: Workshops
 title: Workshop: Saving, Serving, New Tiddlers
 type: text/vnd.tiddlywiki
 
 {{Workshop: Saving, Serving, New Tiddlers Text}}
+<hr>
+<$link to="Workshop: Saving, Serving, New Tiddlers Text">edit</$link>
