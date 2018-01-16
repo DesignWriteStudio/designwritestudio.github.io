@@ -1,7 +1,7 @@
 created: 20170117044228288
 creator: stevesunypoly
 description: DesignWriteStudio
-modified: 20180112163538228
+modified: 20180114230204794
 modifier: stevesunypoly
 name: DWS
 tags: DWS $:/tags/Palette
@@ -112,16 +112,16 @@ toolbar-done-button:
 untagged-background: #999999
 very-muted-foreground: #888888
 1: #DEFF65
-2: #FF9563
+2: #FF62f9
 3: #FF7575
 4: #5AD3FF
 5: #A7FF7B
 6: #DEFF65
-7: #FF9563
+7: #FF62f9
 8: #FF7575
 9: #5AD3FF
 10: #A7FF7B
-11: #DEFF65
+11: #FF62f9
 12: #FF9563
 13: #FF7575
 14: #5AD3FF

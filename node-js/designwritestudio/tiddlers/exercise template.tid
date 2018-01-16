@@ -1,23 +1,27 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180111214921051
+modified: 20180116035432237
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
 type: text/vnd.tiddlywiki
 
 \define workshop() Workshop: $(workshop-topic)$
+\define exercise-directions() Exercise $(exercise-number)$ Directions
 <$list filter="[is[current]tag[Exercises]]">
 <h1>{{!!exercise-title}}</h1>
-Due: <$view field="date" format="date" template="ddd 0DD mmm"/><br>
-Part of the <$link to={{!!exercise-group}}>{{!!exercise-group}}</$link> exercise group<br>
-
-
-Explained in the <$list filter="[tag[Classes]exercise-number{!!exercise-number}]">
+<ul>
+<li>Due: <$view field="date" format="date" template="ddd 0DD mmm"/></li>
+<li>Part of the <$link to={{!!exercise-group}}>{{!!exercise-group}}</$link> exercise group</li>
+<li>Explained in the <$list filter="[tag[Classes]exercise-number{!!exercise-number}]">
 <$vars workshop-topic={{!!workshop-topic}}>
 <$link to=<<workshop>>>{{!!workshop-topic}}</$link> workshop
 </$vars>
-</$list><br>
+</$list></li>
+<$vars exercise-number={{!!exercise-number}}>
+<li><$link to=<<exercise-directions>>><<exercise-directions>></$link></li>
+</$vars>
+</ul>
 <hr>
 ^^[[Template|exercise template]]^^
 </$list>

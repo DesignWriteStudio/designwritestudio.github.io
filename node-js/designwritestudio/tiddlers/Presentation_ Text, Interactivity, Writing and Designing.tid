@@ -1,9 +1,8 @@
-created: 20180114174032337
-date: 20180116120000000
-modified: 20180114201332570
+created: 20180116041901455
+date: 20180118120000000
+modified: 20180116041901455
 slideshow: <$macrocall $name="punchshow" slidetag="Text, Interactivity, Writing and Designing"/>
 tags: Presentations
 title: Presentation: Text, Interactivity, Writing and Designing
 type: text/vnd.tiddlywiki
 
-{{!!slideshow}}

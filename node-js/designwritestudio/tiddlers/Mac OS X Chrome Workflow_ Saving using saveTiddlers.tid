@@ -1,0 +1,29 @@
+created: 20180115172114909
+modified: 20180116022424756
+tags: workflow
+title: Mac OS X Chrome Workflow: Saving using saveTiddlers
+type: text/vnd.tiddlywiki
+
+# Create
+## Local directory on your laptop for your course work
+## subdirectory in your local directory called ''//tiddlywiki//''
+# Install
+## Chrome Extension:  [[saveTiddlers|https://github.com/buggyj/savetiddlers]]
+# Set Preferences
+## Chrome Download Location
+### At the top right in Chrome, click ''settings''<br>[img[chrome-settings.png]]
+### At the bottom, click Advanced.
+### Under the "Downloads" section, change the default download location by clicking //Change// and selecting the directory created above (''not'' the subdirectory)
+## saveTiddlers
+### At the top right in Chrome, click the ''save tiddlers'' icon<br>[img[save-tidders.png]]
+### Click Settings, and put //tiddlywiki// in the box for ''subfolder for saving'' box
+# Test Download and Save
+## Click the green button at [[Download Empty|https://tiddlywiki.com/#%24%3A%2Feditions%2Ftw5.com%2Fsnippets%2Fdownload-empty-button]]
+## In Chrome, select the Show In Finder option<br>[img[show-in-finder.png]]
+## In Finder, drag ''empty.html'' into //tiddlywiki// folder
+## Double-click on folder to open
+## Click ''new tiddler''<br>[img[new-tiddler.png]]
+## Type ''Hello World!'' and ''My name is..'' in the boxes as shown<br>[img[hello-world.png]]
+## Wiki should save automatically. Test by reloading page, selecting ''Recent'' and clicking on ''Hello World!''<br>[img[testing-the-save.png]]
+
+

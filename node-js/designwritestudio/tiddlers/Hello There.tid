@@ -1,6 +1,6 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20180103045134488
+modified: 20180116042647428
 modifier: stevesunypoly
 tags: 
 title: Hello There
@@ -15,4 +15,3 @@ type: text/vnd.tiddlywiki
 <$link><<currentTiddler>></$link>
 <$appear><$transclude mode="block"/></$appear><br>
 </$list>
-{{$:/favicon.ico}}<br>
