@@ -1,0 +1,11 @@
+created: 20180117164107540
+modified: 20180117165029452
+tags: workflow
+title: Workflow for submitted exercises
+type: text/vnd.tiddlywiki
+
+# Receive notification email that someone has submitted a form to https://goo.gl/forms/sTL8767nctavI7LP2
+# Goto [[google sheets with responses|https://docs.google.com/spreadsheets/d/1TVI9hjn7mdyWpU3gddValwJ0bLVpI5BxohdxbxBlc94/edit?usp=sharing]]
+# copy down uniq-name column so that each row has a uniq-name
+# Download as xlsx
+# Import using xlsx import tool, selecting workbook ''//shared wikis from google form//''

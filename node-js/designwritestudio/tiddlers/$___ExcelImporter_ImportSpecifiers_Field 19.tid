@@ -1,0 +1,10 @@
+created: 20180117140317929
+import-field-column: who are you?
+import-field-name: author
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180117140328260
+title: $:/_ExcelImporter/ImportSpecifiers/Field 19
+type: text/vnd.tiddlywiki
+

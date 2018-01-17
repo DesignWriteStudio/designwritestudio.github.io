@@ -1,0 +1,15 @@
+created: 20180117154321904
+creator: stevesunypoly
+modified: 20180117165233987
+modifier: stevesunypoly
+tags: CourseOutlineTemplates $:/tags/ViewTemplate
+title: shared-exercises template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[shared-exercises]]">
+<a href={{!!url}} target="_blank">{{!!exercise}}</a><br>
+{{!!comments}}<br>
+
+^^[[Template|shared-exercises template]]^^
+</$list>
+

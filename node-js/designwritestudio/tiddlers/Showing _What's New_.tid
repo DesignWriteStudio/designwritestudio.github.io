@@ -1,0 +1,8 @@
+created: 20180117165800922
+modified: 20180117170514995
+tags: NewAtDesignWriteStudio
+title: Showing "What's New"
+type: text/vnd.tiddlywiki
+whats-new: Easy to see what's new in the wiki
+
+I've added some functionality that will capture titles of tiddlers tagged with<<tag "NewAtDesignWriteStudio">> and present them as stretch text on [[Hello There]] 

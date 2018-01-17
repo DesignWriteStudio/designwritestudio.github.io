@@ -1,13 +1,12 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20180116042647428
+modified: 20180117171121349
 modifier: stevesunypoly
 tags: 
 title: Hello There
 type: text/vnd.tiddlywiki
 
-''Navigation Help '' <$appear>{{Navigation-Help}}</$appear><hr>
-
+{{NewAtDesignWriteStudio}}
 
 !! Welcome to the {{DesignWriteStudio!!tagline}}
 
@@ -15,3 +14,5 @@ type: text/vnd.tiddlywiki
 <$link><<currentTiddler>></$link>
 <$appear><$transclude mode="block"/></$appear><br>
 </$list>
+<hr>
+''Navigation Help '' <$appear>{{Navigation-Help}}</$appear>

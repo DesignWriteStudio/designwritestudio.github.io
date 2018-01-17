@@ -1,11 +1,12 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180116035432237
+modified: 20180117163344548
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
 type: text/vnd.tiddlywiki
 
+\define whichExercise() $(exercise-number)$ $(exercise-title)$
 \define workshop() Workshop: $(workshop-topic)$
 \define exercise-directions() Exercise $(exercise-number)$ Directions
 <$list filter="[is[current]tag[Exercises]]">
@@ -21,7 +22,17 @@ type: text/vnd.tiddlywiki
 <$vars exercise-number={{!!exercise-number}}>
 <li><$link to=<<exercise-directions>>><<exercise-directions>></$link></li>
 </$vars>
+<li>Submissions:</li>
+<$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
+<ul>
+<$list filter="[tag[shared-exercises]exercise<whichExercise>]">
+<li><$link to=<<currentTiddler>>>{{!!author}}</$link> - <a href={{!!url}} target="_blank">Link</a></li></$list>
 </ul>
+</$vars>
+</ul>
+
+
+
 <hr>
 ^^[[Template|exercise template]]^^
 </$list>

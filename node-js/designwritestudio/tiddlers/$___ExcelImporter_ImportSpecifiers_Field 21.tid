@@ -1,0 +1,10 @@
+created: 20180117140337765
+import-field-column: exercise
+import-field-name: exercise
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180117140344966
+title: $:/_ExcelImporter/ImportSpecifiers/Field 21
+type: text/vnd.tiddlywiki
+
