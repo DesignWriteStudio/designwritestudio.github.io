@@ -1,0 +1,53 @@
+created: 20170822194345308
+modified: 20180117015254813
+tags: $:/tags/Macro
+title: YouTubeMacro
+type: text/vnd.tiddlywiki
+
+\define youtube-link(video)
+[[YouTube|https://www.youtube.com/watch?v=$video$]]
+\end
+
+\define youtube-embed(video)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/$video$" frameborder="0" allowfullscreen></iframe>
+<br>
+https://www.youtube.com/watch?v=$video$
+\end
+
+\define youtube-transclude(video)
+{{$video}}
+\end
+
+\define youtube-display(video)
+
+!! {{!!description}}
+[[YouTube|https://www.youtube.com/watch?v=$video$]]<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/$video$" frameborder="0" allowfullscreen></iframe><br>
+
+\end
+
+\define youtube-x(video,start,end)
+
+!! {{!!description}}
+[[YouTube|https://www.youtube.com/embed/$video$?start=$start$&end=$end$]]<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/$video$?start=$start$&end=$end$" frameborder="0" allowfullscreen></iframe><br>
+
+{{!!caption}}
+
+\end
+
+
+\define youtube-y(video,start)
+<iframe id="ytplayer" type="text/html" width="100%" height="400"
+  src="https://www.youtube.com/embed/$video$?autoplay=1&start=$start$&origin=http://designwritestudio.updog.co"
+  frameborder="0"></iframe>
+\end
+
+\define youtube-t(video,start,stop)
+<iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/$video$?start=$start$&end=$stop$&version=3"></iframe>
+\end
+
+
+
+
+
