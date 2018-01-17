@@ -1,12 +1,13 @@
 created: 20180111162434269
 creator: stevesunypoly
-modified: 20180114195452952
+modified: 20180117202610503
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: class template
 type: text/vnd.tiddlywiki
 
 \define presentation() Presentation: $(presentation-topic)$
+\define readings-tiddler() Readings: $(class-date)$-description
 \define workshop() Workshop: $(workshop-topic)$
 \define exercise() Exercise $(exercise-number)$
 <$vars presentation-topic={{!!presentation-topic}} workshop-topic={{!!workshop-topic}} exercise-number={{!!exercise-number}} >
@@ -17,8 +18,10 @@ Exercise Assigned: <$link to=<<exercise>>>Exercise {{!!exercise-number}}: {{!!ex
 <$list filter="[title<exercise>]">
 <$view field="date" format="date" template="ddd 0DD mmm"/>
 </$list>)
-<br>
-
+<$vars class-date={{!!title}}>
+<$transclude tiddler=<<readings-tiddler>> mode="block"/>
+</$vars>
+<hr>
 <p>
 <div class="fpnl-days">
 <$macrocall $name="fpnl-by-tag" myTiddler=<<currentTiddler>> myTag="Classes" mySortField="date"/>

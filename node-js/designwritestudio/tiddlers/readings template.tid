@@ -1,0 +1,16 @@
+created: 20170114215420348
+creator: stevesunypoly
+modified: 20180117202046448
+modifier: stevesunypoly
+tags: CourseOutlineTemplates $:/tags/ViewTemplate
+title: readings template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Readings]]">
+<$transclude tiddler={{!!description}} mode="block"/>
+
+<hr>
+^^<$link to={{!!description}}>{{!!description}}</$link>^^
+^^[[reading template]]^^
+</$list>
+

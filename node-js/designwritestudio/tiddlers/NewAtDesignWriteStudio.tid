@@ -2,12 +2,13 @@ color: #0b1a34
 created: 20170118132641080
 creator: stevesunypoly
 list: 
-modified: 20180117171036458
+modified: 20180117202901636
 modifier: stevesunypoly
 title: NewAtDesignWriteStudio
 type: text/vnd.tiddlywiki
 
-<$appear show="<h2>What's New</h2>" hide="<h3>Hide What's New</h3>"><ul><$list filter="[tag[NewAtDesignWriteStudio]!sort[modified]]">
+<$appear show="<h2>What's New</h2>" hide="<h3>Hide What's New</h3>">
+Click on the ^^>>^^ to see what's new in a specific tiddler<ul><$list filter="[tag[NewAtDesignWriteStudio]!sort[modified]]">
 <li><$link>{{!!title}}</$link> (<$view field="modified" format="date" template="dddDDmmm"/>)<$appear>{{!!whats-new}}</$appear></li> 
 </$list>
 </ul>

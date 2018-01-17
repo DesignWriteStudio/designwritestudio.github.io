@@ -1,0 +1,16 @@
+created: 20180117181538322
+modified: 20180117182438023
+tags: DWS $:/tags/Macro
+title: wikipedia macro
+type: text/vnd.tiddlywiki
+
+\define wikipedia-link() https://en.wikipedia.org/wiki/$(term)$
+\define wikipedia(term)
+
+<$set name=term value="""$term$""">
+<a href=<<wikipedia-link>> target="_blank">Wikipedia: <<term>></a>
+</$set>
+\end
+example:<br>
+``<<wikipedia "Text (literary theory)">>``<br>
+<<wikipedia "Text (literary theory)">><br>
