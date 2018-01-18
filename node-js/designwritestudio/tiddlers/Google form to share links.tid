@@ -1,0 +1,11 @@
+created: 20180118023417573
+form: https://goo.gl/forms/sTL8767nctavI7LP2
+form-embed: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoyt48nN7zQzzIl_UBJvViOiQ_jvgFGGCdUvYdS3LHhU50gA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+modified: 20180118023654015
+responses: https://docs.google.com/spreadsheets/d/1TVI9hjn7mdyWpU3gddValwJ0bLVpI5BxohdxbxBlc94/edit?usp=sharing
+tags: 
+title: Google form to share links
+type: text/vnd.tiddlywiki
+
+* <a href={{!!form}} target="_blank">Visit form in another tab</a>
+* <$appear show="View embedded form >>" hide="<< Hide Form">{{!!form-embed}}</$appear><br>

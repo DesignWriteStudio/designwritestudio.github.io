@@ -1,0 +1,37 @@
+created: 20180118013325945
+modified: 20180118023859899
+title: Exercise 1.02 Directions
+type: text/vnd.tiddlywiki
+
+Core concepts: with links to relevant [[TiddlyWiki.com|http://tiddlywiki.com]] pages
+
+* [[Creating and editing tiddlers|https://tiddlywiki.com/#Creating%20and%20editing%20tiddlers]]
+* [[Tagging|https://tiddlywiki.com/#Tagging:Tagging%20TagTiddlers%20%5B%5BOrder%20of%20Tagged%20Tiddlers%5D%5D]]
+* [[Linking|https://tiddlywiki.com/#Using%20links%20to%20navigate%20between%20tiddlers]]
+* [[list-links Macro|https://tiddlywiki.com/#list-links%20Macro]]
+
+Assignment:
+
+!!! Create a new TiddlyWiki5 wiki
+* Easiest method: [[TiddlyWiki5 on TiddlySpot|http://tiddlywiki5.tiddlyspot.com/]] ([[Demo|Workshop: Saving, Serving, New Tiddlers]])
+* Alternative <$appear> 
+*  [[Mac OS X Chrome Workflow: Saving using saveTiddlers]]
+* [[Mac OS X Chrome Workflow: Saving using TiddlyDrive]]
+*  [[Mac OS X Workflow: Serving via ftp.sunyit.edu]]
+</$appear><br>
+
+!!! Set the default tiddler to`` [[About Me]]``
+
+!!! Edit the [[About Me]] me tiddler and write a story about yourself
+
+* Start with your own words, or copy my story from [[About Me]] and change some words to reflect your life.
+* The story should discuss a few different aspects of your life. Think about different ''dimensions'' of your life, and ''characteristics'' of the ''elements'' in those dimensions. 
+* Write your story as a narrative in a tiddler. As you are writing your story, enclose words that represent either dimensions or characteristics in double square brackets, like this: ``[[Words in double square brackets]]``. Be sure to consider both nouns and verbs as dimensions and objects. 
+* For example, in my [[About Me]] story, I mentioned these <<stretch "dimensions" "(and characteristics)">>: <<stretch "Occupations" "(College Professor, Adjunct Faculty Member, Research Analyst)">>, <<stretch "Cars I have owned" "(Red Honda Fit, Blue Dodge Dakota, Blue Subaru Forester, Grey Subaru Forester)">>, <<stretch "Digital activities in which I engage" "(surfing the Web, tweeting, listening to podcasts, listening to music, texting)">> and <<stretch "Digital devices that I own" "Apple iPhone SE, Google Home, Apple MacBook Air)">>. In addition, I also referenced working, driving and relaxing.
+!! Flesh out your story in other tiddlers
+* Click on the links that you've created in your tiddler. Tag tiddlers as appropriate. Tag characteristics with dimensions. For example, in my story, I would tag the //College Professor// tiddler with //Occupations//.  Make up other tags.
+* Write brief descriptions of each dimension and characteristic.
+* Create another tiddler, [[About Me in Tags]], and tell it using tags (don't worry about the grammar being awkward...).
+* On each of the the //tag tiddlers//, use the ``<<list-links>>`` macro to generate a list of links matching the tag.
+!! Share your wiki
+{{Google form to share links}}
