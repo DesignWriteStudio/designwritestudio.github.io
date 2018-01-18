@@ -1,8 +1,12 @@
 created: 20180116041901458
 date: 20180118120000000
-modified: 20180116041901458
+modified: 20180118232328703
 slideshow: <$macrocall $name="punchshow" slidetag="New Tiddlers, Tagging, Linking"/>
-tags: Workshops
+tags: NewAtDesignWriteStudio Workshops
 title: Workshop: New Tiddlers, Tagging, Linking
 type: text/vnd.tiddlywiki
+whats-new: Video demo of [[Exercise 1.02]]
+youtube: u377jeitBDE
 
+<$macrocall $name="youtube-embed" video={{!!youtube}}/>
+Starts at about 1:00. 
