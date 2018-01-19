@@ -5,7 +5,7 @@ import-field-source: column
 import-field-suffix: 
 import-field-type: string
 import-spec-role: field
-modified: 20180117154226086
-title: $:/_ExcelImporter/ImportSpecifiers/Field 18
+modified: 20180119183916297
+title: $:/SharedWikisImporter/ImportSpecifiers/Field 18
 type: text/vnd.tiddlywiki
 

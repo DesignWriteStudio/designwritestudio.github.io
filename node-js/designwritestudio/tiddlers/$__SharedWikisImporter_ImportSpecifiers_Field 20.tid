@@ -4,7 +4,7 @@ import-field-name: url
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180117140336958
-title: $:/_ExcelImporter/ImportSpecifiers/Field 20
+modified: 20180119183908017
+title: $:/SharedWikisImporter/ImportSpecifiers/Field 20
 type: text/vnd.tiddlywiki
 

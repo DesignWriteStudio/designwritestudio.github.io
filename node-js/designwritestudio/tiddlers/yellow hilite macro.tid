@@ -1,0 +1,26 @@
+created: 20180118143206873
+creator: stevesunypoly
+modified: 20180119210142256
+modifier: stevesunypoly
+tags: DWS $:/tags/Macro
+title: yellow hilite macro
+type: text/vnd.tiddlywiki
+
+\define y(text)
+<$set name="text" value="""$text$""">
+<span class="yellow-hilite"><<text>>
+</span>
+</$set>
+\end
+
+\define xy(text)
+<$set name="text" value="""$text$""">
+<span class="yellow-hilite"><<text>></span>
+\end
+
+test:
+
+<<y "howdy, this should be in yellow">>
+
+<<xy "howdy, this should be in yellow">>
+

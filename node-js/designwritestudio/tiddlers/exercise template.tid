@@ -1,11 +1,12 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180118012522953
+modified: 20180119213532629
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
 type: text/vnd.tiddlywiki
 
+\define comments-tiddler() $:/Comments on $(thisTiddler)$
 \define whichExercise() $(exercise-number)$ $(exercise-title)$
 \define workshop() Workshop: $(workshop-topic)$
 \define exercise-directions() Exercise $(exercise-number)$ Directions
@@ -22,18 +23,25 @@ type: text/vnd.tiddlywiki
 <$vars exercise-number={{!!exercise-number}}>
 <li><$link to=<<exercise-directions>>><<exercise-directions>></$link></li>
 </$vars>
-<li>Submissions:</li>
-<$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
-<ol>
-<$list filter="[tag[shared-exercises]exercise<whichExercise>]">
-<li><$link to=<<currentTiddler>>>{{!!author}}</$link> - <a href={{!!url}} target="_blank">Link</a></li></$list>
-</ol>
-</$vars>
 </ul>
+<hr>
 
-
-
+Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
+{{!!overall}}<br>
+<$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
+<$list filter="[tag[shared-exercises]exercise<whichExercise>]">
+<$vars thisTiddler=<<currentTiddler>>>
+<$link to=<<currentTiddler>>>{{!!author}}</$link> 
+<a href={{!!url}} target="_blank">Wiki</a> 
+{{!!comments}} 
+<$list filter="[title<comments-tiddler>]">
+<$macrocall $name="xy" tiddler=<<comments-tiddler>> text={{!!text}}/><br>
+</$list>
+<br>
+</$vars>
+</$list>
+</$vars>
+</$appear>
 <hr>
 ^^[[Template|exercise template]]^^
-</$list>
 

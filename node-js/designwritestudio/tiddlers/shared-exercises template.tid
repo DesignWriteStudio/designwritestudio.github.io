@@ -1,15 +1,26 @@
 created: 20180117154321904
 creator: stevesunypoly
-modified: 20180117165233987
+modified: 20180119213757304
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: shared-exercises template
 type: text/vnd.tiddlywiki
 
+\define comments-tiddler() $:/Comments on $(thisTiddler)$
+
 <$list filter="[is[current]tag[shared-exercises]]">
+<$vars thisTiddler=<<currentTiddler>>>
 <a href={{!!url}} target="_blank">{{!!exercise}}</a><br>
-{{!!comments}}<br>
+Submission Comments: {{!!comments}}<br>
+<$list filter="[title<comments-tiddler>]">
+Quick Crit: {{!!text}}<br>
+</$list>
+<hr>
+Live critique maker<br>
+<$edit-text tiddler=<<comments-tiddler>> field="text" default=""/>
+<hr>
+<hr>
 
 ^^[[Template|shared-exercises template]]^^
-</$list>
+
 

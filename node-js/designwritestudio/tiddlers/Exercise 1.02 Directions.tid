@@ -1,5 +1,5 @@
 created: 20180118013325945
-modified: 20180118023859899
+modified: 20180119213928788
 title: Exercise 1.02 Directions
 type: text/vnd.tiddlywiki
 
@@ -31,6 +31,7 @@ Assignment:
 !! Flesh out your story in other tiddlers
 * Click on the links that you've created in your tiddler. Tag tiddlers as appropriate. Tag characteristics with dimensions. For example, in my story, I would tag the //College Professor// tiddler with //Occupations//.  Make up other tags.
 * Write brief descriptions of each dimension and characteristic.
+!! Do the [[About Me in Tags]] approach
 * Create another tiddler, [[About Me in Tags]], and tell it using tags (don't worry about the grammar being awkward...).
 * On each of the the //tag tiddlers//, use the ``<<list-links>>`` macro to generate a list of links matching the tag.
 !! Share your wiki

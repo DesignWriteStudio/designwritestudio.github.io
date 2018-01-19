@@ -1,0 +1,30 @@
+caption: shared wikis from google form
+created: 20180117140114613
+import-spec-role: workbook
+list: [[$:/SharedWikisImporter/ImportSpecifiers/Sheet 3]] [[$:/SharedWikisImporter/ImportSpecifiers/Sheet 2]]
+modified: 20180119193340188
+tags: 
+title: $:/SharedWikisImporter
+type: text/vnd.tiddlywiki
+
+\define makeExportFilter2()
+[prefix[$:/SharedWikisImporter]]
+\end
+
+! Doesn't quite work yet (19 Jan):
+
+
+# To download tiddlers needed to import shared responses, ''choose one'' of the following:
+#*  click this button <$macrocall $name="exportButton" exportFilter=<<makeExportFilter2>> lingoBase="$:/language/Buttons/ExportTiddler/" baseFilename=<<currentTiddler>>/>
+#** or
+#* Go to $:/AdvancedSearch and paste ``[prefix[$:/SharedWikisImporter]]`` in the filter tab
+# Choose json and save the file.
+# Go to your wiki
+## Click on import in the Tools menu. 
+## Import the tiddlers.
+<hr>
+These are the tiddlers involved:
+
+<$list filter="[prefix[$:/SharedWikisImporter]]">
+<$link><<currentTiddler>></$link><br>
+</$list>
