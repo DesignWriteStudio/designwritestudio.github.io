@@ -1,15 +1,13 @@
 created: 20180119191926570
 form: https://goo.gl/forms/sTL8767nctavI7LP2
 form-embed: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoyt48nN7zQzzIl_UBJvViOiQ_jvgFGGCdUvYdS3LHhU50gA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-modified: 20180119192201979
+modified: 20180122152941203
 responses: https://docs.google.com/spreadsheets/d/1TVI9hjn7mdyWpU3gddValwJ0bLVpI5BxohdxbxBlc94/edit?usp=sharing
 tags: 
 title: GoogleForm for SharedWiki Submissions
 type: text/vnd.tiddlywiki
 
-* Share your wiki on the submission form
-** <a href={{!!form}} target="_blank">Visit form in another tab</a>
-** <$appear show="View embedded form >>" hide="<< Hide Form">{{!!form-embed}}</$appear><br>
-* We will <a href={{!!responses}} target="_blank">Review responses</a> Thursday morning
+*<a href={{!!form}} target="_blank">Visit share-wiki form in another tab</a>
+*<$appear show="View embedded share-wiki form >>" hide="<< Hide embedded form">{{!!form-embed}}</$appear><br>
+* View <a href={{!!responses}} target="_blank">responses to share-wiki form</a>
 <hr>
-form: {{GoogleForm for SharedWiki Submissions!!form}}

@@ -1,0 +1,6 @@
+created: 20180122175626187
+modified: 20180122175842094
+title: $:/Comments on 1.02 About Me (Alicia Bower (Flinn), 18Jan 8:29 PM)
+type: text/vnd.tiddlywiki
+
+√ ``About Me`` √ ``About Me in Tags`` √ ``<<list-links>>`` macro • Nicely done. A few errors that you could correct someday, mostly in syntax. For example in ``About Me in Tags`` you have ``<< tag "Weedsport School District>>`` which fails to render as desired; try ``<<tag "Weedsport School District">>`` instead.

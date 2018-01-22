@@ -1,6 +1,6 @@
 created: 20180117154321904
 creator: stevesunypoly
-modified: 20180119213757304
+modified: 20180122155118948
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: shared-exercises template
@@ -19,6 +19,7 @@ Quick Crit: {{!!text}}<br>
 Live critique maker<br>
 <$edit-text tiddler=<<comments-tiddler>> field="text" default=""/>
 <hr>
+<$checkbox tag="ReviewInClass"> Review in class?</$checkbox>
 <hr>
 
 ^^[[Template|shared-exercises template]]^^

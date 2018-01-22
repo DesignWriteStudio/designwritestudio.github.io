@@ -1,0 +1,6 @@
+created: 20180122164001966
+modified: 20180122171442939
+title: $:/Comments on 1.02 About Me (Karina, 19Jan 8:27 PM)
+type: text/vnd.tiddlywiki
+
+√ ``About Me`` X ``About Me in Tags`` X ``<<list-links>>`` macro • In your tag tiddlers (such as ``personal life``) you hard-coded the links; instead, use the ``<<list-links>>`` as requested in [[Exercise 1.02 Directions]] • Also, when you referenced ``personal life`` in ``About Me in Tags`` you put ``<<tag "Personal Life">>`` rather than ``<<tag "personal life">>`` (everything is case sensitive). 

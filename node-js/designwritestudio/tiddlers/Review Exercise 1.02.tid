@@ -1,0 +1,16 @@
+created: 20180122182013982
+modified: 20180122182559853
+tags: 
+title: Review Exercise 1.02
+type: text/vnd.tiddlywiki
+
+\define comments-tiddler() $:/Comments on $(thisTiddler)$
+I've identified a few wikis to highlight to point out different aspects of the exercise<br>
+
+<$list filter="[exercise[1.02 About Me]tag[shared-exercises]tag[ReviewInClass]]">
+<$vars thisTiddler=<<currentTiddler>>>
+<a href={{!!url}} target="_blank">{{!!author}}</a><br>
+<$list filter="[title<comments-tiddler>]">
+{{!!text}}<br>
+</$list>
+<hr>

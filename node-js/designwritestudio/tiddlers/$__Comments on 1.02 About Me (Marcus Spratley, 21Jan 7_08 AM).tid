@@ -1,0 +1,6 @@
+created: 20180122152516562
+modified: 20180122171216199
+title: $:/Comments on 1.02 About Me (Marcus Spratley, 21Jan 7:08 AM)
+type: text/vnd.tiddlywiki
+
+√ ``About Me`` √ ``About Me in Tags`` X ``<<list-links>>`` macro - -- implement in tiddlers such as ``locations`` like this: ``<<list-links "[tag[locations]]">>`` • You might find it helpful to disable the sideeditor plugin, and so set a default tiddler, as shown in the demo

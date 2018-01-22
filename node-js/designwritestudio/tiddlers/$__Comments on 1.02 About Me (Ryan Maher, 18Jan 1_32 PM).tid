@@ -1,0 +1,7 @@
+created: 20180122155309241
+modified: 20180122155908359
+title: $:/Comments on 1.02 About Me (Ryan Maher, 18Jan 1:32 PM)
+type: text/vnd.tiddlywiki
+
+You did a nice job building tiddlers. Love to see some images. Pay attention to the default tiddler; as you've got it set, the wiki reopens where you left off (which is a choice...). Most importantly, let's look at your tagging strategy. For example, you tag ``[[Grey Nisan Altima]]`` to ``[[Driving]]`` but then list it on ``[[Cars I have owned]]``. This works sort of for now, but will fail you in the next exercise. Similarly, the code for ``[[Jobs]]`` is ``<<list-links filter:"[tag[Job]]">>
+`` which means that when you type ``<<tag Jobs>>`` in ''[[About Me in Tags]]`` it doesn't populate the tag pill.

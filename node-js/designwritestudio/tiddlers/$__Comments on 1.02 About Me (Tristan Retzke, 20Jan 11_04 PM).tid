@@ -1,0 +1,7 @@
+created: 20180122153032215
+modified: 20180122165413232
+title: $:/Comments on 1.02 About Me (Tristan Retzke, 20Jan 11:04 PM)
+type: text/vnd.tiddlywiki
+
+√ ``About Me`` √ ``About Me in Tags`` X ``<<list-links>>`` macro -
+ implement in tiddlers such as ``cars`` like this: ``<<list-links "[tag[cars]]">>`` • In future, check [[GoogleForm for SharedWiki Submissions]] to see if your response has been received; no need to submit multiple entries)

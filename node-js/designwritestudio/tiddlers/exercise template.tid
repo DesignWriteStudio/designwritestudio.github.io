@@ -1,6 +1,6 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180119213532629
+modified: 20180122181117948
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
@@ -27,14 +27,16 @@ type: text/vnd.tiddlywiki
 <hr>
 
 Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
-{{!!overall}}<br>
+<$transclude field="overall" mode="block"/>
+<br>
 <$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
 <$list filter="[tag[shared-exercises]exercise<whichExercise>]">
 <$vars thisTiddler=<<currentTiddler>>>
 <$link to=<<currentTiddler>>>{{!!author}}</$link> 
 <a href={{!!url}} target="_blank">Wiki</a> 
 {{!!comments}} 
-<$list filter="[title<comments-tiddler>]">
+<$list filter="[title<comments-tiddler>is[tiddler]]">
+<br>• ''Brief Critique'' <$link to=<<currentTiddler>>>:</$link>  
 <$macrocall $name="xy" tiddler=<<comments-tiddler>> text={{!!text}}/><br>
 </$list>
 <br>

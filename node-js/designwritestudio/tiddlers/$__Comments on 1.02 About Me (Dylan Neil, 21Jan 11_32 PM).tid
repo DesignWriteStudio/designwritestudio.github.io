@@ -1,0 +1,6 @@
+created: 20180122172830160
+modified: 20180122173019415
+title: $:/Comments on 1.02 About Me (Dylan Neil, 21Jan 11:32 PM)
+type: text/vnd.tiddlywiki
+
+√ ``About Me`` √ ``About Me in Tags`` X ``<<list-links>>`` macro -- implement in tiddlers such as ``Occupations/Trades`` like this: ``<<list-links "[tag[Occupations/Trades]]">>`` • Check default tiddler; you call for ``[[about me]]`` not ``[[About Me]]`` • Similar issues with respect to ``Hobbies`` versus ``hobbies``

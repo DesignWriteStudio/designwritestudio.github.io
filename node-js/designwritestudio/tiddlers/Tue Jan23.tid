@@ -3,8 +3,9 @@ created: 20180116041901436
 date: 20180123120000000
 exercise: Shapes
 exercise-number: 2.01
-modified: 20180117202640328
+modified: 20180122182522356
 presentation-topic: Text, Hyper, Wiki, Tiddly
+review: Review Exercise 1.02
 tags: NewAtDesignWriteStudio Classes
 title: Tue Jan23
 type: text/vnd.tiddlywiki
@@ -12,3 +13,4 @@ week-number: 2
 whats-new: Readings are identified for this class
 workshop-topic: Intro SVG & Images
 
+<h2>Review Exercise 1.02 </h2><$appear><$transclude tiddler="Review Exercise 1.02" mode="block"/>
