@@ -1,9 +1,9 @@
 created: 20180122143202427
-modified: 20180122150348131
+modified: 20180122195504977
 tags: NewAtDesignWriteStudio DWS DWS-Share-Button
 title: Share
 type: text/vnd.tiddlywiki
-whats-new: Added button to top bar menu. See tiddlers tagged with <<tag DWS-Share-Button>> for full code
+whats-new: Added button to top bar menu to quickly launch the share wiki form in another tab. See tiddlers tagged with <<tag DWS-Share-Button>> for full code
 
 <$button class="tc-btn-invisible tc-tiddlylink">
 <$list filter="[title[Google form to share links]is[tiddler]]">

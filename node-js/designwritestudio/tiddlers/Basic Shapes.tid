@@ -1,0 +1,94 @@
+created: 20170124025635647
+creator: stevesunypoly
+modified: 20180122185700484
+modifier: stevesunypoly
+tags: 
+title: Basic Shapes
+type: 00
+
+! Circles
+
+Large Circle
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="50" fill="red" />
+</svg>
+
+Medium Circle
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="25" fill="red" />
+</svg>
+
+Small Circle
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="10" fill="red" />
+</svg>
+
+
+
+
+!! Squares
+
+Large Square
+
+<svg width="100" height="100">
+<rect width="100" height="100" fill="orange"/>
+</svg>
+
+Medium Square
+
+<svg width="100" height="100">
+<rect width="50" height="50" fill="orange"/>
+</svg>
+
+Small Square
+
+<svg width="100" height="100">
+<rect width="25" height="25" fill="orange"/>
+</svg>
+
+!! Rectangles
+
+Large Rectangle
+
+<svg width="100" height="100">
+<rect width="100" height="50" fill="green"/>
+</svg>
+
+Medium Rectangle
+
+<svg width="100" height="100">
+<rect width="100" height="25" fill="green"/>
+</svg>
+
+Small Rectangle
+
+<svg width="100" height="100">
+<rect width="100" height="10" fill="green"/>
+</svg>
+
+!! Triangles
+Large Triangle
+
+<svg height="100" width="100">
+<polygon fill="black" points="0,0 50,100 100,0"/>
+ </svg>
+
+Medium Triangle
+
+<svg height="100" width="100">
+<polygon fill="black" points="0,0 25,50 50,0"/>
+ </svg>
+
+Small Triangle
+
+<svg height="100" width="100">
+<polygon fill="black" points="0,0 12.5,25 25,0"/>
+ </svg>
+
+Tutorials:
+
+http://unicorn-ui.com/blog/svg-for-beginners.html
+
