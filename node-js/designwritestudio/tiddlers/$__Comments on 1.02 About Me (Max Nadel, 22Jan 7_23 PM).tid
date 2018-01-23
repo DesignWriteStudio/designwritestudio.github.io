@@ -1,0 +1,6 @@
+created: 20180123141717974
+modified: 20180123142155643
+title: $:/Comments on 1.02 About Me (Max Nadel, 22Jan 7:23 PM)
+type: text/vnd.tiddlywiki
+
+√ ``About Me`` X ``About Me in Tags`` X ``<<list-links>>`` macro -- implement in tiddlers such as ``Work`` like this: ``<<list-links "[tag[Work]]">>`` • Max, you didn't use the ``<<list-links>>`` macro in your tags. None of your tags gather multiple tiddlers under s common tag; there seems to be a disconnect in understanding what tags do. 
