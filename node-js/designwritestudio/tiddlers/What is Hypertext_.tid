@@ -1,0 +1,17 @@
+background-color: #DEFF65
+created: 20180123143622986
+modified: 20180123144211840
+slidenum: 1
+tags: [[What is Hypertext?]]
+title: What is Hypertext?
+type: text/vnd.tiddlywiki
+
+! What is Hypertext?
+
+! Review Wesch video
+<<youtube-embed "NLlGopyXT_g">>
+
+! <<wikipedia "Hypertext">>
+
+! Nelson, Computer Lib / Dream Machines
+{{Nelson-Computer Lib/Dream Machines}}
