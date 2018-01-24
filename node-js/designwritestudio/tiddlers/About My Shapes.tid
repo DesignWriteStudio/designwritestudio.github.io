@@ -1,5 +1,5 @@
 created: 20180122190737494
-modified: 20180122194632460
+modified: 20180123163454564
 title: About My Shapes
 type: text/vnd.tiddlywiki
 
@@ -7,9 +7,9 @@ I have some shape tiddlers:
 
 * <$count filter="[tag[Circle]]"/> tagged <<tag Circle>>
 * <$count filter="[tag[Square]]"/> tagged <<tag Square>>
-* <$count filter="[tag[Large]]"/> tagged <<tag Red>>
-* <$count filter="[tag[Red]]"/> tagged <<tag Green>>
-* <$count filter="[tag[Red]]"/> tagged <<tag Blue>>
+* <$count filter="[tag[Large]]"/> tagged <<tag Large>>
+* <$count filter="[tag[Red]]"/> tagged <<tag Red>>
+* <$count filter="[tag[Blue]]"/> tagged <<tag Blue>>
 * <$count filter="[tag[Large]]"/> tagged <<tag Large>>
 * <$count filter="[tag[Medium]]"/> tagged <<tag Medium>>
 * <$count filter="[tag[Small]]"/> tagged <<tag Small>>

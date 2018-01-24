@@ -1,6 +1,6 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180122181117948
+modified: 20180123161813225
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
@@ -30,7 +30,7 @@ Submissions: <$appear show="Show Submissions and comments" hide="Hide Submission
 <$transclude field="overall" mode="block"/>
 <br>
 <$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
-<$list filter="[tag[shared-exercises]exercise<whichExercise>]">
+<$list filter="[tag[shared-exercises]exercise<whichExercise>sort[author]]">
 <$vars thisTiddler=<<currentTiddler>>>
 <$link to=<<currentTiddler>>>{{!!author}}</$link> 
 <a href={{!!url}} target="_blank">Wiki</a> 

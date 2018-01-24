@@ -1,8 +1,10 @@
 created: 20180116041901447
 date: 20180123120000000
-modified: 20180116041901447
+modified: 20180123180453423
 slideshow: <$macrocall $name="punchshow" slidetag="Intro SVG & Images"/>
 tags: Workshops
 title: Workshop: Intro SVG & Images
 type: text/vnd.tiddlywiki
+youtube: LcjNl-dDzqs
 
+<$macrocall $name="youtube-embed" video={{!!youtube}}/>

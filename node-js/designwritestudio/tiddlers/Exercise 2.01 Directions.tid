@@ -1,5 +1,5 @@
 created: 20180118233133491
-modified: 20180122195034377
+modified: 20180123162005812
 title: Exercise 2.01 Directions
 type: text/vnd.tiddlywiki
 whats-new: Directions for this exercise now avai
@@ -53,6 +53,7 @@ Assignment:
 ## Add to the narrative using ``<<tag>>`` macro, including referencing ``<<tag Size>>`` and ``<<tag Color>>``
 ## Transclude several tiddlers using this code: ``{{Circle}} {{Square}}``
 # Optional: Add a third color, a third size, and/or a third shape to your wiki. See [[Basic Shapes]] for more information. Adjust as needed.
+# Share your wiki {{Share}}
 
 
 
