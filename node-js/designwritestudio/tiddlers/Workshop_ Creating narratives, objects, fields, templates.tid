@@ -1,0 +1,9 @@
+created: 20180116041901434
+date: 20180125120000000
+modified: 20180125170558951
+tags: Workshops
+title: Workshop: Creating narratives, objects, fields, templates
+type: text/vnd.tiddlywiki
+youtube: ZLnTU_3YdBs
+
+<$macrocall $name="youtube-embed" video={{!!youtube}}/>
