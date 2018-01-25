@@ -1,9 +1,10 @@
 created: 20180118143206873
 creator: stevesunypoly
-modified: 20180119210142256
+modified: 20180124163359370
 modifier: stevesunypoly
+slidenum: 1
 tags: DWS $:/tags/Macro
-title: yellow hilite macro
+title: hilite macros
 type: text/vnd.tiddlywiki
 
 \define y(text)
@@ -18,9 +19,18 @@ type: text/vnd.tiddlywiki
 <span class="yellow-hilite"><<text>></span>
 \end
 
+\define o(text)
+<$set name="text" value="""$text$""">
+<span class="orange-hilite"><<text>>
+</span>
+</$set>
+\end
+
+
+
 test:
 
 <<y "howdy, this should be in yellow">>
-
+<<o "howdy, this should be in orange">>
 <<xy "howdy, this should be in yellow">>
 

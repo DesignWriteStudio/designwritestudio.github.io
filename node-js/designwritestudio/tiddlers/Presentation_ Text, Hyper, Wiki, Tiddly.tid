@@ -1,8 +1,10 @@
 created: 20180116041901444
 date: 20180123120000000
-modified: 20180116041901444
+modified: 20180124163216382
 slideshow: <$macrocall $name="punchshow" slidetag="Text, Hyper, Wiki, Tiddly"/>
 tags: Presentations
 title: Presentation: Text, Hyper, Wiki, Tiddly
 type: text/vnd.tiddlywiki
 
+<<punchshow "TextHyperWikiTiddly">>
+<<tag "TextHyperWikiTiddly">>

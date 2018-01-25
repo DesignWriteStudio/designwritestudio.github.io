@@ -1,10 +1,10 @@
+background-color: #
 created: 20171228183545708
 list: 
-modified: 20180117175441418
-synonym: Texts
-tags: CoreTerm
+modified: 20180124224503721
+slidenum: 2
+tags: text.hyper.wiki.tiddly
 title: Text
 type: text/vnd.tiddlywiki
 
-* What is a text?
-** A static, bounded collection of content and design features
+{{What is a text?}}

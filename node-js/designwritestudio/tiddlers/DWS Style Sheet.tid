@@ -1,11 +1,14 @@
 created: 20170727202737911
-modified: 20180112170900507
-tags: $:/tags/Stylesheet
-title: custom-style-sheet
+modified: 20180124163426597
+tags: DWS $:/tags/Stylesheet
+title: DWS Style Sheet
 type: text/vnd.tiddlywiki
 
 
 
+.orange-hilite {
+    background-color: orange;
+}
 
 .yellow-hilite {
     background-color: yellow;

@@ -1,0 +1,17 @@
+created: 20180125030733742
+creator: steve
+modified: 20180125032053744
+modifier: steve
+tags: 2.01
+title: Exercise 2.02 Generated Story 3: Dogs by who owned them
+type: text/vnd.tiddlywiki
+
+I have had many dogs in my life. They have been owned by different people
+
+<$list filter="[tag[Dog]each[owner]]">
+<h2>''{{!!owner}}'' owned <$count filter="[tag[Dog]owner{!!owner}]"/> of the dogs in my life</h2>
+<$list filter="[tag[Dog]owner{!!owner}nsort[longevity]]">
+<$link>{{!!title}}</$link> ({{!!longevity}} years):
+ {{!!text}}<br><br>
+</$list>
+</$list>

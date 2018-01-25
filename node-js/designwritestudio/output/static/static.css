@@ -2713,7 +2713,9 @@ button.strex-end.numbers::after {
   }
 }
 
-.yellow-hilite {
+.orange-hilite {
+    background-color: orange;
+}.yellow-hilite {
     background-color: yellow;
 }.fpnl-days {
     background-color: cornsilk;

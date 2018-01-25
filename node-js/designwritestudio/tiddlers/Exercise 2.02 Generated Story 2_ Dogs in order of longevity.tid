@@ -1,0 +1,15 @@
+created: 20180125025805651
+creator: steve
+modified: 20180125032638227
+modifier: steve
+tags: 2.02
+title: Exercise 2.02 Generated Story 2: Dogs in order of longevity
+type: text/vnd.tiddlywiki
+
+I have had many dogs in my life.
+
+<$list filter="[tag[Dog]nsort[longevity]]">
+<$link>{{!!title}}</$link> {{!!status}}
+ {{!!longevity}} years old. 
+ {{!!text}}<br><br>
+</$list>

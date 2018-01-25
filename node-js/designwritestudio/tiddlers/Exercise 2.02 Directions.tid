@@ -1,0 +1,38 @@
+created: 20180125005054514
+modified: 20180125032413217
+title: Exercise 2.02 Directions
+type: text/vnd.tiddlywiki
+
+! Objectives
+* Present a narrative story in multiple sequences selectable by readers.
+* Develop skills creating tiddlers with fields, and using a template tiddler.
+* Expand skills using the ``<$list>`` widget, importing tiddlers and using macros.
+! Resources
+! Directions
+
+# Get a story
+##  Conceptualize, copy or identify a narrative story that references a set of objects easily described in multiple dimensions. The story should be about 500-1000 words.
+## See my example --  [[Dogs in My Life -- Narrative]]. Your could be about your pets, your family member, games you play, places you've lived, courses you've taken, people you've known, etc. You can write one yourself, find one that someone else has written (a magazine article, for example), or use one that you wrote for another class.
+# Put your story in a TiddlyWiki and identify object tiddlers
+##  Create a new [[TiddlyWiki5 on TiddlySpot|http://tiddlywiki5.tiddlyspot.com/]] Append ``-objects`` to the your standard name.
+## Copy your narrative into a tiddler. 
+## Clone your narrative into a new tiddler, and use ``[[ ]]`` to identify objects in your narrative (See my [[Dogs in My Life -- Objects]]. You should have at least five objects in your narrative.
+# Create Your First Object Tiddler
+## Create a tiddler with the name of the first object you've identified in your narrative. ## Copy the sentences from your narrative that describe your object into the tiddler.
+## Create fields
+### Identify at least three characteristics that can be used to describe each of your object. In my example, I'd describe each dog with its breed, its owner, and its size. Create tiddlers with these tags (in my case, ``Breed``, ``Owner``, ``Size``. I might expand to include each dog's ``Longevity`` (how many years it lived), and my ``Feelings`` (how much I liked (or didn't like) each dog). 
+### Create a field for each of these characteristics, and describe your object in terms of these fields. You should have at least three fields to describe objects. In my case, I'd create fields called ``Breed``, ``Owner``, ``Size``, ``Longevity`` and ``Feelings``. Put appropriate values for each field in the tiddler.
+# Clone object tiddler (repeat this step for each object)
+## Rename it with the name of the next object.
+## Copy sentences from your narrative into the text field.
+## Put appropriate values in each of the other fields.
+# Write a template
+## Copy [[Exercise 2.02 Template]] to your tiddlywiki.
+## Adjust the first filter to match your objects.
+## Adjust subsequent lines to capture fields you created to describe your objects.
+# Write two or more generated stories
+## Copy these tiddlers to your tiddlywiki:<ul><$list filter="[prefix[Exercise 2.02 Generated]]"><li><$link><<currentTiddler>></$link></li></$list></ul>
+## Modify at least two of them, or create your own, to generate a story based on your objects
+# Create a tiddler called [[Exercise 2.02 - Reflection]]. Write some notes about your process. What are some of the advantages of generating stories with fields? What are some of the disadvantages? 
+# Share {{Share}} your tiddlywiki.
+
