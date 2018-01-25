@@ -1,0 +1,22 @@
+background-color: #
+created: 20150721175058293
+creator: stevesunypoly
+list: [[A platform for writing, reading, thinking, teaching, learning]] Tiddlers [[Single Page Application]] [[Open Source]] [[Alternative To? Replacement for?]]
+modified: 20180125144202055
+modifier: stevesunypoly
+slidenum: 5
+tags: text.hyper.wiki.tiddly
+title: Tiddly
+type: text/vnd.tiddlywiki
+
+! Tiddly
+<table>
+<$list filter="[tag{!!title}]">
+<$wikify name=tid text={{!!title}}>
+<tr>
+<td><h2><$link><<tid>></$link></h2></td>
+<td><h4><$macrocall $name=strex content="<$transclude tiddler=<<tid>> mode='block'>" label="+" id=<<tid>>/></h4></td>
+</tr>
+</$wikify>
+</$list> 
+</table>

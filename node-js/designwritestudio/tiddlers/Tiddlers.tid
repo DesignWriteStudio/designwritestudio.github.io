@@ -1,0 +1,10 @@
+created: 20170310141248547
+modified: 20180125143818551
+tags: Tiddly
+title: Tiddlers
+type: text/vnd.tiddlywiki
+
+* All objects are called "tiddlers"
+* Tiddlers are used to manage both the display and the content, using common code and techniques
+* Display and data are tightly integrated
+* Full CSS embedded in tiddlers, thus highly configurable

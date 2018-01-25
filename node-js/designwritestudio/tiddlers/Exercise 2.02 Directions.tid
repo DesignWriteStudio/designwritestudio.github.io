@@ -1,5 +1,5 @@
 created: 20180125005054514
-modified: 20180125032413217
+modified: 20180125142657312
 title: Exercise 2.02 Directions
 type: text/vnd.tiddlywiki
 
@@ -18,7 +18,8 @@ type: text/vnd.tiddlywiki
 ## Copy your narrative into a tiddler. 
 ## Clone your narrative into a new tiddler, and use ``[[ ]]`` to identify objects in your narrative (See my [[Dogs in My Life -- Objects]]. You should have at least five objects in your narrative.
 # Create Your First Object Tiddler
-## Create a tiddler with the name of the first object you've identified in your narrative. ## Copy the sentences from your narrative that describe your object into the tiddler.
+## Create a tiddler with the name of the first object you've identified in your narrative. 
+## Copy the sentences from your narrative that describe your object into the tiddler.
 ## Create fields
 ### Identify at least three characteristics that can be used to describe each of your object. In my example, I'd describe each dog with its breed, its owner, and its size. Create tiddlers with these tags (in my case, ``Breed``, ``Owner``, ``Size``. I might expand to include each dog's ``Longevity`` (how many years it lived), and my ``Feelings`` (how much I liked (or didn't like) each dog). 
 ### Create a field for each of these characteristics, and describe your object in terms of these fields. You should have at least three fields to describe objects. In my case, I'd create fields called ``Breed``, ``Owner``, ``Size``, ``Longevity`` and ``Feelings``. Put appropriate values for each field in the tiddler.
