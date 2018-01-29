@@ -1,11 +1,9 @@
 created: 20180112160044263
-modified: 20180124225537392
+modified: 20180127041351238
 tags: DWS $:/tags/Macro
 title: PunchShow Macro
 type: text/vnd.tiddlywiki
 
-\define bgcolor() {{$:/palettes/DWS##$(slidenum)$}}
-\define bgcolor2() #$(rgb)$
 \define punchshow(slidetag)
 
 <!--macro creates slideshow of tiddlers tagged with slidetag and ordered by field slidenum.  sets bgcolor according to values in customized palette (palette name is hardcoded). requires modified viewTemplate. requires theme punch. requires $:/themes/tiddlywiki/punch, $:/core/ui/ViewTemplate/next, $:/core/ui/ViewTemplate/prev, $:/core/ui/ViewTemplate/endslideshow -->
@@ -60,3 +58,6 @@ View as slideshow<br>
 End Slideshow
 </$button>
 \end
+
+\define bgcolor() {{$:/palettes/DWS##$(slidenum)$}}
+\define bgcolor2() #$(rgb)$

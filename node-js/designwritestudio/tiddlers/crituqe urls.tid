@@ -1,0 +1,7 @@
+created: 20180129183707785
+modified: 20180129183811932
+tags: 
+title: crituqe urls
+type: text/vnd.tiddlywiki
+
+\define crit-link() [[crit|http://people.sunyit.edu/~steve/dwit/tiddlywiki/critiques/
