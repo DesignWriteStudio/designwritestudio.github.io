@@ -3,8 +3,16 @@ date: 20180204120000000
 exercise-group: Intermediate Interactive Texts
 exercise-number: 3.01
 exercise-title: Reverse Engineering Google News 1
-modified: 20180129152400456
+modified: 20180130142704667
 tags: Exercises
 title: Exercise 3.01
 type: text/vnd.tiddlywiki
 
+<h1>Objectives</h1>
+
+* Engage in the practices of 
+** tagging, by associating objects with other objects
+** transcluding, by displaying parts of objects
+** templating, by displaying objects in structured patterns
+** listing, by generating sets of objects
+** linking, by affording navigation among associated objects

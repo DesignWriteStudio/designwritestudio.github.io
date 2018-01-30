@@ -1,0 +1,10 @@
+created: 20180130143109923
+modified: 20180130143329585
+tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
+thisfield: A Transcluded Field!
+title: Creating Transclusions
+type: text/vnd.tiddlywiki
+
+# ``{{Enclose Tiddler Name in Double Braces}}``
+# ``{{Tiddler Name!!FieldName}}``
+# ``{{Creating Transclusions!!thisfield}}`` results in {{Creating Transclusions!!thisfield}}

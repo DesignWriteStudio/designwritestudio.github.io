@@ -1,0 +1,17 @@
+created: 20180130143357496
+modified: 20180130143551191
+tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
+title: Generating Lists
+type: text/vnd.tiddlywiki
+
+``<$list filter="[...]">``
+<hr>
+``
+<$list filter="[tag[Techniques for Hypertextual Writing in TiddlyWiki]]"
+<<currentTiddler>><br>
+</$list>
+``
+
+<$list filter="[tag[Techniques for Hypertextual Writing in TiddlyWiki]]">
+• <<currentTiddler>><br>
+</$list>

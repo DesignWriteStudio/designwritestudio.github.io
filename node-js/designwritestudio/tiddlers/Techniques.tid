@@ -1,0 +1,20 @@
+created: 20150727140309726
+creator: stevesunypoly
+list: Linking Tagging Listing Transcluding Templating
+modified: 20180130142221309
+modifier: stevesunypoly
+tags: Hyper
+title: Techniques
+type: text/vnd.tiddlywiki
+
+<h2>Reading and writing hypertextually involves the following techniques</h2>
+<table>
+<$list filter="[tag{!!title}]">
+<$wikify name=tid text={{!!title}}>
+<tr>
+<td><h2><$link><<tid>></$link></h2></td>
+<td><h4><$macrocall $name=strex content="<$transclude tiddler=<<tid>> mode='block'>" label="+" id=<<tid>>/></h4></td>
+</tr>
+</$wikify>
+</$list> 
+</table>

@@ -1,0 +1,18 @@
+created: 20180130144025553
+modified: 20180130144146079
+title: Techniques for Hypertextual Writing in TiddlyWiki
+type: text/vnd.tiddlywiki
+
+<<list-links "[tag{!!title}]">>
+<hr>
+<h2>Reading and writing hypertextually involves the following techniques</h2>
+<table>
+<$list filter="[tag{!!title}]">
+<$wikify name=tid text={{!!title}}>
+<tr>
+<td><h2><$link><<tid>></$link></h2></td>
+<td><h4><$macrocall $name=strex content="<$transclude tiddler=<<tid>> mode='block'>" label="+" id=<<tid>>/></h4></td>
+</tr>
+</$wikify>
+</$list> 
+</table>

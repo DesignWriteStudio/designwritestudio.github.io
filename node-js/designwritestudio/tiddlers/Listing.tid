@@ -1,0 +1,16 @@
+created: 20150721195608432
+creator: stevesunypoly
+definition: Manipulating the range of nodes (tiddlers) presented as possible choices that can be selected in a given context
+modified: 20180130142301888
+modifier: stevesunypoly
+tags: Practices
+title: Listing
+type: application/x-tiddler
+
+Engaging in the act of filtering involves manipulating the range of nodes (tiddlers) presented as possible choices that can be selected in a given context.
+
+Essentially: there is a population (of tiddlers), and the filter tells us which to include in presented list of tiddlers. 
+
+The output of filters in tiddlywiki are generally presented as lists of tiddlers. 
+
+[[See tiddlywiki.com|https://tiddlywiki.com/#list-links%20Macro:%5B%5Blist-links%20Macro%5D%5D%20%5B%5Blist-links%20Macro%20(Examples)%5D%5D%20ListWidget]]
