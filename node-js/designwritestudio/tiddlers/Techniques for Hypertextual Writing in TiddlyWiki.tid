@@ -1,11 +1,12 @@
 created: 20180130144025553
-modified: 20180130144146079
+modified: 20180130145021900
 title: Techniques for Hypertextual Writing in TiddlyWiki
 type: text/vnd.tiddlywiki
 
-<<list-links "[tag{!!title}]">>
-<hr>
-<h2>Reading and writing hypertextually involves the following techniques</h2>
+<h2>Writing hypertextually by engaging in the practices of:
+<ul>
+<$list filter="[tag[Practices]]"><li><<currentTiddler>></li></$list> <br>
+</ul> involves these techniques:
 <table>
 <$list filter="[tag{!!title}]">
 <$wikify name=tid text={{!!title}}>
