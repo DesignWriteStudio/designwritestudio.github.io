@@ -1,7 +1,29 @@
 created: 20180201141608758
-modified: 20180201144138248
+modified: 20180202163418064
 title: Exercise 3.02 Directions
 type: text/vnd.tiddlywiki
+
+<span class="bigbold">New Concepts</span>
+<$appear show="Show" hide="Hide" state="concepts">
+<p>
+[[New Here]]{{$:/core/images/new-here-button}}<$appear state="$:/newhere">{{New Here}}</$appear></p>
+<p>
+[[Excise]] {{$:/core/images/excise}}<$appear state="$:/excise">{{Excise}}</$appear>
+</p>
+<p>
+[[Table of contents|https://tiddlywiki.com/#Table-of-Contents%20Macros]]
+</p>
+<p>
+[[Journal|https://tiddlywiki.com/#Creating%20journal%20tiddlers]] {{$:/core/images/new-journal-button}}
+</p>
+
+</$appear>
+
+
+
+
+<span class="bigbold">Directions</span>
+<$appear show="Show" hide="Hide" state="directions">
 
 # Select a Wikipedia article that is interesting to you.
 # Create a new tiddlywiki file (or add to your existing tiddlywiki file). Using the [[journal|https://tiddlywiki.com/#Creating%20journal%20tiddlers]] feature, begin to document and organize your work on this exercise.
@@ -14,3 +36,4 @@ type: text/vnd.tiddlywiki
 # Create a journal entry describing
 ## the ways in which you used the different <<tag "Techniques for Hypertextual Writing in TiddlyWiki">> 
 ## the ways in which your use of these techniques is associated with one of the practices of hypertextuality: (<$list filter="[tag[Practices]]" template="$:/core/ui/LinkTemplate"/>) 
+</$appear>

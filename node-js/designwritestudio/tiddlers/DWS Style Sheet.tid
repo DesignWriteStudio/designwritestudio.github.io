@@ -1,10 +1,13 @@
 created: 20170727202737911
-modified: 20180124163426597
+modified: 20180202152433211
 tags: DWS $:/tags/Stylesheet
 title: DWS Style Sheet
 type: text/vnd.tiddlywiki
 
-
+.bigbold {
+    font-weight: bold;
+    font-size: 175%;
+}
 
 .orange-hilite {
     background-color: orange;
@@ -49,6 +52,7 @@ type: text/vnd.tiddlywiki
     font-weight: bold;
     font-size: 125%;
 }
+
 .days-overview {
     font-weight: bold;
     font-size: 125%;

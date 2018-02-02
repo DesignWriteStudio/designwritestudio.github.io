@@ -2713,7 +2713,10 @@ button.strex-end.numbers::after {
   }
 }
 
-.orange-hilite {
+.bigbold {
+    font-weight: bold;
+    font-size: 175%;
+}.orange-hilite {
     background-color: orange;
 }.yellow-hilite {
     background-color: yellow;
@@ -2737,8 +2740,7 @@ button.strex-end.numbers::after {
 }.project-title-overview {
     font-weight: bold;
     font-size: 125%;
-}
-.days-overview {
+}.days-overview {
     font-weight: bold;
     font-size: 125%;
 }.project-component-title {
