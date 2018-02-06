@@ -1,0 +1,9 @@
+created: 20180202202411301
+modified: 20180202203431646
+tags: NewAtDesignWriteStudio DWS DWS-Share-Button
+title: GoogleGroup
+type: text/vnd.tiddlywiki
+whats-new: Added button with hover text to top bar to navigate to google group
+
+<a href="https://groups.google.com/forum/#!forum/designwrite" target="_blank" title="Visit DesignWriteStudio Google Group">
+[img height="15px" width="15px"[$:/dws/images/google-group-button]]</a>

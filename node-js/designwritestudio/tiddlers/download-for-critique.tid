@@ -1,0 +1,13 @@
+created: 20180205160814337
+creator: stachebrown
+modified: 20180205161833096
+modifier: stachebrown
+tags: 
+title: download-for-critique
+type: text/vnd.tiddlywiki
+
+\define download() $(file-name)$.html
+<$vars file-name={{$:/UploadName}}>
+file-name is <<download>>...
+<$button class="tc-btn-big-green">
+<$action-sendmessage $message="tm-save-wiki" filename=<<download>>/>Download <<download>> to default save location</$button>
