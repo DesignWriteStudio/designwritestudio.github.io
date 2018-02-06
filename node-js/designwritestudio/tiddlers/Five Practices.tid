@@ -1,0 +1,9 @@
+created: 20180206145549571
+modified: 20180206145649880
+tags: 
+title: Five Practices
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Practices]]">
+<$link><<currentTiddler>></$link><br>
+</$list>

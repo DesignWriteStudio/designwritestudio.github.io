@@ -1,0 +1,19 @@
+created: 20170420154130558
+creator: steve
+modified: 20180206145506446
+modifier: steve
+tags: Annotator $:/tags/ViewTemplate
+title: Essay Template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]field:toc-type[heading]]">
+<$macrocall $name="essay-nav-first" essay=<<currentTiddler>>/><br>
+
+<$list filter="[list<currentTiddler>]">
+<$set name="paragraph" value=<<currentTiddler>> >
+<!--generate an annotate button-->
+<$macrocall $name="annotate" from-tiddler=<<paragraph>>/>
+<$transclude/>
+<!--show the annotation-->
+<$macrocall $name="show-annotation" of-tiddler=<<paragraph>>/>
+<hr>
