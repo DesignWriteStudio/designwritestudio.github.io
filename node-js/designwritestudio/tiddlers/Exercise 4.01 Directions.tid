@@ -1,0 +1,16 @@
+created: 20180207230658884
+modified: 20180207231047288
+title: Exercise 4.01 Directions
+type: text/vnd.tiddlywiki
+
+(these directions were generated in the [[Workshop: Annotating Sources]])<br>
+
+# Create new wiki/tiddler
+# Identify and download text of two articles that looks interesting: one focused on hypertext and one focused on annotation
+# Ingest each article into their own tiddlers
+# Use excise tool to split articles into paragraphs or sections
+# Use some of these techniques (or others that you develop) to annotate the articles:
+## Add tags to paragraph/section tiddlers
+## `[[bracket keywords]]` to make new tiddlers
+## Use ``new here`` to create annotations
+
