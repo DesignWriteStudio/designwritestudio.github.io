@@ -1,8 +1,8 @@
 created: 20180202163907604
 creator: stevesunypoly
-modified: 20180202164710175
+modified: 20180208143615353
 modifier: stevesunypoly
-tags: NewAtDesignWriteStudio CourseOutlineTemplates $:/tags/ViewTemplate
+tags: WhatWasNew CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise-directions template
 type: text/vnd.tiddlywiki
 whats-new: This template demonstrates use of the ``[[suffix]]`` and ``[[removesuffix]]`` components of filters (and, adds a link to the exercise at athe bottom of all tiddlers containing exercise direction)
