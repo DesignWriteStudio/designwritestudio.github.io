@@ -1,13 +1,13 @@
 class-notes: 
 created: 20180116041901503
 date: 20180213120000000
-exercise: Annotating Sources
-exercise-number: 4.01
-modified: 20180116041901503
-presentation-topic: Hypertextual Techniques (Reprise)
+exercise: Importing Wikipedia Tables
+exercise-number: 3.03
+modified: 20180213141703479
+presentation-topic: Tabular Text
 tags: Classes
 title: Tue Feb13
 type: text/vnd.tiddlywiki
 week-number: 5
-workshop-topic: Table of Contents, Sidebars
+workshop-topic: XLSX import
 

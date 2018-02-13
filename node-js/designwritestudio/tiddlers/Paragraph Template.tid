@@ -1,0 +1,31 @@
+created: 20170420174459648
+creator: steve
+list-before: $:/core/ui/ViewTemplate/title 
+modified: 20180213145026742
+modifier: steve
+tags: Annotator $:/tags/ViewTemplate
+title: Paragraph Template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]field:toc-type[paragraph]]">
+
+<!--show the annotator-nav bar-->
+<!--generate a list of tiddlers tagged with this one-->
+<hr>
+Annotations:<br>
+<$list filter="[tag{!!title}]">
+<$link><<currentTiddler>></$link>
+<$appear><$transclude/></$appear><br>
+</$list>
+<hr>
+<div class="paragraph-template">
+<$set name="paragraph" value=<<currentTiddler>> >
+<!--fetch the name of the essay to which this paragraph belongs-->
+<$list filter="[<currentTiddler>listed[]field:toc-type[heading]]">
+<$set name="essay" value=<<currentTiddler>> >
+<$macrocall $name="annotation-nav" essay=<<essay>> paragraph=<<paragraph>>/>
+
+
+
+
+
