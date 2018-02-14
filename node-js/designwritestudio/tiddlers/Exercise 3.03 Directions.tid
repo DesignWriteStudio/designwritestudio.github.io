@@ -1,0 +1,26 @@
+created: 20180214201312958
+modified: 20180214203757209
+title: Exercise 3.03 Directions
+type: text/vnd.tiddlywiki
+
+# Use google sheets to ingest (import) a table from wikipedia, using the [[=importhtml() command|https://support.google.com/docs/answer/3093339?hl=en]]
+# I suggest you insert a row above the wikipedia table and use it to create short, easy-to-understand fieldnames for each column
+# Download your spreadsheet as an [[xlsx|http://www.solveyourtech.com/how-to-download-a-google-sheet-as-an-excel-file/]]
+# Create a new tiddlywiki (or build on to an existing tiddlywiki file)
+# Navigate to the <$button class="tc-btn-invisible tc-tiddlylink"><$action-setfield $tiddler="$:/state/tab-1749438307" text="$:/core/ui/ControlPanel/Plugins"/><$action-navigate $to="$:/ControlPanel"/>Control Panel Plugins</$button> tab, select ''Get More Plugins'' and search for/install two plugins:
+## xlsx utilities
+## jszip
+# Save and refresh your wiki
+# Click on the <$button class="tc-btn-invisible tc-tiddlylink"><$action-setfield $tiddler="$:/state/tab-1749438307" text="$:/core/ui/ControlPanel/XLSX Utilities"/><$action-navigate $to="$:/ControlPanel"/>XLSX Utilities </$button> tab.
+## Create a new workbook (any name is fine)
+## Create a new sheet (most likely, your sheet name will be ``Sheet1``) 
+## Create a new row.
+## Add a new field for ''each'' column in the spreadsheet. It is easiest to name your fields with the same names as the spreadsheet columns. Be sure to exactly replicate the column name in the appropriate space in the form
+## Add a new field called ``title`` and set it to equal the contents of a column that has unique values (such as ''Mountain'' in <<wikipedia "List_of_highest_mountains_on_Earth">>)
+## Add a new field called ``tags`` and set it to a ''constant'' value that describes your objects (i.e. mountains, cars, etc).
+## Save your wiki, and reload
+# Select your new workbook as the ''Current Import Specification'' in the <$button class="tc-btn-invisible tc-tiddlylink"><$action-setfield $tiddler="$:/state/tab-1749438307" text="$:/core/ui/ControlPanel/XLSX Utilities"/><$action-navigate $to="$:/ControlPanel"/>XLSX Utilities </$button> tab
+# Use the import tool {{$:/core/ui/Buttons/import}} and import your downloaded xlsx file.
+# Hope for the best!
+# If it works
+## Create a template to display contents of your tagged tiddlers (i.e. "mountains") with at least two fields.
