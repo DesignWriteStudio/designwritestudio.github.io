@@ -1,6 +1,6 @@
 created: 20170420154130558
 creator: steve
-modified: 20180213145445188
+modified: 20180215142637656
 modifier: steve
 tags: Annotator $:/tags/ViewTemplate
 title: Essay Template
@@ -11,13 +11,8 @@ type: text/vnd.tiddlywiki
 
 <$list filter="[list<currentTiddler>]">
 <$set name="paragraph" value=<<currentTiddler>> >
-
-
-
-
-
 <!--generate an annotate button-->
-<$macrocall $name="annotate" from-tiddler=<<paragraph>>/>
+<$macrocall $name="newhere-annotate" from-tiddler=<<paragraph>>/>
 <$link><<currentTiddler>></$link>
 <$transclude/>
 <!--show the annotation-->

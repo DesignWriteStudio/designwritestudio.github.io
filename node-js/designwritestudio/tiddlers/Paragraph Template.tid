@@ -1,30 +1,65 @@
 created: 20170420174459648
 creator: steve
-list-before: $:/core/ui/ViewTemplate/title 
-modified: 20180213145026742
+list-before: $:/core/ui/ViewTemplate/title
+modified: 20180215145134218
 modifier: steve
 tags: Annotator $:/tags/ViewTemplate
 title: Paragraph Template
 type: text/vnd.tiddlywiki
 
-<$list filter="[is[current]field:toc-type[paragraph]]">
+\define annotate($from-tiddler$)
+<$action-sendmessage $message="tm-new-tiddler" tags="Annotation $from-tiddler$"/>
+\end
 
-<!--show the annotator-nav bar-->
-<!--generate a list of tiddlers tagged with this one-->
-<hr>
-Annotations:<br>
-<$list filter="[tag{!!title}]">
-<$link><<currentTiddler>></$link>
-<$appear><$transclude/></$appear><br>
+
+\define annotation-nav(essay paragraph)
+<$set name=essay value=<<essay>>>
+<$set name=paragraph value=<<paragraph>>>
+<$button>
+<$action-navigate $to=<<essay>>/>
+<!--put the essay title as the label for the button-->
+<$transclude tiddler=<<essay>>/>
+</$button>
+Paragraph <$count filter="[list<essay>allbefore:include<paragraph>]"/> of <$count filter="[list<essay>]"/> ||
+<$list filter="[list<currentTiddler>first[]]">
+<$link to=<<currentTiddler>>>First</$link> ||
 </$list>
-<hr>
-<div class="paragraph-template">
+<$list filter="[list<essay>before<paragraph>]">
+<$link to=<<currentTiddler>>>Previous</$link> ||
+</$list>
+<$list filter="[list<essay>after<paragraph>]">
+<$link to=<<currentTiddler>>>Next</$link> ||
+</$list>
+<$list filter="[list<currentTiddler>last[]]">
+<$link to=<<currentTiddler>>>Last</$link> 
+</$list>
+</$set>
+</$set>
+\end
+
+
+
+<$list filter="[is[current]field:toc-type[paragraph]]">
+<!--show the annotator-nav bar-->
 <$set name="paragraph" value=<<currentTiddler>> >
 <!--fetch the name of the essay to which this paragraph belongs-->
 <$list filter="[<currentTiddler>listed[]field:toc-type[heading]]">
 <$set name="essay" value=<<currentTiddler>> >
 <$macrocall $name="annotation-nav" essay=<<essay>> paragraph=<<paragraph>>/>
-
+<br>
+<$button>
+<$macrocall $name="annotate" from-tiddler=<<paragraph>>/>
+New Annotation of <<paragraph>>
+</$button>
+<ul>
+<$list filter="[tag<paragraph>]">
+<li>Annotation: <$link><<currentTiddler>></$link></li>
+</$list>
+</ul>
+</$set>
+</$list>
+</$set>
+</$list>
 
 
 

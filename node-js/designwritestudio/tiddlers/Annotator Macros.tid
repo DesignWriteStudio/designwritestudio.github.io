@@ -1,13 +1,12 @@
 created: 20170421144906203
 creator: steve
-modified: 20180213142736284
+modified: 20180215145357211
 modifier: steve
-tags: Annotator $:/tags/Macro
 title: Annotator Macros
 type: text/vnd.tiddlywiki
 visible-dox: no
 
-\define newtitlemacro() $(user)$ annotation $(static-title)$
+\define newtitlemacro() $(user)$-annotation $(static-title)$
 
 \define annotate(from-tiddler)
 <$set name=user value={{$:/status/UserName}}>

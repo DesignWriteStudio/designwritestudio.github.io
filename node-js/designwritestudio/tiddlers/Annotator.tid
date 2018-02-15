@@ -1,6 +1,9 @@
 created: 20180213143747399
-modified: 20180213143757167
+modified: 20180215145905259
 title: Annotator
 type: text/vnd.tiddlywiki
 
-Tiddlers associated with an Annotator
+Tiddlers associated with an Annotator:
+<$list filter="[tag[Annotator]]">
+<$link><<currentTiddler>></$link><br>
+</$list>
