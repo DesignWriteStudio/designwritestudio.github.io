@@ -1,5 +1,5 @@
 created: 20180217202635255
-modified: 20180217204403223
+modified: 20180217204840374
 mytextfield: {{MyTextTiddler}}
 tags: NewAtDesignWriteStudio
 title: An Edit Text box for Derick
@@ -26,6 +26,6 @@ Here, you have a text box into which you can type things:<br>
 *The ~EditTextWidget can not change properties of the tiddler it is embedded in or part of (see [[tiddlywiki.com|https://tiddlywiki.com/#EditTextWidget]]), so we use a second tiddler, in this case called [[MyTextTiddler]].
 * We can transclude the contents of [[MyTextTiddler]] like this:
 ** ``{{MyTextTiddler}}`` : <h1>{{MyTextTiddler}}</h1>.
-* You might find it helpful to create a field in your primary tiddler (i.e. as ''{{!!title}})''. In this example, the field ``mytextfield`` has the value ``{{MyTextTiddler}}`` and can be transcluded like this:
+* You might find it helpful to create a field in your primary tiddler. Create a field ``mytextfield`` with value ``{{MyTextTiddler}}`` and you'll be able to transclude it like this::
 ** ``{{!!mytextfield}}``<h1>{{!!mytextfield}}</h1>
 
