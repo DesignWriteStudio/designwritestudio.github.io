@@ -1,6 +1,6 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180123161813225
+modified: 20180217171352425
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
@@ -17,11 +17,12 @@ type: text/vnd.tiddlywiki
 <li>Part of the <$link to={{!!exercise-group}}>{{!!exercise-group}}</$link> exercise group</li>
 <li>Explained in the <$list filter="[tag[Classes]exercise-number{!!exercise-number}]">
 <$vars workshop-topic={{!!workshop-topic}}>
-<$link to=<<workshop>>>{{!!workshop-topic}}</$link> workshop
+<$link to=<<workshop>>>{{!!workshop-topic}}</$link> workshop<$appear><$transclude tiddler=<<workshop>> mode="block"/></$appear>
 </$vars>
 </$list></li>
 <$vars exercise-number={{!!exercise-number}}>
-<li><$link to=<<exercise-directions>>><<exercise-directions>></$link></li>
+<li><$link to=<<exercise-directions>>><<exercise-directions>></$link>
+<$appear><$transclude tiddler=<<exercise-directions>> mode="block"></$appear></li>
 </$vars>
 </ul>
 <hr>

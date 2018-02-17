@@ -1,13 +1,10 @@
 created: 20150721195705760
 creator: stevesunypoly
 definition: Referencing contents in one tiddler to be presented in another
-modified: 20180130142302900
-modifier: stevesunypoly
-tags: Practices
+modified: 20180217162407111
+modifier: steve
+tags: [[Hypertextual Practices]]
 title: Transcluding
 type: text/vnd.tiddlywiki
 
-Engaging in the process of transcluding involves referencing
- one tiddler "A" from another tiddler "B" such that the content of "A" appears to be a part of "B".
-
-See [[Transclusion|https://tiddlywiki.com/#Transclusion:Transclusion]]
+Engaging in the practice of transcluding involves referencing one object ("A") in another ("B") such that the content of "A" appears to be a part of "B".

@@ -1,16 +1,7 @@
 created: 20180130144025553
-modified: 20180202151418751
+modified: 20180217162907224
 title: Techniques for Hypertextual Writing in TiddlyWiki
 type: text/vnd.tiddlywiki
 
-<h2>Focus our discussion today on the writing hypertextually</h2>
-<h3>I suggest we do so by engaging in the practices of</h3>
-<ul>
-<$list filter="[tag[Practices]]">
-<li><$link><<currentTiddler>></$link><$appear><$transclude/></$appear></li></$list> <br>
-</ul>
-<h3>When we engage in these practices using TiddlyWiki, we employ these techniques</h3>
-<ul>
-<$list filter="[tag[Techniques for Hypertextual Writing in TiddlyWiki]]">
-<li><$link><<currentTiddler>></$link><$appear><$transclude/></$appear></li></$list> <br>
-</ul>
+
+<<tabs "[tag[Techniques for Hypertextual Writing in TiddlyWiki]]">>

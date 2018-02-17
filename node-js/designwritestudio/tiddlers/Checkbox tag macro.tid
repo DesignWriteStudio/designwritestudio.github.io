@@ -1,8 +1,9 @@
 created: 20170320145657641
 creator: stevesunypoly
-modified: 20180125020351250
+list: 
+modified: 20180217162233257
 modifier: steve
-tags: $:/tags/Macro SlicingText Templating
+tags: $:/tags/Macro SlicingText [[Templating in TiddlyWiki]]
 title: Checkbox tag macro
 type: text/vnd.tiddlywiki
 

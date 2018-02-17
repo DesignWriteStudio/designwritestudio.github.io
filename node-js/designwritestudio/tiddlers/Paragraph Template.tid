@@ -1,7 +1,7 @@
 created: 20170420174459648
 creator: steve
 list-before: $:/core/ui/ViewTemplate/title
-modified: 20180215145134218
+modified: 20180217163913063
 modifier: steve
 tags: Annotator $:/tags/ViewTemplate
 title: Paragraph Template
@@ -16,9 +16,8 @@ type: text/vnd.tiddlywiki
 <$set name=essay value=<<essay>>>
 <$set name=paragraph value=<<paragraph>>>
 <$button>
+<<essay>>
 <$action-navigate $to=<<essay>>/>
-<!--put the essay title as the label for the button-->
-<$transclude tiddler=<<essay>>/>
 </$button>
 Paragraph <$count filter="[list<essay>allbefore:include<paragraph>]"/> of <$count filter="[list<essay>]"/> ||
 <$list filter="[list<currentTiddler>first[]]">
