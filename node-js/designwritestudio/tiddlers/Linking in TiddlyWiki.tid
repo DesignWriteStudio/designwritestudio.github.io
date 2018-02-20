@@ -1,10 +1,7 @@
-created: 20150721195646236
-creator: stevesunypoly
-definition: Creating an opportunity for a reader (or the author) to move either within a text or to another text.
-modified: 20180217162048851
-modifier: stevesunypoly
+created: 20180130143031783
+modified: 20180220143128023
 tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
 title: Linking in TiddlyWiki
 type: text/vnd.tiddlywiki
 
-Engaging in the technique of linking involves creating an opportunity to move, either within a text or to another text.
+``[[Enclose words in double brackets]]``

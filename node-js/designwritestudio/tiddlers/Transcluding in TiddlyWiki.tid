@@ -1,13 +1,16 @@
-created: 20150721195705760
-creator: stevesunypoly
-definition: Referencing contents in one tiddler to be presented in another
-modified: 20180217161402194
-modifier: stevesunypoly
+created: 20180130143109923
+modified: 20180220142752621
 tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
+thisfield: A Transcluded Field!
 title: Transcluding in TiddlyWiki
 type: text/vnd.tiddlywiki
+
+# ``{{Enclose Tiddler Name in Double Braces}}``
+# ``{{Tiddler Name!!FieldName}}``
+# ``{{Creating Transclusions!!thisfield}}`` results in {{Creating Transclusions!!thisfield}}
 
 One way of transcluding in TiddlyWiki involves referencing
  one tiddler "A" from another tiddler "B" such that the content of "A" appears to be a part of "B".
 
 See [[Transclusion|https://tiddlywiki.com/#Transclusion:Transclusion]]
+

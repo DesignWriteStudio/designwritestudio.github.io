@@ -1,0 +1,15 @@
+created: 20180220144143011
+dox: yes
+modified: 20180220144552086
+tags: Annotator $:/tags/Macro
+title: ShowNotesMacro
+type: text/vnd.tiddlywiki
+
+\define show(text)
+<$list filter="[title[ShowNotesMacro]field:dox[yes]]">
+^^$text$^^<br>
+</$list>
+\end
+<$checkbox field="dox" checked="yes" unchecked="no" default="yes"> show dox?</$checkbox><br>''status:'' {{!!dox}}
+
+<<show "this is what it is about">>
