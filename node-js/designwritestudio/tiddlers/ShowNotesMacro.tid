@@ -1,9 +1,10 @@
 created: 20180220144143011
 dox: yes
-modified: 20180220144552086
-tags: Annotator $:/tags/Macro
+modified: 20180220145013102
+tags: NewAtDesignWriteStudio Annotator $:/tags/Macro
 title: ShowNotesMacro
 type: text/vnd.tiddlywiki
+whats-new: Use this macro to add documentation to your wiki
 
 \define show(text)
 <$list filter="[title[ShowNotesMacro]field:dox[yes]]">
