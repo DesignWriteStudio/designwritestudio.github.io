@@ -1,8 +1,9 @@
 created: 20180220143254430
-modified: 20180220144952471
+modified: 20180225193645650
 tags: NewAtDesignWriteStudio
 title: Exercise 4.03 Directions
 type: text/vnd.tiddlywiki
+whats-new: Updated some of the directions and tightened a possible [[outline|Essays: Applied Hypertext]] that might be helpful. Note that this exercise blends into and serves as a framework for [[Exercise 4.04]]
 
 ! Objectives
 
@@ -12,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 # Build a set of tiddlers to manage References, Annotations and Examples based on a framework provided by [[[[Hypertextual Practices]] and [[Techniques for Hypertextual Writing in TiddlyWiki]].
 # Build tiddlers to support annotation of several sources, including the <<tag "Vandendorpe Essays">> and other readings tagged as <<tag References>>.
-# Annotate these sources to help write the essay (consider the outline below).
+# Annotate these sources, and use your annotations in the construction of an "essays" about hypertext (you may consider this [[outline|Essays: Applied Hypertext]] or create one of your own.
 # Share {{Share}}
 
 ! Some thoughts and further guidance
@@ -31,14 +32,4 @@ type: text/vnd.tiddlywiki
 !! Annotations
 # Associate with References
 # Associate with concepts or framework
-
-!! Essays: Applied Hypertext
-# Possible major sections
-## Definitions of hypertext
-# Examples of hypertext in the wild
-## Practices and techniques of hypertext
-## Examples of applied hypertext in exercises using ``comments`` or ShowNotesMacro
-# Framing devices
-## [[Hypertextual Practices]]
-## [[Techniques for Hypertextual Writing in TiddlyWiki]]
 

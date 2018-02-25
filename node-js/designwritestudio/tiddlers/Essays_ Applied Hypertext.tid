@@ -1,0 +1,20 @@
+created: 20180225192537895
+modified: 20180225194134542
+tags: [[Exercise 4.03 Directions]]
+title: Essays: Applied Hypertext
+type: text/vnd.tiddlywiki
+
+This is an outline for an "essay" on Applied Hypertext.
+
+# What is Hypertext?
+# Practices and techniques of hypertext
+## [[Hypertextual Practices]]
+## [[Techniques for Hypertextual Writing in TiddlyWiki]]
+# Examples of hypertext in the wild
+## Google News
+## Wikipedia
+## Google Scholar
+##* (Tag each example to one of the [[Hypertextual Practices]] and one of the [[Techniques for Hypertextual Writing in TiddlyWiki]])
+# Identify and annotate examples of applied hypertext in exercises using ``comments`` or ShowNotesMacro
+<hr>
+//Aside:// ``wouldn't it be nice if there were a macro that took an outline as above and excised it into separate tiddlers? try copy/paste the outline above into a new tiddler at `` [[text slicer edition|https://tiddlywiki.com/editions/text-slicer/]] `` and then click the slice button. This is significant text processing that we can apply to virtually any document ``

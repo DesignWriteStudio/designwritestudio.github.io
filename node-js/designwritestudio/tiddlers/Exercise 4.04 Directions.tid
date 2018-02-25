@@ -1,5 +1,5 @@
 created: 20180222145236484
-modified: 20180222145247787
+modified: 20180225194423651
 title: Exercise 4.04 Directions
 type: text/vnd.tiddlywiki
 
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 # How can we use hypertextual practices to create interactive texts that engage and inform readers?
 # How can we use hypertextual practices to facilitate the writing process?
 # How can we design hypertexts to facilitate learning among readers using techniques that foster <<google "writing to think">>
-# How can we ....
+# How can we .... (insert your own question here)
 
 
 !! Project Specifications
@@ -25,6 +25,7 @@ type: text/vnd.tiddlywiki
 * Your wiki should be designed to engage your audience for about 15 minutes. 
 ** Assume that individuals in our target audience read about [[300 words per minute|http://www.readingsoft.com/]]
 ** Assume that readers of your wiki will spend about two-thirds of their time with your wiki reading, and about one-third navigating
-** That suggests a 10 minutes reading @ 300 words per minute = 3000 words of text.
+** That suggests  10 minutes reading @ 300 words per minute = about 3000 words of text.
 ** Some portion of these words should be your own original writing (including tiddler titles, etc), and some portion of these words can be text that you encounter or discover.
+
 
