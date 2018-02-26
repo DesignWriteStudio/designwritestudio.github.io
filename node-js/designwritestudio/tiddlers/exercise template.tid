@@ -1,6 +1,6 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180217171352425
+modified: 20180226193043943
 modifier: stevesunypoly
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
@@ -22,10 +22,9 @@ type: text/vnd.tiddlywiki
 </$list></li>
 <$vars exercise-number={{!!exercise-number}}>
 <li><$link to=<<exercise-directions>>><<exercise-directions>></$link>
-<$appear><$transclude tiddler=<<exercise-directions>> mode="block"></$appear></li>
+<$appear state="$:/directions"><$transclude tiddler=<<exercise-directions>> mode="block"/></$appear></li>
 </$vars>
 </ul>
-<hr>
 
 Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
 <$transclude field="overall" mode="block"/>

@@ -1,0 +1,14 @@
+created: 20180226193351720
+modified: 20180226193537207
+tags: 
+title: New Tiddler 8
+type: text/vnd.tiddlywiki
+
+<$vars rightNow=<<now YYYY0MM0DD>>>
+<<rightNow>> is right Now<br>
+
+<$list filter="[samed:modified[rightNow]]">
+<<currentTiddler>><br>
+</$list>
+
+
