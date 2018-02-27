@@ -1,0 +1,16 @@
+created: 20180227144025030
+modified: 20180227145303988
+tags: Workshops
+title: Workshop: A TiddlyWiki Essay
+type: text/vnd.tiddlywiki
+
+Components:
+
+# References
+# Annotations
+# Documentation
+## ShowNotes macro 
+## TopBar: $:/core/ui/TopBar/menu
+# Presentation
+## Default Tiddlers
+## [Hide the Sidebar|hide sidebar]]

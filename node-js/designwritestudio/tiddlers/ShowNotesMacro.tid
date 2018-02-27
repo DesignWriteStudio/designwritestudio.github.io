@@ -1,16 +1,25 @@
 created: 20180220144143011
-dox: yes
-modified: 20180220145013102
-tags: NewAtDesignWriteStudio Annotator $:/tags/Macro
+creator: steve
+dox: no
+modified: 20180227144643442
+modifier: steve
+tags: ShowNotes $:/tags/Macro
 title: ShowNotesMacro
 type: text/vnd.tiddlywiki
 whats-new: Use this macro to add documentation to your wiki
 
 \define show(text)
 <$list filter="[title[ShowNotesMacro]field:dox[yes]]">
-^^$text$^^<br>
+<span class="yellow-hilite">
+$text$
+</span><br>
 </$list>
 \end
-<$checkbox field="dox" checked="yes" unchecked="no" default="yes"> show dox?</$checkbox><br>''status:'' {{!!dox}}
+
+<$checkbox tiddler="ShowNotesMacro" field="dox" checked="yes" unchecked="no" default="yes"> show dox?</$checkbox><br>''status:'' {{!!dox}}
 
 <<show "this is what it is about">>
+
+This macro requires:
+
+<<list-links "[tag[ShowNotes]]">>

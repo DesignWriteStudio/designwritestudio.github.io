@@ -1,9 +1,12 @@
 created: 20171114203014660
-modified: 20171114203035266
+modified: 20180227144216026
 tags: DWS
 title: hide sidebar
 type: text/vnd.tiddlywiki
 
-$:/.tb/modules/startup/hide-sidebar.js
+To hide the sidebar on startup:
 
-$:/config/HideSidebarOnStartup
+# Drag these:
+## $:/.tb/modules/startup/hide-sidebar.js
+## $:/config/HideSidebarOnStartup
+# Set $:/config/HideSidebarOnStartup to "yes"
