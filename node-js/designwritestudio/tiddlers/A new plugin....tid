@@ -1,0 +1,12 @@
+created: 20180228154824303
+modified: 20180228163944261
+tags: 
+title: A new plugin...
+type: text/vnd.tiddlywiki
+
+I learned how to create a plugin today, using [[Tinka - the easy plugin packer|https://tinkaplugin.github.io/]]. The plugin is called  [[DesignWriteStudio - showNotes|$:/plugins/DesignWriteStudio/showNotes/read.me]]:
+<hr>
+{{$:/plugins/DesignWriteStudio/showNotes/read.me}}
+<hr>
+If the 
+So you should be able to drag/drop from the plugins tab on the [[$:/ControlPanel]] to your wiki. Let me know if it works (or not) in the {{GoogleGroup}}.

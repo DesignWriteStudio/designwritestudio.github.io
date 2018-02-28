@@ -58,6 +58,12 @@ Error message and password prompt
 	width: 100%;
 }
 
+.orange-hilite {
+    background-color: orange;
+}.yellow-hilite {
+    background-color: yellow;
+}
+
 /*
 
 Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
