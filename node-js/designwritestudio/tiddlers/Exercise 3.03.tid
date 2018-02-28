@@ -3,11 +3,10 @@ date: 20180218120000000
 exercise-group: Intermediate Interactive Texts
 exercise-number: 3.03
 exercise-title: Importing Wikipedia Tables
-modified: 20180217150505052
-tags: Exercises
+modified: 20180228183639772
+tags: {{!!exercise-group}}
 title: Exercise 3.03
 type: text/vnd.tiddlywiki
-
 
 <$appear show="Show Links to Videos" hide="Hide Links to Videos">
 <h1>Doing the Exercise</h1>
