@@ -1,0 +1,44 @@
+created: 20180301155324736
+draft.of: games? from the folks...
+draft.title: games? from the folks...
+modified: 20180301175754818
+tags: 
+title: Draft of 'games? from the folks...'
+type: text/vnd.tiddlywiki
+
+we build this little information structure in class this morning. we 
+
+#  fill in [[form|https://goo.gl/forms/nHXtpUkcTpVrLlPJ3]]
+# gather [[responses|https://docs.google.com/spreadsheets/d/19HDeeUt_dY8SwaC4qyIxWJUgVpl_VCSuCO1wyZZbs9Y/edit?usp=sharing]]
+# ingest using xlsx plugin
+# write story
+
+
+
+
+
+tiddly ideas<$appear state="$:/ideas">
+<$list filter="[tag[games]each[what game]]">
+ about ''{{!!what game}}'' game<$appear>
+<ul>
+<$list filter="[tag[games]what game{!!what game}]">
+<li>{{!!tiddly ideas}}</li>
+</$list>
+</ul>
+</$appear><br>
+</$list>
+</$appear><br>
+
+links to rules <$appear state="$:/links">
+<$list filter="[tag[games]each[what game]]">
+ about ''{{!!what game}}'' game<$appear>
+<ul>
+<$list filter="[tag[games]what game{!!what game}]">
+<li><a href={{!!link to rules}} target="_blank">rules</a></li>
+</$list>
+</ul>
+</$appear><br>
+</$list>
+</$appear><br>
+
+

@@ -1,8 +1,8 @@
-bibtex-ISBN: 978-3-11-020205-2; 978-3-11-018110-4
 bibtex-author: Jakobs, Eva-Maria and Lehnen, Katrin
 bibtex-booktitle: Websprache.Net: Sprache Und Kommunikation Im Internet
 bibtex-editor: Siever, T. and Schlobinski, P. and Runkehl, J.
 bibtex-entry-type: inbook
+bibtex-isbn: 978-3-11-020205-2; 978-3-11-018110-4
 bibtex-pages: 159-184
 bibtex-series: Linguistik-Impulse und Tendenzen
 bibtex-title: Hypertext - Classification and Evaluation
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000277308400009
 bibtex-volume: 10
 bibtex-year: 2005
 created: 20171204204149513
-modified: 20171204204149513
+modified: 20180301174202007
 title: RN58
 type: text/vnd.tiddlywiki
 

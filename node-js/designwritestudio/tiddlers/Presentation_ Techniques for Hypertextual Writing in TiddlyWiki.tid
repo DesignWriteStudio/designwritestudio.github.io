@@ -1,9 +1,8 @@
 created: 20180130144640742
-modified: 20180202204317719
+modified: 20180301174201471
 title: Presentation: Techniques for Hypertextual Writing in TiddlyWiki
 type: text/vnd.tiddlywiki
 youtube: I4TeCWNj1QQ
-
 
 {{Techniques for Hypertextual Writing in TiddlyWiki}}
 <$macrocall $name="youtube-embed" video={{!!youtube}}/>

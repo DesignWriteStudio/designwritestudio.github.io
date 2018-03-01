@@ -1,10 +1,11 @@
+caption: Exercise {{!!exercise-number}}: {{!!exercise-title}}
 created: 20180116041901763
 date: 20180304120000000
 exercise-group: Hypertext in Theory and Practice
 exercise-number: 4.04
 exercise-title: Hypertext in the 21st Century
-modified: 20180228183639740
-tags: {{!!exercise-group}}
+modified: 20180301174200587
+tags: [[Hypertext in Theory and Practice]] Exercises
 title: Exercise 4.04
 type: text/vnd.tiddlywiki
 

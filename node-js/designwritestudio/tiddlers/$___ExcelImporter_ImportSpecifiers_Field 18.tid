@@ -1,0 +1,10 @@
+created: 20180301154737555
+import-field-column: Timestamp
+import-field-name: title
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180301174157346
+title: $:/_ExcelImporter/ImportSpecifiers/Field 18
+type: text/vnd.tiddlywiki
+

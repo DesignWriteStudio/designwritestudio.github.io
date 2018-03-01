@@ -1,10 +1,11 @@
+caption: Exercise {{!!exercise-number}}: {{!!exercise-title}}
 created: 20180116041901484
 date: 20180304120000000
 exercise-group: Hypertext in Theory and Practice
 exercise-number: 4.03
 exercise-title: Writing a Narrative Essay
-modified: 20180228183639744
-tags: {{!!exercise-group}}
+modified: 20180301174200596
+tags: [[Hypertext in Theory and Practice]] NewAtDesignWriteStudio Exercises
 title: Exercise 4.03
 type: text/vnd.tiddlywiki
 whats-new: Move due date to Mar 4

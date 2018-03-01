@@ -1,9 +1,9 @@
-bibtex-DOI: 10.1130/2012.2492(33)
-bibtex-ISBN: 978-0-8137-2492-8
 bibtex-author: Habib, Emad and Ma, Yuxin and Williams, Douglas
 bibtex-booktitle: Google Earth and Virtual Visualizations in Geoscience Education and Research
+bibtex-doi: 10.1130/2012.2492(33)
 bibtex-editor: Whitmeyer, S. J. and Bailey, J. E. and DePaor, D. G. and Ornduff, T.
 bibtex-entry-type: inbook
+bibtex-isbn: 978-0-8137-2492-8
 bibtex-pages: 431-439
 bibtex-series: Geological Society of America Special Papers
 bibtex-title: Development of a web-based hydrologic education tool using Google Earth resources
@@ -12,7 +12,7 @@ bibtex-url: <Go to ISI>://WOS:000329918400034
 bibtex-volume: 492
 bibtex-year: 2012
 created: 20171204204149529
-modified: 20171204204149529
+modified: 20180301174201566
 title: RN14
 type: text/vnd.tiddlywiki
 

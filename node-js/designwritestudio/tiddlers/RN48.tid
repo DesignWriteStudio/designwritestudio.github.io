@@ -1,8 +1,8 @@
-bibtex-DOI: 10.1146/annurev.ento.51.110104.151054
-bibtex-ISBN: 978-0-8243-0152-1
 bibtex-author: Walter, David Evans and Winterton, Shaun
 bibtex-booktitle: Annual Review of Entomology
+bibtex-doi: 10.1146/annurev.ento.51.110104.151054
 bibtex-entry-type: inbook
+bibtex-isbn: 978-0-8243-0152-1
 bibtex-pages: 193-208
 bibtex-series: Annual Review of Entomology
 bibtex-title: Keys and the crisis in taxonomy: Extinction or reinvention?
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000243653800011
 bibtex-volume: 52
 bibtex-year: 2007
 created: 20171204204149609
-modified: 20171204204149609
+modified: 20180301174201921
 title: RN48
 type: text/vnd.tiddlywiki
 

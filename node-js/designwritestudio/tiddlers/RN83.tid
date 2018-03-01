@@ -1,7 +1,7 @@
-bibtex-DOI: 10.1016/j.chb.2008.06.005
-bibtex-ISSN: 0747-5632
 bibtex-author: Madrid, R. Ignacio and Van Oostendorp, Herre and Melguizo, Mari Carmen Puerta
+bibtex-doi: 10.1016/j.chb.2008.06.005
 bibtex-entry-type: article
+bibtex-issn: 0747-5632
 bibtex-journal: Computers in Human Behavior
 bibtex-number: 1
 bibtex-pages: 66-75
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000264182300008
 bibtex-volume: 25
 bibtex-year: 2009
 created: 20171204204149601
-modified: 20171204204149601
+modified: 20180301174202098
 title: RN83
 type: text/vnd.tiddlywiki
 

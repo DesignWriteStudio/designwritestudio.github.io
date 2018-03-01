@@ -4,7 +4,7 @@ import-field-name: exercise
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180119183903334
+modified: 20180301174157941
 title: $:/SharedWikisImporter/ImportSpecifiers/Field 21
 type: text/vnd.tiddlywiki
 

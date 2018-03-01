@@ -1,7 +1,7 @@
-bibtex-DOI: 10.1016/j.system.2008.05.002
-bibtex-ISSN: 0346-251X
 bibtex-author: Akyel, Ayse and Ercetin, Gulcan
+bibtex-doi: 10.1016/j.system.2008.05.002
 bibtex-entry-type: article
+bibtex-issn: 0346-251X
 bibtex-journal: System
 bibtex-number: 1
 bibtex-pages: 136-152
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000284680000012
 bibtex-volume: 37
 bibtex-year: 2009
 created: 20171204204149406
-modified: 20171204204149406
+modified: 20180301174202102
 title: RN82
 type: text/vnd.tiddlywiki
 

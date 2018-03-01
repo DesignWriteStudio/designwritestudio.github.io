@@ -6,7 +6,7 @@ import-field-source: constant
 import-field-type: string
 import-field-value: exercise-group
 import-spec-role: field
-modified: 20180111012830057
+modified: 20180301174157299
 title: $:/_ExcelImporter/ImportSpecifiers/Field 8
 type: text/vnd.tiddlywiki
 

@@ -1,7 +1,7 @@
-bibtex-DOI: 10.1016/j.chb.2008.12.017
-bibtex-ISSN: 0747-5632
 bibtex-author: Amadieu, Franck and Tricot, Andre and Marine, Claudette
+bibtex-doi: 10.1016/j.chb.2008.12.017
 bibtex-entry-type: article
+bibtex-issn: 0747-5632
 bibtex-journal: Computers in Human Behavior
 bibtex-number: 2
 bibtex-pages: 381-388
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000263779000017
 bibtex-volume: 25
 bibtex-year: 2009
 created: 20171204204149483
-modified: 20171204204149483
+modified: 20180301174202105
 title: RN81
 type: text/vnd.tiddlywiki
 

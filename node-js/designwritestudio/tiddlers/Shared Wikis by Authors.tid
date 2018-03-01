@@ -1,0 +1,18 @@
+created: 20180226191841465
+modified: 20180301174202129
+tags: [[Shared Wikis]] NewAtDesignWriteStudio
+title: Shared Wikis by Authors
+type: text/vnd.tiddlywiki
+whats-new: A directory of shared wikis by author
+
+<<show "Uses the appear macro">>
+
+<$list filter="[tag[shared-exercises]sort[author]each[author]]">
+<$link to={{!!author}}>{{!!author}}</$link> <$appear show="+" tooltip="Shared Wikis">
+<$list filter="[tag[shared-exercises]author{!!author}sort[exercise]]">
+<$link>></$link>
+<a href={{!!url}} target="_blank">{{!!exercise}}</a><br>
+</$list>
+</$appear>
+<br>
+</$list>

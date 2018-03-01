@@ -1,8 +1,8 @@
-bibtex-ISBN: 978-3-642-22612-0
 bibtex-author: Geibel, Peter and Mehler, Alexander and Kuehnberger, Kai-Uwe
 bibtex-booktitle: Modeling, Learning, and Processing of Text-Technological Data Structures
 bibtex-editor: Mehler, A. and Kuhnberger, K. U. and Lobin, H. and Lungen, H. and Storrer, A. and Witt, A.
 bibtex-entry-type: inbook
+bibtex-isbn: 978-3-642-22612-0
 bibtex-pages: 267-298
 bibtex-series: Studies in Computational Intelligence
 bibtex-title: Learning Methods for Graph Models of Document Structure
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000299233300014
 bibtex-volume: 370
 bibtex-year: 2011
 created: 20171204204149535
-modified: 20171204204149535
+modified: 20180301174201650
 title: RN19
 type: text/vnd.tiddlywiki
 

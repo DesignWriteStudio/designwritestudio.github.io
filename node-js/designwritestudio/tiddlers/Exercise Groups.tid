@@ -1,0 +1,14 @@
+created: 20180228185023217
+list: Toolkit [[Introductory Interactive Texts]] [[Intermediate Interactive Texts]] [[Hypertext in Theory and Practice]] [[Wikification of Existing Texts]] [[Advanced Interactive Texts]] [[Final Project]]
+modified: 20180301174200641
+tags: DesignWriteStudio
+title: Exercise Groups
+type: text/vnd.tiddlywiki
+
+<$list filter="[list[]]">
+<$link><<currentTiddler>></$link><$appear>
+<$list filter="[exercise-group<currentTiddler>]">
+<$link><<currentTiddler>></$link><br>
+</$list>
+</$appear><br>
+</$list>

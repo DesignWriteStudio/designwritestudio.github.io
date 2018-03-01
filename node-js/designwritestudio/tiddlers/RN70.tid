@@ -1,7 +1,7 @@
-bibtex-DOI: 10.1002/cae.21755
-bibtex-ISSN: 1061-3773
 bibtex-author: Jovanovic, Martin
+bibtex-doi: 10.1002/cae.21755
 bibtex-entry-type: article
+bibtex-issn: 1061-3773
 bibtex-journal: Computer Applications in Engineering Education
 bibtex-number: 5
 bibtex-pages: 799-812
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000396370200012
 bibtex-volume: 24
 bibtex-year: 2016
 created: 20171204204149505
-modified: 20171204204149505
+modified: 20180301174202086
 title: RN70
 type: text/vnd.tiddlywiki
 

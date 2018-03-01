@@ -1,0 +1,21 @@
+created: 20180301142144661
+modified: 20180301174202227
+tags: [[Shared Wikis]] NewAtDesignWriteStudio
+title: Shared Wikis by Exercise
+type: text/vnd.tiddlywiki
+whats-new: A directory of shared wikis by exercise
+
+\define the-exercise-number() Exercise {{!!exercise-num}}
+
+<<show "Listing: does the familiar double-list on two characteristics. Linking: builds external links to shared wikis. No internal links to exericises (because my data structure is messed up, and I don't have a field to use as a link to the actual exercise tiddler!). Tagging: exploits the fact that tiddlers are tagged for listing. Transclusion: Transcludes comments from shared-exercise tiddlers.">> 
+<<show "Uses the appear macro">>
+
+<$list filter="[tag[shared-exercises]!sort[exercise]each[exercise]]">
+''{{!!exercise}}''<$appear>
+<$list filter="[tag[shared-exercises]exercise{!!exercise}!sort[comments]]">
+<a href={{!!url}} target="_blank">{{!!author}}</a>: {{!!comments}}
+<br>
+</$list>
+</$appear>
+<br>
+</$list>

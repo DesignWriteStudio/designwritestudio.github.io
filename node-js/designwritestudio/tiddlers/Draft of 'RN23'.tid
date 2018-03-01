@@ -1,7 +1,7 @@
-bibtex-DOI: 10.1007/978-3-540-92913-0_5
-bibtex-ISBN: 978-3-540-92912-3
 bibtex-author: Adida, Ben and Birbeck, Mark and Herman, Ivan
+bibtex-doi: 10.1007/978-3-540-92913-0_5
 bibtex-entry-type: book
+bibtex-isbn: 978-3-540-92912-3
 bibtex-pages: 157-190
 bibtex-series: Handbook of Semantic Web Technologies: Foundations and Technologies, Vols 1 and 2
 bibtex-title: Semantic Annotation and Retrieval: Web of Hypertext - RDFa and Microformats
@@ -11,7 +11,7 @@ bibtex-year: 2011
 created: 20171204204149414
 draft.of: RN23
 draft.title: RN23
-modified: 20171204204153534
+modified: 20180301174200299
 title: Draft of 'RN23'
 type: text/vnd.tiddlywiki
 

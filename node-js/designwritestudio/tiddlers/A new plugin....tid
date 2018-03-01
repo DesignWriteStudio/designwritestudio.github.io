@@ -1,8 +1,9 @@
 created: 20180228154824303
-modified: 20180228163944261
-tags: 
+modified: 20180301174159938
+tags: NewAtDesignWriteStudio
 title: A new plugin...
 type: text/vnd.tiddlywiki
+whats-new: Trying out building a plugin to distribute functionality to use in [[Exercise 4.04]]
 
 I learned how to create a plugin today, using [[Tinka - the easy plugin packer|https://tinkaplugin.github.io/]]. The plugin is called  [[DesignWriteStudio - showNotes|$:/plugins/DesignWriteStudio/showNotes/read.me]]:
 <hr>

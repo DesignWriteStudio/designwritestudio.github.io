@@ -1,8 +1,8 @@
-bibtex-ISBN: 3-540-37785-9
 bibtex-author: van Doorn, Mark and de Vries, Arjen P.
 bibtex-booktitle: Ambient Intelligence in Everday Life
 bibtex-editor: Cai, Y. and Abascal, J.
 bibtex-entry-type: inbook
+bibtex-isbn: 3-540-37785-9
 bibtex-pages: 103-129
 bibtex-series: Lecture Notes in Computer Science
 bibtex-title: Co-creation in ambient narratives
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000240189200005
 bibtex-volume: 3864
 bibtex-year: 2006
 created: 20171204204149612
-modified: 20171204204149612
+modified: 20180301174201832
 title: RN52
 type: text/vnd.tiddlywiki
 

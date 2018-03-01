@@ -1,7 +1,7 @@
-bibtex-DOI: 10.1016/j.chb.2015.09.042
-bibtex-ISSN: 0747-5632
 bibtex-author: Hahnel, Carolin and Goldhammer, Frank and Naumann, Johannes and Kroehne, Ulf
+bibtex-doi: 10.1016/j.chb.2015.09.042
 bibtex-entry-type: article
+bibtex-issn: 0747-5632
 bibtex-journal: Computers in Human Behavior
 bibtex-pages: 486-500
 bibtex-title: Effects of linear reading, basic computer skills, evaluating online information, and navigation on reading digital text
@@ -10,7 +10,7 @@ bibtex-url: <Go to ISI>://WOS:000367755400052
 bibtex-volume: 55
 bibtex-year: 2016
 created: 20171204204149526
-modified: 20171204204149526
+modified: 20180301174202062
 title: RN76
 type: text/vnd.tiddlywiki
 

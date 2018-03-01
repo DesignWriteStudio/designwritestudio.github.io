@@ -1,8 +1,8 @@
-bibtex-ISBN: 978-0-08-047230-0
 bibtex-author: Roberts, Shelley and Parush, Avi and Lindgaard, Gitte
 bibtex-booktitle: Cybercartography: Theory and Practice
 bibtex-editor: Taylor, D. R. F.
 bibtex-entry-type: inbook
+bibtex-isbn: 978-0-08-047230-0
 bibtex-pages: 231-256
 bibtex-series: Modern Cartography
 bibtex-title: Cognitive Theories and Aids to Support Navigation of Multimedia Information Space
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000311097500011
 bibtex-volume: 4
 bibtex-year: 2005
 created: 20171204204149559
-modified: 20171204204149559
+modified: 20180301174202015
 title: RN56
 type: text/vnd.tiddlywiki
 

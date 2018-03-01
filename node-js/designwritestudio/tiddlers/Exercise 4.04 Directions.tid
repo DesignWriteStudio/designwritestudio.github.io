@@ -1,14 +1,14 @@
 created: 20180222145236484
-modified: 20180228181858319
+modified: 20180301174200578
 title: Exercise 4.04 Directions
 type: text/vnd.tiddlywiki
 
-!! Video <$appear>
-{{Video: Exercise 4.04 Directions}}
-</$appear>
-
-
-
+\define query() <a href="https://www.google.com/search?q=$(theQuery)$" target="_blank">$(theQuery)$</a>
+\define google(theQueryText)
+<$set name="theQuery" value="""$theQueryText$""">
+<<query>>
+</$set>
+\end
 
 
 !! Expanding on the techniques you developed in work done in [[Exercise 4.03]], create a TiddlyWiki that addresses one of these questions:

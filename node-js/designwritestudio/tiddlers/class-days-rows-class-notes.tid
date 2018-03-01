@@ -4,7 +4,7 @@ import-field-name: class-notes
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180110222604248
+modified: 20180301174200124
 title: class-days-rows-class-notes
 type: text/vnd.tiddlywiki
 

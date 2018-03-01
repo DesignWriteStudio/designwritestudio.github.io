@@ -1,8 +1,8 @@
-bibtex-ISBN: 978-0-8412-2600-5
 bibtex-author: Shorb, Justin M. and Moore, John W.
 bibtex-booktitle: Enhancing Learning with Online Resources, Social Networking, and Digital Libraries
 bibtex-editor: Belford, R. E. and Moore, J. W. and Pence, H. E.
 bibtex-entry-type: inbook
+bibtex-isbn: 978-0-8412-2600-5
 bibtex-pages: 283-308
 bibtex-series: ACS Symposium Series
 bibtex-title: The Chem Paths Student Portal: Making an Online Textbook More than a Book Online
@@ -11,7 +11,7 @@ bibtex-url: <Go to ISI>://WOS:000317631200015
 bibtex-volume: 1060
 bibtex-year: 2010
 created: 20171204204149629
-modified: 20171204204149629
+modified: 20180301174201663
 title: RN32
 type: text/vnd.tiddlywiki
 
