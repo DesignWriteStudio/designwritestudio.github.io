@@ -1,0 +1,13 @@
+created: 20180618163101710
+modified: 20180618163621923
+tags: 
+title: this is a new tiddler, testing the workflos
+type: text/vnd.tiddlywiki
+
+# edit and save the index-to-edit version in tiddlydesktop . /Users/steveschneider/Documents/GitHub/designwritestudio.github.io/index-to-edit.html
+# open tiddlywiki server
+# drag from finder onto 127.0.0.1:8080 version to distribute tiddlers to node.js
+# close tiddlywiki server
+# build index (which rebuilds both index.html and index-to-edit.html)
+# sync on github desktop
+# reopen in tiddlydesktop

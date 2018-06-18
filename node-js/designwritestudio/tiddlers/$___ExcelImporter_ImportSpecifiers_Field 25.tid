@@ -3,10 +3,10 @@ creator: steve
 import-field-column: name
 import-field-name: title
 import-field-source: column
-import-field-suffix:  Final Presentation
+import-field-suffix: Final Presentation
 import-field-type: string
 import-spec-role: field
-modified: 20180618162241468
+modified: 20180618163614039
 modifier: steve
 title: $:/_ExcelImporter/ImportSpecifiers/Field 25
 type: text/vnd.tiddlywiki

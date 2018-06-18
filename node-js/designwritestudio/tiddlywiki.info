@@ -16,6 +16,12 @@
             "../../../index.html",
             "text/plain"
         ],
+        "index": [
+            "--rendertiddler",
+            "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
+            "../../../index-to-edit.html",
+            "text/plain"
+        ],
         "externalimages": [
             "--savetiddlers",
             "[is[image]]",
@@ -25,7 +31,7 @@
             "_canonical_uri",
             "$:/core/templates/canonical-uri-external-image",
             "text/plain",
-            "--setfield",
+	                "--setfield",
             "[is[image]]",
             "text",
             "",
