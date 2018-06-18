@@ -1,0 +1,29 @@
+created: 20171213155948841
+creator: steve
+date: 20190101000000
+list-before: Classes
+modified: 20180618162244935
+modifier: steve
+tags: [[Course Resources]]
+title: About the Course
+type: text/vnd.tiddlywiki
+
+The ''Designing and Writing Interactive Texts'' course explores hypertext theory and applies hypertextual techniques using TiddlyWiki as the primary teaching and learning platform.
+
+The course is offered at both the graduate <$appear state="$:/575"><$transclude tiddler="SUNY Poly IDT 575 Spring 2018" mode="block"/></$appear> and undergraduate <$appear state="$:/375"><$transclude tiddler="SUNY Poly COM 375 Spring 2018" mode="block"/></$appear> level.  Degree-seeking students in the course are mostly matriculated in the graduate Information Design & Technology or undergraduate Interactive Media & Game Design or Communication & Inforamtion Design programs.
+
+In addition, the course will be offered as an [[Open Course|Open Course Spring 2018]] (perhaps a SOOC - a //small// online open course) to anyone interested in participating. 
+
+Finally, it is hoped that experienced TiddlyWiki enthusiasts will join the Studio as participants: reviewing and critiquing projects, providing support to participants, and possibly engaging in collaborative projects with participants.
+
+Participants will study the historical and theoretical aspects of hypertext, and apply this understanding in the design and writing of interactive texts using TiddlyWiki. The primary teaching resources will include: 
+
+# Links to as many TiddlyWiki tutorials as can be identified
+# Twice-weekly 35-minute video/screen presentations on hypertext history and theory. These presentations will be recorded and made available in this wiki.
+# Occasional video/screen presentations featuring guest commentators on hypertext and TiddlyWiki.
+# Three weekly live-streamed workshops open to all participants
+# Links to identified / annotated scholarly references examining hypertext
+# A Google group for support and questions
+# TiddlyWiki projects created and critiqued within the DesignWriteStudio community
+
+More detail on the course is available in the [[Course Syllabus|Syllabus]]''. 

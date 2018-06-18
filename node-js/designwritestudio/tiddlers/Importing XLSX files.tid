@@ -1,0 +1,14 @@
+caption: ``<importing>``
+created: 20180309163833435
+list: 
+modified: 20180618162246368
+tags: [[Technique for Creating Tiddlers in TiddlyWiki]]
+title: Importing XLSX files
+type: text/vnd.tiddlywiki
+
+One method to create a collection or set of tiddlers is to import rows from a spreadsheet so that each row becomes a tiddler and each column becomes a field in a tiddler.
+
+
+We can import a spreadsheet file using the [[xlsx plugin|$:/plugins/tiddlywiki/xlsx-utils/controls]] to create a set of tiddlers. Usually, the imported set of tiddlers consists of one or more tiddlers for each row in a spreadsheet. 
+
+Given a set of imported tiddlers, we can use the same techniques identified for writing <$appear state="$:/punctuation">These techniques include: <$list filter="[tag[Techniques for Hypertextual Writing in TiddlyWiki]]"><$link>{{!!caption}} </$link></$list></$appear> for presentation and navigation. [[Templating]] become especially relevant.

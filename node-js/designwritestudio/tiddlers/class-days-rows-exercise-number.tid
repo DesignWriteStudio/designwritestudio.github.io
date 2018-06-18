@@ -4,7 +4,7 @@ import-field-name: exercise-number
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180301174200108
+modified: 20180618162245150
 title: class-days-rows-exercise-number
 type: text/vnd.tiddlywiki
 

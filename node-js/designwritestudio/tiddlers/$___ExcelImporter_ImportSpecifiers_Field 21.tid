@@ -4,7 +4,7 @@ import-field-name: tiddly ideas
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180301174157330
+modified: 20180618162241485
 title: $:/_ExcelImporter/ImportSpecifiers/Field 21
 type: text/vnd.tiddlywiki
 

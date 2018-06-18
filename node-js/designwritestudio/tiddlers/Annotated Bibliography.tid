@@ -1,0 +1,11 @@
+created: 20180306165822716
+list: 
+modified: 20180618162244971
+modifier: steve
+tags: [[Spring 2018 Final Project Ideas]]
+title: Annotated Bibliography
+type: text/vnd.tiddlywiki
+
+* Develop tool to facilitate annotating sources and generating an annotated bibliography (<<google "annotated bibliography">>)
+* See [[demo|https://designwritestudio.updog.co/skunkworks/bibtex/bibliography3.html]] for overview of bibtex system, if one wanted to go in that direction. Could also consider building onto [[Zotero|zotero.org]] which can export bibtex file, 
+* Build demo based on SUNY Poly library resources for an approach to a literature review (could be project for IDT 520)

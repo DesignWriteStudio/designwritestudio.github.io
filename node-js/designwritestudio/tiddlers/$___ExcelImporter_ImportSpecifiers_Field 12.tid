@@ -5,7 +5,7 @@ import-field-prefix: Workshop:
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180301174157369
+modified: 20180618162240753
 title: $:/_ExcelImporter/ImportSpecifiers/Field 12
 type: text/vnd.tiddlywiki
 

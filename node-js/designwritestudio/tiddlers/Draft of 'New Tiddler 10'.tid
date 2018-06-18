@@ -1,0 +1,22 @@
+created: 20180330192908829
+creator: steve
+draft.of: New Tiddler 10
+draft.title: New Tiddler 10
+modified: 20180618162245440
+modifier: steve
+tags: $:/tags/ViewTemplate
+title: Draft of 'New Tiddler 10'
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Illustrations]]">
+
+Navigation among Illustrations:
+<$list filter="[tag[Illustrations]first[]]">
+<$button>
+<$action<$link>First {{!!title}}</$link></$list> ||
+<$list filter="[tag[Illustrations]before<currentTiddler>]"><$link>Previous {{!!title}}</$link></$list> ||
+<$list filter="[tag[Illustrations]after<currentTiddler>]"><$link>Next {{!!title}}</$link></$list> ||
+<$list filter="[tag[Illustrations]last[]]">
+<$link>Last {{!!title}}</$link></$list> ||
+<hr>
+

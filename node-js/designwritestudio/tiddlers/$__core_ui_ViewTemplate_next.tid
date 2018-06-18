@@ -1,6 +1,8 @@
 created: 20170531021151279
+creator: steve
 list-before: $:/core/ui/ViewTemplate/title
-modified: 20180301174157624
+modified: 20180618162241525
+modifier: steve
 tags: 
 title: $:/core/ui/ViewTemplate/next
 type: text/vnd.tiddlywiki

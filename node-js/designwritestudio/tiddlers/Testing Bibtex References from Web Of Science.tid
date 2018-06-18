@@ -1,5 +1,7 @@
 created: 20171204204714997
-modified: 20180301174202333
+creator: steve
+modified: 20180618162247941
+modifier: steve
 title: Testing Bibtex References from Web Of Science
 type: text/vnd.tiddlywiki
 
@@ -7,6 +9,8 @@ There are <$count filter="[!field:bibtex-author[]]"/> bibliographic references.
 
 Here are all of the titles, with author, sorted by author, with the URL provided:
 <$list filter="[!field:bibtex-author[]sort[bibtex-author]]">
+
+<hr>Tiddler: <$link><<currentTiddler>></$link><br>
 <p>
 <$link to={!!bibtex-title}>></$link>{{!!bibtex-title}}<br>{{!!bibtex-author}}<br>{{!!bibtex-url}}</p>
 </$list>

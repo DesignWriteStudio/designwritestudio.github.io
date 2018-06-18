@@ -1,8 +1,8 @@
 created: 20180217162522116
-modified: 20180301174201006
+modified: 20180618162246097
+source: This list of hypertextual practices is derived from the hypertext literature.
 tags: Annotator
 title: Hypertextual Practices
 type: text/vnd.tiddlywiki
 
-<<tag "Hypertextual Practices">>
-<<tabs "[tag{!!title}]">>
+<<tabs "[tag[Hypertextual Practices]]">>

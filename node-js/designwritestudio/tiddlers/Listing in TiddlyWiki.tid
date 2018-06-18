@@ -1,25 +1,31 @@
+caption: ``<$listing>``
 created: 20180130143357496
-modified: 20180301174201162
+modified: 20180618162246498
 tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
 title: Listing in TiddlyWiki
 type: text/vnd.tiddlywiki
 
-``<$list filter="[...]">``
-<hr>
-``
-<$list filter="[tag[Techniques for Hypertextual Writing in TiddlyWiki]]"
-<<currentTiddler>><br>
+The ``<$list>`` command (and a simpler macro, ``<<list-links>>``, identify tiddlers that match a filter.  The output of lists in tiddlywiki are sometimes presented as lists of tiddlers (sometimes as links, sometimes not), and other times used as the basis for [[transclusion|Transcluding]].  
+
+Here is a (sorted) list of tiddlers (presented as links) that share the tag [[Hypertextual Practices]]: <br>
+
+```
+<$list filter="[tag[Hypertextual Practices]sort[title]]"/>
+```
+
+<$list filter="[tag[Hypertextual Practices]sort[title]]"/>
+
+Here is a transclusion of theh title and text fields of (sorted) tiddlers that share the tag [[Hypertextual Practices]]:
+
+```
+<$list filter="[tag[Hypertextual Practices]sort[title]]">
+''{{!!title}}'': {{!!text}}<br>
 </$list>
-``
-
-<$list filter="[tag[Techniques for Hypertextual Writing in TiddlyWiki]]">
-• <<currentTiddler>><br>
+```
+<$list filter="[tag[Hypertextual Practices]sort[title]]">
+''{{!!title}}'': {{!!text}}<br>
 </$list>
 
-Engaging in the act of filtering involves manipulating the range of nodes (tiddlers) presented as possible choices that can be selected in a given context.
 
-Essentially: there is a population (of tiddlers), and the filter tells us which to include in presented list of tiddlers. 
 
-The output of filters in tiddlywiki are generally presented as lists of tiddlers. 
-
-[[See tiddlywiki.com|https://tiddlywiki.com/#list-links%20Macro:%5B%5Blist-links%20Macro%5D%5D%20%5B%5Blist-links%20Macro%20(Examples)%5D%5D%20ListWidget]]
+[[more documentation...|https://tiddlywiki.com/#list-links%20Macro:%5B%5Blist-links%20Macro%5D%5D%20%5B%5Blist-links%20Macro%20(Examples)%5D%5D%20ListWidget]]

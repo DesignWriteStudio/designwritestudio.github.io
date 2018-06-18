@@ -1,0 +1,18 @@
+created: 20180330202251975
+creator: steve
+list: 
+modified: 20180618162247773
+modifier: steve
+myfield: 
+tags: 
+title: Show some random illustrations
+type: text/vnd.tiddlywiki
+
+Show <$edit-text tiddler='number' default='3' tag="input" size="2"/> illustrations<br>
+<$list filter= "[tag[Illustrations]random{number}]">
+<<currentTiddler>><br><$image source=<<currentTiddler>> width="100"/><br>
+</$list>
+
+
+
+

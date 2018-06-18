@@ -4,7 +4,7 @@ import-field-name: week-number
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180301174200091
+modified: 20180618162245137
 title: class-days-rows-week-number
 type: text/vnd.tiddlywiki
 

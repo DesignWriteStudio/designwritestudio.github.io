@@ -1,0 +1,12 @@
+created: 20180423174339707
+creator: steve
+import-field-column: link
+import-field-name: link
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180618162241454
+modifier: steve
+title: $:/_ExcelImporter/ImportSpecifiers/Field 28
+type: text/vnd.tiddlywiki
+

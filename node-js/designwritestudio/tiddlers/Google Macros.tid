@@ -1,0 +1,37 @@
+created: 20180226170021630
+creator: steve
+modified: 20180618162245972
+modifier: steve
+tags: $:/tags/Macro
+title: Google Macros
+type: text/vnd.tiddlywiki
+
+\define google-scholar-query() https://scholar.google.com/scholar?q=$(query)$
+
+\define google-query() https://google.com/search?q=$(query)$
+
+
+\define gs(query)
+<$vars query="""$query$""">
+<a href=<<google-scholar-query>> target="_blank">Google Scholar</a>
+\end
+
+\define google(query)
+<$vars query="""$query$""">
+<a href=<<google-query>> target="_blank">Google</a>
+\end
+
+
+
+```
+<<gs "Dattolo Luccio 2009 State of art survey on zz-structures">>
+
+<<google "911 Commission Report text file">>
+```
+
+<<gs "Dattolo Luccio 2009 State of art survey on zz-structures">>
+
+
+<<google "911 Commission Report text file">>
+
+<<show "These macros use the ``\define`` construct (first two lines) to transclude a future value into a string">>

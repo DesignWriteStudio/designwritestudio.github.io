@@ -1,0 +1,19 @@
+created: 20180309152133813
+modified: 20180618162245495
+title: enclosing a word or phrase in a set of double brackets
+type: text/vnd.tiddlywiki
+
+This tiddler is linked from these tiddlers:
+
+<$list filter="[{!!title}backlinks[]]">
+<<currentTiddler>><br>
+</$list>
+
+
+```
+This tiddler is linked from these tiddlers:
+
+<$list filter="[{!!title}backlinks[]]">
+<<currentTiddler>><br>
+</$list>
+```

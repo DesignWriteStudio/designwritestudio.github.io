@@ -1,14 +1,14 @@
 created: 20180205163528437
-modified: 20180301174201311
-tags: 
+modified: 20180618162246685
+tags: Workflow
 title: New workflow for setting up tiddlywiki files for critique
 type: text/vnd.tiddlywiki
 
-<1> copy urls for tiddlywiki files of interest from {{Share}} spreadsheet
-<2> use chrome extension [[Open Multiple URLs|https://chrome.google.com/webstore/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh]] and paste list of URLs
-<3> drag [[download-for-critique]] to tiddlywiki in next tab
-<4> click on green download button to download the current TiddlyWiki
-<5> drag [[download-for-critique]] from first tab to next tab
-<6> repeat previous two steps until out of wikis
-<7> find newly downloaded wiki files in finder
-<8> select all, and open with Chrome
+# copy urls for tiddlywiki files of interest from {{Share}} spreadsheet
+# use chrome extension [[Open Multiple URLs|https://chrome.google.com/webstore/detail/open-multiple-urls/oifijhaokejakekmnjmphonojcfkpbbh]] and paste list of URLs
+# drag [[download-for-critique]] to tiddlywiki in next tab
+# click on green download button to download the current TiddlyWiki
+# drag [[download-for-critique]] from first tab to next tab
+# repeat previous two steps until out of wikis
+# find newly downloaded wiki files in finder
+# select all, and open with Chrome

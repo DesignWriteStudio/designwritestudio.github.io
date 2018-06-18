@@ -1,7 +1,7 @@
 created: 20170120201157806
 creator: stevesunypoly
-modified: 20180301174200638
-modifier: stevesunypoly
+modified: 20180618162245798
+modifier: steve
 tags: CourseOutlineTemplates $:/tags/ViewTemplate
 title: exercise template
 type: text/vnd.tiddlywiki
@@ -10,7 +10,8 @@ type: text/vnd.tiddlywiki
 \define whichExercise() $(exercise-number)$ $(exercise-title)$
 \define workshop() Workshop: $(workshop-topic)$
 \define exercise-directions() Exercise $(exercise-number)$ Directions
-<$list filter="[is[current]tag[Exercises]]">
+
+<$list filter="[is[current]tag[Exercises]!tag[Self-designed Exercises]]">
 <h1>{{!!exercise-title}}</h1>
 <ul>
 <li>Due: <$view field="date" format="date" template="ddd 0DD mmm"/></li>
@@ -19,14 +20,16 @@ type: text/vnd.tiddlywiki
 <$vars workshop-topic={{!!workshop-topic}}>
 <$link to=<<workshop>>>{{!!workshop-topic}}</$link> workshop<$appear><$transclude tiddler=<<workshop>> mode="block"/></$appear>
 </$vars>
-</$list></li>
 <$vars exercise-number={{!!exercise-number}}>
 <li><$link to=<<exercise-directions>>><<exercise-directions>></$link>
 <$appear state="$:/directions"><$transclude tiddler=<<exercise-directions>> mode="block"/></$appear></li>
 </$vars>
-</ul>
 
-Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
+</$list>
+
+
+
+<li>Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
 <$transclude field="overall" mode="block"/>
 <br>
 <$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
@@ -44,6 +47,10 @@ Submissions: <$appear show="Show Submissions and comments" hide="Hide Submission
 </$list>
 </$vars>
 </$appear>
-<hr>
+</li>
+
+
+
+
 ^^[[Template|exercise template]]^^
 

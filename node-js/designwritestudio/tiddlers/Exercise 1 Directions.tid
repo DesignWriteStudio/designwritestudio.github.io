@@ -1,0 +1,18 @@
+created: 20180529232301190
+creator: steve
+form: https://goo.gl/forms/sTL8767nctavI7LP2
+form-embed: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoyt48nN7zQzzIl_UBJvViOiQ_jvgFGGCdUvYdS3LHhU50gA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+modified: 20180618162245541
+modifier: steve
+responses: https://docs.google.com/spreadsheets/d/1TVI9hjn7mdyWpU3gddValwJ0bLVpI5BxohdxbxBlc94/edit?usp=sharing
+tags: 
+title: Exercise 1 Directions
+type: text/vnd.tiddlywiki
+
+* Complete the steps outlined in [[Workshop: Saving, Serving, New Tiddlers]] (watch the video)
+* Respond to the welcome message in the [[Google Group|https://groups.google.com/forum/#!topic/designwrite/PzoHJwkHVh4]] by introducing yourself
+* Share your wiki on the submission form
+** <a href={{!!form}} target="_blank">Visit form in another tab</a>
+** <$appear show="View embedded form >>" hide="<< Hide Form">{{!!form-embed}}</$appear><br>
+* We will <a href={{!!responses}} target="_blank">Review responses</a> Thursday morning
+

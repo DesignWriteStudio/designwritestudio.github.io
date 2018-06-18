@@ -1,16 +1,15 @@
+caption: ``{{transcluding}}``
 created: 20180130143109923
-modified: 20180301174202501
+modified: 20180618162248167
 tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
 thisfield: A Transcluded Field!
 title: Transcluding in TiddlyWiki
 type: text/vnd.tiddlywiki
 
-# ``{{Enclose Tiddler Name in Double Braces}}``
-# ``{{Tiddler Name!!FieldName}}``
-# ``{{Creating Transclusions!!thisfield}}`` results in {{Creating Transclusions!!thisfield}}
+Tranclusion within tiddlywiki can often be accomplished using ``{{curly braces}}``  or by using the ``<$transclude>`` command.
 
-One way of transcluding in TiddlyWiki involves referencing
- one tiddler "A" from another tiddler "B" such that the content of "A" appears to be a part of "B".
+# To transclude the contents of the text field of a tiddler:  ``{{Enclose Tiddler Name in Double Braces}}``
+# To transclude the contents of another field in a tiddler:  ``{{Tiddler Name!!FieldName}}``
 
-See [[Transclusion|https://tiddlywiki.com/#Transclusion:Transclusion]]
+([[more documentation andn discussion|https://tiddlywiki.com/#Transclusion:Transclusion]])
 

@@ -1,0 +1,30 @@
+created: 20180306165814191
+creator: steve
+icon: $:/core/icon
+list: 
+modified: 20180618162247790
+modifier: steve
+tags: NewAtDesignWriteStudio [[Course Resources]]
+title: Spring 2018 Final Project Ideas
+type: text/vnd.tiddlywiki
+whats-new: A set of possible projects to work on in the second half of the semester
+
+<<show "Uses ``<$list>`` to filter based on tag. Creates button (note class) which lists tiddlers and opens them. Uses ``<$appear>`` to provide viewing options for readers; note use of show and hide parameters to generate links; use of state parameter. For state use  ``$:/somethingDifferentForEachAppearInATiddler``. Uses ``<$transclude>`` to get content of specific field from ``<currentTiddler>``.">>
+!! Three ways to view project ideas that were shared for the Spring 2018 course:
+
+# <$button set="$:/state/sidebar" setTo="no" class="tc-btn-invisible tc-tiddlylink">
+Open tiddlers, one for each project idea, and close other tiddlers
+<$action-sendmessage $message="tm-close-other-tiddlers"/>
+<$list filter="[tag[Project Ideas]!sort[title]]">
+<$action-navigate $to=<<currentTiddler>> />
+</$list>
+</$button>
+# <$appear show="Show list of project ideas with descriptions" hide="Hide list" state="$:/list">
+<$list filter="[tag[Project Ideas]]">
+<h3><$link><<currentTiddler>></$link></h3>
+<$transclude field="text" mode="block"/>
+</$list>
+</$appear>
+# <$appear show="Show vertical tabs of project ideas with descriptions" hide="Hide tabs" state="$:/tabs">
+<<tabs "[tag[Project Ideas]]" "" "$:/state/tab2" "tc-vertical">>
+</$appear>

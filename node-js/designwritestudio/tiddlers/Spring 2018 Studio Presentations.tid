@@ -1,0 +1,16 @@
+created: 20180423180856786
+creator: steve
+list: 
+modified: 20180618162247828
+modifier: steve
+tags: DesignWriteStudio [[Course Resources]] NewAtDesignWriteStudio
+title: Spring 2018 Studio Presentations
+type: text/vnd.tiddlywiki
+whats-new: Videos of studio presentations!
+
+<h2>Final Presentations, Spring 2018</h2>
+<$list filter="[tag[final-presentation]]">
+{{!!name}}: 
+<a href={{!!link}} target="_blank">Wiki - {{!!wiki-title}}</a><br>
+{{!!description}} <br><$appear show="Video" hide="Hide Video"><$macrocall $name="youtube-embed" video={{!!url}}/></$appear><br><br>
+</$list>

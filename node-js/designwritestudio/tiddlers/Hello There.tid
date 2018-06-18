@@ -1,20 +1,16 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20180301174201048
-modifier: stevesunypoly
+modified: 20180618162246033
+modifier: steve
 tags: 
 title: Hello There
 type: text/vnd.tiddlywiki
 
-{{NewAtDesignWriteStudio}}
+<<show "This reveals documentation when present; it's a teaching device. In this example, I use the  tabs macro, including using the tiddler [[*]] to create a kind of empty tiddler">>
 
-({{WhatWasNew}})
+!! Welcome to the <<strex "Designing" "Design">><<strex "and Writing" "Wr">><<strex "Interactive" "i">><<strex "Texts" "Te">>Studio
 
-!! Welcome to the {{DesignWriteStudio!!tagline}}
+{{DesignWriteStudio}}
 
-<$list filter="[tag[DesignWriteStudio]]">
-<$link><<currentTiddler>></$link>
-<$appear><$transclude mode="block"/></$appear><br>
-</$list>
-<hr>
-''Navigation Help '' <$appear>{{Navigation-Help}}</$appear>
+<<tabs "[title[*]] [tag[DesignWriteStudio]]" "*">>
+

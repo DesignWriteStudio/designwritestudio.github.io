@@ -1,0 +1,15 @@
+created: 20180604171620432
+creator: steve
+modified: 20180618162247974
+modifier: steve
+tags: [[TiddlyWikify SUNY OER Textbooks]]
+title: The Missing Link: An Introduction to Web Development and Programming
+type: text/vnd.tiddlywiki
+
+https://textbooks.opensuny.org/the-missing-link-an-introduction-to-web-development-and-programming/
+
+>Web development is an evolving amalgamation of languages that work in concert to receive, modify, and deliver information between parties using the Internet as a mechanism of delivery.
+
+>While it is easy to describe conceptually, implementation is accompanied by an overwhelming variety of languages, platforms, templates, frameworks, guidelines, and standards. Navigating a project from concept to completion often requires more than mastery of one or two complementing languages, meaning today’s developers need both breadth, and depth, of knowledge to be effective.
+
+>This text provides the developer with an understanding of the various elements of web development by focusing on the concepts and fundamentals through the examples within, providing a foundation that allows easier transition to other languages and a better understanding of how to approach their work. The reader will be introduced to topics in a manner that follows most project development methods, from initial conceptualization and design through front end development, back end development, and introducing additional concepts like accessibility and security, while focusing on responsive design techniques. Each section of the text includes opportunities to practice the material and assess increased knowledge after examining the topics.

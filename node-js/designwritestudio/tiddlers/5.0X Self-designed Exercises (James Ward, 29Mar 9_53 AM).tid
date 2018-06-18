@@ -1,0 +1,19 @@
+author: James Ward
+comments: Over the past year I have collected over 100,000 tweets form President Trump, TurmpJr, Comey testimony and #Inauguration. My plan "was" to take all of the 100,00 tweets and build a relational database so that the user will be able to do a search for any keywords and those tweets would populate for the user and they would be able to use a first, next, previous, and last navigation. 
+
+When I started this project nobody could tell me how many tiddlers TiddlyWiki could hold. I was able to push through 82,000 tweet records on a single XLSX sheet. Unfortunately the TiddlyWiki crawls at fetching that much information. (It's not practical with that much information)
+
+After posting a message to the Google TiddlyWiki group and only having two people respond back to me, I found out that TiddlyWiki can't support that much information. 
+
+The project will stay the same except I will only be using a 100 tweet records for each tweet categories. 
+
+It would seem to me that with this huge limitation it would only work on a small scale. Good for personal use but not good for commercial use.
+created: 20180618162244549
+exercise: 5.0X Self-designed Exercises
+modified: 20180618162244549
+tags: shared-exercises
+timestamp: 20180329095355315
+title: 5.0X Self-designed Exercises (James Ward, 29Mar 9:53 AM)
+type: text/vnd.tiddlywiki
+url: http://wardjhtrumptweets.tiddlyspot.com
+

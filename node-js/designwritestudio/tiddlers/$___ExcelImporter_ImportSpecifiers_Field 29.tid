@@ -1,0 +1,12 @@
+created: 20180501184303534
+creator: steve
+import-field-column: name
+import-field-name: name
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180618162241451
+modifier: steve
+title: $:/_ExcelImporter/ImportSpecifiers/Field 29
+type: text/vnd.tiddlywiki
+

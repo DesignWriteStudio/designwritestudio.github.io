@@ -1,0 +1,25 @@
+created: 20180604160901906
+creator: steve
+modified: 20180618162248193
+modifier: steve
+tags: [[Summer 2018 Projects]]
+title: TiddlyWikify SUNY OER Textbooks
+type: text/vnd.tiddlywiki
+
+* Objective: Develop TiddlyWiki versions of one or more [[SUNY OER Textbooks|https://textbooks.opensuny.org/browse-by-subject/]] to integrate
+
+** Syllabus elements
+*** Course schedule
+*** Learning Objectives
+*** Student Outcomes
+*** Assignments
+** Assessment
+** Individualized Student Submissions (via [[Xememex|http://xememex.com]]?)
+* Consider these (or other) texts:<ul><$list filter="[tag{!!title}]">
+<li><$link><<currentTiddler>></$link><$appear><$transclude mode="block"/></$appear></li>
+</$list></ul>
+* Steps
+** Convert epub to html via pandoc
+** Import html via [[text slicer|https://tiddlywiki.com/editions/text-slicer/]]
+** Identify / solicit faculty interest in specific text
+

@@ -1,0 +1,18 @@
+created: 20180327134451838
+creator: steve
+modified: 20180618162248415
+modifier: steve
+title: Workshop: Critique Self-Designed Exercises
+type: text/vnd.tiddlywiki
+whats-new: We review some of the submitted self-designed exercises and explore opportunities to add more interactivity
+
+<h2>
+
+# [[Making copy of tiddlyspot wikis|https://groups.google.com/forum/#!searchin/designwrite/copy$20of$20tiddlyspot%7Csort:date/designwrite/bN9v1AYAlmM/SPg7PTp9CAAJ]]
+# Review / critique some projects
+</h2>
+<ol>
+<$list filter="[tag[ReviewInClass]]">
+<li><a href={{!!url}} target="_blank">{{!!author}}</a></li>
+</$list>
+</ol>

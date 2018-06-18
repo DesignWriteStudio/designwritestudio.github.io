@@ -1,6 +1,8 @@
 created: 20180117164107540
-modified: 20180301174202656
-tags: WhatWasNew Workflow
+creator: steve
+modified: 20180618162248371
+modifier: steve
+tags: Workflow WhatWasNewSpring2018
 title: Workflow for submitted exercises
 type: text/vnd.tiddlywiki
 whats-new: Seriously optional, but might be interesting: You can follow this workflow and import exercise submissions into your own local copy of this wiki. Just try it, or ask about it on the group. We'll do this in [[Workshop: Plugins]] and [[Workshop: XLSX import]]

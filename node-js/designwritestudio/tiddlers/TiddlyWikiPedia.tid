@@ -1,0 +1,11 @@
+created: 20180306175446001
+list: 
+modified: 20180618162248189
+modifier: steve
+tags: [[Spring 2018 Final Project Ideas]]
+title: TiddlyWikiPedia
+type: text/vnd.tiddlywiki
+
+* Build on the wikipedia exercises (<$list filter="[tag[Exercises]search[3.0]!search[3.01]]"><$link>{{!!exercise-title}}</$link> || ) </$list>
+* Present Wikipedia article in TiddlyWiki, possibly by modifying MediaWiki source
+* Develop additional navigational tools that enhance and support knowledge acquisition.

@@ -1,6 +1,8 @@
 created: 20180301142144661
-modified: 20180301174202227
-tags: [[Shared Wikis]] NewAtDesignWriteStudio
+creator: steve
+modified: 20180618162247651
+modifier: steve
+tags: [[Shared Wikis]] WhatWasNewSpring2018
 title: Shared Wikis by Exercise
 type: text/vnd.tiddlywiki
 whats-new: A directory of shared wikis by exercise
@@ -11,6 +13,7 @@ whats-new: A directory of shared wikis by exercise
 <<show "Uses the appear macro">>
 
 <$list filter="[tag[shared-exercises]!sort[exercise]each[exercise]]">
+
 ''{{!!exercise}}''<$appear>
 <$list filter="[tag[shared-exercises]exercise{!!exercise}!sort[comments]]">
 <a href={{!!url}} target="_blank">{{!!author}}</a>: {{!!comments}}

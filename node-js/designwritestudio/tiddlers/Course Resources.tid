@@ -1,0 +1,12 @@
+created: 20180502145952135
+creator: steve
+modified: 20180618162245173
+modifier: steve
+tags: DesignWriteStudio
+title: Course Resources
+type: text/vnd.tiddlywiki
+
+<ul>
+<$list filter="[tag[Course Resources]]">
+<li><$link><<currentTiddler>></$link></li>
+</$list>

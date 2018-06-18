@@ -1,0 +1,10 @@
+created: 20180307141313880
+list: 
+modified: 20180618162244802
+modifier: steve
+tags: [[Spring 2018 Final Project Ideas]]
+title: 911 Report Wikification
+type: text/vnd.tiddlywiki
+
+* The [[official report|https://archive.org/details/911_final_report]]  of the commission that investigated the terrorist attacks of September 11, 2001 includes an amazing chapter, "[[WE HAVE SOME PLANES|https://govinfo.library.unt.edu/911/report/911Report_Ch1.htm]]." The chapter includes details a minute-by-minute timeline of the activities of the [[19 hijackers|https://en.wikipedia.org/wiki/Hijackers_in_the_September_11_attacks]]. 
+* An interesting project can emerge by hypertextualizing the text of the chapter and  the tables in Wikipedia, allowing readers to navigate by various dimensions, including time, plane (the way the chapter is organized), terrorist, etc.

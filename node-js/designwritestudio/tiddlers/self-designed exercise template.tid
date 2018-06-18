@@ -1,0 +1,41 @@
+created: 20180309172039324
+creator: stevesunypoly
+modified: 20180618162247702
+modifier: stevesunypoly
+tags: CourseOutlineTemplates $:/tags/ViewTemplate
+title: self-designed exercise template
+type: text/vnd.tiddlywiki
+
+\define comments-tiddler() $:/Comments on $(thisTiddler)$
+\define whichExercise() $(exercise-number)$ $(exercise-title)$
+\define workshop() Workshop: $(workshop-topic)$
+\define exercise-directions() Exercise $(exercise-number)$ Directions
+<$list filter="[is[current]tag[Self-designed Exercises]]">
+<h1>{{!!exercise-title}}</h1>
+<ul>
+<li>Due: <$view field="date" format="date" template="ddd 0DD mmm"/></li>
+<li>Part of the <$link to={{!!exercise-group}}>{{!!exercise-group}}</$link> exercise group</li>
+</ul>
+
+Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
+<$transclude field="overall" mode="block"/>
+<br>
+<$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
+Looking for <<whichExercise>><br>
+<$list filter="[tag[shared-exercises]exercise<whichExercise>sort[author]]">
+<$vars thisTiddler=<<currentTiddler>>>
+<$link to=<<currentTiddler>>>{{!!author}}</$link> 
+<a href={{!!url}} target="_blank">Wiki</a> 
+{{!!comments}} 
+<$list filter="[title<comments-tiddler>is[tiddler]]">
+<br>• ''Brief Critique'' <$link to=<<currentTiddler>>>:</$link>  
+<$macrocall $name="xy" tiddler=<<comments-tiddler>> text={{!!text}}/><br>
+</$list>
+<br>
+</$vars>
+</$list>
+</$vars>
+</$appear>
+<hr>
+^^[[Template|exercise template]]^^
+

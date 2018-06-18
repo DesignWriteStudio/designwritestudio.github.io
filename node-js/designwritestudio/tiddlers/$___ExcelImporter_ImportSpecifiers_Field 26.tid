@@ -1,0 +1,12 @@
+created: 20180423174030375
+creator: steve
+import-field-column: wiki-title
+import-field-name: wiki-title
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180618162241463
+modifier: steve
+title: $:/_ExcelImporter/ImportSpecifiers/Field 26
+type: text/vnd.tiddlywiki
+

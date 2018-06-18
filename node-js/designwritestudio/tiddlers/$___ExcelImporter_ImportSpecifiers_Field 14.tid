@@ -6,7 +6,7 @@ import-field-source: constant
 import-field-type: string
 import-field-value: Workshops
 import-spec-role: field
-modified: 20180301174157361
+modified: 20180618162241516
 title: $:/_ExcelImporter/ImportSpecifiers/Field 14
 type: text/vnd.tiddlywiki
 

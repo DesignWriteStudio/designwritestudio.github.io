@@ -1,0 +1,16 @@
+created: 20180529231410684
+creator: steve
+modified: 20180618162245895
+modifier: steve
+order: 1
+tags: [[IDT 553 Module]]
+title: Getting Started 1: Hello World!
+type: text/vnd.tiddlywiki
+
+* Complete the steps outlined in the [[Instructions|http://people.sunyit.edu/~steve/dwit/tiddlywiki/workflow.html#Workshop%3A%20Saving%2C%20Serving%2C%20New%20Tiddlers%20Text]]
+* You may find it helpful to watch the video from last fall class explaining how to do this exercise //Start at about 15:00 if you want to skip the intro stuff// <$macrocall $name="youtube-embed" video={{!!youtube}}/>
+* Subscribe to the [[Google Group|https://groups.google.com/forum/#!topic/designwrite/PzoHJwkHVh4]], and once enrolled, respond to the "Welcome Summer 2018 Participants" thread by introducing yourself
+* Share your wiki on the submission form
+** <a href={{!!form}} target="_blank">Visit form in another tab</a>
+** <$appear show="View embedded form >>" hide="<< Hide Form">{{!!form-embed}}</$appear><br>
+

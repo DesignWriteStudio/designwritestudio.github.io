@@ -1,0 +1,36 @@
+created: 20180309171704446
+modified: 20180618162245269
+tags: [[Creating interactive texts based on self-designed exercises]]
+title: Creating a self-designed exercise
+type: text/vnd.tiddlywiki
+
+# General ideas
+## Design exercises matching things you are interested in constructing <$appear state="$:/design"> 
+
+* You might wikify an existing text (as we did in {{Exercise 3.02!!caption}}) or system (as we did in {{Exercise 3.01!!caption}})
+* You might geneate a set of tiddlers to work with (as we did {{Exercise 3.03!!caption}})
+* You might do anyting else (see [[Ideas for self-designed exercises]] or generate your own idea.
+</$appear><br>
+## The <$count filter="[tag[Self-designed Exercises]]"/> exercises you create can be independent (new projects for each one) or can build sequentially on each other (you can do keep working on a project for a 2nd, 3rd or even 4th exercise).
+# Process
+
+## Create a new tiddler as the entry point for your project, either in an existing wiki or a new wiki, using a one word or CamelCase title. Use this tiddler to provide a guide and navigation to your project.
+## Create tagged tiddlers that address <$appear show="these topics about your project (show)" hide="these topics about your project: (hide)" state="$:/topics"> 
+
+# Description of the project. Perhaps begin with a single sentence description and then provide a fuller description in 3-4 sentences.
+# Design statement describing the ways in which the reader will interact with the wiki. Begin with a single sentence design statement. Expand to 4-6 sentences to consider and discuss the objectives of the reader, and what kind of device they might use to interact with the wiki. Will they be writing? Or only reading?
+# Kinds of source materials needed; possible examples. Identify possible examples of source material, if you are planning to build a wiki that relies on existing content. Be aware of the license of the content. 
+# Relationship to previous self-designed exercises (new project, continuation, branch, etc.). For [[Exercise 5.01]], this will be a "new project." If you decide to continue developing this project for a future exercise, it becomes a continuation. In this way, you can also return to a previous project in a future exercise. 
+</$appear><br>
+
+## Post new thread to {{GoogleGroup}} with <$appear show="these components (show)" hide="these components: (hide)" state="$:/components"> 
+
+<<show "This builds on someone's way of using the show and hide fields of the ``<$appear>`` macro. ">>
+
+# Permalink to entry point for your project. 
+# Basic statement describing the contents of the wiki to be built.
+# Design statement describing the ways in which the reader will interact with the wiki.
+# Kinds of source materials needed; possible examples
+# Relationship to previous self-designed exercises (new project, continuation, branch, etc.)
+</$appear><br>
+

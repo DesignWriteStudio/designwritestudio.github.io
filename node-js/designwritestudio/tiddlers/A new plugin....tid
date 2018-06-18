@@ -1,6 +1,8 @@
 created: 20180228154824303
-modified: 20180301174159938
-tags: NewAtDesignWriteStudio
+creator: steve
+modified: 20180618162244963
+modifier: steve
+tags: WhatWasNewSpring2018
 title: A new plugin...
 type: text/vnd.tiddlywiki
 whats-new: Trying out building a plugin to distribute functionality to use in [[Exercise 4.04]]

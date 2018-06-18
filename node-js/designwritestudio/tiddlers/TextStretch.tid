@@ -2,7 +2,7 @@ created: 20160622192207707
 creator: Thomas Elmiger
 example-1: transcluded text <<strex "from other tiddlers or from fields of the same tiddler">>can contain TextStretch parts too. Colors <<strex "of content and close buttons">>change on the second level.
 example-2: I think the idea to expand an [[ellipsis|https://en.wikipedia.org/wiki/Ellipsis]] <<strex "so readers can see what was left out">> has existed for a long time inside my head.
-modified: 20180301174202303
+modified: 20180618162247990
 modifier: stevesunypoly
 tags: DWS MyMacros Hacks
 title: TextStretch

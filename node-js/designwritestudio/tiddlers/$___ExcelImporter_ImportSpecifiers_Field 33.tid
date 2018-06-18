@@ -1,0 +1,12 @@
+created: 20180424220734611
+creator: steve
+import-field-column: youtube-url
+import-field-name: url
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20180618162241439
+modifier: steve
+title: $:/_ExcelImporter/ImportSpecifiers/Field 33
+type: text/vnd.tiddlywiki
+

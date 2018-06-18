@@ -1,8 +1,10 @@
 created: 20180116044112565
+creator: steve
 list: 
-modified: 20180301174201526
+modified: 20180618162247111
+modifier: steve
 tags: Syllabus
 title: Readings
 type: text/vnd.tiddlywiki
 
-* To be posted Jan 17
+<<tabs "[tag[Readings]]">>

@@ -1,0 +1,51 @@
+created: 20180301155324736
+creator: steve
+modified: 20180618162245030
+modifier: steve
+tags: WhatWasNewSpring2018
+title: building word games with tiddlywiki
+type: text/vnd.tiddlywiki
+whats-new: This was a brief demo of how we could fairly quickly and painlessly create an information structure based on responses to forms
+
+<h2>What we did</h2>
+
+we built this little information structure (start to finish, 50 minutes!) in class this morning. 
+
+our goal was to have a bunch of people (folks in the room) quickly investigate a topic (in this case, text or word games we could build in tiddlywiki), and share their findings in a way that we could invidually build a wiki that gathered the information, and processed the information so that it became knowledge.
+
+to that end, we built a google [[form|https://goo.gl/forms/nHXtpUkcTpVrLlPJ3]] to gather raw data, built a structure to ingest the form results using the [[xlsx plugin|$:/plugins/tiddlywiki/xlsx-utils/controls]] on the control panel {{$:/core/ui/Buttons/control-panel}}, 
+imported the [[responses|https://docs.google.com/spreadsheets/d/19HDeeUt_dY8SwaC4qyIxWJUgVpl_VCSuCO1wyZZbs9Y/edit?usp=sharing]], and wrote a story.
+
+<h2>Our story</h2>
+
+
+We asked <<show "Using count here to count the number of tiddlers that share a tag">><$count filter="[tag[games]]"/> people to think about <<show "Using count with an each in the filter to count the number of tiddlers that have a unique value on a field">><$count filter="[tag[games]each[what game]]"/> games: <<show "listing to identify the tiddlers that share a tag">><$list filter="[tag[games]each[what game]]">{{!!what game}} || </$list>. For each, we asked for an idea about how to use tiddlywiki to build it, and a link to the rules.
+
+This is what we came up with:
+
+<<show "using appear macro to show/hide transcluded text">> tiddly ideas<$appear state="$:/ideas">
+<$list filter="[tag[games]each[what game]]">
+ ''{{!!what game}}''<$appear>
+<ul>
+<$list filter="[tag[games]what game{!!what game}]">
+<li>{{!!tiddly ideas}}</li>
+</$list>
+</ul>
+</$appear><br>
+</$list>
+</$appear><br>
+
+links to rules <$appear state="$:/links">
+<$list filter="[tag[games]each[what game]]">
+ about ''{{!!what game}}'' game<$appear>
+<ul>
+<$list filter="[tag[games]what game{!!what game}sort[link to rules]]">
+<<show "using a href in raw html to set target to blank tab">>
+<li><a href={{!!link to rules}} target="_blank">{{!!link to rules}}</a></li> 
+</$list>
+</ul>
+</$appear><br>
+</$list>
+</$appear><br>
+
+

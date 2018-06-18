@@ -1,6 +1,8 @@
 created: 20180122143202427
-modified: 20180301174202140
-tags: DWS DWS-Share-Button WhatWasNew
+creator: steve
+modified: 20180618162247678
+modifier: steve
+tags: DWS DWS-Share-Button WhatWasNewSpring2018
 title: Share
 type: text/vnd.tiddlywiki
 whats-new: Added button to top bar menu to quickly launch the share wiki form in another tab. See tiddlers tagged with <<tag DWS-Share-Button>> for full code

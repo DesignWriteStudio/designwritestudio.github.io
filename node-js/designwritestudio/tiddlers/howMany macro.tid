@@ -1,0 +1,26 @@
+created: 20180309135423156
+creator: stevesunypoly
+modified: 20180618162245988
+modifier: stevesunypoly
+slidenum: 1
+tags: DWS $:/tags/Macro
+title: howMany macro
+type: text/vnd.tiddlywiki
+
+\define howMany(betweenText,tag,text)
+<$vars tag="""$tag$""" text="""$text$""" betweenText="""$betweenText$""" text="""$text$""">
+<$count filter="[tag<tag>]"/> <<betweenText>> <$link to=<<tag>>><<text>></$link>
+</$vars>
+\end
+
+
+```
+# There are <<howMany "tiddlers tagged with" "Project Ideas" "project ideas" >> in this wiki.
+
+# Check out the <<howMany "" "Project Ideas" "project ideas">>:
+
+
+```
+
+# There are <<howMany "tiddlers tagged with" "Project Ideas" "project ideas">> in this wiki.
+# Check out the <<howMany "" "Project Ideas" "project ideas">>:

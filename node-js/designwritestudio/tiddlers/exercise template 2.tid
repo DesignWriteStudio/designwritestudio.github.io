@@ -1,0 +1,55 @@
+created: 20180529231550114
+creator: steve
+modified: 20180618162245785
+modifier: steve
+tags: CourseOutlineTemplates $:/tags/ViewTemplate
+title: exercise template 2
+type: text/vnd.tiddlywiki
+
+\define comments-tiddler() $:/Comments on $(thisTiddler)$
+\define whichExercise() $(exercise-number)$ $(exercise-title)$
+\define workshop() Workshop: $(workshop-topic)$
+\define exercise-directions() Exercise $(exercise-number)$ Directions
+
+<$list filter="[is[current]tag[Summer2018Exercises]]">
+<h1>{{!!exercise-title}}</h1>
+<ul>
+<li>Part of the <$link to={{!!exercise-group}}>{{!!exercise-group}}</$link> exercise group</li>
+<li>Explained in the <$list filter="[tag[Classes]exercise-number{!!exercise-number}]">
+<$vars workshop-topic={{!!workshop-topic}}>
+<$link to=<<workshop>>>{{!!workshop-topic}}</$link> workshop<$appear><$transclude tiddler=<<workshop>> mode="block"/></$appear>
+</$vars>
+<$vars exercise-number={{!!exercise-number}}>
+<li><$link to=<<exercise-directions>>><<exercise-directions>></$link>
+<$appear state="$:/directions"><$transclude tiddler=<<exercise-directions>> mode="block"/></$appear></li>
+</$vars>
+
+</$list>
+
+
+
+<li>Submissions: <$appear show="Show Submissions and comments" hide="Hide Submissions"><br>
+<$transclude field="overall" mode="block"/>
+<br>
+<$vars exercise-number={{!!exercise-number}} exercise-title={{!!exercise-title}}>
+<$list filter="[tag[shared-exercises]exercise<whichExercise>sort[author]]">
+<$vars thisTiddler=<<currentTiddler>>>
+<$link to=<<currentTiddler>>>{{!!author}}</$link> 
+<a href={{!!url}} target="_blank">Wiki</a> 
+{{!!comments}} 
+<$list filter="[title<comments-tiddler>is[tiddler]]">
+<br>• ''Brief Critique'' <$link to=<<currentTiddler>>>:</$link>  
+<$macrocall $name="xy" tiddler=<<comments-tiddler>> text={{!!text}}/><br>
+</$list>
+<br>
+</$vars>
+</$list>
+</$vars>
+</$appear>
+</li>
+
+
+
+
+^^[[Template|exercise template]]^^
+

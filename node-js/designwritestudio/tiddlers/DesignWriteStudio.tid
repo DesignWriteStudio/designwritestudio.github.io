@@ -1,8 +1,8 @@
 caption: DesignWriteStudio
 created: 20170107012105523
 creator: stevesunypoly
-modified: 20180301174200255
-modifier: stevesunypoly
+modified: 20180618162245303
+modifier: steve
 tagline: The Studio for ''Design''ing and ''Wr''iting ''I''nteractive ''Te''xts
 title: DesignWriteStudio
 type: text/vnd.tiddlywiki
@@ -12,24 +12,9 @@ type: text/vnd.tiddlywiki
 
 <!--<<stretch "~LiveURL" "{{!!liveurl}})>>-->
 
-We explore the processes and techniques associated with writing and designing interactive texts. 
+We <$appear show="practice hypertextuality" hide="practice hypertextuality (hide)" state="$:/1">{{Hypertextual Practices}}</$appear> using  <$appear show="~TiddlyWiki techniques" hide=" TiddlyWiki techniques (hide)" state="$:/2">{{Techniques for Hypertextual Writing in TiddlyWiki}}</$appear> to write and design interactive texts.
 
-A quick demonstration of an interactive text:
-<$appear show=">>" hide="<<" state="$:/demo">
+The Studio is a virtual makerspace for tiddlywikis. It mostly happens on the [[GoogleGroup]] which you can join.
 
-* Two flavors of ''Stretch Text <$appear show=">>" hide="<<" >
-[img width="100%" [stretch-text-nelson.png]]
-</$appear>'' -- a hypertext strategy invented by Ted Nelson -- as implemented in TiddlyWiki:
-** [[StretchText]]: <<stretch "Design" "ing and">><<stretch "Wr" "iting">><<stretch "I" "nteractive">><<stretch "Te" "xts">>Studio
-**  [[TextStretch]]: <<strex "Designing and" "Design">><<strex "Writing" "Wr">><<strex "Interactive" "i">><<strex "Texts" "Te">>Studio
-
-
-
-
-
-
-
-
-
-
+Embedded within this wiki are all of the elements for a course, [[Designing and Writing Interactive Texts|About the Course]] The course is offered in the Spring semester at [[SUNY Polytechnic Institute|sunypoly.edu]]. This course is also offered as an [[open course|Open Course]] from time time. Or join the {{GoogleGroup}} and we'll launch a course for you.
 

@@ -1,29 +1,26 @@
+caption: ``<$:/templating>``
 created: 20151115060703454
 creator: stevesunypoly
 definition: Creating a frameworks or set of instructions governing the display of information for a set of filtered tiddlers.
-modified: 20180301174202342
+modified: 20180618162247950
 modifier: stevesunypoly
 tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
 title: Templating in TiddlyWiki
 type: text/vnd.tiddlywiki
 
-``<$list filter="[is[current]tag[...]]">``
-<hr>
-``<$list filter="[is[current]tag[Techniques for Hypertextual Writing in TiddlyWiki]]">
-This tiddler is named {{!!title}}
-</$list>``
-<hr>
-<$list filter="[is[current]tag[Techniques for Hypertextual Writing in TiddlyWiki]]">
-This tiddler is named {{!!title}}
+A template provides a set of instructions that are applied to tiddlers that match a filter. These instructions will often include a set of presentation instructions, specifying fields and formats to be presented.
 
+Templates must be tagged ``$:/tags/ViewTemplate`` to be recognized as a template.
 
-<hr>
-Engaging in the act of templating involves creating a frameworks or set of instructions governing the display of information for a set of filtered tiddlers.
+Templates that do not include a filter will be applied to all tiddlers.
 
+Templates are a form of [[transclusion|Transcluding]]. See the thoughtful discussion of templating in [[tiddlywiki.com|https://tiddlywiki.com/#Transclusion%20with%20Templates]].
 
+It is easiest to copy an existing template and modify it for your own purposes. See the list of templates in this wiki:
 
+<$list filter="[tag[$:/tags/ViewTemplate]]">
+<$link><<currentTiddler>></$link><br>
+</$list>
 
+([[more documentation and discussion|https://tiddlywiki.com/#TemplateTiddlers]])
 
-* Very thoughtful discussion of templating in [[Transclusion with Templates|https://tiddlywiki.com/#Transclusion%20with%20Templates]]:
-
->Transcluding via a template is like applying a mask: assuming that the source tiddler contains generic references (like eye holes in a mask), these will be replaced with the target tiddlers values (like the eyes of the person who wears the mask).

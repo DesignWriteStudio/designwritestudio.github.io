@@ -1,7 +1,7 @@
 created: 20180110222443995
 import-spec-role: row
 list: [[$:/_ExcelImporter/ImportSpecifiers/Field 6]] class-days-rows-exercise-number class-days-rows-title class-days-rows-exercise $:/_ExcelImporter/ImportSpecifiers/Field class-days-rows-presentation-topic class-days-rows-class-notes class-days-rows-date class-days-rows-week-number
-modified: 20180301174200130
+modified: 20180618162245067
 tags: 
 title: class-days-rows
 type: text/vnd.tiddlywiki

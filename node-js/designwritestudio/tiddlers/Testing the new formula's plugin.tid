@@ -1,0 +1,16 @@
+created: 20180318204423417
+modified: 20180618162247930
+tags: 
+title: Testing the new formula's plugin
+type: text/vnd.tiddlywiki
+
+Plugin: $:/plugins/ebalster/formula<br>
+<$vars due="20180313223000000">
+
+* Let's set due date to <<due>>.
+* Let's look at the timestamp of some exercises and see if they were submitted before the due date/time (TRUE) or after the due date/time (FALSE)<br>
+
+<<due>>: Due Date/Time<br>
+<$list filter="[tag[shared-exercises]exercise[5.0X Self-designed Exercises]sort[timestamp]]">
+{{!!timestamp}}: (= lt({{!!timestamp}},<<due>>)=)<br>
+</$list>
