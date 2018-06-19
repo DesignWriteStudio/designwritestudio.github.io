@@ -10369,9 +10369,18 @@ Your small farm has high energy costs. You're in need of an expert to look for a
 <div created="20180618034627937" creator="Justin" modified="20180618034640134" modifier="Justin" title="thank you">
 <pre>Thank you for taking the time to run this navigation test.</pre>
 </div>
-<div created="20180619154143409" creator="Justin" modified="20180619164009508" modifier="Justin" tags="" title="Thinking about an A/B Test Toolkit">
+<div created="20180619154143409" creator="Justin" modified="20180619165140839" modifier="Justin" tags="" title="Thinking about an A/B Test Toolkit">
 <pre>\define the-filter() [field:$(the-filter-value)$[y]sort[title]]
 
+```
+this demonstrates how you transclude a value from a tiddler into a filter. Work backwards from line 13, which uses the value of &lt;&lt; the-filter&gt;&gt; defined in the \define statement above
+
+i didn't finish the work. you'll need to populate field filter-value for a few of the tiddlers tagged B
+
+```
+
+
+ 
 So this should support an A/B, or even an A/B/C test, generically. So that it is easy to vary conditions and generate the test environment. I basically abstracted a level...goal should be nothing in tiddlers, that you have to touch after spreadsheet import? Or maybe, just A and B, to set up the test?
 
 1 So let's run this with two &lt;&lt;tag Conditions&gt;&gt;.
