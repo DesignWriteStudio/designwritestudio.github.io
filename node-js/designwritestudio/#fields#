@@ -1,0 +1,23 @@
+VANID
+LastName
+FirstName
+MiddleName
+Suffix
+Home Phone
+StreetNo
+StreetNoHalf
+StreetPrefix
+StreetName
+StreetType
+StreetSuffix
+AptType
+AptNo
+City
+State
+Zip5
+Zip4
+mAddress
+mCity
+mState
+mZip5
+mZip4

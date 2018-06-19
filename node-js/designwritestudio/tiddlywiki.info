@@ -16,13 +16,7 @@
             "../../../index.html",
             "text/plain"
         ],
-        "index": [
-            "--rendertiddler",
-            "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
-            "../../../index-to-edit.html",
-            "text/plain"
-        ],
-        "externalimages": [
+       "externalimages": [
             "--savetiddlers",
             "[is[image]]",
             "images",
