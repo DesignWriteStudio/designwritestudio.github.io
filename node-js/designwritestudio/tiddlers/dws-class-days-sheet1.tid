@@ -2,7 +2,7 @@ created: 20180110222409634
 import-sheet-name: class-days
 import-spec-role: sheet
 list: [[$:/_ExcelImporter/ImportSpecifiers/Row 2]] [[$:/_ExcelImporter/ImportSpecifiers/Row 1]] $:/_ExcelImporter/ImportSpecifiers/Row class-exercises class-days-rows
-modified: 20180618170928400
+modified: 20180620161318176
 tags: 
 title: dws-class-days-sheet1
 type: text/vnd.tiddlywiki

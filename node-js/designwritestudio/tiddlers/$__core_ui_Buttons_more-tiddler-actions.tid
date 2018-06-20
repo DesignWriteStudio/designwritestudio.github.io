@@ -1,7 +1,7 @@
 caption: {{$:/core/images/down-arrow}} {{$:/language/Buttons/More/Caption}}
 created: 20180202160456511
 description: {{$:/language/Buttons/More/Hint}}
-modified: 20180618170924874
+modified: 20180620161310816
 tags: $:/tags/ViewToolbar
 title: $:/core/ui/Buttons/more-tiddler-actions
 type: text/vnd.tiddlywiki

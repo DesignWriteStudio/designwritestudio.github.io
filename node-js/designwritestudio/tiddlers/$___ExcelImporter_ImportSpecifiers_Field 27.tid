@@ -5,7 +5,7 @@ import-field-name: description
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180618170924359
+modified: 20180620161309577
 modifier: steve
 title: $:/_ExcelImporter/ImportSpecifiers/Field 27
 type: text/vnd.tiddlywiki

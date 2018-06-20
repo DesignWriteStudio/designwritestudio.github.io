@@ -2,7 +2,7 @@ author: Derek Smith
 comments: 5.01, ive begun the project by importing all of the Pokemon and exploring how to arrange the data. I've decided to go with the html coded tables, and along with dabbling with html I also changed around the css (noticed you can not change the top of the table with css, it can only be done in the theme settings)
 created: 20180618162244574
 exercise: 5.0X Self-designed Exercises
-modified: 20180618170927493
+modified: 20180620161316385
 tags: shared-exercises
 timestamp: 20180320101612054
 title: 5.0X Self-designed Exercises (Derek Smith, 20Mar 10:16 AM)

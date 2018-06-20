@@ -1,7 +1,7 @@
 created: 20180117140142772
 import-spec-role: row
 list: [[$:/_ExcelImporter/ImportSpecifiers/Field 24]] [[$:/SharedWikisImporter/ImportSpecifiers/Field 23]] [[$:/SharedWikisImporter/ImportSpecifiers/Field 22]] [[$:/SharedWikisImporter/ImportSpecifiers/Field 21]] [[$:/SharedWikisImporter/ImportSpecifiers/Field 20]] [[$:/SharedWikisImporter/ImportSpecifiers/Field 19]] [[$:/SharedWikisImporter/ImportSpecifiers/Field 18]]
-modified: 20180618170925222
+modified: 20180620161311239
 tags: 
 title: $:/SharedWikisImporter/ImportSpecifiers/Row 3
 type: text/vnd.tiddlywiki

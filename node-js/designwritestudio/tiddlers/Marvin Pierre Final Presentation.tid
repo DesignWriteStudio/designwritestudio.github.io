@@ -1,7 +1,7 @@
 created: 20180618162246575
 description: New York State Division of Criminal Justice presents various crime data on its website using Excel sheets/tables. I imported 2016 crime statistics into TiddlyWiki using several tags and fields. My goal was to a) explore different ways of using TW to present this information through tagging, transcluding, templating, linking, and listing, and ultimately add further value to the information.
 link: http://sunypoly-pierrem1-selfdesigned3.tiddlyspot.com/
-modified: 20180618170929426
+modified: 20180620161320089
 name: Marvin Pierre
 tags: final-presentation
 title: Marvin Pierre Final Presentation

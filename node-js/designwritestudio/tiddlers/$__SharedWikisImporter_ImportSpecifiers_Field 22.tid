@@ -6,7 +6,7 @@ import-field-source: constant
 import-field-type: string
 import-field-value: shared-exercises
 import-spec-role: field
-modified: 20180618170925235
+modified: 20180620161311260
 title: $:/SharedWikisImporter/ImportSpecifiers/Field 22
 type: text/vnd.tiddlywiki
 

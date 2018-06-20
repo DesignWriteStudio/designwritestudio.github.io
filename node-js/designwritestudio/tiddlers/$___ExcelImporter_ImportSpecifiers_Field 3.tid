@@ -4,7 +4,7 @@ import-field-name: exercise-group
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20180618170924346
+modified: 20180620161309562
 title: $:/_ExcelImporter/ImportSpecifiers/Field 3
 type: text/vnd.tiddlywiki
 

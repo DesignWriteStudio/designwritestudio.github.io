@@ -1,16 +1,19 @@
 created: 20170113024114875
 creator: stevesunypoly
-modified: 20180618170928821
+modified: 20180620161319398
 modifier: steve
 tags: 
 title: Hello There
 type: text/vnd.tiddlywiki
 
-<<show "This reveals documentation when present; it's a teaching device. In this example, I use the  tabs macro, including using the tiddler [[*]] to create a kind of empty tiddler">>
 
 !! Welcome to the <<strex "Designing" "Design">><<strex "and Writing" "Wr">><<strex "Interactive" "i">><<strex "Texts" "Te">>Studio
 
 {{DesignWriteStudio}}
+
+<$checkbox tiddler="ShowNotesMacro" field="dox" checked="yes" unchecked="no" default="yes"> show dox?</$checkbox><br>
+
+<<show "This reveals documentation when present; it's a teaching device. In the code below, I use the  tabs macro, including using the tiddler [[*]] to create a kind of empty tiddler in the first tab (a way of closing the tabs without losing the titles). You can see the code for this tiddler by clicking on {{$:/core/images/edit-button}} ">>
 
 <<tabs "[title[*]] [tag[DesignWriteStudio]]" "*">>
 

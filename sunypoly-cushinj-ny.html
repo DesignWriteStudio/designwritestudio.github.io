@@ -424,6 +424,8 @@ Error message and password prompt
 
 <li>A</li>
 
+<li>About this Commentary</li>
+
 <li>Advanced Buildings</li>
 
 <li>Advanced Clean Energy (ACE) Exploratory Research Program</li>
@@ -443,6 +445,8 @@ Error message and password prompt
 <li>Business &amp; Industry</li>
 
 <li>Cleantech &amp; Innovation</li>
+
+<li>Commentary: Thinking about an A/B Test Toolkit</li>
 
 <li>Communities &amp; Governments</li>
 
@@ -465,8 +469,6 @@ Error message and password prompt
 <li>template</li>
 
 <li>thank you</li>
-
-<li>Thinking about an A/B Test Toolkit</li>
 
 <li>Welcome (TestA)</li>
 
@@ -9162,8 +9164,9 @@ tc-page-container tc-page-view-$(themeTitle)$ tc-language-$(languageTitle)$
 <div created="20170125072548242" creator="twMat" modified="20170125072550077" modifier="twMat" title="$:/core/wiki/title" type="text/vnd.tiddlywiki">
 <pre>{{$:/SiteTitle}}</pre>
 </div>
-<div created="20160129095057570" creator="twMat" modified="20180619161915565" modifier="Justin" title="$:/DefaultTiddlers">
-<pre>[[Thinking about an A/B Test Toolkit]]</pre>
+<div created="20160129095057570" creator="twMat" modified="20180619174723993" modifier="Justin" title="$:/DefaultTiddlers">
+<pre>[[Commentary: Thinking about an A/B Test Toolkit]]
+[[About this Commentary]]</pre>
 </div>
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
@@ -9437,8 +9440,8 @@ body.tc-body .tw-admin-content svg:after {border:1px solid red; content:&quot;xx
 <div created="20180618025151918" creator="Justin" modified="20180618025152473" modifier="Justin" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20180618023619290" creator="Justin" modified="20180619161304266" modifier="Justin" title="$:/state/sidebar">
-<pre>yes</pre>
+<div created="20180618023619290" creator="Justin" modified="20180619180021816" modifier="Justin" title="$:/state/sidebar">
+<pre>no</pre>
 </div>
 <div created="20180426143856814" creator="Justin" modified="20180619161912371" modifier="Justin" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
@@ -9446,13 +9449,13 @@ body.tc-body .tw-admin-content svg:after {border:1px solid red; content:&quot;xx
 <div created="20180426143907996" modified="20180426143907996" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
 </div>
-<div created="20180426144005481" creator="Justin" modified="20180619161919555" modifier="Justin" title="$:/state/tab/sidebar--1835078512">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20180426144005481" creator="Justin" modified="20180619174640761" modifier="Justin" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20160407102858708" creator="t" modified="20180617232714031" modifier="Justi" title="$:/status/UserName">
 <pre>Justin</pre>
 </div>
-<div list="[[Thinking about an A/B Test Toolkit]] [[Contractor Participation]] [[Partners &amp; Investors]] [[Cleantech &amp; Innovation]] [[Business &amp; Industry]]" title="$:/StoryList">
+<div list="[[Commentary: Thinking about an A/B Test Toolkit]] [[Multifamily Homes]] [[About this Commentary]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10294,6 +10297,12 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180619155114428" creator="Justin" modified="20180619160800158" modifier="Justin" tags="Conditions" test-filter="[field:bi[y]sort[title]]" title="A">
 <pre>[field:bi[y]sort[title]]</pre>
 </div>
+<div created="20180619174736695" creator="Justin" modified="20180619175308911" modifier="Justin" title="About this Commentary">
+<pre>* Tiddlers created or modified 19 June 2018 beyond from Steve Schneider @ [[designwritestudio.com|http://designwritestudio.com]].
+* Ingested wiki: http://sunypoly-cushinj-ny.tiddlyspot.com/ (see http://sunypoly-cushinj-ny.tiddlyspot.com/#Welcome%20(TestA))
+* Probable version: http://sunypoly-cushinj-ny.tiddlyspot.com/backup/index.20180617.2053540000.html
+</pre>
+</div>
 <div bi="y" business="y" cg="n" ci="y" contractor="y" description="Develops energy-efficient, building-related technology, including next-generation HVAC and smart building technologies, and business models for residential, multifamily, and commercial buildings." homeowner="n" multifamily="y" pi="y" rh="n" tag="program" title="Advanced Buildings">
 <pre>{{||template}}</pre>
 </div>
@@ -10325,6 +10334,46 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 </div>
 <div created="20180618030140820" creator="Justin" filter-value="ci" modified="20180619162348809" modifier="Justin" tags="A" title="Cleantech &amp; Innovation">
 <pre>&lt;&lt;list-links filter:&quot;[field:ci[y]] +[sort[title]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20180619154143409" creator="Justin" modified="20180619180601456" modifier="Justin" tags="" title="Commentary: Thinking about an A/B Test Toolkit">
+<pre>\define the-filter() [field:$(the-filter-value)$[y]sort[title]]
+
+```
+this demonstrates how you transclude a value from a tiddler into a filter. Work backwards from line 13, which uses the value of &lt;&lt; the-filter&gt;&gt; defined in the \define statement above
+
+i didn't finish the work. you'll need to populate field filter-value for a few of the tiddlers tagged B
+
+```
+
+
+ 
+This project support an A/B, or even an A/B/C test, generically. So that it is easy to vary conditions and generate the test environments. I basically abstracted a level, so that you would need nothing in tiddlers tagged &lt;&lt;tag A&gt;&gt; or &lt;&lt;tag B&gt;&gt;. Your goal should be nothing in those tiddlers that isn't in the spreadsheet. 
+
+Perhaps you only need to create conditions (like A or B), and then tag A, B, C etc. with something so that it generates your A:B:...//n// test?
+
+
+1 So let's run this with two &lt;&lt;tag Conditions&gt;&gt;.
+
+&lt;$list filter=&quot;[tag[Conditions]]&quot;&gt;
+&lt;hr&gt;
+11 Working with Condition &lt;$link&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;&lt;br&gt;
+12 Gather all tiddlers tagged &lt;$macrocall $name=&quot;tag&quot; tag=&lt;&lt;currentTiddler&gt;&gt;/&gt;&lt;br&gt; with ``&lt;$list filter=&quot;[tag&lt;currentTiddler&gt;]&quot;&gt;
+``&lt;br&gt;
+&lt;$list filter=&quot;[tag&lt;currentTiddler&gt;]&quot;&gt;
+&lt;$link&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;&lt;br&gt;
+
+&lt;$vars the-filter-value={{!!filter-value}}&gt;
+13 Filter for Test &lt;&lt;currentTiddler&gt;&gt; with  &lt;&lt;the-filter&gt;&gt;&lt;br&gt;
+
+&lt;ul&gt;
+&lt;$list  filter=&lt;&lt;the-filter&gt;&gt;&gt;
+&lt;li&gt;&lt;$link&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;&lt;/li&gt;
+&lt;/$list&gt;
+&lt;/ul&gt;
+&lt;/$vars&gt;
+&lt;/$list&gt;
+
+</pre>
 </div>
 <div created="20180618030201866" creator="Justin" filter-value="cg" modified="20180619162407259" modifier="Justin" tags="A" title="Communities &amp; Governments">
 <pre>&lt;&lt;list-links filter:&quot;[field:cg[y]] +[sort[title]]&quot;&gt;&gt;</pre>
@@ -10368,43 +10417,6 @@ Your small farm has high energy costs. You're in need of an expert to look for a
 </div>
 <div created="20180618034627937" creator="Justin" modified="20180618034640134" modifier="Justin" title="thank you">
 <pre>Thank you for taking the time to run this navigation test.</pre>
-</div>
-<div created="20180619154143409" creator="Justin" modified="20180619165140839" modifier="Justin" tags="" title="Thinking about an A/B Test Toolkit">
-<pre>\define the-filter() [field:$(the-filter-value)$[y]sort[title]]
-
-```
-this demonstrates how you transclude a value from a tiddler into a filter. Work backwards from line 13, which uses the value of &lt;&lt; the-filter&gt;&gt; defined in the \define statement above
-
-i didn't finish the work. you'll need to populate field filter-value for a few of the tiddlers tagged B
-
-```
-
-
- 
-So this should support an A/B, or even an A/B/C test, generically. So that it is easy to vary conditions and generate the test environment. I basically abstracted a level...goal should be nothing in tiddlers, that you have to touch after spreadsheet import? Or maybe, just A and B, to set up the test?
-
-1 So let's run this with two &lt;&lt;tag Conditions&gt;&gt;.
-
-&lt;$list filter=&quot;[tag[Conditions]]&quot;&gt;
-&lt;hr&gt;
-11 Working with Condition &lt;$link&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;&lt;br&gt;
-12 Gather all tiddlers tagged &lt;$macrocall $name=&quot;tag&quot; tag=&lt;&lt;currentTiddler&gt;&gt;/&gt;&lt;br&gt; with ``&lt;$list filter=&quot;[tag&lt;currentTiddler&gt;]&quot;&gt;
-``&lt;br&gt;
-&lt;$list filter=&quot;[tag&lt;currentTiddler&gt;]&quot;&gt;
-&lt;$link&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;&lt;br&gt;
-
-&lt;$vars the-filter-value={{!!filter-value}}&gt;
-13 Filter for Test &lt;&lt;currentTiddler&gt;&gt; with  &lt;&lt;the-filter&gt;&gt;&lt;br&gt;
-
-&lt;ul&gt;
-&lt;$list  filter=&lt;&lt;the-filter&gt;&gt;&gt;
-&lt;li&gt;&lt;$link&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;&lt;/li&gt;
-&lt;/$list&gt;
-&lt;/ul&gt;
-&lt;/$vars&gt;
-&lt;/$list&gt;
-
-</pre>
 </div>
 <div created="20180618031159046" creator="Justin" modified="20180618031806461" modifier="Justin" tags="" title="Welcome (TestA)">
 <pre>{{||scenario}}
