@@ -1,20 +1,13 @@
 created: 20150727140309726
 creator: stevesunypoly
 list: [[Linking in TiddlyWiki]] [[Tagging in TiddlyWiki]] [[Listing in TiddlyWiki]] [[Transcluding in TiddlyWiki]] [[Templating in TiddlyWiki]]
-modified: 20180620161321858
+modified: 20180627180445543
 modifier: stevesunypoly
 tags: Hyper
 title: Techniques
 type: text/vnd.tiddlywiki
 
-<h2>Reading and writing hypertextually involves the following techniques</h2>
-<table>
-<$list filter="[tag{!!title}]">
-<$wikify name=tid text={{!!title}}>
-<tr>
-<td><h2><$link><<tid>></$link></h2></td>
-<td><h4><$macrocall $name=strex content="<$transclude tiddler=<<tid>> mode='block'>" label="+" id=<<tid>>/></h4></td>
-</tr>
-</$wikify>
-</$list> 
-</table>
+There should be a general description or set of objects about techniques here.
+
+And, I think techniques are associated with each of the <<tag "Hypertextual Practices">> -- ways of using ~TiddlyWiki to engage in the practice:
+<<tabs "[title[*]] [tag[Techniques for Hypertextual Writing in TiddlyWiki]]">>

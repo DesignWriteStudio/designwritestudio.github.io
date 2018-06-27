@@ -1,7 +1,7 @@
 caption: DesignWriteStudio
 created: 20170107012105523
 creator: stevesunypoly
-modified: 20180620161318050
+modified: 20180627180445536
 modifier: steve
 tagline: The Studio for ''Design''ing and ''Wr''iting ''I''nteractive ''Te''xts
 title: DesignWriteStudio
@@ -18,6 +18,6 @@ We <$appear show="practice hypertextuality" hide="practice hypertextuality (hide
 
 The Studio is a virtual makerspace for tiddlywikis. It mostly happens on the [[GoogleGroup]] which you can join.
 
-Embedded within this wiki are all of the elements for a course, [[Designing and Writing Interactive Texts|About the Course]] The course is offered in the Spring semester at [[SUNY Polytechnic Institute|sunypoly.edu]]. This course is also offered as an [[open course|Open Course]] from time time. Or join the {{GoogleGroup}} and we'll launch a course for you.
+Embedded within this wiki are all of the elements for a course, [[Designing and Writing Interactive Texts|About the Course]] The course is offered in the Spring semester at [[SUNY Polytechnic Institute|http://sunypoly.edu]]. This course is also offered as an [[open course|Open Course]] from time time. Or join the {{GoogleGroup}} and we'll launch a course for you.
 </$appear>
 

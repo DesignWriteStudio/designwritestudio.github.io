@@ -1,0 +1,18 @@
+created: 20180627151115103
+modified: 20180627180445565
+tags: [[Mini-projects for Summer]]
+title: ElectionResultsProcessor
+type: text/vnd.tiddlywiki
+
+* Goto https://nyenr.elections.ny.gov/ and scrape county-level results for three House district primary elections 20180626
+** CD 11
+** CD 14
+** CD 19
+** Scrape full district by county results into a worksheet; should be able to do one well-executed copy/paste. There is a structure in there of cells that you can grab onto to select.
+* For each, we need results by county.
+** One possible method: treat the sheet as a county-level object, and move the county-level results into a new sheet, named for the county, with an identical structure in each sheet
+** It's a lot of copy paste, but if you get a clipboard buffer, you can copy each county from a single sheet, and then paste each county into a new sheet by navigating your clipboard buffer. Mine has copies of my last 99 copies, and they are in order. 
+* You could also treat the entire worksheet as a set of tiddlers. Add a column that has county name, and for each row, copy/paste the column. You should be able to copy a county's-worth of formulas to get the county name at a time (so build formulas to get county name from some other cell, and do so for each row of results. Really, the only thing we need for each row is election,district, county, candidate, votes-received; you can discard empty rows on import)
+* Then, you import and build structure that reports the total votes for each county by candidate, and each candidate by county. 
+* And, using Justin's county-level map project, integrate so that on roll-over, it displays vote totals for each county.
+

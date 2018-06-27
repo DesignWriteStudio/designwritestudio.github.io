@@ -1,10 +1,16 @@
 caption: ``[[linking]]``
 created: 20180130143031783
-modified: 20180620161319987
+modified: 20180627180445554
 tags: [[Techniques for Hypertextual Writing in TiddlyWiki]]
 title: Linking in TiddlyWiki
 type: text/vnd.tiddlywiki
 
+[[This is a link]]
+
+
+<$appear show="more {{$:/core/images/chevron-right}}" hide="{{$:/core/images/chevron-left}} less">
+
+
 Writing a link to another tiddler the current tiddlywiki can be as simple as [[enclosing a word or phrase in a set of double brackets]].
 
 ```
@@ -33,3 +39,4 @@ See the [[tiddlywiki.com Documentation|https://tiddlywiki.com/#Linking%20in%20Wi
 ```
 See the [[tiddlywiki.com Documentation|https://tiddlywiki.com/#Linking%20in%20WikiText]]
 ```
+</$appear>
