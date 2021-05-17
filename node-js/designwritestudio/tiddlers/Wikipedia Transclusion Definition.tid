@@ -1,9 +1,0 @@
-created: 20180217152607940
-modified: 20180620161322649
-tags: [[New Tiddler 5]]
-title: Wikipedia Transclusion Definition
-type: text/vnd.tiddlywiki
-
-<<wikipedia "Transclusion">>: 
-
->The inclusion of part or all of an electronic document into one or more other documents by hypertext reference

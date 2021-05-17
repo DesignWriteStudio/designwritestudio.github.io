@@ -1,9 +1,0 @@
-created: 20170310140214698
-modified: 20171204201451081
-tags: Wiki
-title: A Web page that anyone can write
-type: text/vnd.tiddlywiki
-
-<h2>A Web page</h2> a document in html format that is responsive to an http:// request
-<h2> that anyone can write</h2>with modest technical skills
-<h2>...but not that anyone can edit</h2>so not collaboratively written

@@ -1,7 +1,0 @@
-caption: setvariable
-created: 20131024141900000
-modified: 20141025115603373
-tags: Widgets
-title: SetVariableWidget
-
-The `<$setvariable>` widget is a synonym for `<$set/>`; see SetWidget for more details.

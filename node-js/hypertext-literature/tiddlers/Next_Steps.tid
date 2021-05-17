@@ -1,8 +1,0 @@
-created: 20161018183701895
-modified: 20161018184409699
-tags: [[JabRef to TW]]
-title: Next Steps
-
-* Macros to handle in-tiddler citations
-* Macro to generate list of citations
-* Full mapping of bibtex fields to move [[Bibtex importer plugin|$:/plugins/tiddlywiki/bibtex]] beyond alpha to stable version

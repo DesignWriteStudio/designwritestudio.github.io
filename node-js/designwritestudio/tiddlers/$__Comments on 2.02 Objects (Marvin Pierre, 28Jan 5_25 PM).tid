@@ -1,6 +1,0 @@
-created: 20180129194948002
-modified: 20180620161310400
-title: $:/Comments on 2.02 Objects (Marvin Pierre, 28Jan 5:25 PM)
-type: text/vnd.tiddlywiki
-
-You noted that "length of tenure" was not an acceptable field name - but length-of-tenure would have worked fine • Because your field "years" was text instead of numeric, it sorts alpha not numerically • Template looks good! • Use the google group https://groups.google.com/forum/#!forum/designwrite for issues like not being able to save in TiddlySpot!

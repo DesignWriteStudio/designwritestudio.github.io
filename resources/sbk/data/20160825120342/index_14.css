@@ -1,7 +1,0 @@
-.can_ad_slug { font-family: arial; font-size: 11px; color: rgb(153, 153, 153); text-decoration: none; background-image: url('adchoice_1.4.png'); background-repeat: no-repeat; background-position: right center; padding: 0px 14px 0px 1px ! important; margin: 1px 0px; height: 12px; display: inline-block; line-height: 12px; background-color: rgb(255, 255, 255); }
-.ad_slug_table { position: relative; }
-.ad_slug_table a { text-decoration: none; }
-.can_ad_slug span { display: none; }
-.can_ad_slug:hover {  }
-.can_ad_slug:hover span { display: inline-block; color: rgb(153, 153, 153); font-family: arial; font-size: 11px; }
-.can_ad_tr { position: absolute; top: 0px; right: 1px; z-index: 999; }

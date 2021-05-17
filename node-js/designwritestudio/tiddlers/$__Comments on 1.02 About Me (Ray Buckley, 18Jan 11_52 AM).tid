@@ -1,6 +1,0 @@
-created: 20180122160028925
-modified: 20180620161310521
-title: $:/Comments on 1.02 About Me (Ray Buckley, 18Jan 11:52 AM)
-type: text/vnd.tiddlywiki
-
-√ ``About Me`` √ ``About Me in Tags`` X ``<<list-links>>`` macro -- implement in tiddlers such as ``Work`` like this: ``<<list-links "[tag[Work]]">>`` • Why not use the tag ``Video games`` instead of ``recreation``? • Interesting use of ``Work`` tag to tag both places of employment (``Hannaford``), jobs (``front end associate``) as well as other aspects of working: ``number of years``, ``part time jobs`` etc. If we get to in class, we'll work with [[RenameTags]] as a demo...

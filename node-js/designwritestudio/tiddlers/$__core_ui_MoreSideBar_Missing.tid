@@ -1,8 +1,0 @@
-caption: {{$:/language/SideBar/Missing/Caption}}
-created: 20180118021141141
-modified: 20180620161310798
-tags: $:/tags/MoreSideBar
-title: $:/core/ui/MoreSideBar/Missing
-type: text/vnd.tiddlywiki
-
-<$list filter={{$:/core/Filters/Missing!!filter}} template="$:/core/ui/MissingTemplate"/>

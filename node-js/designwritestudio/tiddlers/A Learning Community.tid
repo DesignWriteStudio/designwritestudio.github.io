@@ -1,9 +1,0 @@
-created: 20170113023720962
-creator: stevesunypoly
-list: Activities Spaces Toolkit
-modified: 20180620161316817
-modifier: stevesunypoly
-title: A Learning Community
-type: text/vnd.tiddlywiki
-
-The DesignWriteStudio is, first and foremost, a learning community, by which is meant a group of people (participants) sharing an interest in learning from and with each other. More formally: <$appear show=">>" hide="<<"><$transclude tiddler=LearningCommunities mode="block"/></$appear>

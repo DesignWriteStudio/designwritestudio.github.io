@@ -1,9 +1,0 @@
-created: 20180116125406645
-modified: 20180620161320776
-title: Presentation: Welcome to Designing & Writing Interactive Texts
-type: text/vnd.tiddlywiki
-youtube: nl_lWYUufu4
-
-This video provides a general introduction to TiddlyWiki.
- It assumes you've completed the Workshop tasks demoed in [[Workshop: Saving, Serving, New Tiddlers]]<br>
-<$macrocall $name="youtube-embed" video={{!!youtube}}/>

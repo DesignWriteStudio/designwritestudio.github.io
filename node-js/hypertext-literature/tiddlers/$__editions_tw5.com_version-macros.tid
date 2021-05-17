@@ -1,8 +1,0 @@
-created: 20161008085627406
-modified: 20161008085627406
-tags: $:/tags/Macro
-title: $:/editions/tw5.com/version-macros
-
-\define .from-version(version)
-<span class="doc-from-version">New in $version$</span>
-\end

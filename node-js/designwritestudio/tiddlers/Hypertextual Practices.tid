@@ -1,9 +1,0 @@
-created: 20180217162522116
-modified: 20180620161319484
-source: This list of hypertextual practices is derived from the hypertext literature.
-tags: Annotator
-title: Hypertextual Practices
-type: text/vnd.tiddlywiki
-
-I've identified  <$count filter="[tag[Hypertextual Practices]]"/> practices in which hypertextual writers and readers engage:
-<<tabs "[title[*]][tag[Hypertextual Practices]]">>

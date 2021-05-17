@@ -1,1 +1,0 @@
-<$checkbox tiddler="ShowNotesMacro" field="dox" checked="yes" unchecked="no" default="yes"> show dox?</$checkbox> 

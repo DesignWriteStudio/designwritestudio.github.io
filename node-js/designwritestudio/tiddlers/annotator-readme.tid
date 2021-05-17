@@ -1,7 +1,0 @@
-created: 20180228204032325
-modified: 20180620161317367
-tags: 
-title: annotator-readme
-type: text/vnd.tiddlywiki
-
-This plugin supports annotation at the paragraph level. It assumes readings (essays) will be constructed of tiddlers listed on the list field of the essay. Each paragraph (when read in paragraph mode) has an annotation button (see [[Paragraph Template]]), which will create a new tiddler tagged to Annotation, and the name of the paragraph. 

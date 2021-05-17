@@ -1,9 +1,0 @@
-created: 20170613161441949
-modified: 20171204201451226
-tags: $:/tags/ViewTemplate
-title: analysis-field template
-type: text/vnd.tiddlywiki
-
-<$list filter="[is[current]tag[analysis-field]]">
-Check <$checkbox tiddler=<<currentTiddler>> tag="analysis-field"> to use in <<tag "AnalysisTools">></$checkbox>
-</$list>
